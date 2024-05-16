@@ -6,6 +6,7 @@
 :root{
     --font-Poppins: "Poppins", sans-serif;
     --green:#1E5F28;
+    --text-color:#3A7A43;
   
 }
 
@@ -25,10 +26,27 @@
     width: 24px !important;
     height: 20px !important;
 }
+.container1{
+    max-width: 1460px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.logo img{
+    width: 266px;
+    height: 50px;
+}
 .header{
     padding-top: 19px;
     padding-bottom: 19px;
 }
+.nav ul li a{
+    gap: 80px;
+}
+.nav ul {
+    gap: 80px;
+}
+
 .header-nav li a:hover{
     color: var(--green);
 }
@@ -50,8 +68,17 @@
     font-size: 15px;
     color: white;
 }
-
 .carousel-indicators [data-bs-target]{
+    width: 36px;
+    height: 6px;
+    border: 0;
+    border-radius: 20px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: white;
+}
+.carousel-indicators .active{
+    
     background-color: var(--green);
 }
 .ero{
@@ -74,6 +101,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .About-us-con{
 padding-left: 32px;
 }
@@ -96,10 +124,9 @@ padding-left: 32px;
 
 }
 .bordericon{
+    background-image: url(../images/Rectangle\ 57.png);
     width: 28px;
     height: 28px;
-    background-color:  #D2DFD4;
-    border-radius: 8px;
 }
 
 .About-title h1{
@@ -107,7 +134,7 @@ padding-left: 32px;
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
-    color: var(--green);
+    color: var(--text-color);
 }
 .About-des p{
     font-size: 16px;
@@ -246,7 +273,15 @@ padding-left: 32px;
 }
 .icon2{
     font-size: 46px;
+    position: relative;
 }
+.icon2 img{
+    width: 61px;
+    height: 46px;
+    object-fit: cover;
+}
+
+
 
 .icon-text h3{
     color: white;
@@ -355,6 +390,16 @@ padding-left: 32px;
 /* Fueling Excellence */
 .Fueling-Excellence{
     padding-bottom: 70px;
+}
+.accordion-button{
+    background-color: transparent !important ;
+
+}
+.accordion-button:not(.collapsed)::after{
+    display: none;
+}
+.accordion-button::after{
+    width: 0 !important;
 }
 .Fueling-Excellence-title h3{
     font-family: var(--font-Poppins);

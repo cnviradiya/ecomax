@@ -42,8 +42,8 @@ body{
     height: 50px;
 }
 .header{
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .nav ul li a{
     gap: 80px;
@@ -69,7 +69,15 @@ body{
     padding-top: 8px;
 }
 /* hero */
+.hero{
+    width: calc(100% - 96);
+}
+.main-hero-images{
+    width: 100%;
+    object-fit: inherit;
+}
 .ero i{
+    
     font-size: 15px;
     color: white;
 }
@@ -89,9 +97,7 @@ body{
 .ero{
     background-color: var(--green);
 }
-.carousel-item img{
-    height: 830px;
-}
+
 .slaid-btn{
     background-color: var(--green);
     width: 42px !important;
@@ -162,13 +168,25 @@ padding-left: 32px;
     color: #414141;
 }
 .btn2 {
-
     color: white;
 	border: none;
 	border-radius: 100px;
     background-color: var(--green);
 }
+.btn2:hover{
+    background-color: var(--text-color);
+    transition: all 0.5s;
+}
+.btn2:hover i{
+    transform: rotate(90deg);
+    padding-bottom: 10px;
+    transition: all 0.5s;
+    padding-left: 2px;
+}
+.swiper-button-next:hover i{
+    transform: rotate(88deg);
 
+}
 .about-btn{
     margin: 6px 0 6px 6px;
     width: 42px;
@@ -242,22 +260,27 @@ padding-left: 32px;
 .facility-desc{
     padding-left: 9px;
 }
-.leboretri , .leboretri1 , .leboretri2{
-    background-image: url(../images/dcbd1dda33c1a8d025adbfff995976dc.png);
-    width: 100%;
-    height: 400px;
+.facility-img img{
+    width: 466px;
+    height: 456px;
     border-radius: 50%;
-    background-size: cover;
+    padding: 15px;
+}
+.facility-logo img{
+    width: auto;
+    height: auto;
+}
+.facility-img{
     position: relative;
-    z-index: 1;
 }
-.leboretri1{
-    background-image: url(../images/d5973dc5e719543e891e93996136e2f5.png);
-
-}
-.leboretri2{
-    background-image: url(../images/0431091204b3c8b2f8d386f625141087.png);
-
+.facility-logo{
+    top: 60%;
+    left: 55%;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
 }
 .e-logo{
     width: 200px;
@@ -319,6 +342,23 @@ padding-left: 32px;
 	border-radius: 100px;
     background-color: transparent;
     border: 1px solid white;
+}.btn3:hover .about-btn {
+    background-color: var(--green);
+}
+.btn3:hover .about-btn i{
+    transition: all 0.5s;
+    transform: rotate(90deg);
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.btn3:hover{
+    transition: all 0.5;
+    background-color: white;
+}
+.btn3:hover .text{
+    transition: all 0.5;
+
+    color: var(--text-color);
 }
 .icon2 img{
     width: 61px;
@@ -365,17 +405,19 @@ padding-left: 32px;
     background-color:  #D2DFD4;
 }
 .Revitalize-title h3{
-    font-size: 33px;
+    font-size: 36px;
     line-height: 54px;
     font-weight: 600;
     color: var(--green);
 }
-.box-set{
-    width: 330px !important;
-    margin-right: 30px !important;
-}
-.card{
+.swiper-slide .card{
+    padding: 10px;
     cursor: pointer;
+
+}
+.box-set{
+    width: 343px !important;
+    margin-right: 30px !important;
 }
 .card1 img {
     padding-top: 20px;
@@ -414,6 +456,23 @@ padding-left: 32px;
 }
 .swiper-button-next, .swiper-button-prev{
     top: 10%;
+}
+.swiper-button-next:hover i{
+    transition: all 0.9s;
+    transform: rotate(45deg);
+}
+.swiper-button-next:hover {
+    background-color: var(--text-color);
+    transition: all 0.5s;
+}
+
+.swiper-button-prev:hover i{
+    transition: all 0.9s;
+    transform: rotate(-45deg);
+}
+.swiper-button-prev:hover {
+    background-color: var(--text-color);
+    transition: all 0.5s;
 }
 .swiper-wrapper{
     margin-top: 40px;
@@ -512,14 +571,20 @@ padding-left: 32px;
 .about-btn3 i{
     transform: rotate(45deg);
 }
+.slaider-btn{
+    width: 50px;
+}
+.btn-slaider{
+    width: 190px;
+}
 .swiper-button-next1{
+display: contents;
 width: 50px;
 height: 50px;
 background-color: var(--green);
 border-radius: 50%;
 position: absolute;
-left: 1030px;
-top: 310px;
+z-index: 5;
 transform: rotate(45deg);
 color: white;
 }
@@ -551,8 +616,11 @@ color: white;
     width: 100%;
     z-index: -1;
 }
-.footer-sab{
-    
+.footer-icon span:hover{
+    background-color: var(--text-color);
+    border: none;
+    transition: all 0.5;
+    cursor: pointer;
 }
 .footer-text p{
     font-weight: 500;
@@ -608,6 +676,10 @@ color: white;
 
 
 @media(max-width:575px) {
+    .hero-xs-image img{
+        height: 400px;
+        object-fit: cover;
+    }
     .top-bar-xs{
         padding-top: 4px;
     }
@@ -618,13 +690,14 @@ color: white;
         padding-top: 40px;
         padding-bottom: 40px;
     }
-        .logo-xs{
+        .logo-xs img{
+            padding-left: 10px;
             width: 170px;
             height: 32px;
         }
         .header-xs{
-            padding-top: 6px;
-            padding-bottom: 6px;
+            padding-top: 4px;
+            padding-bottom: 4px;
         }
         .carousel-item-xs img{
             height: 400px;
@@ -636,11 +709,37 @@ color: white;
         .About-des-xs p{
             font-size: 14px;
         }
+
  
 }
-
+@media(min-width:576px){
+    .top-bar-sm {
+        padding-top: 6px;
+    }
+    .header-sm{
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .logo-sm img{
+        padding-left: 10px;
+        width: 192px;
+        height: 36px;
+    }
+    .hero-sm-image img{
+        height: 400px;
+        object-fit: cover;
+    }
+}
 
 @media(min-width:768px) {
+    
+    .hero-md-image img{
+        height: 720px;
+        object-fit: cover;
+    }
+    .top-bar-md {
+        padding-top: 6px;
+    }
     .carousel-item-md img{
         height: 720px;
     
@@ -653,23 +752,43 @@ color: white;
         padding-top: 7px;
         padding-bottom: 7px;
     }
-    .logo-md{
+    .logo-md img{
+        padding-left: 10px;
         width: 192px;
         height: 36px;
     }
+ 
    
 
 }
 
 @media(min-width:992px) {
-    .header{
-        padding-top: 19px;
-        padding-bottom: 19px;
+    .hero-lg-image img{
+        height: 720px;
+        object-fit: cover;
+    }
+    .top-bar-lg {
+        padding-top: 8px;
+    }
+    .header-lg{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .logo-lg img{
+        width: 210px;
+        height: 46px;
     }
 }
 
 @media(min-width:1200px) {
-
+    .hero-xl-image img{
+        height: 800px;
+        object-fit: cover;
+    }
+    .logo-xl img{
+        width: 266px;
+        height: 50px;
+    }
 
 }
 

@@ -176,12 +176,28 @@ padding-left: 32px;
     background-color: white;
     border-radius: 50%;
 }
+.about-btn-3{
+    margin: 6px 6px 6px 6px  ;
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border-radius: 50%;
+}
 .about-btn-2{
     border: 1px solid white;
     background-color: transparent;
 }
 .about-btn-2 i{
     color: white !important;
+}
+.about-btn-3 i{
+    padding-bottom: 4px;
+    font-size: 20px;
+    padding-left: 8px;
+    color: var(--green);
+	inline-size: 1.25em;
+	translate: -25% -5%;
+    transform: rotate(45deg);
 }
 .about-btn i{
     padding-bottom: 4px;
@@ -304,19 +320,14 @@ padding-left: 32px;
     background-color: transparent;
     border: 1px solid white;
 }
-
-.icon2{
-    font-size: 46px;
-    position: relative;
-}
 .icon2 img{
     width: 61px;
     height: 46px;
     object-fit: cover;
 }
-
-
-
+.icon-text{
+    margin-top: 28px;
+}
 .icon-text h3{
     color: white;
     font-weight: 500;
@@ -358,6 +369,10 @@ padding-left: 32px;
     line-height: 54px;
     font-weight: 600;
     color: var(--green);
+}
+.box-set{
+    width: 330px !important;
+    margin-right: 30px !important;
 }
 .card{
     cursor: pointer;
@@ -410,8 +425,9 @@ padding-left: 32px;
     display: none;
 }
 /* Fueling Excellence */
-.Fueling-Excellence{
-}
+    .card2 img {
+        object-fit: contain;
+    }
 .accordion-button{
     background-color: transparent !important ;
 
@@ -471,8 +487,12 @@ padding-left: 32px;
     font-weight: 400;
     line-height: 24px;
 }
+.Global-Excellence-sab{
+    gap: 30px;
+}
 .cout{
-    width: 45%;
+    width: 47%;
+ 
 }
 /* Contact */
 .Contact{
@@ -580,6 +600,9 @@ color: white;
     font-weight: 400;
     line-height: 27px;
     font-size: 15px;
+}
+.Quick-Link-sab p a img{
+    padding-right: 15px;
 }
 
 

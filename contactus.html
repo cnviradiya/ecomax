@@ -311,182 +311,504 @@
     }
       .map-section {padding-bottom: 100px;}
       .am5-layer-30 {display:none;}
+      g[aria-labelledby="id-72-title"] {display:none;}
     </style>
-    
-    <!-- Resources -->
-    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/geodata/data/countries2.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
     
     <!-- Chart code -->
     <script>
-      var root = am5.Root.new("chartdiv"); 
 
-      // Set themes
-      root.setThemes([
-        am5themes_Animated.new(root)
-      ]);
+      try {
+// Create chart instance
+var chart = am4core.create("chartdiv", am4maps.MapChart);
 
-// Create chart
-var chart = root.container.children.push(
-  am5map.MapChart.new(root, {
-    panX: "rotateX",
-    panY: "none",
-    projection: am5map.geoNaturalEarth1()
-  })
-);
+// Make the chart fade-in on init
+chart.hiddenState.properties.opacity = 0;
 
-// Create polygon series
-var polygonSeries = chart.series.push(
-  am5map.MapPolygonSeries.new(root, {
-    geoJSON: am5geodata_worldLow,
-    exclude: ["AQ"],
-    fill: "rgba(58, 122, 67, 1)"
-  })
-);
+// Set geodata
+chart.geodata = am4geodata_worldLow;
 
-// GeoJSON data
-var cities = {
-  "type": "FeatureCollection",
-  "features": [{
-    "type": "Feature",
-    "properties": {
-      "name": "New York City"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-73.778137, 40.641312]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "name": "London"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-0.454296, 51.470020]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "London"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-100.454296, 51.470020]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "US"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-80.454296, 30.470020]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "US"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [-120.454296, 60.470020]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "US"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [80.4577296, 45.470020]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "India"
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [20.7371635,72.1179636]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "Beijing "
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [116.597504, 40.072498]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "Beijing "
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [210.597504, 40.072498]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "Beijing "
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [89.597504, 70.072498]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "Beijing "
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [120.597504, 50.072498]
-    }
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "name": "Beijing "
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [120.597504, 140.072498]
-    }
-  }
-]
-};
+// Set projection to be used
+// @see {@link https://www.amcharts.com/docs/v4/reference/mapchart/#projection_property}
+chart.projection = new am4maps.projections.Miller();
 
-// Create point series
-var pointSeries = chart.series.push(
-  am5map.MapPointSeries.new(root, {
-    geoJSON: cities
-  })
-);
+// Create map polygon series
+var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+// polygonSeries.fill= "rgba(58, 122, 67, 1)";
 
-pointSeries.bullets.push(function() {
-  return am5.Bullet.new(root, {
-    sprite: am5.Circle.new(root, {
-      radius: 10,
-      // svgPath: "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -80,134h-35l43,-133h-71l-24,30h-28l15,-47",
-      fill: "#B0CB1F"
+// Exclude Antartica
+polygonSeries.exclude = ["AQ"];
+
+// Make map load polygon (like country names) data from GeoJSON
+polygonSeries.useGeodata = true;
+
+// Configure series
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{name}";
+polygonTemplate.polygon.fill = "rgba(58, 122, 67, .4)";
+polygonTemplate.polygon.fillOpacity = 0.6;
+
+
+// Create hover state and set alternative fill color
+var hs = polygonTemplate.states.create("hover");
+hs.properties.fill = chart.colors.getIndex(0);
+
+// Add image series
+var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+imageSeries.mapImages.template.tooltipText = "{title}";
+imageSeries.mapImages.template.propertyFields.url = "url";
+
+var circle = imageSeries.mapImages.template.createChild(am4core.Image);
+circle.href = "https://ik.imagekit.io/ecomax/assets/images/marker-icon.png";
+circle.width = 30;
+circle.height = 30;
+circle.nonScaling = true;
+circle.horizontalCenter = "middle";
+circle.verticalCenter = "bottom";
+
+var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
+circle2.radius = 2;
+circle2.propertyFields.fill = "color";
+
+
+circle2.events.on("inited", function(event){
+  animateBullet(event.target);
+})
+
+
+function animateBullet(circle) {
+    var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
+    animation.events.on("animationended", function(event){
+      animateBullet(event.target.object);
     })
-  });
-});
+}
+
+var colorSet = new am4core.ColorSet();
+
+imageSeries.data = [ {
+  "tooltipText": "Myanmar",
+  "latitude": 21.916222,
+  "longitude": 95.955971,
+  "color":colorSet.next()
+}, {
+  "title": "India",
+  "latitude": 20.593683,
+  "longitude": 78.962883,
+  "color":colorSet.next()
+}, {
+  "title": "Angola",
+  "latitude": -11.202692,
+  "longitude": 17.873886,
+  "color":colorSet.next()
+}, {
+  "title": "Iraq",
+  "latitude": 33.223190,
+  "longitude": 43.679291,
+  "color":colorSet.next()
+}, {
+  "title": "Congo",
+  "latitude": 6.2648647,
+  "longitude": 30.7759914,
+  "color":colorSet.next()
+}, {
+  "title": "Burundi",
+  "latitude": -3.982711,
+  "longitude": 29.671939,
+  "color":colorSet.next()
+}, {
+  "title": "Bahrain",
+  "latitude": 25.941298,
+  "longitude": 50.3073907,
+  "color":colorSet.next()
+}, {
+  "title": "Yemen",
+  "latitude": 31.2773665,
+  "longitude": 36.0014904,
+  "color":colorSet.next()
+}, {
+  "title": "Tanzania",
+  "latitude": -8.510342,
+  "longitude": 38.892686,
+  "color":colorSet.next()
+}, {
+  "title": "Ghana",
+  "latitude": 7.9039267,
+  "longitude": -3.2744616,
+  "color":colorSet.next()
+}, {
+  "title": "Bangladesh",
+  "latitude": 28.5348816,
+  "longitude": 82.0329364,
+  "color":colorSet.next()
+}, {
+  "title": "Taiwan",
+  "latitude": 23.6978,
+  "longitude": 120.9605,
+  "color":colorSet.next()
+}, {
+  "title": "Chad",
+  "latitude": 15.454166,
+  "longitude": 18.732206,
+  "color":colorSet.next()
+}, {
+  "title": "Afghanistan",
+  "latitude": 33.8616274,
+  "longitude": 63.2125923,
+  "color":colorSet.next()
+}, {
+  "title": "Nigeria",
+  "latitude": 9.0324893,
+  "longitude": 6.4334147,
+  "color":colorSet.next()
+}, {
+  "title": "Zimbabwe",
+  "latitude": -18.9968841,
+  "longitude": 26.909101,
+  "color":colorSet.next()
+}, {
+  "title": "New Zealand",
+  "latitude": -40.4338912,
+  "longitude": 166.3296912,
+  "color":colorSet.next()
+}, {
+  "title": "Kenya",
+  "latitude": 0.1599407,
+  "longitude": 35.6643029,
+  "color":colorSet.next()
+} ,
+{
+  "title": "Russia",
+  "latitude": 61.524010,
+  "longitude": 105.318756,
+  "color":colorSet.next()
+} , 
+{
+  "title": "Burkina Faso",
+  "latitude": 12.238333,
+  "longitude": -1.561593,
+  "color":colorSet.next()
+} , 
+{
+  "title": "Somalia",
+  "latitude": 5.2420051,
+  "longitude": 41.807918,
+  "color":colorSet.next()
+} , 
+{
+  "title": "Vietnam",
+  "latitude": 14.058324,
+  "longitude": 108.277199,
+  "color":colorSet.next()
+} ,                
+{
+  "title": "Libya",
+  "latitude": 26.2999273,
+  "longitude": 12.8370978,
+  "color":colorSet.next()
+} ,
+{
+  "title": "Kazakhstan",
+  "latitude": 48.1012954,
+  "longitude": 66.7780818,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Turkmenistan",
+  "latitude": 39.3763807,
+  "longitude": 59.3924609,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Tajikistan",
+  "latitude": 38.6281733,
+  "longitude": 70.8156541,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Pakistan",
+  "latitude": 30.3308401,
+  "longitude":71.247499,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Cambodia",
+  "latitude":12.5433216,
+  "longitude":104.8144914,
+  "color":colorSet.next()
+},
+                   {
+  "title": "UAE",
+  "latitude":24.0002488,
+  "longitude":53.9994829,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Saudi Arabia",
+  "latitude": 25.6242618,
+  "longitude":42.3528328,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Lebanon",
+  "latitude":33.8750629,
+  "longitude":35.843409,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Bangladesh",
+  "latitude":22.543648,
+  "longitude":90.252928,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Jordan",
+  "latitude": 31.1667049,
+  "longitude":36.941628,
+  "color":colorSet.next()
+},
+                   {
+  "title": "Kuwait",
+  "latitude": 29.2733964,
+  "longitude":47.4979476,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Togo",
+  "latitude":8.7800265,
+  "longitude":1.0199765,
+  "color":colorSet.next()
+},
+                    {
+  "title": "South Sudan",
+  "latitude": 6.8770,
+  "longitude":31.3070,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Gabon",
+  "latitude":-0.8999695,
+  "longitude":11.6899699,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Rwanda",
+  "latitude": -1.9646631,
+  "longitude":30.0644358,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Zambia",
+  "latitude": -14.5189121,
+  "longitude":27.5589884,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Uganda",
+  "latitude": 1.5333554,
+  "longitude":32.2166578,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Canada",
+  "latitude": 61.0666922,
+  "longitude":-107.991707,
+  "color":colorSet.next()
+},
+                    {
+  "title": "Laos",
+  "latitude": 19.912696,
+  "longitude":103.177033,
+  "color":colorSet.next()
+},
+                    {
+  "title": "United States of America",
+  "latitude": 38.673433,
+  "longitude":-100.677040,
+  "color":colorSet.next()
+},                        
+                    {
+  "title": "Fiji Islands",
+  "latitude":-17.713371,
+  "longitude":178.065033,
+  "color":colorSet.next()
+}];
+}
+catch( err ) { console.log( err ); }
+
+//       var root = am5.Root.new("chartdiv"); 
+
+//       // Set themes
+//       root.setThemes([
+//         am5themes_Animated.new(root)
+//       ]);
+
+// // Create chart
+// var chart = root.container.children.push(
+//   am5map.MapChart.new(root, {
+//     panX: "rotateX",
+//     panY: "none",
+//     projection: am5map.geoNaturalEarth1()
+//   })
+// );
+
+// // Create polygon series
+// var polygonSeries = chart.series.push(
+//   am5map.MapPolygonSeries.new(root, {
+//     geoJSON: am5geodata_worldLow,
+//     exclude: ["AQ"],
+//     fill: "rgba(58, 122, 67, 1)"
+//   })
+// );
+
+// // GeoJSON data
+// var cities = {
+//   "type": "FeatureCollection",
+//   "features": [{
+//     "type": "Feature",
+//     "properties": {
+//       "name": "New York City"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-73.778137, 40.641312]
+//     }
+//   }, {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "London"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-0.454296, 51.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "London"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-100.454296, 51.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "US"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-80.454296, 30.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "US"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-120.454296, 60.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "US"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [80.4577296, 45.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "India"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [20.7371635,72.1179636]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [116.597504, 40.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [210.597504, 40.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [89.597504, 70.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [120.597504, 50.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [120.597504, 140.072498]
+//     }
+//   }
+// ]
+// };
+
+// // Create point series
+// var pointSeries = chart.series.push(
+//   am5map.MapPointSeries.new(root, {
+//     geoJSON: cities
+//   })
+// );
+
+// pointSeries.bullets.push(function() {
+//   return am5.Bullet.new(root, {
+//     sprite: am5.Circle.new(root, {
+//       radius: 10,
+//       // svgPath: "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -80,134h-35l43,-133h-71l-24,30h-28l15,-47",
+//       fill: "#B0CB1F"
+//     })
+//   });
+// });
       </script>
       
   </body>

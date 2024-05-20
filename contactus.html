@@ -15,7 +15,9 @@
 
     </head>
   <body>
-  
+    <a href="#" class="back">
+      <i class="fa-solid fa-arrow-up-long text-white"></i>
+    </a>
     <div class="top-bar top-bar-xs top-bar-sm top-bar-md top-bar-lg">
       <div class="container1">
           <div class="row">
@@ -97,6 +99,15 @@
   </section>
   <!-- End: header -->
 <!-- ---------------------- map Section Start ------------------------------ -->
+<section class="contact-title">
+    <div class="container1">
+      <div class="row">
+        <h2 class="title-contact">
+          Get in Touch with Ecomax: Reach Out for Lubricant <br> Engine Oil Solutions
+        </h2>
+      </div>
+    </div>
+</section>
 <section class="map-section ">
   <div id="chartdiv"></div>
   
@@ -156,16 +167,7 @@
 <!-- ------------------------- Contact Form Section Start ----------------------------- -->
 <section class="career_form_section section_padding">
   <div class="page_width">
-    <div class="heading_container text-center">
-      <h2 class="main-heading">
-        Fuel Your Future: Discover Exciting Career Opportunities at Ecomax!
-      </h2>
-      <p class="heading_description">
-        At Ecomax, we're more than just a manufacturer and supplier of lubricant engine oil — we're a team dedicated
-        to excellence, innovation, and sustainability. As we continue to grow and expand our operations, we're always
-        on the lookout for talented individuals who share our passion and commitment.
-      </p>
-    </div>
+  
     <div class="row image_with_form_container align-items-center">
       <div
       class="col-12 image_container col-sm-5 ps-sm-2 ps-0 ps-lg-4  d-flex justify-content-center justify-content-sm-start ">
@@ -216,7 +218,12 @@
         </form>
       </div>
     </div>
+    <div class="heading_container text-center">
 
+      <p class="heading_description">
+        Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:
+      </p>
+    </div>
   </div>
 </section>
 <!-- ------------------------- Contact Form Section End ----------------------------- -->
@@ -268,7 +275,7 @@
             <div class="col-12 col-sm-6 col-md-6 col-xl-5   mb-3 p-0 float-left  ">
               <h5 class="mb-4 footer_heading">Connect with us</h5>
               <ul class="list-group">
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="https://wa.me/9199980 35620?text="
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="tel:+919998035620"
                     class="link-light text-decoration-none"> <img class="me-3" src="assets/images/home/cal.png" alt="images"> +91 99980 35620</a></li>
                 <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="https://mail.google.com/mail/u/0/#search/infoecomaxlubricant@gmail.com?compose=new"
                     class="link-light text-decoration-none"><img class="me-3" src="assets/images/home/email.png" alt="images">infoecomaxlubricant@gmail.com</a></li>
@@ -312,146 +319,147 @@
     
     <!-- Chart code -->
     <script>
-    am5.ready(function() {
-    
-    var data = [
-      {
-        id: "US",
-        name: "United States",
-        value: 100
-      }, {
-        id: "GB",
-        name: "United Kingdom",
-        value: 100
-      }, {
-        id: "CN",
-        name: "China",
-        value: 100
-      }, {
-        id: "IN",
-        name: "India",
-        value: 100
-      }, {
-        id: "AU",
-        name: "Australia",
-        value: 100
-      }, {
-        id: "CA",
-        name: "Canada",
-        value: 100
-      }, {
-        id: "BR",
-        name: "Brasil",
-        value: 100
-      }, {
-        id: "ZA",
-        name: "South Africa",
-        value: 100
-      }
-    ];
-    
-    var root = am5.Root.new("chartdiv");
-    root.setThemes([am5themes_Animated.new(root)]);
-    
-    var chart = root.container.children.push(am5map.MapChart.new(root, {
-      wheelY: "none"
-    }));
-    
-    var polygonSeries = chart.series.push(
-      am5map.MapPolygonSeries.new(root, {
-        geoJSON: am5geodata_worldLow,
-        exclude: ["AQ"]
-      })
-    );
-    
-    var bubbleSeries = chart.series.push(
-      am5map.MapPointSeries.new(root, {
-        valueField: "value",
-        calculateAggregates: true,
-        polygonIdField: "id"
-      })
-    );
-    
-    var circleTemplate = am5.Template.new({});
-    
-    bubbleSeries.bullets.push(function(root, series, dataItem) {
-      var container = am5.Container.new(root, {});
-    
-      var circle = container.children.push(
-        am5.Circle.new(root, {
-          radius: 20,
-          fillOpacity: 0.7,
-          fill: am5.color(0xff0000),
-          cursorOverStyle: "pointer",
-          tooltipText: `{name}: [bold]{value}[/]`
-        }, circleTemplate)
-      );
-    
-      var countryLabel = container.children.push(
-        am5.Label.new(root, {
-          text: "{name}",
-          paddingLeft: 5,
-          populateText: true,
-          fontWeight: "bold",
-          fontSize: 13,
-          centerY: am5.p50
+      am5.ready(function() {
+      
+      var data = [
+        {
+          id: "US",
+          name: "United States",
+          value: 50
+        }, {
+          id: "GB",
+          name: "United Kingdom",
+          value: 40
+        }, {
+          id: "CN",
+          name: "China",
+          value: 30
+        }, {
+          id: "IN",
+          name: "India",
+          value: 20
+        }, {
+          id: "AU",
+          name: "Australia",
+          value: 10
+        }, {
+          id: "CA",
+          name: "Canada",
+          value: 20
+        }, {
+          id: "BR",
+          name: "Brasil",
+          value: 30
+        }, {
+          id: "ZA",
+          name: "South Africa",
+          value: 40
+        }
+      ];
+      
+      var root = am5.Root.new("chartdiv");
+      root.setThemes([am5themes_Animated.new(root)]);
+      
+      var chart = root.container.children.push(am5map.MapChart.new(root, {
+        wheelY: "none"
+      }));
+      
+      var polygonSeries = chart.series.push(
+        am5map.MapPolygonSeries.new(root, {
+          geoJSON: am5geodata_worldLow,
+          exclude: ["AQ"]
         })
       );
-    
-      circle.on("radius", function(radius) {
-        countryLabel.set("x", radius);
-      })
-    
-      return am5.Bullet.new(root, {
-        sprite: container,
-        dynamic: true
+      
+      var bubbleSeries = chart.series.push(
+        am5map.MapPointSeries.new(root, {
+          valueField: "value",
+          calculateAggregates: true,
+          polygonIdField: "id"
+        })
+      );
+      
+      var circleTemplate = am5.Template.new({});
+      
+      bubbleSeries.bullets.push(function(root, series, dataItem) {
+        var container = am5.Container.new(root, {});
+      
+        var circle = container.children.push(
+          am5.Circle.new(root, {
+            radius: 20,
+            fillOpacity: 0.7,
+            fill: am5.color(0xff0000),
+            cursorOverStyle: "pointer",
+            tooltipText: `{name}: [bold]{value}[/]`
+          }, circleTemplate)
+        );
+      
+        var countryLabel = container.children.push(
+          am5.Label.new(root, {
+            text: "{name}",
+            paddingLeft: 1,
+            populateText: true,
+            fontWeight: "bold",
+            fontSize: 12,
+            centerY: am5.p50
+          })
+        );
+      
+        circle.on("radius", function(radius) {
+          countryLabel.set("x", radius);
+        })
+      
+        return am5.Bullet.new(root, {
+          sprite: container,
+          dynamic: true
+        });
       });
-    });
-    
-    bubbleSeries.bullets.push(function(root, series, dataItem) {
-      return am5.Bullet.new(root, {
-        sprite: am5.Label.new(root, {
-          text: "{value.formatNumber('#.')}",
-          fill: am5.color(0xffffff),
-          populateText: true,
-          centerX: am5.p50,
-          centerY: am5.p50,
-          textAlign: "center"
-        }),
-        dynamic: true
+      
+      bubbleSeries.bullets.push(function(root, series, dataItem) {
+        return am5.Bullet.new(root, {
+          sprite: am5.Label.new(root, {
+            text: "{value.formatNumber('#.')}",
+            fill: am5.color(0xffffff),
+            populateText: true,
+            centerX: am5.p50,
+            centerY: am5.p50,
+            textAlign: "center"
+          }),
+          dynamic: true
+        });
       });
-    });
-    
-    
-    
-    // minValue and maxValue must be set for the animations to work
-    bubbleSeries.set("heatRules", [
-      {
-        target: circleTemplate,
-        dataField: "value",
-        min: 10,
-        max: 50,
-        minValue: 0,
-        maxValue: 100,
-        key: "radius"
-      }
-    ]);
-    
-    bubbleSeries.data.setAll(data);
-    
-    updateData();
-    setInterval(function() {
+      
+      
+      
+      // minValue and maxValue must be set for the animations to work
+      bubbleSeries.set("heatRules", [
+        {
+          target: circleTemplate,
+          dataField: "value",
+          min: 15,
+          max: 25,
+          minValue: 0,
+          maxValue: 100,
+          key: "radius"
+        }
+      ]);
+      
+      bubbleSeries.data.setAll(data);
+      
       updateData();
-    }, 2000)
-    
-    function updateData() {
-      for (var i = 0; i < bubbleSeries.dataItems.length; i++) {
-        bubbleSeries.data.setIndex(i, { value: Math.round(Math.random() * 100), id: data[i].id, name: data[i].name })
+      setInterval(function() {
+        updateData();
+      }, 2000)
+      
+      function updateData() {
+        for (var i = 0; i < bubbleSeries.dataItems.length; i++) {
+          bubbleSeries.data.setIndex(i, { value: Math.round(Math.random() * 100), id: data[i].id, name: data[i].name })
+        }
       }
-    }
-    
-    
-    }); // end am5.ready()
-    </script>
+      
+      
+      }); // end am5.ready()
+      </script>
+      
   </body>
 </html>

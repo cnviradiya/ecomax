@@ -168,7 +168,10 @@ a{
     margin: 0 auto;
 }
 
-
+.about-section-text{
+    display: flex;
+    justify-content: end;
+}
 /* ------------- Ecomax Section ------------- */
 .wcu_section,
 .connect-section {
@@ -322,7 +325,9 @@ a{
   .numeric-section .card-body-detail{
     font-size: var(--medium-font);
   }
-
+.map-section{
+    padding-top: 100px;
+}
 /*Media Query */
 @media only screen and (max-width: 1200px) {
     .contact_card{
@@ -1944,7 +1949,7 @@ body {
     }
 
     .hero-xl-image img {
-        height: 800px;
+        height: 830px;
         object-fit: cover;
     }
 

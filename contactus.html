@@ -11,6 +11,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/images/home/Favicon icon - Ecomax (1).png">
+
     </head>
   <body>
   
@@ -26,13 +28,13 @@
       <div class="container1">
           <div class="row">
               <div class=" p-0 d-flex align-items-center justify-content-between">
-                  <div class="logo logo-xs logo-sm logo-md logo-lg logo-xl">
-                      <img src="assets/images/home/logo.png" alt="images" class="img-fluid">
-                  </div>
+                <div class="logo logo-xs logo-sm logo-md logo-lg logo-xl">
+                  <a href="index.html">   <img  src="assets/images/home/logo.png" alt="images" class="img-fluid"></a>
+                </div>
                   <div class="nav   d-none d-lg-block d-flex justify-content-end">
                       <ul class="d-flex p-0 mb-0 justify-content-end header-nav">
                           <li>
-                              <a href="index.html" class="text-success">HOME</a>
+                              <a href="index.html" >HOME</a>
                           </li>
                           <li>
                               <a href="#">PRODUCTS</a>
@@ -41,10 +43,10 @@
                               <a href="about.html">ABOUT US </a>
                           </li>
                           <li>
-                              <a href="#">CAREER</a>
+                              <a href="career.html">CAREER</a>
                           </li>
                           <li>
-                              <a href="contactus.html">CONTACT US</a>
+                              <a href="contactus.html" class="text-success">CONTACT US</a>
                           </li>
                       </ul>
                   </div>
@@ -95,11 +97,9 @@
   </section>
   <!-- End: header -->
 <!-- ---------------------- map Section Start ------------------------------ -->
-<section class="map-section section_padding">
-  <div class="page_width">
-    <h2 class="contact-mainheading main-heading text-center">Get in Touch with Ecomax: Reach Out for Lubricant Engine Oil Solutions</h2>
-    <iframe class="contact_map overflow-hidden " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238133.18800900166!2d72.65748353239132!3d21.159120355102836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1715700744443!5m2!1sen!2sin" width="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+<section class="map-section ">
+  <div id="chartdiv"></div>
+  
 </section>
 <!-- ---------------------- map Section End ------------------------------ -->
 <!-- ---------------------- Contact Connect Section Start ------------------------------ -->
@@ -201,15 +201,18 @@
                 class="form-control w-100 field message_field"></textarea>
             </div>
           </div>
-          <div class="row form_button_container">
-            <div class="col ">
-              <button type="submit" class="btn rounded-pill d-flex align-items-center form_submit">
-                <i
-                  class="fa-solid fa-arrow-up text-center d-flex align-items-center justify-content-center rounded-pill submit_arrow"></i>
-                Submit
-              </button>
+          <div class="sparkle-button">
+            <div class="sparkle-button">
+                <button class="btn2">
+                    <div class="d-flex align-items-center">
+                        <div class="about-btn d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-arrow-up-long"></i>
+                        </div>
+                        <div> <span class="text"> Submit</span></div>
+                    </div>
+                </button>
             </div>
-          </div>
+        </div>
         </form>
       </div>
     </div>
@@ -254,23 +257,23 @@
             <div class="col-12 col-sm-3 col-md-3 col-xl-3   p-0 mb-3 float-left  ">
               <h5 class="mb-4 footer_heading">Company</h5>
               <ul class="list-group">
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="about.html"
                     class="link-light text-decoration-none">About Us</a></li>
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="career.html"
                     class="link-light text-decoration-none">Career</a></li>
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="contactus.html"
                     class="link-light text-decoration-none">Contact Us</a></li>
               </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-xl-5   mb-3 p-0 float-left  ">
               <h5 class="mb-4 footer_heading">Connect with us</h5>
               <ul class="list-group">
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"
-                    class="link-light text-decoration-none">+91 99980 35620</a></li>
-                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#"
-                    class="link-light text-decoration-none">infoecomaxlubricant@gmail.com</a></li>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="https://wa.me/9199980 35620?text="
+                    class="link-light text-decoration-none"> <img class="me-3" src="assets/images/home/cal.png" alt="images"> +91 99980 35620</a></li>
+                <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="https://mail.google.com/mail/u/0/#search/infoecomaxlubricant@gmail.com?compose=new"
+                    class="link-light text-decoration-none"><img class="me-3" src="assets/images/home/email.png" alt="images">infoecomaxlubricant@gmail.com</a></li>
                 <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                  <p class="text-light">Block No. E-37, Hindva Dreams, Dhoran Pardi Gaypagla Road, Kamrej, Surat,
+                  <p class="text-light"><img class="me-3" src="assets/images/home/ad.png" alt="images">Block No. E-37, Hindva Dreams, Dhoran Pardi Gaypagla Road, Kamrej, Surat,
                     Gujarat-394155</p>
                 </li>
               </ul>
@@ -294,6 +297,161 @@
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
   crossorigin="anonymous"></script>
   <script src="assets/JS/script.js"></script>
-
+  <style>
+    #chartdiv {
+      width: 100%;
+      height: 600px
+    }
+    </style>
+    
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    
+    <!-- Chart code -->
+    <script>
+    am5.ready(function() {
+    
+    var data = [
+      {
+        id: "US",
+        name: "United States",
+        value: 100
+      }, {
+        id: "GB",
+        name: "United Kingdom",
+        value: 100
+      }, {
+        id: "CN",
+        name: "China",
+        value: 100
+      }, {
+        id: "IN",
+        name: "India",
+        value: 100
+      }, {
+        id: "AU",
+        name: "Australia",
+        value: 100
+      }, {
+        id: "CA",
+        name: "Canada",
+        value: 100
+      }, {
+        id: "BR",
+        name: "Brasil",
+        value: 100
+      }, {
+        id: "ZA",
+        name: "South Africa",
+        value: 100
+      }
+    ];
+    
+    var root = am5.Root.new("chartdiv");
+    root.setThemes([am5themes_Animated.new(root)]);
+    
+    var chart = root.container.children.push(am5map.MapChart.new(root, {
+      wheelY: "none"
+    }));
+    
+    var polygonSeries = chart.series.push(
+      am5map.MapPolygonSeries.new(root, {
+        geoJSON: am5geodata_worldLow,
+        exclude: ["AQ"]
+      })
+    );
+    
+    var bubbleSeries = chart.series.push(
+      am5map.MapPointSeries.new(root, {
+        valueField: "value",
+        calculateAggregates: true,
+        polygonIdField: "id"
+      })
+    );
+    
+    var circleTemplate = am5.Template.new({});
+    
+    bubbleSeries.bullets.push(function(root, series, dataItem) {
+      var container = am5.Container.new(root, {});
+    
+      var circle = container.children.push(
+        am5.Circle.new(root, {
+          radius: 20,
+          fillOpacity: 0.7,
+          fill: am5.color(0xff0000),
+          cursorOverStyle: "pointer",
+          tooltipText: `{name}: [bold]{value}[/]`
+        }, circleTemplate)
+      );
+    
+      var countryLabel = container.children.push(
+        am5.Label.new(root, {
+          text: "{name}",
+          paddingLeft: 5,
+          populateText: true,
+          fontWeight: "bold",
+          fontSize: 13,
+          centerY: am5.p50
+        })
+      );
+    
+      circle.on("radius", function(radius) {
+        countryLabel.set("x", radius);
+      })
+    
+      return am5.Bullet.new(root, {
+        sprite: container,
+        dynamic: true
+      });
+    });
+    
+    bubbleSeries.bullets.push(function(root, series, dataItem) {
+      return am5.Bullet.new(root, {
+        sprite: am5.Label.new(root, {
+          text: "{value.formatNumber('#.')}",
+          fill: am5.color(0xffffff),
+          populateText: true,
+          centerX: am5.p50,
+          centerY: am5.p50,
+          textAlign: "center"
+        }),
+        dynamic: true
+      });
+    });
+    
+    
+    
+    // minValue and maxValue must be set for the animations to work
+    bubbleSeries.set("heatRules", [
+      {
+        target: circleTemplate,
+        dataField: "value",
+        min: 10,
+        max: 50,
+        minValue: 0,
+        maxValue: 100,
+        key: "radius"
+      }
+    ]);
+    
+    bubbleSeries.data.setAll(data);
+    
+    updateData();
+    setInterval(function() {
+      updateData();
+    }, 2000)
+    
+    function updateData() {
+      for (var i = 0; i < bubbleSeries.dataItems.length; i++) {
+        bubbleSeries.data.setIndex(i, { value: Math.round(Math.random() * 100), id: data[i].id, name: data[i].name })
+      }
+    }
+    
+    
+    }); // end am5.ready()
+    </script>
   </body>
 </html>

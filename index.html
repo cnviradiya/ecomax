@@ -37,10 +37,12 @@
 
 </head>
 
-<body class="hide-scroll">
-    <a href="#" class="back">
-        <i class="fa-solid fa-angle-up"></i>
-    </a>
+<body >
+    <div class="m-setting">
+        <a href="javascript:;">
+          <i class="fa-solid fa-sync fa-spin"></i>
+        </a>
+    </div>
     <div class="top-bar top-bar-xs top-bar-sm top-bar-md top-bar-lg">
         <div class="container1">
             <div class="row">
@@ -908,7 +910,12 @@
         </div>
         </footer>
         <!-- Footer end -->
-    
+    <script>
+        	$(document).ready(function(){
+			$(".setting").click(function(){
+				$(".color-p").slideToggle(2000);
+            });
+    </script>
     <script src="https://ik.imagekit.io/ecomax/assets/JS/jquery-min.js"></script>
     <script src="https://ik.imagekit.io/ecomax/assets/JS/owl.carousel.min.js"></script>
     <!-- swiper -->

@@ -78,6 +78,8 @@ $(document).ready(function () {
     });
 
 
+
+
     var swiper = new Swiper(".mySwiper5", {
       pagination: {
         el: ".swiper-pagination",

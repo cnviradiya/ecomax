@@ -25,7 +25,10 @@ body {
     --semi-bold-font: 500;
     --regular-font: 400;
 }
-
+.hide-scroll{
+    overflow: hidden;
+    position: fixed;
+}
 .page_width {
     max-width: 1460px;
     margin: auto;
@@ -259,11 +262,36 @@ a{
 .footer-text {
     margin-top: 30px;
 }
-
-.footer-icon-container img {
-    margin-right: 30px;
+.footer-icon-container a i{
+    margin-top: 6px;
+    font-size: 20px;
+    color: white;
+}
+.footer-icon-set{
+    gap: 36px;
+}
+.footer-ad{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.footer-icon-container:hover{
+    background-color: var(--text-color);
+    transition: all 0.5s;
+    border: none;
+}
+.footer-icon-container {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid white;
+    
 }
 
+.footer-hover li a:hover{
+    transition: all 0.5s;
+    color: var(--text-color);
+    }
 .footer-text {
     font-size: var(--medium-font)
 }
@@ -1313,7 +1341,17 @@ body {
     line-height: 24px;
     color: #414141;
 }
-
+.footer-link{
+  background-color: #1E5F28;
+    border-radius: 5px;
+}
+.footer-link-title{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--neon-color);
+    border: none;
+}
 .accordion-item:first-of-type .accordion-button {
     color: black;
     font-weight: 500;
@@ -1365,9 +1403,8 @@ body {
     gap: 30px;
 }
 
-.cout {
+.cout{
     width: 45%;
-
 }
 
 /* Contact */
@@ -1429,7 +1466,14 @@ body {
     z-index: 1;
     position: relative;
 }
-
+.list-group-laine{
+    border-top: 1px solid var(--neon-color);
+    
+}
+.footer-link-icon{
+    font-size: 22px;
+    color: var(--neon-color);
+}
 .footer::after {
     height: 485px;
     align-items: center;
@@ -1543,8 +1587,8 @@ body {
     }
 
     .header-xs {
-        padding-top: 4px;
-        padding-bottom: 4px;
+        padding-top: 7px;
+        padding-bottom: 7px;
     }
 
     .carousel-item-xs img {
@@ -1722,6 +1766,8 @@ body {
 .cout{
     width: 100%;
    border-radius: 10px;
+   margin-top: 8px;
+   margin-bottom: 8px;
 }
 .Global-Excellence-title-main{
     padding-right: 0px;
@@ -1730,6 +1776,10 @@ body {
     font-size: 14px;
     line-height: 21px;
 }
+.footer-icon-set{
+    gap: 24px;
+}
+
 }
 
 
@@ -1788,7 +1838,10 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
+    .cout{
+       
+        margin: 18px;
+    }
     .hero-md-image img {
         height: 720px;
         object-fit: cover;
@@ -1916,7 +1969,10 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
+    .cout{
+       
+        margin: 17px;
+    }
     .hero-lg-image img {
         height: 720px;
         object-fit: cover;

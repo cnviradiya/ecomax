@@ -25,10 +25,7 @@ body {
     --semi-bold-font: 500;
     --regular-font: 400;
 }
-.hide-scroll{
-    overflow: hidden;
-    position: fixed;
-}
+
 .page_width {
     max-width: 1460px;
     margin: auto;

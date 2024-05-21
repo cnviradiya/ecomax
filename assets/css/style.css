@@ -26,6 +26,10 @@ body {
     --regular-font: 400;
 }
 
+.show_scroll_btn{
+    display: block !important;
+}
+
 .page_width {
     max-width: 1460px;
     margin: auto;
@@ -943,7 +947,22 @@ body {
     transform: rotate(88deg);
 
 }
+.bordericon img {
+    animation: rotate 0.6s infinite;
 
+  }
+  .bordericon1 img {
+    animation: rotate 0.6s infinite;
+
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(-45deg)
+    }
+    100% {
+      transform: rotate(45deg)
+    }
+  }
 .about-btn {
     margin: 6px 0 6px 6px;
     width: 42px;
@@ -1309,7 +1328,14 @@ body {
 .card2 img {
     object-fit: contain;
 }
-
+.border-none{
+    border: 2px solid #F5F5F5 !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+.count1::before{
+    content: "+";
+}
 .accordion-button {
     background-color: transparent !important;
 
@@ -1399,11 +1425,26 @@ body {
 .Global-Excellence-sab {
     gap: 30px;
 }
-
+.after-befor-img{
+    position: relative;
+}
+.befor-img{
+    position: absolute;
+    top: 30%;
+   right: 0;
+}
+.img-set{
+    position: absolute;
+  top: 13%;
+  left: 0%;
+}
 .cout{
     width: 45%;
 }
-
+.cout-box{
+    z-index: 5;
+    box-shadow: 2px 2px 6px 0 #414141;
+}
 /* Contact */
 .Contact {
     padding-top: 70px;
@@ -1578,7 +1619,7 @@ body {
     }
 
     .logo-xs img {
-        padding-left: 16px;
+      
         width: 170px;
         height: 32px;
     }
@@ -1949,6 +1990,7 @@ body {
     .Global-Excellence-title-main{
         padding: 0;
     }
+
     .contact-text p{
         font-size: 16px;
         line-height: 24px;

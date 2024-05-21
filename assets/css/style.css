@@ -769,8 +769,8 @@ body {
     background-color: white;
 }
 
-.offcanvas-top {
-    height: auto;
+.offcanvas{
+    bottom: 0 !important;
 }
 
 .top-bar {

@@ -694,14 +694,14 @@ a{
 }
 
 .btn3:hover .about-btn i{
-    transition: all 0.9s !important;
+    transition: all 0.5s !important;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
 .btn3:hover{
-    transition: all 0.9s !important;
+    transition: all 0.5s !important;
     background-color: white;
 }
 
@@ -1045,9 +1045,9 @@ body {
 .about-btn i {
     padding-bottom: 4px;
     font-size: 20px;
+    inline-size: 1.25em;
     padding-left: 8px;
     color: var(--green);
-    inline-size: 1.25em;
     translate: -25% -5%;
     transform: rotate(45deg);
 }
@@ -1218,8 +1218,6 @@ body {
 }
 
 .icon2 img {
-    width: 61px;
-    height: 46px;
     object-fit: cover;
 }
 
@@ -1491,6 +1489,9 @@ body {
 }
 .cout{
     z-index: 10;
+}
+.cout5{
+    width: 45% !important;
 }
 .cout-box{
     z-index: 5;
@@ -1953,10 +1954,7 @@ body {
     .about-main {
         gap: 30px;
     }
-    .Fueling-Excellence-img img{
-        width: 288px;
-        height: 216px;
-    }
+ 
 
 }
 
@@ -2107,6 +2105,7 @@ body {
       .Kalsaria-title-text{
         margin: 0;
       }
+
    
 }
 
@@ -2164,13 +2163,6 @@ body {
      .Fueling-Excellence-title h3{
         margin-top: 0;
      }
-     .Fueling-Excellence-img{
-        
-        padding: 20px;
-     }
-     .Fueling-Excellence-img2{
-        padding: 20px;
-     }
      .sparkle-button{
         justify-content: start;
     }
@@ -2182,6 +2174,9 @@ body {
     }
     .Kalsaria-img img{
         margin-left: 60px;
+    }
+    .facility-desc p{
+        text-align: start;
     }
 }
 

@@ -190,7 +190,7 @@
         </div>
 
         <div class="col-12 form_container  col-sm-7 ">
-          <form action="mailto:infoecomaxlubricant@gmail.com" id="detaform" class="form_container_in">
+          <form action="" id="detaform" class="form_container_in">
             <div class="row form_field_container flex-column flex-sm-row ">
               <div class="col">
                 <input type="text" name="name" id="name" placeholder="First Name*" class="form-control field"
@@ -209,7 +209,7 @@
                 <p id="e1" class="p-0 ms-1 text-danger"></p>
               </div>
               <div class="col ">
-                <input type="tel" name="phone_number" id="number" placeholder="Phone Number*" required
+                <input type="number" name="phone_number" id="number" placeholder="Phone Number*" required
                   class="field form-control">
                 <p id="nu1" class="p-0 ms-1 text-danger"></p>
               </div>
@@ -878,7 +878,17 @@
         number = document.getElementById("number").value
         email = document.getElementById("email").value
 
-      
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "infoecomaxlubricant@gmail.com",
+          Password: "FABC9883F0B10ABB13E673D929609CD2CB76",
+          To: 'infoecomaxlubricant@gmail.com',
+          From: document.getElementById("contactus").value,
+          Subject: "New Contact Form Enquiry",
+          Body: "And this is the body"
+        }).then(
+          message => alert(message)
+        );
 
 
       }

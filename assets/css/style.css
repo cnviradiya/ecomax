@@ -102,7 +102,13 @@ a{
 .heading_container {
     padding: 0px 0 50px 0;
 }
-
+.career-form-btn{
+    margin-left: 5px;
+    margin-bottom: 66px;
+}
+.message_field{
+    height: 464px !important;
+}
 .heading_description {
     margin: 50px 0 0 0;
     font-size: var(--small-font);
@@ -171,7 +177,9 @@ a{
     max-width: 1212px;
     margin: 0 auto;
 }
-
+.about-section1{
+    margin-top: 40px;
+}
 .about-section-text{
     display: flex;
     justify-content: end;
@@ -308,6 +316,7 @@ a{
 }
 
 /* about page */
+
 .about-section {
     margin: 100px 0;
     width: 100%;
@@ -384,7 +393,42 @@ a{
   .numeric-section .card-body-detail{
     font-size: var(--medium-font);
   }
-
+  /* MR. Mukesh Kalsaria */
+  .Kalsaria-img{
+    width: 312px;
+    height: 344px;
+  }
+  .Kalsaria-title-text{
+    margin-left: 51px;
+  }
+  .Kalsaria-text p{
+    margin-top: 30px;
+  }
+  .Kalsaria-sab p{
+    margin-top: 50px;
+  }
+  .Kalsaria-title h2{
+    font-size: 36px;
+    color: var(--green);
+    line-height: 54px;
+    font-weight: 600;
+  }
+  .Kalsaria-title span{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  .Kalsaria-text p{
+    line-height: 24px;
+    font-weight: 400;
+    color: #414141;
+  }
+  .Kalsaria-sab p{
+    line-height: 24px;
+    font-weight: 400;
+    color: #414141;
+  }
 /*Media Query */
 @media only screen and (max-width: 1200px) {
     .contact_card{
@@ -649,20 +693,20 @@ a{
     background-color: var(--green);
 }
 
-.btn3:hover .about-btn i {
-    transition: all 0.5s;
+.btn3:hover .about-btn i{
+    transition: all 0.9s !important;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
-.btn3:hover {
-    transition: all 0.5;
+.btn3:hover{
+    transition: all 0.9s !important;
     background-color: white;
 }
 
-.btn3:hover .text {
-    transition: all 0.5;
+.btn3:hover .text{
+    transition: all 0.9s !important;
 
     color: var(--text-color);
 }
@@ -933,13 +977,13 @@ body {
 
 .btn2:hover {
     background-color: var(--text-color);
-    transition: all 0.5s;
+    transition: all 0.9s;
 }
 
 .btn2:hover i {
     transform: rotate(90deg);
     padding-bottom: 10px;
-    transition: all 0.5s;
+    transition: all 0.9s;
     padding-left: 2px;
 }
 
@@ -1428,7 +1472,14 @@ body {
 .after-befor-img{
     position: relative;
 }
+.after-befor{
+    margin-top: -20px;
+}
+.after-befor{
+    margin-bottom: 20px ;
+}
 .befor-img{
+    z-index: -5;
     position: absolute;
     top: 30%;
    right: 0;
@@ -1439,11 +1490,11 @@ body {
   left: 0%;
 }
 .cout{
-    width: 45%;
+    z-index: 10;
 }
 .cout-box{
     z-index: 5;
-    box-shadow: 2px 2px 6px 0 #414141;
+    box-shadow: 2px 2px 6px  0  #c3bdbd ;
 }
 /* Contact */
 .Contact {
@@ -1817,7 +1868,18 @@ body {
 .footer-icon-set{
     gap: 24px;
 }
-
+.career-form-btn{
+    margin-bottom: 20px;
+}
+.message_field{
+    height: 92px !important;
+}
+.img-set{
+  top: 1%;
+}
+.befor-img{
+    top: 78%;
+}
 }
 
 
@@ -1875,6 +1937,9 @@ body {
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    .cout-m{
+        margin-bottom: 70px;
     }
     .cout{
        
@@ -2000,6 +2065,18 @@ body {
         padding-left: 88px;
         padding-right: 88px;
     }
+    .career-form-btn{
+        margin-bottom: 46px;
+    }
+    .message_field{
+        height: 92px !important;
+    }
+    .img-set{
+        top: 1%;
+      }
+      .befor-img{
+          top: 62%;
+      }
   
 }
 
@@ -2066,6 +2143,12 @@ body {
      }
      .sparkle-button{
         justify-content: start;
+    }
+    .message_field{
+        height: 465px !important;
+    }
+    .about-image-container img{
+        width: 100%;
     }
 }
 

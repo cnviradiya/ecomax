@@ -297,10 +297,6 @@ a{
     
 }
 
-.footer-hover li a:hover{
-    transition: all 0.5s;
-    color: var(--text-color);
-    }
 .footer-text {
     font-size: var(--medium-font)
 }
@@ -314,7 +310,11 @@ a{
 .footer_heading+ul>li {
     font-size: var(--small-font);
 }
-
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+    background-color: white;
+    color: var(--green);
+    opacity: 10;
+}
 /* about page */
 
 .about-section {
@@ -1912,6 +1912,9 @@ body {
     font-size: 14px;
     line-height: 21px;
 }
+.cout5{
+    width: 100%;
+}
 }
 
 
@@ -2009,9 +2012,7 @@ body {
     .benefit::after{
         height: 646px;
     }
-    .benefit-slaider-icon{
-        padding-top: 50px;
-    }
+  
     .facility-text h2{
         text-align: center;
         font-size: 36px;

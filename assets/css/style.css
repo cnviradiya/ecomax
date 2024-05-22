@@ -362,7 +362,7 @@ a{
     border-radius: 50%;
     position: fixed;
     top: 85%;
-    right:30px;
+    right:40px;
     z-index: 9;
 }
   .horizontal-line {
@@ -396,7 +396,7 @@ a{
   /* MR. Mukesh Kalsaria */
   .Kalsaria-img{
     width: 312px;
-    height: 344px;
+    height: auto;
   }
   .Kalsaria-title-text{
     margin-left: 51px;
@@ -1880,6 +1880,33 @@ body {
 .befor-img{
     top: 78%;
 }
+.Kalsaria-title h2{
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: 20px;
+}
+.Kalsaria-title-text{
+    margin: 0;
+}
+.Kalsaria-img img{
+    width: 212px;
+    height: auto;
+}
+.Kalsaria-title span{
+    font-size: 20px;
+    line-height: 30px;
+}
+.Kalsaria-text p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+.Kalsaria-sab p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 21px;
+}
 }
 
 
@@ -2077,7 +2104,10 @@ body {
       .befor-img{
           top: 62%;
       }
-  
+      .Kalsaria-title-text{
+        margin: 0;
+      }
+   
 }
 
 @media(min-width:992px) {
@@ -2150,6 +2180,9 @@ body {
     .about-image-container img{
         width: 100%;
     }
+    .Kalsaria-img img{
+        margin-left: 60px;
+    }
 }
 
 @media(min-width:1200px) {
@@ -2208,6 +2241,12 @@ body {
      }
      .Fueling-Excellence-width{
         width: 1200px;
+     }
+     .Mukesh{
+        justify-content: end;
+     }
+     .Kalsaria-img img{
+       margin-left: -50px;
      }
     
 }

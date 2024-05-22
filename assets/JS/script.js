@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function () {
   $(document).click(function (event) {
     var clickover = $(event.target);
@@ -137,6 +140,7 @@ if($('.counter1').length > 0) {
     }
   });
 }
+
 
 
 

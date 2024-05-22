@@ -1656,9 +1656,12 @@ body {
         padding-bottom: 40px;
     }
 
-    .hero-xs-image img {
+    .hero-xs-image img{
         height: 400px;
         object-fit: cover;
+    }
+    .xs-hero{
+        height: auto !important;
     }
 
     .top-bar-xs {

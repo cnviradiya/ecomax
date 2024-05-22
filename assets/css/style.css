@@ -395,6 +395,15 @@ a{
   .numeric-section .card-body-detail{
     font-size: var(--medium-font);
   }
+  .about-description p{
+    margin-top: 40px;
+  }
+  .about-hero-subtext{
+    margin-top: 50px;
+  }
+  .about-hero-subtext .set-margin{
+    margin-top: 30px;
+  }
   /* MR. Mukesh Kalsaria */
   .Kalsaria-img{
     width: 312px;
@@ -1659,7 +1668,7 @@ body {
     .hero-xs-image img{
         height: 400px;
         object-fit: cover;
-        
+
     }
     .xs-hero{
         height: auto !important;

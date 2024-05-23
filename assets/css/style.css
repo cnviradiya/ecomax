@@ -36,7 +36,7 @@ body {
     width: 100%;
     padding: 0px 15px;
 }
-.accordion-button
+
 .main-heading {
     font-size: var(--heading-font);
     font-weight: var(--bold-font);
@@ -667,9 +667,16 @@ a{
       .numeric-section {
         padding: 30px 0;
       }
+      .accordion-button{
+        width: 280px;
+    }
 }
-
-
+.heading_description{
+    margin-top: 30px;
+}
+.heading_container{
+    margin-bottom: 50px;
+}
 /* benefit */
 .benefit {
     background-image: url('../images/home/1ec68b5abe8305e0a800b77561d2922d.png');
@@ -1703,7 +1710,16 @@ body {
 }
 
 @media(max-width:575px) {
-
+    .heading_description{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .heading_container{
+        margin-bottom: 0px;
+    }
+    .heading_description{
+        margin-top: 20px;
+    }
     .section-padding {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -2046,7 +2062,7 @@ body {
         display: flex;
         justify-content: space-between;
     }
- 
+    
 
 }
 
@@ -2054,6 +2070,9 @@ body {
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    .heading_container{
+        margin-bottom: 0px;
     }
     .cout-m{
         margin-bottom: 70px;
@@ -2103,6 +2122,7 @@ body {
         font-size: 36px;
         line-height: 54px;
     }
+   
     .facility-img{
         display: flex;
         justify-content: center;

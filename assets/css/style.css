@@ -762,7 +762,12 @@ a{
 
 .icon2 img {
     width: 88px;
-    height: 58px;
+    height: 70px;
+    object-fit: cover;
+}
+.icon5 img {
+    width: 88px;
+    height: 90px;
     object-fit: cover;
 }
 .Connect-Section{

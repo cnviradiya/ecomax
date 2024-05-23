@@ -36,7 +36,7 @@ body {
     width: 100%;
     padding: 0px 15px;
 }
-
+.accordion-button
 .main-heading {
     font-size: var(--heading-font);
     font-weight: var(--bold-font);
@@ -99,9 +99,7 @@ a{
 }
 
 /* ------------- Career Form Section ------------- */
-.heading_container {
-    padding: 0px 0 50px 0;
-}
+
 .career-form-btn{
     margin-left: 5px;
     margin-bottom: 66px;
@@ -110,7 +108,7 @@ a{
     height: 464px !important;
 }
 .heading_description {
-    margin: 50px 0 0 0;
+
     font-size: var(--small-font);
     font-weight: var(--regular-font);
 }
@@ -130,6 +128,7 @@ a{
 
 .career-img-container {
     height: 562px;
+    width: 467px;
 }
 
 .file-input {
@@ -239,9 +238,14 @@ a{
     color: var(--primary-color);
 }
 .contact_card{
-    box-shadow: 2px 2px 6px #0000001d;
+    border: 1px solid #D2DFD4;
     width: calc(33.33% - 12px);
     padding: 30px;
+}
+.contact_card_heading {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
 }
 .contact_detail {
     word-wrap: break-word;
@@ -316,7 +320,9 @@ a{
     opacity: 10;
 }
 /* about page */
-
+.section-padding-footer{
+    padding-top: 100px;
+}
 .about-section {
     margin: 100px 0;
     width: 100%;
@@ -351,7 +357,22 @@ a{
     margin-top: 21px;
   }
 .text-success1{
-    color: #b0cb1f;
+    color: #b0cb1f !important;
+}
+.footer-hover li{
+    transition: all 0.5s;
+
+}
+.footer-hover li a:hover{
+    color: #b0cb1f !important ;
+    transition: all 0.5s;
+
+}
+.form_field_container div input::placeholder{
+    color: #8A8A8A;
+}
+.form_field_container .col textarea::placeholder{
+    color: #8A8A8A;
 }
 .back{
     display: block;
@@ -406,8 +427,13 @@ a{
   }
   /* MR. Mukesh Kalsaria */
   .Kalsaria-img{
+    position: relative;
     width: 312px;
     height: auto;
+  }
+  .kalsari1-img { 
+    position: absolute;
+    right: 6%;
   }
   .Kalsaria-title-text{
     margin-left: 51px;
@@ -694,25 +720,29 @@ a{
 }
 
 .btn3 {
-    color: white;
     border-radius: 100px;
-    background-color: transparent;
     border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    transition: all 0.9s;
 }
-
+.about-btn-2 i{
+    transition: all 0.9s;
+    
+}
 .btn3:hover .about-btn {
     background-color: var(--green);
 }
 
 .btn3:hover .about-btn i{
-    transition: all 0.5s !important;
+    transition: all 0.9s !important;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
 .btn3:hover{
-    transition: all 0.5s !important;
+    transition: all 0.9s !important;
     background-color: white;
 }
 
@@ -984,18 +1014,25 @@ body {
     border: none;
     border-radius: 100px;
     background-color: var(--green);
+    transition: all 0.9s ;
 }
 
 .btn2:hover {
     background-color: var(--text-color);
-    transition: all 0.9s;
-}
+    transition: all 0.9s ;
 
+}
+.btn2 i {
+    transform: rotate(45deg);
+    transition: all 0.9s ;
+
+}
 .btn2:hover i {
     transform: rotate(90deg);
     padding-bottom: 10px;
-    transition: all 0.9s;
+    transition: all 0.9s ;
     padding-left: 2px;
+    
 }
 
 .swiper-button-next:hover i {
@@ -1003,11 +1040,11 @@ body {
 
 }
 .bordericon img {
-    animation: rotate 0.6s infinite;
+    animation: rotate 0.8s infinite;
 
   }
   .bordericon1 img {
-    animation: rotate 0.6s infinite;
+    animation: rotate 0.8s infinite;
 
   }
   @keyframes rotate {
@@ -1199,31 +1236,26 @@ body {
     color: white;
 }
 
-.btn3 {
-    color: white;
-    border-radius: 100px;
-    background-color: transparent;
-    border: 1px solid white;
-}
+
 
 .btn3:hover .about-btn {
     background-color: var(--green);
 }
 
 .btn3:hover .about-btn i {
-    transition: all 0.5s;
+    transition: all 0.9s;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
 .btn3:hover {
-    transition: all 0.5;
+    transition: all 0.9;
     background-color: white;
 }
 
 .btn3:hover .text {
-    transition: all 0.5;
+    transition: all 0.9;
 
     color: var(--text-color);
 }
@@ -1327,8 +1359,12 @@ body {
     left: 95%;
     transform: rotate(315deg);
     color: white;
+
+ 
+
 }
 .swiper-button-prev{
+
     transform: rotate(45deg);
 
 }
@@ -1342,6 +1378,14 @@ body {
 .swiper-button-prev {
     top: 10%;
 }
+.swiper-button-next i{
+    transition: all 0.9s !important;
+
+}
+.swiper-button-prev i{
+    transition: all 0.9s !important;
+
+}
 
 .swiper-button-next:hover i {
     transition: all 0.9s;
@@ -1350,7 +1394,7 @@ body {
 
 .swiper-button-next:hover {
     background-color: var(--text-color);
-    transition: all 0.5s;
+    transition: all 0.9s;
 }
 
 .swiper-button-prev:hover i {
@@ -1928,6 +1972,30 @@ body {
 .cout5{
     width: 100%;
 }
+.about-description p{
+    font-size: 14px;
+}
+.about-hero-subtext{
+    margin-top: 30px;
+}
+.about-hero-subtext .set-margin{
+    margin-top: 20px;
+}
+.about-hero-subtext p{
+    font-size: 14px ;
+    line-height: 21px;
+    font-weight: 400;
+}
+.contact_card_heading {
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact_detail{
+    font-size: 14px;
+}
+.section-padding-footer{
+    padding-top: 40px;
+}
 }
 
 
@@ -1973,6 +2041,10 @@ body {
 
     .about-main {
         gap: 30px;
+    }
+    .footer-set{
+        display: flex;
+        justify-content: space-between;
     }
  
 
@@ -2091,6 +2163,7 @@ body {
     }
     .benefit-icon{
         justify-content: center;
+        margin-top: 50px;
     }
     .Fueling-Excellence-img img{
         width: 581px;
@@ -2124,6 +2197,10 @@ body {
       .Kalsaria-title-text{
         margin: 0;
       }
+      .section-padding-footer{
+        padding-top: 60px;
+    }
+   
 
    
 }
@@ -2161,7 +2238,7 @@ body {
         height: 500px;
     }
     .About-text{
-        justify-content: center;
+        justify-content: start;
      }
      .sparkle-button{
         display: flex;
@@ -2196,6 +2273,9 @@ body {
     }
     .facility-desc p{
         text-align: start;
+    }
+    .benefit-icon{
+        margin-top: 50px;
     }
 }
 
@@ -2262,6 +2342,9 @@ body {
      .Kalsaria-img img{
        margin-left: -50px;
      }
+     .section-padding-footer{
+        padding-top: 100px;
+    }
     
 }
 
@@ -2278,6 +2361,16 @@ body {
         justify-content: end;
         padding-right: 50px;
      }
+     .about-hero-subtext{
+        margin-top: 50px;
+     }
+     
+     .about-description p{
+        font-size: 17px;
+     }
+     .benefit-icon{
+        margin-top: 0;
+     }
 }
 
 @media(min-width:1600px) {
@@ -2289,6 +2382,14 @@ body {
     .Global-Excellence-title-main{
         padding-right: 150px;
     }
+   
+}
+@media(min-width:1800px) {
+    .about-seciton-text{
+        padding-left: 130px;
+     }
+    
+   
 }
 
 

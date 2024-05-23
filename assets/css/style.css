@@ -44,6 +44,7 @@ body {
     width: 100%;
     margin: 0 auto;
     max-width: 964px;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -1811,6 +1812,9 @@ body {
         height: 54px;
         padding: 0;
     }
+    .main-heading{
+        margin-bottom: 0;
+    }
     .facility-desc p{
         font-size: 14px;
         line-height: 21px;
@@ -2071,6 +2075,9 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .main-heading{
+        margin-bottom: 0;
+    }
     .heading_container{
         margin-bottom: 0px;
     }
@@ -2229,6 +2236,9 @@ body {
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+    .main-heading{
+        margin-bottom: 50px;
     }
     .cout{
        

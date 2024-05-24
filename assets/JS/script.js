@@ -83,12 +83,7 @@ $(document).ready(function () {
 
 
 
-    var swiper = new Swiper(".mySwiper5", {
-      pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-      },
-    });
+  
 
     var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 1,

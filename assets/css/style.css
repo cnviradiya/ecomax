@@ -36,7 +36,9 @@ body {
     width: 100%;
     padding: 0px 15px;
 }
-
+.image_with_form_container{
+    margin-top: 50px !important;
+}
 .main-heading {
     font-size: var(--heading-font);
     font-weight: var(--bold-font);
@@ -173,6 +175,7 @@ a{
 }
 
 .image_with_form_container {
+
     padding: 0 15px;
     max-width: 1212px;
     margin: 0 auto;
@@ -732,7 +735,7 @@ a{
     border: 1px solid white;
     color: white;
     background-color: transparent;
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 .about-btn-2 i{
     transition: all 0.9s;
@@ -743,19 +746,19 @@ a{
 }
 
 .btn3:hover .about-btn i{
-    transition: all 0.9s !important;
+    transition: all 0.5s !important;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
 .btn3:hover{
-    transition: all 0.9s !important;
+    transition: all 0.5s !important;
     background-color: white;
 }
 
 .btn3:hover .text{
-    transition: all 0.9s !important;
+    transition: all 0.5s !important;
 
     color: var(--text-color);
 }
@@ -776,7 +779,9 @@ a{
 .icon-text {
     margin-top: 28px;
 }
-
+.icon-text1{
+    margin-top: 10px !important;
+}
 .icon-text h3 {
     color: white;
     font-weight: 500;
@@ -1157,14 +1162,6 @@ body {
     padding-left: 9px;
 }
 
-.facility-img img {
-    object-fit: cover;
-    height: 456px;
-    width: 466px;
-    border-radius: 50%;
-    padding: 15px;
-}
-
 
 
 .facility-logo img {
@@ -1172,9 +1169,7 @@ body {
     height: auto;
 }
 
-.facility-img {
-    position: relative;
-}
+
 
 .facility-logo {
     top: 60%;
@@ -1258,19 +1253,19 @@ body {
 }
 
 .btn3:hover .about-btn i {
-    transition: all 0.9s;
+    transition: all 0.5s;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
 .btn3:hover {
-    transition: all 0.9;
+    transition: all 0.5;
     background-color: white;
 }
 
 .btn3:hover .text {
-    transition: all 0.9;
+    transition: all 0.5;
 
     color: var(--text-color);
 }
@@ -1765,7 +1760,9 @@ body {
         padding-top: 7px;
         padding-bottom: 7px;
     }
-
+    .image_with_form_container{
+        margin-top: 10px !important;
+    }
     .carousel-item-xs img {
         height: 400px;
 
@@ -1792,11 +1789,11 @@ body {
     }
 
     .benefit {
-        height: 670px;
+        height: 680px;
     }
 
     .benefit::after {
-        height: 670px;
+        height: 680px;
     }
     .benefit-text{
         gap: 20px;
@@ -1816,7 +1813,7 @@ body {
     }
     .facility-logo img{
         width: 96px;
-        height: 54px;
+   
         padding: 0;
     }
     .main-heading{
@@ -1826,6 +1823,7 @@ body {
         font-size: 14px;
         line-height: 21px;
         text-align: center;
+        margin-top: 30px;
     }
     .facility-desc{
         gap: 24px;
@@ -2082,6 +2080,9 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .image_with_form_container{
+        margin-top: 10px !important;
+    }
     .main-heading{
         margin-bottom: 0;
     }
@@ -2094,6 +2095,10 @@ body {
     .cout{
        
         margin: 18px;
+    }
+    .facility-desc p{
+
+        margin-top: 30px;
     }
     .hero-md-image img {
         height: 720px;
@@ -2247,6 +2252,9 @@ body {
     .main-heading{
         margin-bottom: 50px;
     }
+    .image_with_form_container{
+        margin-top: 50px !important;
+    }
     .cout{
        
         margin: 17px;
@@ -2381,6 +2389,10 @@ body {
      }
      .section-padding-footer{
         padding-top: 100px;
+    }
+    .Fueling-Excellence-img-text{
+        padding-left: 0;
+        padding-right: 103px;
     }
     
 }

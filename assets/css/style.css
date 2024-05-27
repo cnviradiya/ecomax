@@ -775,7 +775,7 @@ a{
     object-fit: cover;
 }
 .icon5 img {
-    width: 88px;
+ 
     height: 90px;
     object-fit: cover;
 }
@@ -2488,7 +2488,9 @@ body {
      .about-hero-subtext{
         margin-top: 50px;
      }
-    
+     .about-main{
+        gap: 0;
+     }
      .about-description p{
         font-size: 17px;
      }

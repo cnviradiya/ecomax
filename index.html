@@ -152,7 +152,7 @@
                             </div>
                             <div
                                 class="carousel-item  hero-xs-image hero-sm-image hero-md-image  hero-lg-image hero-xl-image">
-                                <img src="https://ik.imagekit.io/ecomax/assets/images/home/e7cceeee0a2578c2064ff176b7f146bc.png"
+                                <img src="https://ik.imagekit.io/ecomax/assets/images/home/hero2.png"
                                     class="d-block img-fluid" alt="images" style="width: 100%;">
                             </div>
                             <div
@@ -378,7 +378,7 @@
                                     alt="images" class="img-fluid ">
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
 
                                 <div class="swiper-slide">
                                     <div class="facility-img">
@@ -398,7 +398,7 @@
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> -->
 
 
                         </div>
@@ -711,50 +711,12 @@
 
     <!-- Start: Contact -->
 
-    <section class="Fueling-Excellence Contact section-padding">
-        <div class="container1">
-            <div class="row">
-                <div class="col-12 p-0 flex-wrap d-flex justify-content-center align-items-center">
-                    <div class="col-12 col-xl-6 Fueling-Excellence-img">
-                        <img src="https://ik.imagekit.io/ecomax/assets/images/home/fa19411efabf7ac1d6f51bc891f2804a.png"
-                            alt="images" class="col-12">
-                    </div>
-                    <div class="col-12 col-xl-6 flex-column Fueling-Excellence-img2 Fueling-Excellence-img-text ">
-                        <div class="Contact-Us-title">
-                            <h3>Contact Us</h3>
-                        </div>
-                        <div class="contact-text mt-3">
-                            <p>
-                                Connect with us for inquiries, orders or any assistance you may need. Our team is here
-                                to help you find the right lubricant solutions for your needs. Feel free to reach out
-                                via phone or email during our business hours. We look forward to hearing from you!
-                            </p>
-                        </div>
-                        <div class="contact-btn mt-4">
-                            <div class="sparkle-button">
-
-                                <div class="sparkle-button">
-
-                                    <button class="btn2">
-                                        <span class="spark"></span>
-                                        <span class="backdrop"></span>
-                                        <div class="d-flex  align-items-center">
-                                            <div
-                                                class="about-btn d-flex ms-1 align-items-center justify-content-center">
-                                                <i class="fa-solid fa-arrow-up-long"></i>
-
-                                            </div>
-                                            <div> <span class="text">Contact Us</span></div>
-                                        </div>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="map-section section-padding">
+      
+      
+                    <div id="chartdiv"></div>
+    
+      </section>
     <!-- End:  Contact -->
 
     <!-- Footer start -->
@@ -991,6 +953,459 @@
             }
         });
     </script>
+
+     <!-- Resources -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/geodata/data/countries2.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+  <!-- Chart code -->
+
+  <style>
+    #chartdiv {
+      width: 100%;
+      height: 600px
+    }
+
+    .map-section {
+      padding-bottom: 100px;
+    }
+
+    .am5-layer-30 {
+      display: none;
+    }
+
+    g[aria-labelledby="id-72-title"] {
+      display: none;
+    }
+
+    @media (max-width:768px) {
+      h2.title-contact {
+        font-size: 26px;
+        line-height: normal;
+      }
+
+      #chartdiv {
+        width: 100%;
+        height: 250px;
+      }
+    }
+  </style>
+  <script>
+
+    try {
+      // Create chart instance
+      var chart = am4core.create("chartdiv", am4maps.MapChart);
+
+      // Make the chart fade-in on init
+      chart.hiddenState.properties.opacity = 0;
+
+      // Set geodata
+      chart.geodata = am4geodata_worldLow;
+
+      // Set projection to be used
+      // @see {@link https://www.amcharts.com/docs/v4/reference/mapchart/#projection_property}
+      chart.projection = new am4maps.projections.Miller();
+
+      // Create map polygon series
+      var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+      // polygonSeries.fill= "rgba(58, 122, 67, 1)";
+
+      // Exclude Antartica
+      polygonSeries.exclude = ["AQ"];
+
+      // Make map load polygon (like country names) data from GeoJSON
+      polygonSeries.useGeodata = true;
+
+      // Configure series
+      var polygonTemplate = polygonSeries.mapPolygons.template;
+      polygonTemplate.tooltipText = "{name}";
+      polygonTemplate.polygon.fill = "rgba(58, 122, 67, .4)";
+      polygonTemplate.polygon.fillOpacity = 0.6;
+
+
+      // Create hover state and set alternative fill color
+      var hs = polygonTemplate.states.create("hover");
+      hs.properties.fill = chart.colors.getIndex(0);
+
+      // Add image series
+      var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+      imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+      imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+      imageSeries.mapImages.template.tooltipText = "{title}";
+      imageSeries.mapImages.template.propertyFields.url = "url";
+
+      var circle = imageSeries.mapImages.template.createChild(am4core.Image);
+      circle.href = "https://ik.imagekit.io/ecomax/assets/images/marker-icon.png";
+      circle.width = 30;
+      circle.height = 30;
+      circle.nonScaling = true;
+      circle.horizontalCenter = "middle";
+      circle.verticalCenter = "bottom";
+
+      var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
+      circle2.radius = 2;
+      circle2.propertyFields.fill = "color";
+
+
+      circle2.events.on("inited", function (event) {
+        animateBullet(event.target);
+      })
+
+
+      function animateBullet(circle) {
+        var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
+        animation.events.on("animationended", function (event) {
+          animateBullet(event.target.object);
+        })
+      }
+
+      var colorSet = new am4core.ColorSet();
+
+      imageSeries.data = [{
+        "tooltipText": "Myanmar",
+        "latitude": 21.916222,
+        "longitude": 95.955971,
+        "color": colorSet.next()
+      }, {
+        "title": "India",
+        "latitude": 20.593683,
+        "longitude": 78.962883,
+        "color": colorSet.next()
+      }, {
+        "title": "Iraq",
+        "latitude": 33.223190,
+        "longitude": 43.679291,
+        "color": colorSet.next()
+      }, {
+        "title": "Tanzania",
+        "latitude": -8.510342,
+        "longitude": 38.892686,
+        "color": colorSet.next()
+      }, {
+        "title": "Ghana",
+        "latitude": 7.9039267,
+        "longitude": -3.2744616,
+        "color": colorSet.next()
+      }, {
+        "title": "Taiwan",
+        "latitude": 23.6978,
+        "longitude": 120.9605,
+        "color": colorSet.next()
+      }, {
+        "title": "Chad",
+        "latitude": 15.454166,
+        "longitude": 18.732206,
+        "color": colorSet.next()
+      }, {
+        "title": "Zimbabwe",
+        "latitude": -18.9968841,
+        "longitude": 26.909101,
+        "color": colorSet.next()
+      },
+      {
+        "title": "Russia",
+        "latitude": 61.524010,
+        "longitude": 105.318756,
+        "color": colorSet.next()
+      },
+
+      {
+        "title": "Somalia",
+        "latitude": 5.2420051,
+        "longitude": 41.807918,
+        "color": colorSet.next()
+      },
+
+      {
+        "title": "Libya",
+        "latitude": 26.2999273,
+        "longitude": 12.8370978,
+        "color": colorSet.next()
+      },
+      {
+        "title": "Kazakhstan",
+        "latitude": 48.1012954,
+        "longitude": 66.7780818,
+        "color": colorSet.next()
+      },
+
+
+      {
+        "title": "Pakistan",
+        "latitude": 30.3308401,
+        "longitude": 71.247499,
+        "color": colorSet.next()
+      },
+      {
+        "title": "Cambodia",
+        "latitude": 12.5433216,
+        "longitude": 104.8144914,
+        "color": colorSet.next()
+      },
+      {
+        "title": "Brazil",
+        "latitude": -10.00000000,
+        "longitude": -55.00000000,
+        "color": colorSet.next()
+      },
+      {
+        "title": "Australia",
+        "latitude": -27.00000000,
+        "longitude": 133.00000000,
+        "color": colorSet.next()
+      },
+      {
+        "title": "Canada",
+        "latitude": 61.0666922,
+        "longitude": -107.991707,
+        "color": colorSet.next()
+      },
+      {
+        "title": "United States of America",
+        "latitude": 38.673433,
+        "longitude": -100.677040,
+        "color": colorSet.next()
+      }];
+    }
+    catch (err) { console.log(err); }
+
+//       var root = am5.Root.new("chartdiv"); 
+
+//       // Set themes
+//       root.setThemes([
+//         am5themes_Animated.new(root)
+//       ]);
+
+// // Create chart
+// var chart = root.container.children.push(
+//   am5map.MapChart.new(root, {
+//     panX: "rotateX",
+//     panY: "none",
+//     projection: am5map.geoNaturalEarth1()
+//   })
+// );
+
+// // Create polygon series
+// var polygonSeries = chart.series.push(
+//   am5map.MapPolygonSeries.new(root, {
+//     geoJSON: am5geodata_worldLow,
+//     exclude: ["AQ"],
+//     fill: "rgba(58, 122, 67, 1)"
+//   })
+// );
+
+// // GeoJSON data
+// var cities = {
+//   "type": "FeatureCollection",
+//   "features": [{
+//     "type": "Feature",
+//     "properties": {
+//       "name": "New York City"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-73.778137, 40.641312]
+//     }
+//   }, {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "London"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-0.454296, 51.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "London"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-100.454296, 51.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "US"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-80.454296, 30.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "US"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [-120.454296, 60.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "US"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [80.4577296, 45.470020]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "India"
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [20.7371635,72.1179636]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [116.597504, 40.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [210.597504, 40.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [89.597504, 70.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [120.597504, 50.072498]
+//     }
+//   },
+//   {
+//     "type": "Feature",
+//     "properties": {
+//       "name": "Beijing "
+//     },
+//     "geometry": {
+//       "type": "Point",
+//       "coordinates": [120.597504, 140.072498]
+//     }
+//   }
+// ]
+// };
+
+// // Create point series
+// var pointSeries = chart.series.push(
+//   am5map.MapPointSeries.new(root, {
+//     geoJSON: cities
+//   })
+// );
+
+// pointSeries.bullets.push(function() {
+//   return am5.Bullet.new(root, {
+//     sprite: am5.Circle.new(root, {
+//       radius: 10,
+//       // svgPath: "m2,106h28l24,30h72l-44,-133h35l80,132h98c21,0 21,34 0,34l-98,0 -80,134h-35l43,-133h-71l-24,30h-28l15,-47",
+//       fill: "#B0CB1F"
+//     })
+//   });
+// });
+  </script>
+  <script>
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 400) {
+        $(".scrollbar").addClass("show_scroll_btn");
+      }
+      else {
+        $(".scrollbar").removeClass("show_scroll_btn");
+      }
+    });
+  </script>
+  <script>
+    const contact = () => {
+      let name = document.getElementById("name");
+      let lname = document.getElementById("lname");
+      let number = document.getElementById("number");
+      let email = document.getElementById("email");
+
+      event.preventDefault();
+      if (name.value == "") {
+
+        document.getElementById("n1").innerHTML = "Please fill in this field";
+      }
+      if (lname.value == "") {
+
+        document.getElementById("l1").innerHTML = "Please fill in this field";
+      }
+      if (number.value == 10 || number.value == "") {
+
+        document.getElementById("nu1").innerHTML = "Please fill in this field";
+      }
+      if (email.value == "") {
+
+        document.getElementById("e1").innerHTML = "Please fill in this field";
+      }
+
+
+      if (name.value == "" || lname.value == " " || number.value == "" || email.value == "") {
+        console.log("enter a fild");
+      } else {
+
+        let detaform = document.getElementById("detaform")
+
+        detaform.style.display = "none";
+
+        let tank = `Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're
+          here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us
+          using the information above:`
+        let mel = ""
+
+        tank = document.getElementById("Submit-form").innerHTML = tank
+
+        $(document).ready(function () {
+        event.preventDefault();
+
+          $('#contact').click(function () {
+            $('#detaform').attr('action',
+              'Pp3681382@gmail.com?subject=' +
+              $('#name').val() + '&body=' + $('#email').val());
+            $('#detaform').submit();
+          });
+        });
+      }
+
+    }
+  </script>
+
+    
 </body>
 
 </html>

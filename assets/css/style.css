@@ -296,6 +296,7 @@ a{
     line-height: 27px;
     font-weight: 500;
 }
+
 .footer-icon-container:hover{
     background-color: var(--text-color);
     transition: all 0.5s;
@@ -445,9 +446,7 @@ a{
     position: absolute;
     right: 6%;
   }
-  .Kalsaria-title-text{
-    margin-left: 51px;
-  }
+
   .Kalsaria-text p{
     margin-top: 30px;
   }
@@ -2006,7 +2005,7 @@ body {
     margin-top: 20px;
 }
 .Kalsaria-title-text{
-    margin: 0;
+    margin: 0 !important;
 }
 .Kalsaria-img img{
     width: 212px;
@@ -2060,7 +2059,9 @@ body {
 .section-padding-footer{
     padding-top: 40px;
 }
-
+.Kalsaria-title-text{
+    margin: 0 !important;
+}
 }
 
 
@@ -2124,6 +2125,10 @@ body {
     }
     .menej-box{
         width: 581px;
+    }
+    .col-md-6-demo{
+        flex: 0 0 auto;
+        width: 47% !important;
     }
     .section-padding {
         padding-top: 60px;
@@ -2295,7 +2300,7 @@ body {
           top: 62%;
       }
       .Kalsaria-title-text{
-        margin: 0;
+        margin: 0 !important;
       }
       .section-padding-footer{
         padding-top: 60px;
@@ -2384,6 +2389,7 @@ body {
     .benefit-icon{
         margin-top: 50px;
     }
+   
 }
 
 @media(min-width:1200px) {
@@ -2417,6 +2423,10 @@ body {
         width: 100%;
         gap: 20px;
         flex-direction: column;
+    }
+    .col-md-6-demo{
+        flex: 0 0 auto;
+        width: 33.33% !important;
     }
     .benefit{
         height: 458px;
@@ -2463,7 +2473,7 @@ body {
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
-
+ 
     
 }
 
@@ -2500,7 +2510,9 @@ body {
      .cout{
         width: 300px;
     }
-   
+    .Kalsaria-title-text{
+        margin-left: 51px;
+    }
    
 }
 

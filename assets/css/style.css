@@ -2543,5 +2543,38 @@ body {
 }
 
 
+/* Lubricants */
+.Lubricants{
+    gap: 20px;
+}
+.Lubricants-title{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+    color: #3A7A43;
+}
+.Lubricants-text{
+    color: #414141;
+    line-height: 24px;
+    font-weight: 400;
+}
+.Lubricants-products{
+    margin-top: 50px;
+}
+.products{
+    width: 466px;
+    border-radius: 5px;
+    border: 1px solid #F5F5F5;
+}
+.products-icon a i{
+    transform: rotate(-45deg);
+}
+.products-title h5 a{
+    margin: 20px;
+    color: var(--green);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
 
 

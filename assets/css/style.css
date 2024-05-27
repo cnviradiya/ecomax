@@ -80,7 +80,12 @@ a{
   .btn:hover {
     background-color: var(--primary-color);
   }
-
+.footer-hover li a{
+    font-size: 18px;
+}
+.copy-right-footer div p{
+    font-size: 18px;
+}
 /* ------------- Navbar ------------- */
 
 .nav {
@@ -202,7 +207,6 @@ a{
 .connect-card-heading {
     color: var(--primary-color);
 }
-
 .wcu_card {
     padding: 0 10px;
     margin-top: 0px;
@@ -1039,23 +1043,23 @@ body {
     border: none;
     border-radius: 100px;
     background-color: var(--green);
-    transition: all 0.9s ;
+    transition: all 0.5s ;
 }
 
 .btn2:hover {
     background-color: var(--text-color);
-    transition: all 0.9s ;
+    transition: all 0.5s ;
 
 }
 .btn2 i {
     transform: rotate(45deg);
-    transition: all 0.9s ;
+    transition: all 0.5s ;
 
 }
 .btn2:hover i {
     transform: rotate(90deg);
     padding-bottom: 10px;
-    transition: all 0.9s ;
+    transition: all 0.5s ;
     padding-left: 2px;
     
 }
@@ -1260,18 +1264,15 @@ body {
 .btn3:hover .about-btn i {
     transition: all 0.5s;
     transform: rotate(90deg);
-    padding-top: 15px;
-    padding-bottom: 25px;
 }
 
 .btn3:hover {
-    transition: all 0.5;
+    transition: all 0.5s;
     background-color: white;
 }
 
 .btn3:hover .text {
-    transition: all 0.5;
-
+    transition: all 0.5s;
     color: var(--text-color);
 }
 
@@ -1329,7 +1330,7 @@ body {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
-    color: var(--green);
+    color: #3A7A43;
 }
 
 .swiper-slide .card {
@@ -1343,8 +1344,8 @@ body {
 }
 
 .card1 img {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
     width: 121px;
 }
 
@@ -1466,7 +1467,7 @@ body {
 .Fueling-Excellence-title h3 {
     font-weight: 600;
     font-size: 36px;
-    color: var(--green);
+    color: #3A7A43;
     line-height: 54px;
 }
 
@@ -1524,8 +1525,8 @@ body {
 }
 
 .Global-Excellence-title h3 {
-    color: var(--green);
-    font-size: 33px;
+    color: #3A7A43;
+    font-size: 36px;
     font-weight: 600;
     line-height: 54px;
 }
@@ -1560,7 +1561,7 @@ body {
   left: 0%;
 }
 .cout{
-    z-index: 10;
+    border-radius: 10px;
 }
 .cout5{
     width: 45% !important;
@@ -1568,6 +1569,10 @@ body {
 .cout-box{
     z-index: 5;
     box-shadow: 2px 2px 6px  0  #c3bdbd ;
+}
+.Global-box{
+    gap: 30px;
+
 }
 /* Contact */
 .Contact {
@@ -1578,7 +1583,8 @@ body {
     font-weight: 600;
     font-size: 33px;
     line-height: 54px;
-    color: var(--green);
+    color: #3A7A43;
+
 }
 
 .contact-text p {
@@ -1712,7 +1718,9 @@ body {
     line-height: 27px;
     font-size: 15px;
 }
-
+.accordion-item:first-of-type{
+    border: none !important;
+}
 .Quick-Link-sab p a img {
     padding-right: 15px;
 }
@@ -1721,6 +1729,26 @@ body {
     .heading_description{
         font-size: 14px;
         line-height: 21px;
+    }
+    .Revitalize-card{
+        width: 100% !important;
+    }
+    .count{
+        font-weight: 400;
+        line-height: 45px;
+        font-size: 30px;
+    }
+    .copy-right-footer div p{
+        font-size: 16px;
+    }
+    .text{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+    .Global-box{
+        margin-top: 24px;
+        gap: 0;
     }
     .heading_container{
         margin-bottom: 0px;
@@ -1925,13 +1953,12 @@ body {
     padding: 0;
  }
  .accordion-body p{
-    padding-right: 16px;
     font-size: 14px;
     line-height: 21px;
-    border: 0;
+    border: none;
  }
  .Fueling-text{
-    padding-right: 39px;
+    padding-right: 23px;
  }
  .Global-Excellence-title h3{
     font-size: 30px;
@@ -1949,6 +1976,7 @@ body {
    border-radius: 10px;
    margin-top: 8px;
    margin-bottom: 8px;
+   height: 145px;
 }
 .Global-Excellence-title-main{
     padding-right: 0px;
@@ -2001,6 +2029,12 @@ body {
 }
 .cout5{
     width: 100%;
+}
+.cout-sab span{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
 }
 .about-description p{
     font-size: 14px;
@@ -2066,7 +2100,6 @@ body {
     }
 
     .About-img img {
-        width: 742px;
         height: 388px;
     }
 
@@ -2097,8 +2130,17 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
+    .cout-sab span{
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 27px;
+    }
     .image_with_form_container{
         margin-top: 10px !important;
+    }
+    .card1 img{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .main-heading{
         margin-bottom: 0;
@@ -2106,12 +2148,16 @@ body {
     .heading_container{
         margin-bottom: 0px;
     }
+    .count{
+        line-height: 54px;
+        font-size: 36px;
+    }
     .cout-m{
         margin-bottom: 70px;
     }
-    .cout{
-       
-        margin: 18px;
+    .Global-box{
+        margin-top: 40px;
+        gap: 30px;
     }
     .facility-desc p{
 
@@ -2256,7 +2302,11 @@ body {
       .section-padding-footer{
         padding-top: 60px;
     }
-   
+    .cout{
+        z-index: 10;
+        width: 342px;
+        height: 181px;
+    }
 
    
 }
@@ -2272,10 +2322,7 @@ body {
     .image_with_form_container{
         margin-top: 50px !important;
     }
-    .cout{
-       
-        margin: 17px;
-    }
+
     .hero-lg-image img {
         height: 720px;
         object-fit: cover;
@@ -2369,7 +2416,7 @@ body {
     }
 
     .about-sab {
-        width: 680px;
+        width: 100%;
         gap: 20px;
         flex-direction: column;
     }
@@ -2414,6 +2461,10 @@ body {
     .facility-desc{
         gap: 50px;
     }
+    .container1{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
 
     
 }
@@ -2423,6 +2474,7 @@ body {
         width: 684px;
         gap: 20px;
         flex-direction: column;
+        
     }
     .Fueling-Excellence-width{
         width: 1212px;
@@ -2438,28 +2490,50 @@ body {
      .about-hero-subtext{
         margin-top: 50px;
      }
-     
+    
      .about-description p{
         font-size: 17px;
      }
      .benefit-icon{
         margin-top: 0;
      }
-    
+     .cout{
+        width: 300px;
+    }
    
    
 }
 
+@media(min-width:1463px) {
+    .cout{
+        width: 342px;
+    }
+}
+
 @media(min-width:1600px) {
-    .about-sab {
+    .about-sab{
         width: 755px;
         gap: 20px;
         flex-direction: column;
+     
     }
     .Global-Excellence-title-main{
-        padding-right: 150px;
+        padding-right: 141px;
     }
-   
+    .benefit-wrap{
+        display: flex;
+        gap: 194px;
+    }
+    .container1{
+        padding: 0 !important;
+    }
+   .facility-text{
+    padding-right: 30px;
+   }
+   .facility-sab{
+    padding-left: 30px;
+    padding-top: 0 !important;
+   }
 }
 @media(min-width:1800px) {
     .about-seciton-text{

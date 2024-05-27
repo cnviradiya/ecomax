@@ -1725,6 +1725,10 @@ body {
 }
 
 @media(max-width:575px) {
+    .Lubricants-products{
+       margin-top: 30px !important;
+       gap: 20px !important;
+    }
     .heading_description{
         font-size: 14px;
         line-height: 21px;
@@ -1744,6 +1748,9 @@ body {
         font-size: 16px;
         font-weight: 500;
         line-height: 19px;
+    }
+    .products-icon i{
+        font-size: 16px;
     }
     .Global-box{
         margin-top: 24px;
@@ -1799,7 +1806,26 @@ body {
         height: 400px;
 
     }
-
+    .Lubricants-title{
+        font-size: 30px !important;
+        line-height: 45px !important;
+        margin: 0;
+    }
+    .products-title h5{
+        color: #1E5F28;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 0;
+    }
+    .products-title{
+        margin: 14px !important;
+    }
+    .Lubricants-text{
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
+    }
     .About-title-xs h1 {
         font-size: 30px;
     }
@@ -2070,7 +2096,13 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
+    .Lubricants-products{
+        margin-top: 40px !important;
+        gap: 40px !important;
+    }
+    .products{
+        width: 338px !important;
+    }
     .top-bar-sm {
         padding-top: 6px;
     }
@@ -2126,9 +2158,32 @@ body {
     .menej-box{
         width: 581px;
     }
+    .products-icon i{
+        font-size: 20px;
+    }
+    .products-title h5{
+        font-size: 18px !important;
+        line-height: 27px !important;
+        font-weight: 500;
+    }
+    .products-icon i{
+        font-size: 17px !important;
+    }
+    .products-title h5{
+        color: var(--green);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    }
     .col-md-6-demo{
         flex: 0 0 auto;
         width: 47% !important;
+    }
+    .Lubricants-title{
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: 600;
+        color: #3A7A43;
     }
     .section-padding {
         padding-top: 60px;
@@ -2310,8 +2365,9 @@ body {
         width: 342px;
         height: 181px;
     }
-
-   
+    .Lubricants-products{
+        justify-content: start !important;
+    }
 }
 
 @media(min-width:992px) {
@@ -2388,6 +2444,9 @@ body {
     }
     .benefit-icon{
         margin-top: 50px;
+    }
+    .products{
+        width: 466px !important;
     }
    
 }
@@ -2473,7 +2532,14 @@ body {
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
- 
+    .products-title h5{
+        font-size: 24px !important;
+        line-height: 36px !important;
+        font-weight: 500 !important;
+    }
+    .products-icon i{
+        font-size: 20px !important;
+    }
     
 }
 
@@ -2512,6 +2578,9 @@ body {
     }
     .Kalsaria-title-text{
         margin-left: 51px;
+    }
+    .products{
+        width: 442px !important;
     }
    
 }
@@ -2572,21 +2641,27 @@ body {
 }
 .Lubricants-products{
     margin-top: 50px;
+    gap: 30px;
 }
 .products{
-    width: 466px;
+    border-radius: 5px ;
+    /* width: 458px; */
     border-radius: 5px;
     border: 1px solid #F5F5F5;
+
 }
-.products-icon a i{
+.products-icon  i{
     transform: rotate(-45deg);
+    transition: all 0.5s;
 }
-.products-title h5 a{
+.products-title{
     margin: 20px;
-    color: var(--green);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
 }
 
 
+.products:hover .products-icon  i{
+    transform: rotate(0);
+    transition: all 0.5s;
+
+
+}

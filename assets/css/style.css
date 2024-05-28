@@ -383,6 +383,10 @@ a{
 .form_field_container .col textarea::placeholder{
     color: #8A8A8A;
 }
+.section-padding1{
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+}
 .back{
     display: block;
     width: 45px;
@@ -395,7 +399,7 @@ a{
     position: fixed;
     top: 85%;
     right:40px;
-    z-index: 88888;
+    z-index: 555;
 }
   .horizontal-line {
     border-bottom: 1px solid var(--grey-color);
@@ -2088,6 +2092,10 @@ body {
 .Kalsaria-title-text{
     margin: 0 !important;
 }
+.section-padding1{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
 }
 
 
@@ -2142,7 +2150,10 @@ body {
         display: flex;
         justify-content: space-between;
     }
-    
+    .section-padding1{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
 
 }
 
@@ -2368,6 +2379,10 @@ body {
     .Lubricants-products{
         justify-content: start !important;
     }
+    .section-padding1{
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+    }
 }
 
 @media(min-width:992px) {
@@ -2448,6 +2463,10 @@ body {
     .products{
         width: 466px !important;
     }
+    .section-padding1{
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+    }
    
 }
 
@@ -2455,6 +2474,10 @@ body {
     .section-padding {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+    .section-padding1{
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
 
     .hero-xl-image img {

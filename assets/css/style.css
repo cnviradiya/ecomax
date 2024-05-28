@@ -2096,6 +2096,9 @@ body {
     padding-top: 15px !important;
     padding-bottom: 15px !important;
 }
+.products-btn{
+    padding-top: 30px !important;
+ }
 }
 
 
@@ -2196,6 +2199,10 @@ body {
         font-weight: 600;
         color: #3A7A43;
     }
+    .products-btn{
+        padding-top: 40px !important;
+     }
+     
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -2605,7 +2612,9 @@ body {
     .products{
         width: 442px !important;
     }
-   
+    .products-btn{
+        padding-top: 86px !important;
+     }
 }
 
 @media(min-width:1463px) {
@@ -2688,3 +2697,4 @@ body {
 
 
 }
+

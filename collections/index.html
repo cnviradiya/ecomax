@@ -399,6 +399,7 @@
                         collection.url = getThumbURL(collectionType, collection.collection_slug);
                         collection.img = getAssetURL("/assets/images/collections/" + collection.collection_slug + "/" + collection.collection_images[0]);
                         collection.title = collection.collection_title;
+                        
                         return collectionThumbHTML(collection)
                     
                     }) : collectionData.products.map(function(product) {

@@ -1729,7 +1729,9 @@ body {
 }
 
 @media(max-width:575px) {
+    
     .Lubricants-products{
+        justify-content: center !important;
        margin-top: 30px !important;
        gap: 20px !important;
     }
@@ -1739,6 +1741,9 @@ body {
     }
     .Revitalize-card{
         width: 100% !important;
+    }
+    .Lubricants-products{
+        justify-content: center !important;
     }
     .count{
         font-weight: 400;
@@ -2108,6 +2113,7 @@ body {
         padding-bottom: 60px;
     }
     .Lubricants-products{
+        justify-content: center !important;
         margin-top: 40px !important;
         gap: 40px !important;
     }
@@ -2174,6 +2180,9 @@ body {
     }
     .products-icon i{
         font-size: 20px;
+    }
+    .Lubricants-products{
+        justify-content: center !important;
     }
     .products-title h5{
         font-size: 18px !important;
@@ -2383,9 +2392,7 @@ body {
         width: 342px;
         height: 181px;
     }
-    .Lubricants-products{
-        justify-content: start !important;
-    }
+ 
     .section-padding1{
         padding-top: 25px !important;
         padding-bottom: 25px !important;
@@ -2570,6 +2577,9 @@ body {
     .products-icon i{
         font-size: 20px !important;
     }
+    .Lubricants-products{
+        justify-content: start !important;
+    }
     
 }
 
@@ -2615,6 +2625,7 @@ body {
     .products-btn{
         padding-top: 86px !important;
      }
+     
 }
 
 @media(min-width:1463px) {
@@ -2647,6 +2658,7 @@ body {
     padding-left: 30px;
     padding-top: 0 !important;
    }
+
 }
 @media(min-width:1800px) {
     .about-seciton-text{
@@ -2698,3 +2710,6 @@ body {
 
 }
 
+.products{
+    width: 449px !important;
+}

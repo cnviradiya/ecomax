@@ -123,7 +123,7 @@
       "collection_thumb_title": "Synthetic Car Engine Oil",
       "collection_slug": "synthetic-car-engine-oil",
       "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
-      "total_products": "3",
+      "total_products": "2",
       "collection_images": ["synthetic-car-engine-oil.png"],
       "products": [
         {
@@ -157,11 +157,247 @@
       "collection_images": ["premium-engine-oil.png"],
       "products": [
         {
-          "title": "Max 4T 20W-40",
-          "thumb_title": "Max 4T 20W-40",
-          "slug": "max-4t-20W-40",
+          "title": "TUF LUBE 20W40 CH-4 & CL/CF-4",
+          "thumb_title": "TUF LUBE 20W40 CH-4 & CL/CF-4",
+          "slug": "tuf-lube-20w40-ch-4-and-cl/cf-4",
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
-          "images": ["abc.jpg", "def.jpg"],
+          "images": ["tuf-lube-sae-20w40.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "TUF LUBE SAE 15W40 CF-4",
+          "thumb_title": "TUF LUBE SAE 15W40 CF-4",
+          "slug": "tuf-lube-sae-15w40-cf-4",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["tuf-lube-sae-15w40.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "JET LUBE SAE 15W40 CI-4",
+          "thumb_title": "JET LUBE SAE 15W40 CI-4",
+          "slug": "jet-lube-sae-15w40-ci-4",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["jet-lube-sae-15w40.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        }
+      ]
+    },
+    {
+      "collection_title": "Tractor Engine Oil",
+      "collection_thumb_title": "Tractor Engine Oil",
+      "collection_slug": "tractor-engine-oil",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "4",
+      "collection_images": ["tractor-engine-oil.png"],
+      "products": [
+        {
+          "title": "Universal Tractor Transmission Oil (UTTO Oil)",
+          "thumb_title": "Universal Tractor Transmission Oil (UTTO Oil)",
+          "slug": "universal-tractor-transmission-oil-(utto-oil)",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["utto.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Super Shakti 20W40 CF4",
+          "thumb_title": "Super Shakti 20W40 CF4",
+          "slug": "super-shakti-20W40-cf4",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["super-shakti-20w40.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Prime Shakti 15W40 CF4",
+          "thumb_title": "Prime Shakti 15W40 CF4",
+          "slug": "prime-shakti-15w40-cf4",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["prime-shakti-15w40.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Tribe Shakti 15W40 CI4",
+          "thumb_title": "Tribe Shakti 15W40 CI4",
+          "slug": "tribe-shakti-15w40-ci4",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["tribo-shakti-15w40.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        }
+      ]
+    },
+    {
+      "collection_title": "CNG Engine Oil",
+      "collection_thumb_title": "CNG Engine Oil",
+      "collection_slug": "cng-engine-oil",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "0",
+      "collection_images": ["cng-engine-oil.png"]
+    },
+    {
+      "collection_title": "Hydraulic Oil",
+      "collection_thumb_title": "Hydraulic Oil",
+      "collection_slug": "hydraulic-oil",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "0",
+      "collection_images": ["hydraulic-oil.png"]
+    },
+    {
+      "collection_title": "Gear Oil",
+      "collection_thumb_title": "Gear Oil",
+      "collection_slug": "gear-oil",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "4",
+      "collection_images": ["gear-oil.png"],
+      "products": [
+        {
+          "title": "Extreme Pressure SAE 90",
+          "thumb_title": "Extreme Pressure SAE 90",
+          "slug": "extreme-pressure-sae-90",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["sae-90.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Extreme Pressure SAE 140",
+          "thumb_title": "Extreme Pressure SAE 140",
+          "slug": "extreme-pressure-sae-140",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["sae-140.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Multi Grade SAE 80W90",
+          "thumb_title": "Multi Grade SAE 80W90",
+          "slug": "multi-grade-sae-80w90",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["sae0-80w90.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Multi Grade SAE 85W140",
+          "thumb_title": "Multi Grade SAE 85W140",
+          "slug": "multi-grade-sae-85w140",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["sae-85w140.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        }
+      ]
+    },
+    {
+      "collection_title": "Heavy Duty Coolant",
+      "collection_thumb_title": "Heavy Duty Coolant",
+      "collection_slug": "heavy-duty-coolant",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "2",
+      "collection_images": ["heavy-duty-coolant.png"],
+      "products": [
+        {
+          "title": "ECOcool Heavyduty",
+          "thumb_title": "ECOcool Heavyduty",
+          "slug": "ecocool-heavyduty",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["ecocool-heavyduty.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "ECOpso Heavyduty Pump Set Oil SAE 40",
+          "thumb_title": "ECOpso Heavyduty Pump Set Oil SAE 40",
+          "slug": "ecopso-heavyduty-pump-set-oil-sae-40",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["ecopso-heavyduty.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        }
+      ]
+    },
+    {
+      "collection_title": "Brake Fluid & Fork Oil",
+      "collection_thumb_title": "Brake Fluid & Fork Oil",
+      "collection_slug": "brake-fluid-and-fork-oil",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "3",
+      "collection_images": ["brake-fluid-oil.png"],
+      "products": [
+        {
+          "title": "Brake Fluid Dot 3",
+          "thumb_title": "Brake Fluid Dot 3",
+          "slug": "brake-fluid-dot-3",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["brake-fluid-dot-3.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Brake Fluid Dot 4",
+          "thumb_title": "Brake Fluid Dot 4",
+          "slug": "brake-fluid-dot-4",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["brake-fluid-dot-4.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "Fork Oil",
+          "thumb_title": "Fork Oil",
+          "slug": "fork-oil",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["fork-oil.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        }
+      ]
+    }, 
+    {
+      "collection_title": "Premium Oil",
+      "collection_thumb_title": "Premium Oil",
+      "collection_slug": "premium-oil",
+      "collection_description": "Revitalize Your Ride: Ecomax Two-Wheeler Engine Oil, the ultimate companion for your motorcycle or scooter. Crafted with precision and tailored for performance, our range of lubricants is designed to elevate your two-wheeled experience. Whether you're cruising through city streets or conquering rugged terrains, trust Ecomax to deliver unmatched smoothness and durability for your engine. Embrace the journey with confidence, knowing that Ecomax has your ride covered, mile after exhilarating mile.",
+      "total_products": "2",
+      "collection_images": ["premium-oil.png"],
+      "products": [
+        {
+          "title": "2T Power",
+          "thumb_title": "2T Power",
+          "slug": "2t-power",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["2t-power.png"],
+          "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
+          "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
+          "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]
+        },
+        {
+          "title": "ATO GM DEXRON",
+          "thumb_title": "ATO GM DEXRON",
+          "slug": "ato-gm-dexron",
+          "description": "Discover unmatched performance and unparalleled reliability with Ecomax's Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
+          "images": ["ato.png"],
           "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
           "features": ["Superior Protection: Max 4T 20W-40 provides exceptional protection for your motorcycle's engine, ensuring it runs smoothly, reducing wear and tear, and extending the engine's overall lifespan.", "Enhanced Performance: The advanced formulation of this oil boosts your bike’s throttle response and acceleration, delivering smoother and more powerful performance across all riding conditions.", "Cleansing Properties: This oil prevents the formation of sludge and deposits, keeping your engine clean, enhancing performance, and promoting a longer, healthier engine life", "Fuel Efficiency: By reducing internal engine friction, this oil improves your bike's fuel efficiency, allowing for better mileage and cost savings on fuel, while maintaining optimal engine performance."],
           "recommendation": ["Perfect for all types of 4-stroke motorcycles: Whether you ride a commuter bike, a cruiser, or a sportbike, Max 4T 20W-40 is tailored to meet the needs of various motorcycle types, ensuring optimal performance and protection.", "Ideal for high-performance and regular use: Whether you're a weekend rider or a daily commuter, Max 4T 20W-40 is designed to withstand the demands of high-performance engines and regular use, providing consistent performance and protection.", "Reliable in urban, highway, and off-road conditions: No matter where your adventures take you, Max 4T 20W-40 offers reliable performance and protection, ensuring your engine remains protected and performs efficiently in all riding conditions, from city streets to rugged off-road terrain."]

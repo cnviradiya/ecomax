@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="https://ik.imagekit.io/ecomax/assets/images/home/Favicon icon - Ecomax (1).png">
-    
+
     <link rel="stylesheet" href="/assets/css/style.css">
     
     <script src="https://ik.imagekit.io/ecomax/assets/JS/init.js?time=1" defer></script>
@@ -55,17 +55,17 @@
                                 <a href="/">HOME</a>
                             </li>
                             <li>
-                                <a href="products.html" class="text-success">PRODUCTS</a>
+                                <a href="/collections/index.html" class="text-success">PRODUCTS</a>
                             </li>
 
                             <li>
-                                <a href="about.html">ABOUT US </a>
+                                <a href="/about.html">ABOUT US </a>
                             </li>
                             <li>
-                                <a href="career.html">CAREER</a>
+                                <a href="/career.html">CAREER</a>
                             </li>
                             <li>
-                                <a href="contactus.html">CONTACT US</a>
+                                <a href="/contactus.html">CONTACT US</a>
                             </li>
                         </ul>
                     </div>
@@ -96,17 +96,17 @@
                                         <a href="/">HOME</a>
                                     </li>
                                     <li class="m-2">
-                                        <a href="products.html" class="text-success">PRODUCTS</a>
+                                        <a href="/collections/index.html" class="text-success">PRODUCTS</a>
                                     </li>
 
                                     <li class="m-2">
-                                        <a href="about.html">ABOUT US </a>
+                                        <a href="/about.html">ABOUT US </a>
                                     </li>
                                     <li class="m-2">
-                                        <a href="career.html">CAREER</a>
+                                        <a href="/career.html">CAREER</a>
                                     </li>
                                     <li class="m-2">
-                                        <a href="contactus.html">CONTACT US</a>
+                                        <a href="/contactus.html">CONTACT US</a>
                                     </li>
                                 </ul>
                             </div>
@@ -174,7 +174,7 @@
                                         <a href="/" class="link-light text-decoration-none ">Home</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                                        <a href="products.html"
+                                        <a href="/collections/index.html"
                                             class="link-light text-decoration-none text-success1">Product</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
@@ -205,7 +205,7 @@
                                                 <a href="/" class="link-light text-decoration-none ">Home</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
-                                                <a href="products.html"
+                                                <a href="/collections/index.html"
                                                     class="link-light text-decoration-none text-success1">Product</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
@@ -223,11 +223,11 @@
                                 <h5 class="mb-4 footer_heading">Company</h5>
                                 <ul class="list-group footer-hover">
                                     <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2"><a
-                                            href="about.html" class="link-light text-decoration-none">About Us</a></li>
+                                            href="/about.html" class="link-light text-decoration-none">About Us</a></li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2"><a
-                                            href="career.html" class="link-light text-decoration-none ">Career</a></li>
+                                            href="/career.html" class="link-light text-decoration-none ">Career</a></li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2"><a
-                                            href="contactus.html" class="link-light text-decoration-none">Contact Us</a>
+                                            href="/contactus.html" class="link-light text-decoration-none">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -341,7 +341,7 @@
         </div>
         <div class="copy-right-footer col-md-12 position-relative">
             <div class="d-flex justify-content-center align-items-center">
-                <p class="m-0 text-light">© 2024 ECOMAX. All rights reserved</p>
+                <p class="m-0 text-light">© 2024 ECOMAX. All rights reserved</p><a href="/collections/two-wheeler-engine-oil.html"></a>
             </div>
         </div>
     </footer>
@@ -357,16 +357,16 @@
                 "/assets/JS/script.js",
                 "/assets/JS/db.js"
             ]);
-            const collectionThumbHTML = ({ url, img, collection_title }) => `<div class="products">
-                        <a href="${url}.html" >
+            const collectionThumbHTML = ({ url, img, title }) => `<div class="products">
+                        <a href="${url}">
                             <div class="products-img"">
                                 <img src="${img}"
-                                    alt="${collection_title}" class="img-fluid col-12">
+                                    alt="${title}" class="img-fluid col-12">
                             </div>
                             <div class="products-title">
                                 <div class="d-flex justify-content-between">
                                     <h5>
-                                        ${collection_title}
+                                        ${title}
                                     </h5>
                                     <h5 class="products-icon">
                                         <i class="fa-solid fa-arrow-right"></i>
@@ -376,16 +376,36 @@
                         </a>
                     </div>`;
 
-
+            const getThumbURL = (type, slug) => {
+                return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" +  slug;
+            }
             setTimeout(async function() {
-                const collectionData = await loadCollectionData();
+                // Query parameter
+                let urlParams = new URLSearchParams(window.location.search);
+                let collectionSlug = urlParams.get('s');
+                let collectionType = "all";
+                
+                if (collectionSlug) {
+                    collectionType = "collection";
+                } else {
+                    collectionSlug = "";
+                }
+                const collectionData = await loadCollectionData(collectionType, collectionSlug);
+                console.log(collectionData);
                 //
                 $('#contentDiv').html(
+                    collectionType == 'all' ?
                     collectionData.map(function(collection) {
-                        collection.url = "/collections/" + collection.collection_slug;
+                        collection.url = getThumbURL(collectionType, collection.collection_slug);
                         collection.img = getAssetURL("/assets/images/collections/" + collection.collection_slug + "/" + collection.collection_images[0]);
                         collection.title = collection.collection_title;
                         return collectionThumbHTML(collection)
+                    
+                    }) : collectionData.products.map(function(product) {
+                        product.url = getThumbURL(collectionType, product.slug);
+                        product.img = getAssetURL("/assets/images/collections/" + collectionData.collection_slug + "/products/" + product.images[0]);
+                        product.title = product.title;
+                        return collectionThumbHTML(product)
                     
                     })
                 );

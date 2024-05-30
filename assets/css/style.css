@@ -2666,8 +2666,6 @@ body {
      }
 
 }
-
-
 /* Lubricants */
 .Lubricants{
     gap: 20px;
@@ -2692,7 +2690,6 @@ body {
     /* width: 458px; */
     border-radius: 5px;
     border: 1px solid #F5F5F5;
-
 }
 .products-icon  i{
     transform: rotate(-45deg);
@@ -2701,15 +2698,155 @@ body {
 .products-title{
     margin: 20px;
 }
-
-
 .products:hover .products-icon  i{
     transform: rotate(0);
     transition: all 0.5s;
-
-
 }
-
 .products{
     width: 449px !important;
 }
+/* product_details_Start */
+.product-images{
+
+    width: 591px;
+}
+.product-main-images{
+    cursor: pointer;
+    height: 500px;
+}
+.product-sab-images{
+
+    display: flex;
+    gap: 10px;
+    margin-top: 20px !important;
+    height: 155px !important;
+}
+.product-sab-images .swiper-slide{
+    cursor: pointer;
+    border-radius: 5px;
+    width: 183px !important;
+    height: 155px !important;
+}
+.product_details_next , .product_details_prev{
+    border: 1px solid #1E5F28;
+    background-color: transparent;
+    transform: rotate(0) !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.product_details_next{
+    right: 0 !important;
+}
+.product_details_prev{
+    left: 0 !important;
+}
+.product_details_next i{
+    color:  #1E5F28 ;
+}
+.product_details_prev i{
+    color:  #1E5F28 ;
+
+}
+.product_details_next i{
+    font-size: 12px;
+}
+.product_details_prev i{
+    font-size: 12px;
+}
+.product_details_prev i:hover{
+    transform: rotate(0) !important;
+}
+.product_details_next i:hover{
+    transform: rotate(0) !important;
+}
+.product_details_prev:hover i{
+    transform: rotate(0) !important;
+    color: white !important;
+
+}
+.product_details_next:hover i{
+    transform: rotate(0) !important;
+    color: white !important;
+
+}
+
+.details{
+    gap: 30px;
+}
+.product_details_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.product_details_title h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #3A7A43;
+}
+.product_details_title p{
+  line-height: 24px;
+  font-weight: 400;
+  color: #414141;
+}
+.product_border{
+    margin-top: 20px;
+    border: 1px solid #1e5f2836;
+}
+.product-icon{
+    margin-top: 20px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.product-icon .icon{
+    width: 187px;
+}
+.product-icon .icon p{
+    font-weight: 400;
+    line-height: 24px;
+    color: #414141;
+    padding-top: 15px;
+}
+.Available_Size h2{
+    margin-top: 20px;
+}
+.Available_Size p {
+    color: #414141;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.product_btn{
+    margin-top: 20px;
+}
+.Key_Features h2{
+    font-weight: 500;
+    color: #1E5F28;
+    line-height: 36px;
+    font-size: 24px;
+}
+.Key_Features_sab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Key_Features-text{
+    margin: 0;
+}
+.Key_Features-text li{
+    color: #414141;
+    line-height: 24px;
+    font-weight: 400;
+}
+.features-recommendation{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Similar-Products-title h2{
+    color: #3A7A43;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+/* product_details_End */

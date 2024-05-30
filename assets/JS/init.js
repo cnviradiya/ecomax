@@ -25,3 +25,11 @@ function loadJS1(jsArr) {
         document.body.appendChild(scriptTag);
     })
 }
+
+function loadJS2(jsArr) {
+    jsArr.map(function (jsPath) {
+        let scriptTag = document.createElement('script');
+        scriptTag.setAttribute('src', getAssetURL(jsPath));
+        document.body.appendChild(scriptTag);
+    })
+}

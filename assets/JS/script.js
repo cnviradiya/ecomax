@@ -80,7 +80,28 @@ $(document).ready(function () {
       }
     });
 
-
+    var swiper = new Swiper('.Similar_Products', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+      }
+    });
 
 
   
@@ -137,6 +158,24 @@ if($('.counter1').length > 0) {
   });
 }
 
+var swiper = new Swiper(".products_detail", {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 3,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".products_detail2", {
+  loop: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
 
 
 

@@ -2367,6 +2367,9 @@ body {
         font-weight: 600;
         color: #3A7A43;
     }
+    .products{
+        width: 338px !important;
+    }
     .products-btn{
         padding-top: 40px !important;
      }
@@ -2598,7 +2601,7 @@ body {
     .Similar_Products_prev{
         left: 82%  !important;
     }
-    ..product_btn_bak{
+    .product_btn_bak{
         margin-top: 40px !important;
     }
 }
@@ -3034,7 +3037,7 @@ body {
     transition: all 0.5s;
 }
 .products{
-    width: 449px !important;
+    /* width: 449px !important; */
 }
 /* product_details_Start */
 .product-images{

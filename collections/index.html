@@ -413,7 +413,7 @@
                             ) : collectionData.products.map(function (product) {
                                 product.url = getThumbURL(collectionType, product.slug, collectionData.collection_slug);
                                 product.img = getAssetURL("/assets/images/collections/" + collectionData.collection_slug + "/products/" + product.images[0]);
-                                product.title = product.title;
+                                product.title = product.thumb_title;
                                 return collectionThumbHTML(product)
 
                             }) 

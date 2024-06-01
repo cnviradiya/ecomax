@@ -56,7 +56,7 @@
                                 <a href="/">HOME</a>
                             </li>
                             <li>
-                                <a href="/collections/index.html" class="text-success">PRODUCTS</a>
+                                <a href="/collections/" class="text-success">PRODUCTS</a>
                             </li>
 
                             <li>
@@ -97,7 +97,7 @@
                                         <a href="/">HOME</a>
                                     </li>
                                     <li class="m-2">
-                                        <a href="/collections/index.html" class="text-success">PRODUCTS</a>
+                                        <a href="/collections/" class="text-success">PRODUCTS</a>
                                     </li>
 
                                     <li class="m-2">
@@ -128,8 +128,8 @@
                     <div class="product-images">
                         <div class="swiper products_detail2 product-main-images">
                             <div class="swiper-wrapper m-0">
-                                <div class="swiper-slide">
-                                    <img src="https://ik.imagekit.io/ecomax/assets/images/collections/two-wheeler-engine-oil/products/product_details/Max 4T 20W-40.png "
+                                <div class="swiper-slide " >
+                                    <img data-images  src="https://ik.imagekit.io/ecomax/assets/images/collections/two-wheeler-engine-oil/products/product_details/Max 4T 20W-40.png "
                                         class="img-fluid" height="100%" />
                                 </div>
                                 <div class="swiper-slide">
@@ -276,7 +276,7 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Key Features End -->
 
     <!-- Similar Products Start -->
@@ -422,7 +422,7 @@
                     </div>
                 </div>
                 <div class="product_btn product_btn_bak d-flex justify-content-center">
-                   <a href="/collections/index.html">
+                   <a href="/collections/">
                         <button class="btn_back">
                             <div class="d-flex align-items-center">
                                 <div class="about-btn d-flex back_btn align-items-center justify-content-center">
@@ -471,8 +471,8 @@
                                         <a href="/" class="link-light text-decoration-none ">Home</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                                        <a href="/collections/index.html"
-                                            class="link-light text-decoration-none text-success1">Product</a>
+                                        <a href="/collections/"
+                                            class="link-light text-decoration-none text-success1">Products</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
                                         <a href="#" class="link-light text-decoration-none">Brochure</a>
@@ -502,8 +502,8 @@
                                                 <a href="/" class="link-light text-decoration-none ">Home</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
-                                                <a href="/collections/index.html"
-                                                    class="link-light text-decoration-none text-success1">Product</a>
+                                                <a href="/collections/"
+                                                    class="link-light text-decoration-none text-success1">Products</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
                                                 <a href="#" class="link-light text-decoration-none">Brochure</a>
@@ -694,6 +694,7 @@
                     if (productSlug && collectionSlug) {
                         const productData = await loadCollectionData('product', productSlug, collectionSlug);
                         console.log(productData);
+                       
                         // Image slider
                         
                         // Product Right side Title

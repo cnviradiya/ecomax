@@ -26,7 +26,9 @@
 g[aria-labelledby="id-72-title"] {
     display: none;
 }
-
+.cout-box{
+    height: 180px;
+}
 @media (max-width:768px) {
     h2.title-contact {
         font-size: 26px;
@@ -38,11 +40,19 @@ g[aria-labelledby="id-72-title"] {
         height: 250px;
     }
 }
-
+.revitalize-card-body{
+    height: 90px;
+}
 body {
     font-family: "Poppins", sans-serif;
 }
-
+.next_previous{
+    line-height: 43px;
+}
+.About-des_text{
+   border-bottom: 1px solid  #F5F5F5;
+    padding-bottom: 20px;
+}
 :root {
     --primary-color: rgba(58, 122, 67, 1);
     --dark-primary-color: rgba(18, 67, 25, 1);

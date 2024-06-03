@@ -2264,6 +2264,7 @@ body {
         height: 243.27px !important;
     }
     .product-sab-images{
+        gap: 0 !important;
         margin-top: 10px !important;
     }
     .product-sab-images .product-img{
@@ -2305,6 +2306,7 @@ body {
         height: 280.27px !important;
     }
     .product-sab-images{
+        gap: 0 !important;
         margin-top: 10px !important;
     }
     .product-sab-images .product-img{
@@ -2664,6 +2666,7 @@ body {
         height: 605.27px !important;
     }
     .product-sab-images{
+        gap: 7px !important;
         margin-top: 10px !important;
     }
     .product-sab-images .product-img{
@@ -3153,7 +3156,13 @@ body {
     height: 155px !important;
     color: white;
     display: flex;
-    justify-content: space-between;
+    gap: 9px;
+}
+.Available_Size h1{
+    font-size: 24px ;
+    color: #1E5F28;
+    line-height: 36px;
+    font-weight: 500;
 }
 .product-sab-images .swiper-slide{
     cursor: pointer;

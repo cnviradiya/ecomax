@@ -3,6 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+.faq-detail{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--white);
+    padding: 8px;
+    background-color: transparent;
+    text-align: start;
+    border-radius:3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#chartdiv {
+    width: 100%;
+    height: 450px
+}
+
+.am5-layer-30 {
+    display: none;
+}
+
+g[aria-labelledby="id-72-title"] {
+    display: none;
+}
+
+@media (max-width:768px) {
+    h2.title-contact {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    #chartdiv {
+        width: 100%;
+        height: 250px;
+    }
+}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -25,10 +60,36 @@ body {
     --semi-bold-font: 500;
     --regular-font: 400;
 }
-
+.position-rel{
+    position: relative;
+}
 .show_scroll_btn{
     display: block !important;
 }
+.border-top{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    transition: all 10s;
+
+  }
+  .panel1 {
+
+    transition: all 10s;
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 
 .page_width {
     max-width: 1460px;
@@ -105,9 +166,15 @@ a{
 .navbar-nav .nav-link.active {
     color: var(--primary-color);
 }
-
+.wcu-card-container p {
+    color: #414141;
+}
 /* ------------- Career Form Section ------------- */
-
+.Choose-card{
+    height: 358px;
+    background-color: white;
+    
+}
 .career-form-btn{
     margin-left: 5px;
     margin-bottom: 66px;
@@ -249,27 +316,25 @@ a{
     border: 1px solid #D2DFD4;
     width: calc(33.33% - 12px);
     padding: 30px;
-    transition: transform .2s; /* Animation */
+    transition: transform .8s ; /* Animation */
 }
 .contact_card:hover{
     cursor: pointer;
 
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.010); 
 }
-.contact_card_heading {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 500;
+.contact_card_hover{
+    transition: transform .8s ; /* Animation */
+    cursor: pointer;
+
 }
+
 .contact_detail {
     word-wrap: break-word;
     word-break: break-all;
 }
-
-
-
 /* footer section */
 .footer_inner {
     background-image: url('../images/footer/footermask-green.png'), url('../images/footer/footer-mask.png');
@@ -1572,9 +1637,13 @@ body {
    right: 0;
 }
 .img-set{
+    width: 100%;
     position: absolute;
-  top: 13%;
+  top: 10% !important;
   left: 0%;
+}
+.img-set img{
+    width: 20%;
 }
 .cout{
     border-radius: 10px;
@@ -2041,9 +2110,7 @@ body {
 .message_field{
     height: 92px !important;
 }
-.img-set{
-  top: 1%;
-}
+
 .befor-img{
     top: 78%;
 }
@@ -2166,7 +2233,9 @@ body {
 .product_btn_bak{
     margin-top: 30px !important;
 }
-
+.img-set{
+    top: 1% !important;
+  }
 }
 @media(max-width:320px) {
     .products-btn{
@@ -2379,6 +2448,9 @@ body {
         font-weight: 600;
         color: #3A7A43;
     }
+    .img-set{
+        top: 1% !important;
+      }
     .products{
         width: 338px !important;
     }
@@ -2549,9 +2621,7 @@ body {
     .message_field{
         height: 92px !important;
     }
-    .img-set{
-        top: 1%;
-      }
+ 
       .befor-img{
           top: 62%;
       }
@@ -2585,7 +2655,6 @@ body {
     }
     .product-sab-images{
         margin-top: 10px !important;
-        gap: 20px !important;
     }
     .product-sab-images .product-img{
         width: 230px !important;
@@ -2731,7 +2800,9 @@ body {
     .Similar_Products_prev{
         left: 84% !important;
     }
-   
+    .img-set img {
+        width: 14%;
+    }
 }
 
 @media(min-width:1200px) {
@@ -2987,6 +3058,9 @@ body {
         flex-direction: column;
      
     }
+    .img-set{
+        top: 6% !important;
+      }
     .Global-Excellence-title-main{
         padding-right: 141px;
     }
@@ -3060,11 +3134,16 @@ body {
     cursor: pointer;
     height: 500px;
 }
+.new-products img{
+    width: 100%;
+}
 .product-sab-images{
     margin-top: 20px !important;
     display: flex;
-    gap: 10px;
     height: 155px !important;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 .product-sab-images .swiper-slide{
     cursor: pointer;

@@ -169,8 +169,8 @@ var swiper2 = new Swiper(".products_detail2", {
   loop: true,
   spaceBetween: 10,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".product_details_next",
+    prevEl: ".product_details_prev",
   },
   thumbs: {
     swiper: swiper,

@@ -176,6 +176,9 @@
           "slug": "10w40-synthetic",
           "description": "Discover the ultimate in synthetic lubrication with Ecomax 10W40. Enhance your riding experience with our formula, designed for maximum engine protection and peak performance. Ecomax delivers outstanding reliability and efficiency, trusted by riders globally.",
           "images": ["10W40-synthetic-technology.png"],
+          "new_products": [
+            "10w40-synthetic-technology.png"
+           ],
           "sizes": "1 Ltr",
           "features": [
             "Superior Engine Protection: Ecomax 10W40 ensures optimal engine performance, minimizing wear and extending engine life with its advanced synthetic formula.",
@@ -195,6 +198,9 @@
           "slug": "10w50-synthetic",
           "description": "Discover the ultimate in synthetic lubrication with Ecomax 10W50. Enhance your riding experience with our formula, designed for maximum engine protection and peak performance. Ecomax delivers outstanding reliability and efficiency, trusted by riders globally.",
           "images": ["10W40-synthetic-technology.png"],
+          "new_products": [
+            "10w50-synthetic-technology.png"
+           ],
           "sizes": "1 Ltr",
           "features": [
             "Superior Engine Protection: Ecomax 10W50 ensures optimal engine performance, minimizing wear and extending engine life with its advanced synthetic formula.",

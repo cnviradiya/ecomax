@@ -1040,7 +1040,13 @@ body {
 
     background-color: var(--green);
 }
-
+.email-web{
+    height: 15px;
+}
+.card-img-top{
+    height: 300px;
+    width: 69%;
+}
 .ero {
     background-color: var(--green);
 }
@@ -1081,8 +1087,11 @@ body {
 .About-us-con {
     padding-left: 32px;
 }
-
-.About-text p {
+.addres{
+    height: 21px ;
+    width: 16px;
+}
+.About-text .text-us {
     color: #1F1F1F;
     font-size: 18px;
     font-weight: 400;

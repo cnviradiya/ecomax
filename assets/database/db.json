@@ -574,6 +574,10 @@
           "slug": "extreme-pressure-sae-90",
           "description": "Discover exceptional gear protection with Ecomax Extreme Pressure SAE 90 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae-90.png"],
+          "new_products": [
+            "extreme-pressure-sae-90.png",
+            "extreme-pressure-sae-100.png"
+          ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
             "Exceptional Gear Protection: Ecomax Extreme Pressure SAE 90 provides superior gear protection, significantly reducing wear and extending the lifespan of your vehicle’s gears with its advanced formulation.",
@@ -593,6 +597,10 @@
           "slug": "extreme-pressure-sae-140",
           "description": "Discover exceptional gear protection with Ecomax Extreme Pressure SAE 140 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae-140.png"],
+          "new_products": [
+            "extreme-pressure-sae-140.png",
+            "extreme-pressure-sae-1l.png"
+          ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
             "Exceptional Gear Protection: Ecomax Extreme Pressure SAE 140 provides superior gear protection, significantly reducing wear and extending the lifespan of your vehicle’s gears with its advanced formulation.",
@@ -612,6 +620,10 @@
           "slug": "multi-grade-sae-80w90",
           "description": "Discover exceptional gear protection with Ecomax Multi Grade SAE 80W90 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae0-80w90.png"],
+          "new_products": [
+            "multi-grade-sae-80w90.png",
+            "multi-grade-sae-80w100.png"
+          ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features":[
             "Exceptional Gear Protection: Ecomax Multi Grade SAE 80W90 provides superior gear protection, significantly reducing wear and extending the lifespan of your vehicle’s gears with its advanced formulation.",
@@ -631,6 +643,10 @@
           "slug": "multi-grade-sae-85w140",
           "description": "Discover exceptional gear protection with Ecomax Multi Grade SAE 85W140 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae-85w140.png"],
+          "new_products": [
+            "ecomax-multi-grade-sae-85w40.png",
+            "ecomax-multi-grade-sae-85w100.png"
+          ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
             "Exceptional Gear Protection: Ecomax Multi Grade SAE 85W140 provides superior gear protection, significantly reducing wear and extending the lifespan of your vehicle’s gears with its advanced formulation.",
@@ -660,6 +676,10 @@
           "slug": "ecocool-heavyduty",
           "description": "Discover superior engine cooling with Ecomax ECOcool Heavyduty. Enhance your vehicle's performance with our advanced formula, designed for exceptional heat dissipation and optimal efficiency. Ecomax Heavy Duty Coolant ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["ecocool-heavyduty.png"],
+          "new_products": [
+            "ecomax-ecocool-heavyduty.png",
+            "ecomax-ecocool-heavyduty1l.png"
+          ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 26 ltr, 55 ltr, 210 ltr",
           "features": [
             "Superior Engine Cooling: Ecomax ECOcool Heavyduty Coolant provides exceptional heat dissipation, significantly reducing engine temperatures and preventing overheating with its advanced formulation.",
@@ -679,6 +699,10 @@
           "slug": "ecopso-heavyduty-pump-set-oil-sae-40",
           "description": "Discover superior engine cooling with Ecomax ECOpso Heavyduty Pump Set Oil SAE 40. Enhance your vehicle's performance with our advanced formula, designed for exceptional heat dissipation and optimal efficiency. Ecomax ECOpso Heavy Duty Coolant ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["ecopso-heavyduty.png"],
+          "new_products": [
+            "heavyduty-pump-set-oil-sae-40.png",
+            "heavyduty-pump-set-oil-sae-100.png"
+          ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 26 ltr, 55 ltr, 210 ltr",
           "features": [
             "Superior Engine Cooling: Ecomax ECOpso Heavyduty Coolant provides exceptional heat dissipation, significantly reducing engine temperatures and preventing overheating with its advanced formulation.",
@@ -708,6 +732,9 @@
           "slug": "brake-fluid-dot-3",
           "description": "Discover unmatched braking performance with Ecomax Brake Fluid Dot 3. Elevate your vehicle's safety and responsiveness with our advanced formula, designed for exceptional heat resistance and optimal efficiency. Ecomax Brake Fluid ensures outstanding reliability and durability, trusted by drivers and mechanics worldwide.",
           "images": ["brake-fluid-dot-3.png"],
+          "new_products": [
+            "brake-fluid-dot-3.png"
+          ],
           "sizes": "100 ml, 250 ml, 500ml",
           "features": [
             "Superior Brake Performance: Ecomax Brake Fluid Dot 3 delivers exceptional braking efficiency, significantly improving responsiveness and reducing stopping distances with its advanced formulation.",
@@ -727,6 +754,9 @@
           "slug": "brake-fluid-dot-4",
           "description": "Discover unmatched braking performance with Ecomax Brake Fluid Dot 4. Elevate your vehicle's safety and responsiveness with our advanced formula, designed for exceptional heat resistance and optimal efficiency. Ecomax Brake Fluid ensures outstanding reliability and durability, trusted by drivers and mechanics worldwide.",
           "images": ["brake-fluid-dot-4.png"],
+          "new_products": [
+            "brake-fluid-dot-4.png"
+          ],
           "sizes": "100 ml, 250 ml, 500ml",
           "features": [
             "Superior Brake Performance: Ecomax Brake Fluid Dot 4 delivers exceptional braking efficiency, significantly improving responsiveness and reducing stopping distances with its advanced formulation.",
@@ -746,6 +776,9 @@
           "slug": "fork-oil",
           "description": "Discover superior suspension performance with Ecomax Fork Oil. Enhance your ride's comfort and handling with our advanced formula, designed for exceptional shock absorption and optimal efficiency. Ecomax Fork Oil ensures outstanding reliability and durability, trusted by riders and mechanics worldwide.",
           "images": ["fork-oil.png"],
+          "new_products": [
+            "fork-oil.png"
+          ],
           "sizes": "100 ml, 250 ml, 500ml",
           "features": [
             "Experience unparalleled suspension performance with Ecomax ShockGuard Fork Oil. Elevate your ride's comfort and stability with our advanced formula, meticulously crafted for superior shock absorption and optimal damping characteristics. Ecomax ShockGuard Fork Oil ensures exceptional reliability and durability, trusted by riders and mechanics worldwide."
@@ -772,6 +805,10 @@
           "slug": "2t-power",
           "description": "Experience superior engine protection with Ecomax 2T Power JASO FC . Elevate your vehicle's performance with our advanced formula, meticulously crafted for optimal lubrication and enhanced engine efficiency. Ecomax 2T Power ensures outstanding reliability and durability, trusted by riders and mechanics worldwide.",
           "images": ["2t-power.png"],
+          "new_products": [
+            "ecomax-1t-power-jaso-fc.png",
+            "ecomax-2t-power-jaso-fc.png"
+          ],
           "sizes": "500 ml, 1 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
             "Experience the ultimate in engine performance with Ecomax 2T Power. Our specially formulated oil is designed to unleash the full potential of your vehicle's engine, providing unparalleled lubrication and enhancing overall efficiency. Whether you're cruising down city streets or tackling rugged terrain, Ecomax 2T Power ensures exceptional reliability and durability, trusted by riders and mechanics worldwide for its ability to deliver consistent power and performance, ride after ride. With Ecomax 2T Power, you can push your vehicle to new limits and conquer any challenge with confidence."
@@ -786,6 +823,10 @@
           "slug": "ato-gm-dexron",
           "description": "Unlock exceptional transmission performance with ATO GM DEXRON. Crafted for smooth operation and optimal lubrication, our advanced formula ensures reliable efficiency and durability for your vehicle. Trusted by drivers and mechanics worldwide, ATO GM DEXRON guarantees consistent performance in various driving conditions, keeping your transmission running smoothly.",
           "images": ["ato.png"],
+          "new_products": [
+            "ecomax-ato-gm-dexron.png",
+            "ecomax-ato-gm-dexron1.png"
+          ],
           "sizes": "500 ml, 1 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
             "Experience unmatched transmission performance with ATO GM DEXRON. Engineered for smooth operation and optimal lubrication, our advanced formula ensures reliable efficiency and durability for your vehicle's transmission system. Trusted by drivers and mechanics worldwide, ATO GM DEXRON guarantees consistent performance in diverse driving conditions, ensuring your transmission runs seamlessly mile after mile. With ATO GM DEXRON, conquer any road with confidence, knowing your vehicle is equipped with top-quality fluid for superior transmission performance."

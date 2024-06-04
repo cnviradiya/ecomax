@@ -1662,7 +1662,9 @@ body {
   left: 0%;
 }
 .img-set img{
-    width: 20%;
+ 
+    height:100%; 
+    width:100px;
 }
 .cout{
     border-radius: 10px;
@@ -1828,7 +1830,9 @@ body {
 .Quick-Link-sab p a img {
     padding-right: 15px;
 }
-
+.Revitalize-card{
+    height: 410px;
+}
 @media(max-width:575px) {
     
     .Lubricants-products{
@@ -1841,6 +1845,7 @@ body {
         line-height: 21px;
     }
     .Revitalize-card{
+        
         width: 100% !important;
     }
     .Lubricants-products{

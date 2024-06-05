@@ -18,7 +18,6 @@
     width: 100%;
     height: 450px
 }
-
 .am5-layer-30 {
     display: none;
 }
@@ -26,7 +25,6 @@
     transition: all 5s;
     color: white;
 }
-
 g[aria-labelledby="id-72-title"] {
     display: none;
 }
@@ -38,7 +36,6 @@ g[aria-labelledby="id-72-title"] {
         font-size: 26px;
         line-height: normal;
     }
-
     #chartdiv {
         width: 100%;
         height: 250px;
@@ -94,7 +91,6 @@ body {
     font-size: 15px;
     transition: 0.4s;
     transition: all 10s;
-
   }
   .panel1 {
     transition: all 10s;
@@ -121,7 +117,6 @@ body {
     max-width: 964px;
     margin-bottom: 50px;
 }
-
 .row {
     margin: 0;
 }
@@ -160,21 +155,17 @@ a{
     font-size: 18px;
 }
 /* ------------- Navbar ------------- */
-
 .nav {
     display: flex;
 }
-
 .navbar-brand img {
     height: 50px;
 }
-
 .nav-link {
     color: var(--secondary-color);
     font-weight: var(--semi-bold-font);
     font-size: var(--medium-font);
 }
-
 .navbar-nav .nav-link.active {
     color: var(--primary-color);
 }
@@ -184,8 +175,7 @@ a{
 /* ------------- Career Form Section ------------- */
 .Choose-card{
     height: 358px;
-    background-color: white;
-    
+    background-color: white; 
 }
 .career-form-btn{
     margin-left: 5px;
@@ -195,71 +185,57 @@ a{
     height: 464px !important;
 }
 .heading_description {
-
     font-size: var(--small-font);
     font-weight: var(--regular-font);
 }
-
 .form_field_container {
     margin-bottom: 30px;
 }
-
 .image_container {
     padding: 0 0 0 26px;
 }
-
 .message_field {
     resize: none;
     max-height: 150px;
 }
-
 .career-img-container {
     height: 562px;
     width: 467px;
 }
-
 .file-input {
     background-color: var(--grey-color);
     padding-left: 22px;
     color: #8b92aa;
 }
-
 .file-input>[type='file'] {
     z-index: 10;
     cursor: pointer;
 }
-
 .field {
     padding: 10px 22px;
     background-color: var(--grey-color);
 }
-
 .file-input>.button {
     padding: 11px 52px;
     background: rgba(200, 200, 200, 1);
     color: black;
 }
-
 .form_submit {
     padding-right: 20px;
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-
 .submit_arrow {
     color: var(--primary-color);
     background-color: var(--white-color);
 }
-
 .submit_arrow {
     rotate: 45deg;
     height: 42px;
     width: 42px;
     margin-right: 10px;
 }
-
 .image_with_form_container {
-
     padding: 0 15px;
     max-width: 1212px;
     margin: 0 auto;
@@ -276,12 +252,10 @@ a{
 .connect-section {
     background: #e8efe9;
 }
-
 .wcu-card-container {
     background-color: var(--white-color);
     padding: 30px;
 }
-
 .wcu-card-heading,
 .connect-card-heading {
     color: var(--primary-color);
@@ -290,15 +264,12 @@ a{
     padding: 0 10px;
     margin-top: 0px;
 }
-
-
 /* ---------------------------------------------------- Contact Us Page ------------------------------------------------------- */
 .contact-mainheading{
     margin-bottom: 70px;
 }
 .image_with_form_container{
     box-shadow: 2px 2px 6px #0000001d;
-
 }
 .contact-title{
     padding-top: 100px;
@@ -332,7 +303,6 @@ a{
 }
 .contact_card:hover{
     cursor: pointer;
-
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.010); 
@@ -342,7 +312,6 @@ a{
     cursor: pointer;
 
 }
-
 .contact_detail {
     word-wrap: break-word;
     word-break: break-all;
@@ -355,16 +324,13 @@ a{
     background-size: cover;
     padding: 100px 0;
 }
-
 .copy-right-footer {
     background-color: var(--dark-primary-color);
     padding: 10px 0;
 }
-
 .footer_heading {
     color: var(--neon-color);
 }
-
 .footer-text {
     margin-top: 30px;
 }
@@ -381,7 +347,6 @@ a{
     line-height: 27px;
     font-weight: 500;
 }
-
 .footer-icon-container:hover{
     background-color: var(--text-color);
     transition: all 0.5s;
@@ -392,19 +357,15 @@ a{
     height: 46px;
     border-radius: 50%;
     border: 1px solid white;
-    
 }
-
 .footer-text {
     font-size: var(--medium-font)
 }
-
 .footer_heading {
     font-size: 26px;
     text-decoration: underline;
     text-underline-offset: 10px;
 }
-
 .footer_heading+ul>li {
     font-size: var(--small-font);
 }
@@ -455,17 +416,12 @@ a{
 }
 .footer-hover li{
     transition: all 0.5s;
-
 }
 .footer-hover li a:hover{
     color: #b0cb1f !important ;
     transition: all 0.5s;
-
 }
-.form_field_container div input::placeholder{
-    color: #8A8A8A;
-}
-.form_field_container .col textarea::placeholder{
+.form_field_container div input::placeholder , .form_field_container .col textarea::placeholder{
     color: #8A8A8A;
 }
 .section-padding1{
@@ -588,36 +544,27 @@ a{
         max-width: 192px;
         max-height: 35px;
     }
-
     .main-heading {
         max-width: 716px;
     }
-
     .section_padding {
         padding: 60px 0px;
     }
-
     .heading_container {
         padding: 0px 0 30px 0;
     }
-
     .form_field_container div.col {
         padding: 0px 6px;
     }
-
     .message_field {
         height: 92px;
     }
-
     .career-img-container {
         height: 422px;
     }
-
     .form_field_container {
         margin-bottom: 16px;
-
     }
-
     .form_button_container {
         margin-top: 30px;
     }
@@ -638,7 +585,6 @@ a{
         font-size: var(--subheading-font);
     }
     .footer_inner {
-
         padding: 60px 0;
     }
     .product-feature-section {
@@ -662,11 +608,9 @@ a{
     .form_field_container {
         row-gap: 16px;
     }
-
     .section_padding {
         padding: 40px 0px;
     }
-
     .form_container_in input,
     .wcu-card-container p {
         font-size: 14px;
@@ -678,35 +622,25 @@ a{
     .footer_heading {
         font-size: 20px;
     }
-
     .wcu-card-container {
         padding: 20px;
     }
-
     .contact_card{
         padding: 20px;
     }
-
     .footer-logo-image {
         max-width: 277px;
     }
-
     .footer-text {
         font-size: var(--small-font);
     }
-
     .footer_inner {
-
         padding: 30px 0;
     }
-
     .footer_heading {
         text-decoration: none;
-
     }
-
 }
-
 @media only screen and (max-width: 320px) {
     .contact-title{
         padding-top: 40px;
@@ -716,33 +650,26 @@ a{
         max-width: 170px;
         max-height: 32px;
     }
-
     .main-heading {
         font-size: 30px;
         max-width: 288px;
     }
-
     .heading_description {
         font-size: 14px;
         margin: 20px 0 0 0;
     }
-
     .heading_container {
         padding: 0px 0 20px 0;
     }
-
     .image_container {
         padding: 0px;
     }
-
     .image_with_form_container {
         padding: 0px;
     }
-
     .career-img-container {
         height: 365px;
     }
-
     .file-input>.button {
         padding: 11px 22px;
         background: rgba(200, 200, 200, 1);
@@ -767,8 +694,7 @@ a{
       }
       .accordion-button{
         width: 280px;
-      }
-     
+      } 
 }
 .heading_description{
     margin-top: 30px;
@@ -787,23 +713,18 @@ a{
     z-index: 1;
     position: relative;
 }
-
 .benefit-pro {
     padding: 40px 0;
 }
-
 .benefit-icon {
     gap: 30px;
 }
-
 .benefit-text {
     gap: 24px;
 }
-
 .benefit-text p {
     margin-left: 12px;
 }
-
 .benefit::after {
     align-items: center;
     background-size: cover;
@@ -817,14 +738,12 @@ a{
     z-index: -1;
     opacity: 70%;
 }
-
 .About-title H2 {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
     color: white;
 }
-
 .btn3 {
     border-radius: 100px;
     border: 1px solid white;
@@ -834,37 +753,30 @@ a{
 }
 .about-btn-2 i{
     transition: all 0.9s;
-    
 }
 .btn3:hover .about-btn {
     background-color: var(--green);
 }
-
 .btn3:hover .about-btn i{
     transition: all 0.5s !important;
     transform: rotate(90deg);
     padding-top: 15px;
     padding-bottom: 25px;
 }
-
 .btn3:hover{
     transition: all 0.5s !important;
     background-color: white;
 }
-
 .btn3:hover .text{
     transition: all 0.5s !important;
-
     color: var(--text-color);
 }
-
 .icon2 img {
     width: 88px;
     height: 70px;
     object-fit: cover;
 }
 .icon5 img {
- 
     height: 90px;
     object-fit: cover;
 }
@@ -883,26 +795,20 @@ a{
     font-size: 24px;
     line-height: 36px;
 }
-
 .benefit-main {
     cursor: pointer;
     border-radius: 10px;
     border: white solid 1px;
 }
-
 .benefit-main {
     width: 31%;
-
 }
-
 .bordericon1 {
     width: 28px;
     height: 28px;
     background-color: var(--green);
     border-radius: 8px;
-
 }
-
 .bordericon1 .icon {
     width: 16px;
     height: 16px;
@@ -911,12 +817,9 @@ a{
     border-radius: 4px;
     transform: rotate(45deg);
 }
-
-
 /* *****
 **************************
 ******* */
-
 :root {
     --font-Poppins: "Poppins", sans-serif;
     --green: #1E5F28;
@@ -929,27 +832,22 @@ a{
 body {
     font-family: var(--font-Poppins);
 }
-
 .benefit-main {
     width: 218px !important;
 }
-
 .section-padding {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 .header-nav li {
     list-style: none;
 }
-
 .header-nav li a {
     text-decoration: none;
     color: rgb(70, 70, 70);
     font-weight: 500;
     font-size: 18px;
 }
-
 .fa-bars-staggered {
     color: var(--green);
     width: 24px !important;
@@ -969,77 +867,59 @@ body {
 .container-fluid{
     padding: 0;
 }
-
-
 .logo img {
     width: 266px;
     height: 50px;
 }
-
 .header {
     padding-top: 15px;
     padding-bottom: 15px;
     box-shadow: 0px 2px 6px 0px #0000001A;
 }
-
 .nav ul li a {
     gap: 80px;
 }
-
 .nav ul {
     gap: 80px;
 }
-
 .header-nav li a:hover {
     color: var(--green);
 }
-
 .bar-icon i {
     color: var(--green);
 }
-
 .offcanvas-body {
     background-color: white;
 }
-
 .offcanvas{
     bottom: 0 !important;
 }
-
 .top-bar {
     padding-top: 8px;
     background: linear-gradient(90deg, #B47823 0%, #E6BE55 50%, #B47823 100%);
 }
-
 /* hero */
 .hero {
     width: calc(100% - 96);
 }
-
 .main-hero-images {
     width: 100%;
     object-fit: inherit;
 }
-
 .ero i {
-
     font-size: 15px;
     color: white;
 }
-
 .carousel-indicators [data-bs-target] {
     width: 36px;
     height: 6px;
     border: 0;
     border-radius: 20px;
 }
-
 .carousel-indicators [data-bs-target] {
     background-color: white;
 }
-
 .carousel-indicators .active {
-
     background-color: var(--green);
 }
 .email-web{
@@ -1061,31 +941,23 @@ body {
     border-radius: 8px;
     height: 42px !important;
 }
-
 .swiper-button-prev {
     right: 90%;
 }
-
 /* About-us */
-
 .About-text .about-title {
     padding-left: 14px;
 }
-
 .about-sab {
-
     gap: 20px;
     flex-direction: column;
 }
-
 .about-main {
     gap: 50px;
 }
-
 .blek-box {
     width: 36.61%;
 }
-
 .About-us-con {
     padding-left: 32px;
 }
@@ -1100,24 +972,19 @@ body {
     line-height: 27px;
     margin-bottom: 0;
 }
-
 .About-text .icon {
-
     width: 16px;
     height: 16px;
     background-color: white;
     border: 1px solid #1E5F28;
     border-radius: 4px;
     transform: rotate(45deg);
-
 }
-
 .bordericon {
     background-image: url('../images/home/Rectangle\ 57.png');
     width: 28px;
     height: 28px;
 }
-
 .About-title h1 {
     font-weight: 600;
     font-size: 36px;
@@ -1125,7 +992,6 @@ body {
     color: var(--text-color);
     margin-bottom: 0px;
 }
-
 .About-des {
     display: flex;
     flex-direction: column;
@@ -1134,12 +1000,10 @@ body {
 .border-About{
     border: 2px solid #F5F5F5;
 }
-
 .About-des p {
     margin-bottom: 0;
     color: #414141;
 }
-
 .btn2 {
     color: white;
     border: none;
@@ -1147,36 +1011,25 @@ body {
     background-color: var(--green);
     transition: all 0.5s ;
 }
-
 .btn2:hover {
     background-color: var(--text-color);
     transition: all 0.5s ;
-
 }
 .btn2 i {
     transform: rotate(45deg);
     transition: all 0.5s ;
-
 }
 .btn2:hover i {
     transform: rotate(90deg);
     padding-bottom: 10px;
     transition: all 0.5s ;
     padding-left: 2px;
-    
 }
-
 .swiper-button-next:hover i {
     transform: rotate(88deg);
-
 }
-.bordericon img {
+.bordericon img ,  .bordericon1 img {
     animation: rotate 0.8s infinite;
-
-  }
-  .bordericon1 img {
-    animation: rotate 0.8s infinite;
-
   }
   @keyframes rotate {
     0% {
@@ -1193,7 +1046,6 @@ body {
     background-color: white;
     border-radius: 50%;
 }
-
 .about-btn-3 {
     margin: 6px 6px 6px 6px;
     width: 42px;
@@ -1201,16 +1053,13 @@ body {
     background-color: white;
     border-radius: 50%;
 }
-
 .about-btn-2 {
     border: 1px solid white;
     background-color: transparent;
 }
-
 .about-btn-2 i {
     color: white !important;
 }
-
 .about-btn-3 i {
     padding-bottom: 4px;
     font-size: 20px;
@@ -1220,7 +1069,6 @@ body {
     translate: -25% -5%;
     transform: rotate(45deg);
 }
-
 .about-btn i {
     padding-bottom: 4px;
     font-size: 20px;
@@ -1230,28 +1078,23 @@ body {
     translate: -25% -5%;
     transform: rotate(45deg);
 }
-
 /* TESTING FACILITY */
 .facility-sab {
     gap: 30px;
 }
-
 .facility-desc {
     flex-direction: column;
     gap: 50px;
 }
-
 .facility {
     padding-top: 100px;
 }
-
 .facility-text h2 {
     font-weight: 600;
     font-size: 36px;
     line-height: 54px;
     color: #3A7A43;
 }
-
 .text {
     padding: 0px 24px 0px 12px;
     font-size: 18px;
@@ -1259,7 +1102,6 @@ body {
     font-weight: 500;
     line-height: 22px;
 }
-
 .facility-desc p {
     font-family: var(--font-Montserrat);
     color: #414141;
@@ -1272,16 +1114,10 @@ body {
 .facility-desc {
     padding-left: 9px;
 }
-
-
-
 .facility-logo img {
     width: auto;
     height: auto;
 }
-
-
-
 .facility-logo {
     top: 60%;
     left: 55%;
@@ -1291,7 +1127,6 @@ body {
     background-color: white;
     border-radius: 50%;
 }
-
 .e-logo {
     width: 200px;
     height: 200px;
@@ -1302,12 +1137,10 @@ body {
     top: 60%;
     left: 57%;
 }
-
 .e-logo img {
     width: 160px;
     height: 90px;
 }
-
 /* benefit */
 .benefit {
     background-image: url('../images/home/1ec68b5abe8305e0a800b77561d2922d.png');
@@ -1319,23 +1152,18 @@ body {
     z-index: 1;
     position: relative;
 }
-
 .benefit-pro {
     padding: 40px 0;
 }
-
 .benefit-icon {
     gap: 30px;
 }
-
 .benefit-text {
     gap: 24px;
 }
-
 .benefit-text p {
     margin-left: 12px;
 }
-
 .benefit::after {
     align-items: center;
     background-size: cover;
@@ -1349,69 +1177,53 @@ body {
     z-index: -1;
     opacity: 70%;
 }
-
 .About-title H2 {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
     color: white;
 }
-
-
-
 .btn3:hover .about-btn {
     background-color: var(--green);
 }
-
 .btn3:hover .about-btn i {
     transition: all 0.5s;
     transform: rotate(90deg);
 }
-
 .btn3:hover {
     transition: all 0.5s;
     background-color: white;
 }
-
 .btn3:hover .text {
     transition: all 0.5s;
     color: var(--text-color);
 }
-
 .icon2 img {
     object-fit: cover;
 }
-
 .icon-text {
     margin-top: 28px;
 }
-
 .icon-text h3 {
     color: white;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
 }
-
 .benefit-main {
     cursor: pointer;
     border-radius: 10px;
     border: white solid 1px;
 }
-
 .benefit-main {
     width: 31%;
-
 }
-
 .bordericon1 {
     width: 28px;
     height: 28px;
     background-color: var(--green);
     border-radius: 8px;
-
 }
-
 .bordericon1 .icon {
     width: 16px;
     height: 16px;
@@ -1420,53 +1232,43 @@ body {
     border-radius: 4px;
     transform: rotate(45deg);
 }
-
 /* Revitalize */
 .Revitalize {
     position: relative;
     z-index: 1;
     background-color: #D2DFD4;
 }
-
 .Revitalize-title h3 {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
     color: #3A7A43;
 }
-
 .swiper-slide .card {
     padding: 10px;
     cursor: pointer;
-
 }
-
 .box-set {
     margin-right: 30px !important;
 }
-
 .card1 img {
     padding-top: 21px;
     padding-bottom: 21px;
     width: 121px;
 }
-
 .revitalize-card-body {
     background-color: #D2DFD4;
     border-radius: 8px;
 }
-
 .card-body p {
     color: var(--green);
     font-size: 18px;
     line-height: 36px;
     font-weight: 500;
 }
-
 .card2 img {
     width: 190px;
 }
-
 .swiper-button-next,
 .swiper-button-prev {
     width: 50px;
@@ -1477,68 +1279,47 @@ body {
     left: 95%;
     transform: rotate(315deg);
     color: white;
-
- 
-
 }
 .swiper-button-prev{
-
     transform: rotate(45deg);
-
 }
-
-
 .swiper-button-prev {
     left: 90%;
 }
-
 .swiper-button-next,
 .swiper-button-prev {
     top: 10%;
 }
-.swiper-button-next i{
+.swiper-button-next i , .swiper-button-prev i{
     transition: all 0.9s !important;
-
 }
-.swiper-button-prev i{
-    transition: all 0.9s !important;
-
-}
-
 .swiper-button-next:hover i {
     transition: all 0.9s;
     transform: rotate(45deg);
 }
-
 .swiper-button-next:hover {
     background-color: var(--text-color);
     transition: all 0.9s;
 }
-
 .swiper-button-prev:hover i {
     transition: all 0.9s;
     transform: rotate(-45deg);
 }
-
 .swiper-button-prev:hover {
     background-color: var(--text-color);
     transition: all 0.5s;
 }
-
 .swiper-wrapper {
     margin-top: 40px;
 }
-
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
     display: none;
 }
-
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
     display: none;
 }
-
 /* Fueling Excellence */
 .card2 img {
     object-fit: contain;
@@ -1553,13 +1334,10 @@ body {
 }
 .accordion-button {
     background-color: transparent !important;
-
 }
-
 .accordion-button:not(.collapsed)::after {
     display: none;
 }
-
 .accordion-button::after {
     width: 0 !important;
 }
@@ -1572,7 +1350,6 @@ body {
     color: #3A7A43;
     line-height: 54px;
 }
-
 .Fueling-Excellence-text p {
     font-weight: 400;
     font-size: 16px;
@@ -1596,20 +1373,16 @@ body {
     font-size: 18px;
     line-height: 33px;
 }
-
 .accordion-item:last-of-type .accordion-button.collapsed {
     color: black;
     font-weight: 500;
     font-size: 18px;
     line-height: 33px;
 }
-
 .accordion-body p {
     font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
 }
-
 .Fueling-Excellence-img {
     padding-right: 20px;
 }
@@ -1617,28 +1390,23 @@ body {
     object-fit: cover;
 }
 .Fueling-Excellence-img2 {
-    
     padding-left: 20px;
 }
-
 /* Global-Excellence */
 .Global-Excellence {
     background-color: #D2DFD4;
 }
-
 .Global-Excellence-title h3 {
     color: #3A7A43;
     font-size: 36px;
     font-weight: 600;
     line-height: 54px;
 }
-
 .Global-Excellence-text p {
     margin-top: 30px;
     font-weight: 400;
     line-height: 24px;
 }
-
 .Global-Excellence-sab {
     gap: 30px;
 }
@@ -1660,11 +1428,10 @@ body {
 .img-set{
     width: 100%;
     position: absolute;
-  top: 10% !important;
-  left: 0%;
+    top: 10% !important;
+    left: 0%;
 }
 .img-set img{
- 
     height:100%; 
     width:100px;
 }
@@ -1680,39 +1447,31 @@ body {
 }
 .Global-box{
     gap: 30px;
-
 }
 /* Contact */
 .Contact {
     padding-top: 70px;
 }
-
 .Contact-Us-title h3 {
     font-weight: 600;
     font-size: 33px;
     line-height: 54px;
     color: #3A7A43;
-
 }
-
 .contact-text p {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
-
 .about-btn3 i {
     transform: rotate(45deg);
 }
-
 .slaider-btn {
     width: 50px;
 }
-
 .btn-slaider {
     width: 190px;
 }
-
 .swiper-button-next1 {
     display: contents;
     width: 50px;
@@ -1724,12 +1483,10 @@ body {
     transform: rotate(45deg);
     color: white;
 }
-
 .fa-arrow-up-long:before,
 .fa-long-arrow-up:before {
     transform: rotate(45deg);
 }
-
 /* footer */
 .footer {
     padding-top: 100px;
@@ -1744,7 +1501,6 @@ body {
 }
 .list-group-laine{
     border-top: 1px solid var(--neon-color);
-    
 }
 .footer-link-icon{
     font-size: 22px;
@@ -1762,20 +1518,17 @@ body {
     width: 100%;
     z-index: -1;
 }
-
 .footer-icon span:hover {
     background-color: var(--text-color);
     border: none;
     transition: all 0.5;
     cursor: pointer;
 }
-
 .footer-text p {
     font-weight: 500;
     font-size: 15px;
     line-height: 27px;
 }
-
 .footer-icon span {
     width: 46px;
     height: 46px;
@@ -1783,7 +1536,6 @@ body {
     border: 1px solid white;
     border-radius: 50%;
 }
-
 .Quick-Link h2 a {
     text-decoration: none;
     color: rgba(176, 203, 31, 1);
@@ -1791,36 +1543,29 @@ body {
     font-weight: 400;
     line-height: 39px;
 }
-
 .Quick-Link h2 a hr {
     height: 3px;
     margin-top: 0;
     width: 130px;
 }
-
 .Quick-Link-sab p a {
     text-decoration: none;
     color: white;
 }
-
 .Quick-Link-sab p a hr {
     height: 3px;
     margin-top: 0;
     width: 130px;
 }
-
 .Quick-Link-sab p a:hover {
     color: rgba(176, 203, 31, 1);
 }
-
 .wh-4 {
     width: 4%;
 }
-
 .footer-bar {
     background-color: var(--green);
 }
-
 .footer-bar-text {
     font-weight: 400;
     line-height: 27px;
@@ -1835,11 +1580,7 @@ body {
 .Revitalize-card{
     height: 410px;
 }
-.Fueling-text{
-    background-color: white !important;
-}
 @media(max-width:575px) {
-    
     .Lubricants-products{
         justify-content: center !important;
        margin-top: 30px !important;
@@ -1849,8 +1590,7 @@ body {
         font-size: 14px;
         line-height: 21px;
     }
-    .Revitalize-card{
-        
+    .Revitalize-card{ 
         width: 100% !important;
     }
     .Lubricants-products{
@@ -1886,35 +1626,27 @@ body {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
     .hero-xs-image img{
         height: 400px;
         object-fit: cover;
-
     }
     .xs-hero{
         height: auto !important;
     }
-    
     .top-bar-xs {
         padding-top: 4px;
     }
-
     .About-us-con-xs {
         margin-top: 40px;
     }
-
     .About-us-xs {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
     .logo-xs img {
-      
         width: 170px;
         height: 32px;
     }
-
     .header-xs {
         padding-top: 7px;
         padding-bottom: 7px;
@@ -1924,7 +1656,6 @@ body {
     }
     .carousel-item-xs img {
         height: 400px;
-
     }
     .Lubricants-title{
         font-size: 30px !important;
@@ -1949,27 +1680,21 @@ body {
     .About-title-xs h1 {
         font-size: 30px;
     }
-
     .About-des-xs p {
         font-size: 14px;
     }
-
     .about-main {
         gap: 30px;
     }
-
     .about-sab {
         padding-left: 16px;
     }
-
     .About-des p {
         font-size: 14px;
     }
-
     .benefit {
         height: 680px;
     }
-
     .benefit::after {
         height: 680px;
     }
@@ -1991,7 +1716,6 @@ body {
     }
     .facility-logo img{
         width: 96px;
-   
         padding: 0;
     }
     .main-heading{
@@ -2013,7 +1737,6 @@ body {
     .facility-img img {
         width: 260px;
         height: 260px;
-     
     }
     .facility-img{
         display: flex;
@@ -2023,19 +1746,17 @@ body {
         width: 96px;
         height: 54px;
     }
-    .swiper-button-next{
+    .swiper-button-next , .swiper-button-prev{
         top: 29%;
         left: 80%;
     }
  .swiper-button-prev{
-    top: 29%;
-    left: 60%;
+    left: 60% !important;
  }
  .Revitalize-title h3{
     margin-left: 24px;
     font-size: 30px;
     line-height: 45px;
-  
  }
  .swiper-slide .card{
     padding: 0;
@@ -2064,18 +1785,13 @@ body {
  .Fueling-Excellence-width{
     width: 320px;
  }
- 
- .Fueling-Excellence-img{
-    padding: 0;
- }
- .Fueling-Excellence-img2{
+ .Fueling-Excellence-img , .Fueling-Excellence-img2{
     padding: 0;
  }
  .Fueling-Excellence-title h3{
     margin-top: 20px;
     line-height: 45px;
     font-size: 30px;
-
  }
  .Fueling-Excellence-text p{
     margin-top: 20px;
@@ -2089,7 +1805,6 @@ body {
  .Fueling-Excellence-text p{
     font-size: 14px;
     line-height: 21px;
-  
  }
  .accordion-button{
     padding: 0;
@@ -2139,7 +1854,6 @@ body {
 .message_field{
     height: 92px !important;
 }
-
 .befor-img{
     top: 78%;
 }
@@ -2300,18 +2014,14 @@ body {
       .product-icon .icon{
         width: 136px !important;
     }
-
     .Similar_Products_next{
         left: 243px !important;
     }
     .Similar_Products_prev{
         left: 190px !important;
-      
     }
-    
 }
 @media(min-width:375px) {
-
      .product-images{
         width: 100%;
      }
@@ -2342,11 +2052,9 @@ body {
     }
     .Similar_Products_prev{
         left: 245px !important;
-      
     }
 }
 @media(min-width:425px) {
-
      .product-images{
         width: 100%;
      }
@@ -2394,35 +2102,28 @@ body {
     .top-bar-sm {
         padding-top: 6px;
     }
-
     .header-sm {
         padding-top: 6px;
         padding-bottom: 6px;
     }
-
     .logo-sm img {
         width: 192px;
         height: 36px;
     }
-
     .hero-sm-image img {
         height: 400px;
         object-fit: cover;
     }
-
     .about-sab {
         padding-left: 26px;
         padding-right: 26px;
     }
-
     .About-des p {
         font-size: 16px;
     }
-
     .About-img img {
         height: 388px;
     }
-
     .about-main {
         gap: 30px;
     }
@@ -2434,9 +2135,7 @@ body {
         padding-top: 15px !important;
         padding-bottom: 15px !important;
     }
-
 }
-
 @media(min-width:768px) {
     .container1{
         padding-left:26px !important ;
@@ -2488,7 +2187,6 @@ body {
     .products-btn{
         padding-top: 40px !important;
      }
-     
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -2523,33 +2221,26 @@ body {
         gap: 30px;
     }
     .facility-desc p{
-
         margin-top: 30px;
     }
     .hero-md-image img {
         height: 720px;
         object-fit: cover;
     }
-
     .top-bar-md {
         padding-top: 6px;
     }
-
     .carousel-item-md img {
         height: 720px;
-
     }
-
     .About-us-md {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
     .header-md {
         padding-top: 7px;
         padding-bottom: 7px;
     }
-
     .logo-md img {
         width: 192px;
         height: 36px;
@@ -2560,13 +2251,11 @@ body {
     .benefit::after{
         height: 646px;
     }
-  
     .facility-text h2{
         text-align: center;
         font-size: 36px;
         line-height: 54px;
     }
-   
     .facility-img{
         display: flex;
         justify-content: center;
@@ -2609,11 +2298,9 @@ body {
         padding: 0;
         display: flex;
         justify-content: center;
-    
     }
     .Fueling-Excellence-title h3{
         margin-top: 40px;
-        
     }
     .Fueling-Excellence-text p{
         margin-top: 30px;
@@ -2636,11 +2323,8 @@ body {
     .Global-Excellence-title-main{
         padding: 0;
     }
-
     .contact-text p{
-        font-size: 16px;
         line-height: 24px;
-      
     }
     .Fueling-Excellence-img-text{
         padding-left: 88px;
@@ -2652,7 +2336,6 @@ body {
     .message_field{
         height: 92px !important;
     }
- 
       .befor-img{
           top: 62%;
       }
@@ -2667,14 +2350,10 @@ body {
         width: 342px;
         height: 181px;
     }
- 
     .section-padding1{
         padding-top: 25px !important;
         padding-bottom: 25px !important;
     }
-    .product-images{
-        width: 100%;
-     }
      .product-main-images{
         width: 100% !important;
      }
@@ -2708,8 +2387,7 @@ body {
         height: 54px !important;
     }
     .Similar_Products_next{
-        left: 92% !important;
-        
+        left: 92% !important;  
     }
     .Similar_Products_prev{
         left: 82%  !important;
@@ -2718,7 +2396,6 @@ body {
         margin-top: 40px !important;
     }
 }
-
 @media(min-width:992px) {
     .section-padding {
         padding-top: 60px;
@@ -2730,26 +2407,20 @@ body {
     .image_with_form_container{
         margin-top: 50px !important;
     }
-
     .hero-lg-image img {
         height: 720px;
         object-fit: cover;
     }
-
     .top-bar-lg {
         padding-top: 8px;
     }
-
     .header-lg {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-
     .logo-lg img {
         width: 210px;
-
     }
-
     .About-img img {
         width: 1000px;
         height: 500px;
@@ -2801,9 +2472,6 @@ body {
         padding-top: 35px !important;
         padding-bottom: 35px !important;
     }
-    .product-images{
-        width: 100%;
-     }
      .product-main-images{
         width: 100% !important;
      }
@@ -2826,8 +2494,7 @@ body {
         width: 228px !important;
     }
     .Similar_Products_next{
-        left: 92% !important;
-        
+        left: 92% !important; 
     }
     .Similar_Products_prev{
         left: 84% !important;
@@ -2846,28 +2513,23 @@ body {
         padding-top: 50px !important;
         padding-bottom: 50px !important;
     }
-
     .hero-xl-image img {
         height: 830px;
         object-fit: cover;
     }
-
     .logo-xl img {
         width: 266px;
         height: 50px;
     }
-
     .about-sab {
         width: 703px;
         gap: 20px;
         flex-direction: column;
     }
-    
     .About-img img {
         width: 100%;
         height: auto;
     }
-
     .about-sab {
         width: 100%;
         gap: 20px;
@@ -2936,9 +2598,6 @@ body {
     .product-images{
         width: 591px !important;
      }
-     .product-main-images{
-        width: 591px !important;
-     }
     .product-main-images{
         height: 500.27px !important;
     }
@@ -2969,13 +2628,11 @@ body {
         padding-top: 13px !important;
         padding-bottom: 13px !important;
     }
-
     .product_details_title p{
         margin: 20 !important;
     }
     .Similar_Products_next{
-        left: 92% !important;
-        
+        left: 92% !important;  
     }
     .Similar_Products_prev{
         left: 86% !important;
@@ -2990,7 +2647,6 @@ body {
         width: 684px;
         gap: 20px;
         flex-direction: column;
-        
     }
     .Fueling-Excellence-width{
         width: 1212px;
@@ -3030,9 +2686,6 @@ body {
      .product-images{
         width: 591px !important;
      }
-     .product-main-images{
-        width: 591px !important;
-     }
     .product-main-images{
         height: 500.27px !important;
     }
@@ -3062,9 +2715,7 @@ body {
         margin-bottom: 20px !important;
         padding-top: 40px !important;
         padding-bottom: 40px !important;
-
     }
-
     .product_details_title p{
         margin: 20 !important;
     }
@@ -3088,7 +2739,6 @@ body {
         width: 755px;
         gap: 20px;
         flex-direction: column;
-     
     }
     .img-set{
         top: 6% !important;
@@ -3116,7 +2766,6 @@ body {
     .about-seciton-text{
         padding-left: 130px;
      }
-
 }
 /* Lubricants */
 .Lubricants{
@@ -3139,7 +2788,6 @@ body {
 }
 .products{
     border-radius: 5px ;
-    /* width: 458px; */
     border-radius: 5px;
     border: 1px solid #F5F5F5;
 }
@@ -3154,12 +2802,8 @@ body {
     transform: rotate(0);
     transition: all 0.5s;
 }
-.products{
-    /* width: 449px !important; */
-}
 /* product_details_Start */
 .product-images{
-
     width: 591px;
 }
 .product-main-images{
@@ -3174,7 +2818,6 @@ body {
     display: flex;
     height: 155px !important;
     color: white;
-    display: flex;
     gap: 9px;
 }
 .Available_Size h1{
@@ -3197,18 +2840,11 @@ body {
     width: 30px !important;
     height: 30px !important;
 }
-.product_details_next{
+.product_details_next , .product_details_prev{
     right: 0 !important;
 }
-.product_details_prev{
-    left: 0 !important;
-}
-.product_details_next i{
+.product_details_next i , .product_details_prev i{
     color:  #1E5F28 ;
-}
-.product_details_prev i{
-    color:  #1E5F28 ;
-
 }
 .product_details_next i{
     font-size: 12px;
@@ -3225,14 +2861,11 @@ body {
 .product_details_prev:hover i{
     transform: rotate(0) !important;
     color: white !important;
-
 }
 .product_details_next:hover i{
     transform: rotate(0) !important;
     color: white !important;
-
 }
-
 .details{
     gap: 30px;
 }
@@ -3270,14 +2903,12 @@ body {
     color: #414141;
     padding-top: 15px;
 }
-
 .Available_Size p {
     color: #414141;
     line-height: 24px;
     font-weight: 400;
     margin-top: 10px;
 }
-
 .Key_Features h2{
     font-weight: 500;
     color: #1E5F28;
@@ -3353,12 +2984,8 @@ body {
     background-color: var(--green);
     transition: all 0.5s ;
 }
-
-
 .btn_back:hover {
     background-color: var(--text-color);
     transition: all 0.5s ;
 }
-
-
 /* product_details_End */

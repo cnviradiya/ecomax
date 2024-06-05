@@ -22,6 +22,10 @@
 .am5-layer-30 {
     display: none;
 }
+.btn-facility:hover .text{
+    transition: all 5s;
+    color: white;
+}
 
 g[aria-labelledby="id-72-title"] {
     display: none;
@@ -93,9 +97,7 @@ body {
 
   }
   .panel1 {
-
     transition: all 10s;
-    padding: 0 18px;
     display: none;
     background-color: white;
     overflow: hidden;
@@ -1832,6 +1834,9 @@ body {
 }
 .Revitalize-card{
     height: 410px;
+}
+.Fueling-text{
+    background-color: white !important;
 }
 @media(max-width:575px) {
     

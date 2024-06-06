@@ -26,11 +26,11 @@
 
 
 <body>
-    <div class="scrollbar back d-none">
-        <a href="#top">
-            <i class="fa-solid fa-arrow-up-long text-white"></i>
-        </a>
-    </div>
+    <a href="#top">
+        <div class="scrollbar back d-none">
+        <i class="fa-solid fa-arrow-up-long back-top "></i>
+        </div>
+    </a>
     <!-- Navbar Start -->
     <div class="top-bar top-bar-xs top-bar-sm top-bar-md top-bar-lg">
         <div class="container1">
@@ -126,10 +126,10 @@
         <div class="container1">
             <div class="row">
                 <div class="d-flex Lubricants flex-column p-0">
-                    <h1 class="text-center Lubricants-title " id="product-title">
+                    <h1 class="text-center Lubricants-title " >
                         Ecomax Lubricants: Tailored Solutions for Every Engine
                     </h1>
-                    <p class="text-center Lubricants-text " id="product-text">Powering Diverse Industries: Ecomax, your
+                    <p class="text-center Lubricants-text " >Powering Diverse Industries: Ecomax, your
                         comprehensive
                         provider of lubricant excellence. From automobiles to industrial machinery, our versatile range
                         of lubricants is engineered to optimize performance across a spectrum of applications.
@@ -301,7 +301,7 @@
                                             <img class="me-3 mt-1 addres"
                                                 src="https://ik.imagekit.io/ecomax/assets/images/home/ad.png"
                                                 alt="images">
-                                            <p class="text-light footer-ad">Block No. E-37, Hindva Dreams,<br> Dhoran
+                                            <p class="text-light footer-add">Block No. E-37, Hindva Dreams,<br> Dhoran
                                                 Pardi Gaypagla Road,<br> Kamrej, Surat, Gujarat-394155</p>
                                         </div>
 
@@ -347,7 +347,7 @@
                                                     <img class="me-3 mt-1 addres"
                                                         src="https://ik.imagekit.io/ecomax/assets/images/home/ad.png"
                                                         alt="images">
-                                                    <p class="text-light footer-ad">Block No. E-37, Hindva Dreams,<br>
+                                                    <p class="text-light footer-add">Block No. E-37, Hindva Dreams,<br>
                                                         Dhoran Pardi Gaypagla Road,<br> Kamrej, Surat, Gujarat-394155
                                                     </p>
                                                 </div>
@@ -379,6 +379,7 @@
         crossorigin="anonymous"></script>
 
     <script>
+
         if (window.location.href == "https://ecomaxlubricant.com/collections/") {
             document.getElementById("collections_bak_btn").style.display = 'none';
             console.log("none");
@@ -392,6 +393,7 @@
                 "/assets/JS/script.js",
                 "/assets/JS/db.js"
             ]);
+
 
             const collectionThumbHTML = ({ url, img, title }) =>
                 `
@@ -450,9 +452,9 @@
                             return collectionThumbHTML(product)
 
                         })
-
+                        
                 );
-
+                
 
             }, 500);
 

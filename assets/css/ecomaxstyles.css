@@ -2729,6 +2729,7 @@ body {
 }
 
 @media(min-width:1400px) {
+    
     .about-sab {
         width: 684px;
         gap: 20px;
@@ -2767,13 +2768,13 @@ body {
         margin-left: 51px;
     }
     .products{
-        width: 442px !important;
+        width: 460px !important;
     }
     .products-btn{
         padding-top: 86px !important;
      }
      .product-images{
-        width: 591px !important;
+        width: 460px  !important;
      }
     .product-main-images{
         height: 500.27px !important;

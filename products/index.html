@@ -127,9 +127,9 @@
             <div class="row p-0">
                 <div class="col-12 d-flex flex-wrap details p-0">
                     <div class="product-images">
-                        <div class="swiper  products_detail2 product-main-images">
-                            <div class="swiper-wrapper m-0 text-white" id="data-images">
-
+                        <div class="swiper product_swiper2">
+                            <div class="swiper-wrapper   m-0 text-white" id="data-images">
+                             
                             </div>
                             <div class="swiper-button-next product_details_next  d-none d-md-block">
                                 <div class="d-flex justify-content-center align-items-center">
@@ -141,13 +141,14 @@
                                     <i class="fa-solid fa-arrow-left-long"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper products_detail">
-                            <div class="swiper-wrapper mb-0 product-sab-images" id="data-images_mini">
-
+                          </div>
+                          <div thumbsSlider="" class="swiper product_swiper " >
+                            <div class=" swiper-wrapper mb-0 product-sab-images text-white" id="data-images_mini" >
+                             
                             </div>
-                        </div>
+                          </div>
                     </div>
+
                     <div class="product_details-sab">
                         <div class="product_details_title">
                             <h2 class="m-0 dynamic-data" data-title>ABCD</h2>
@@ -459,11 +460,11 @@
                                     <button class="accordion-button collapsed m-3 d-flex  justify-content-between col-12" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo1" aria-expanded="false"
                                         aria-controls="collapseTwo1">
-                                    
+                                        <span class="d-flex justify-content-between col-12">
                                             <span class="m-0 footer-link-title">Quick Link</span>
                                             <span class="m-0 footer-link-icon "><i
                                                     class="fa-solid fa-angle-down mt-1 me-5"></i></span>
-                                     
+                                        </span>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1"
@@ -622,6 +623,7 @@
         </footer>
         <!-- Footer end -->
         <!-- Script start -->
+    
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -717,9 +719,7 @@
                         document.getElementById('data-images').innerHTML = new_images;
 
                         let mini_images = newProducts.map((image) => {
-                            return `<div class="swiper-slide new-products">
-                                <img src="/assets/images/new_products/${image}" class="img-fluid" /> 
-                                </div>`
+                            return  "<div class="+"swiper-slide product_mini"+"><img src="+" /assets/images/new_products/"+ image +" class=" +"img-fluid "+"/> </div>" 
                         })
                         document.getElementById('data-images_mini').innerHTML = mini_images;
 
@@ -749,11 +749,28 @@
                 }, 500);
 
             });
-
+            
         </script>
 
     <script src="https://ik.imagekit.io/ecomax/assets/JS/init.js?time=1" defer></script>
-
+        <script>
+            var swiper = new Swiper(".product_swiper", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".product_swiper2", {
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
+        </script>
 
         <!-- Script end -->
 

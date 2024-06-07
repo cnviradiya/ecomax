@@ -3103,15 +3103,29 @@ body {
     gap: 30px;
 }
 .industrial-images{
-    width: 360px;
+    width: 345px;
 }
 .industrial-images-circle{
-    width: 364px;
+    width: 350px;
 }
 .industrial-text{
-    width: 346px;
+    width: 330px;
 }
 .industrial-height{
     height: 360px;
+}
+.industrial-images .industrial-image img{
+    object-fit: cover;
+    width: auto;
+    border-radius: 60px;
+}
+.industrial-images-circle img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.industrial-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 /* industrial hero End */

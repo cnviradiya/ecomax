@@ -28,7 +28,7 @@
 <body>
     <a href="#top">
         <div class="scrollbar back d-none">
-        <i class="fa-solid fa-arrow-up-long back-top "></i>
+            <i class="fa-solid fa-arrow-up-long back-top "></i>
         </div>
     </a>
     <!-- Navbar Start -->
@@ -126,10 +126,11 @@
         <div class="container1">
             <div class="row">
                 <div class="d-flex Lubricants flex-column p-0">
-                    <h1 class="text-center Lubricants-title " >
+                    <h1 class="text-center Lubricants-title " id="collection_title">
                         Ecomax Lubricants: Tailored Solutions for Every Engine
                     </h1>
-                    <p class="text-center Lubricants-text " >Powering Diverse Industries: Ecomax, your
+                    <p class="text-center Lubricants-text" id="collection_description">Powering Diverse Industries:
+                        Ecomax, your
                         comprehensive
                         provider of lubricant excellence. From automobiles to industrial machinery, our versatile range
                         of lubricants is engineered to optimize performance across a spectrum of applications.
@@ -139,7 +140,7 @@
                 <div class="col-12 d-flex flex-wrap p-0 Lubricants-products" id="contentDiv">
 
                 </div>
-           
+
                 <div class="product_btn product_btn_bak justify-content-center" id="collections_bak_btn">
                     <a href="/collections/">
                         <div class="btn_back d-flex align-items-center">
@@ -150,7 +151,7 @@
                         </div>
                     </a>
                 </div>
-        
+
             </div>
         </div>
     </section>
@@ -401,7 +402,7 @@
                         <a href="${url}">
                             <div class="products-img">
                                 <img src="${img}"
-                                    alt="${title}" class="img-fluid col-12">
+                                    alt="${title}" class="img-fluid col-12 product_img">
                             </div>
                             <div class="products-title">
                                 <div class="d-flex justify-content-between">
@@ -431,18 +432,23 @@
                 } else {
                     collectionSlug = "";
                 }
+
                 const collectionData = await loadCollectionData(collectionType, collectionSlug);
-                console.log(collectionData);
-                //
+
+                if (window.location.href != "https://ecomaxlubricant.com/collections/") {
+                document.getElementById("collection_title").innerHTML = collectionData.collection_title;
+                document.getElementById("collection_description").innerHTML = collectionData.collection_description;
+                }
+
+
                 $('#contentDiv').html(
+
                     collectionType == 'all' ?
 
                         collectionData.map(function (collection) {
-
                             collection.url = getThumbURL(collectionType, collection.collection_slug);
                             collection.img = getAssetURL("/assets/images/collections/" + collection.collection_slug + "/" + collection.collection_images[0]);
                             collection.title = collection.collection_title;
-
                             return collectionThumbHTML(collection)
                         }
                         ) : collectionData.products.map(function (product) {
@@ -452,14 +458,10 @@
                             return collectionThumbHTML(product)
 
                         })
-                        
                 );
-                
 
             }, 500);
-
         });
-
     </script>
     <script src="https://ik.imagekit.io/ecomax/assets/JS/init.js?time=1" defer></script>
 

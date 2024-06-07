@@ -31,6 +31,21 @@ g[aria-labelledby="id-72-title"] {
 .cout-box{
     height: 180px;
 }
+.border{
+    height: 25px;
+}
+.products-img{
+    overflow: hidden !important;
+    transition: all 0.8s;
+    transition: transform .5s;
+}
+.products:hover .product_img {
+    transition: all 0.8s;
+    transform: scale(1.05)
+  }
+  .products:hover{
+  box-shadow: 0px 1px 0px 0px rgb(161, 158, 158);
+  }
 @media (max-width:768px) {
     h2.title-contact {
         font-size: 26px;

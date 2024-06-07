@@ -158,24 +158,24 @@ if($('.counter1').length > 0) {
   });
 }
 
-var swiper = new Swiper(".products_detail", {
-  loop: true,
-  spaceBetween: 10,
-  slidesPerView: 3,
-  freeMode: true,
-  watchSlidesProgress: true,
-});
-var swiper2 = new Swiper(".products_detail2", {
-  loop: true,
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".product_details_next",
-    prevEl: ".product_details_prev",
-  },
-  thumbs: {
-    swiper: swiper,
-  },
-});
+// var swiper = new Swiper(".products_detail", {
+//   loop: true,
+//   spaceBetween: 10,
+//   slidesPerView: 3,
+//   freeMode: true,
+//   watchSlidesProgress: true,
+// });
+// var swiper2 = new Swiper(".products_detail2", {
+//   loop: true,
+//   spaceBetween: 10,
+//   navigation: {
+//     nextEl: ".product_details_next",
+//     prevEl: ".product_details_prev",
+//   },
+//   thumbs: {
+//     swiper: swiper,
+//   },
+// });
 
 
 

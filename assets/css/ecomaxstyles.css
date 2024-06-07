@@ -89,6 +89,10 @@ body {
 .position-rel{
     position: relative;
 }
+.file-input{
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
 .show_scroll_btn{
     display: block !important;
 }

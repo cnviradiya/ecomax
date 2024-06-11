@@ -16,6 +16,8 @@
     margin-top: 15px;
 }
 
+
+
 #chartdiv {
     width: 100%;
     height: 450px
@@ -23,11 +25,6 @@
 
 .am5-layer-30 {
     display: none;
-}
-
-.btn-facility:hover .text {
-    transition: all 5s;
-    color: white;
 }
 
 g[aria-labelledby="id-72-title"] {
@@ -174,7 +171,31 @@ body {
 .section_padding {
     padding: 100px 0;
 }
-
+.dropdown-products {
+    position: relative;
+}
+.dropdown-menu-products{
+    margin-top: 26px;
+    position: absolute;
+    min-width: 200px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    padding:10px;
+    z-index: 5;
+}
+.dropdown-menu-products li {
+    
+   padding: 16px;
+}
+.dropdown-products:hover .dropdown-menu-products{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+} 
 a {
     text-decoration: none;
     color: #000;
@@ -2686,6 +2707,12 @@ body {
         font-size: 30px;
         line-height: 45px !important;
     }
+    .TECHNICAL-SPECIFICATIONS-title h2{
+        font-size: 30px !important;
+        line-height: 45px !important;
+        font-weight: 500;
+        margin: 0 !important;
+    }
 }
 
 @media(max-width:320px) {
@@ -2987,6 +3014,28 @@ body {
     }
     .DIRECTION-FOR-STORAGE{
         padding: 0 !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-Result{
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-title{
+        height: auto !important;
+    }
+    .TECHNICAL-SPECIFICATIONS{
+        height: 460px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS::after{
+        height: 460px !important;
+
+    }
+    .TECHNICAL-SPECIFICATIONS-title h2{
+        margin: 0 !important;
+        font-size: 30px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-title{
+        justify-content: center;
+        width: 100%;
     }
 }
 
@@ -3414,6 +3463,28 @@ body {
     .DIRECTION-FOR-STORAGE-images img{
         height: 460px !important;
     }
+    .TECHNICAL-SPECIFICATIONS{
+        height: 474px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-title{
+        height: auto !important;
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-Result{
+        margin-top: 60px !important;
+        margin-bottom: 60px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-title h2{
+        margin-bottom: 30px !important;
+    }
+    .thead tr th span, tbody tr td span{
+        height: 30px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS::after{
+        height: 474px !important;
+    }
 }
 
 @media(min-width:992px) {
@@ -3796,6 +3867,24 @@ body {
     .DIRECTION-FOR-STORAGE-images{
         padding-left: 15px !important;
     }
+    .thead tr th span, tbody tr td span{
+        height: 35px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS{
+        height: 452px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS::after{
+        height: 452px !important;
+    }
+    .PROPERTY-TESTMETHOD-RESULT{
+        width: 800px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-title h2{
+        margin-bottom: 0 !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-title{
+        width: auto !important;
+    }
 }
 
 @media(min-width:1400px) {
@@ -3956,6 +4045,22 @@ body {
     }
     .SPECIAL-FEATURES{
         padding-left: 25px !important;
+    }
+    .PROPERTY-TESTMETHOD-RESULT{
+        width: 964px !important;
+    }
+    .thead tr th span, tbody tr td span{
+        height: 40px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS-Result{
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS{
+        height: 560px !important;
+    }
+    .TECHNICAL-SPECIFICATIONS::after{
+        height: 560px !important;
     }
 }
 
@@ -4500,8 +4605,32 @@ tbody tr td span {
     width: 100% !important;
 }
 
-.industrial_slaider{
-    padding-top: 25px;
+.industrial-slaid{
+    padding-top: 25px !important;
+    width: 230px !important;
+    height: 320px !important;
+}
+.industrial_slaider_item ul{
+    padding: 0 !important;
+}
+.industrial_slaider_item ul li{
+    list-style: none;
+    padding: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    background-color: #1E5F28;
+    font-size: 14px !important;
+    font-weight: 400;
+    line-height: 21px;
+    height: 30px !important;
+}
+.industrial_slaider_item h5{
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    background-color: #0D4315;
+    margin: 0;
+    padding:4px  ;
+    font-weight: 500;
+    line-height: 24px !important;
+    font-size: 16px !important;
 }
 /* TECHNICAL SPECIFICATIONS End */
 /* DIRECTION FOR STORAGE AND USE Start */

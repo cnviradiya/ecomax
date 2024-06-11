@@ -2751,6 +2751,10 @@ body {
         font-weight: 500;
         margin: 0 !important;
     }
+    .Lubricants-gap{
+        padding-top: 30px !important;
+    }
+   
 }
 
 @media(max-width:320px) {
@@ -3525,6 +3529,9 @@ body {
     .TECHNICAL-SPECIFICATIONS::after{
         height: 474px !important;
     }
+    .produt{
+        padding: 10px !important;
+    }
 }
 
 @media(min-width:992px) {
@@ -3926,6 +3933,9 @@ body {
     .TECHNICAL-SPECIFICATIONS-title{
         width: auto !important;
     }
+    .produt{
+        padding: 15px !important;
+    }
 }
 
 @media(min-width:1400px) {
@@ -4046,7 +4056,7 @@ body {
     }
     
     .product_details-sab {
-        width: 807px !important;
+        width: 884px !important;
     }
 
     .industrial {

@@ -207,6 +207,44 @@ a {
     margin: 20px 0;
     transition: all 0.5s;
 }
+.dropdown-menu-products-res{
+    padding: 10px;
+    width: 150px;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+.dropdown-menu-products-res  li:first-child{
+    padding-top: 15px;
+    
+    padding-bottom: 5px;
+   list-style: none;
+   margin-left: 10px;
+
+}
+.dropdown-menu-products-res  li:last-child{
+    padding-top: 5px;
+    padding-bottom: 15px;
+   list-style: none;
+   margin-left: 10px;
+}
+.dropdown-menu-products-res  li a{
+    list-style: none; 
+ }
+.dropdown-products-res .accordion{
+    padding: 0 !important;
+}
+.dropdown-products-res .accordion{
+    background-color: white !important;
+    border: none;
+}
+.dropdown-products-res .accordion span{
+    font-size: 16px;
+}
+.panel1 .accordion-body ul{
+    padding: 0;
+}
 
 .btn-arrow {
     width: 42px;
@@ -3122,6 +3160,7 @@ body {
     }
 
     .cout-sab span {
+        font-family: 400;
         margin-top: 20px;
         font-size: 18px;
         line-height: 27px;
@@ -3320,6 +3359,7 @@ body {
     }
 
     .cout {
+        height: 261px !important;
         z-index: 10;
         width: 342px;
         height: 181px;
@@ -3516,6 +3556,7 @@ body {
     }
 
     .cout {
+        height: 261px;
         width: 471px;
     }
 
@@ -3990,7 +4031,7 @@ body {
     }
 
     .befor-img {
-        top: 23%;
+        top: 31%;
     }
 
     .swiper-button-prevRevitalize {
@@ -4001,6 +4042,7 @@ body {
 @media(min-width:1463px) {
     .cout {
         width: 342px;
+        height: 261px;
     }
     
     .product_details-sab {
@@ -4062,6 +4104,7 @@ body {
     .TECHNICAL-SPECIFICATIONS::after{
         height: 560px !important;
     }
+    
 }
 
 @media(min-width:1600px) {
@@ -4076,7 +4119,7 @@ body {
     }
 
     .img-set {
-        top: 6% !important;
+        top: 12% !important;
     }
 
     .Global-Excellence-title-main {
@@ -4100,7 +4143,16 @@ body {
         padding-left: 30px;
         padding-top: 0 !important;
     }
-
+    .cout-m {
+        padding-right: 15px;
+    }
+    .count-carsd{
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+    .after-befor{
+        margin-bottom: 30px;
+    }
 
 }
 

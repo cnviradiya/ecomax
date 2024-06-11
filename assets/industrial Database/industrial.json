@@ -6,8 +6,24 @@
             {
                 "title" : "",
                 "short_description": "",
-                "products_image":""
-                
+                "products_image":"",
+                "product_overview":[""],
+                "special_features":[""],
+                "technical_specifications":[
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""],
+                    ["","",""]
+                ],
+                "driection_for_storage_and_use":[""],
+                "typical_applications":[""],
+                "direction_images":""
             }
         ]
     }

@@ -2901,9 +2901,7 @@ body {
         gap: 40px !important;
     }
 
-    .products {
-        width: 338px !important;
-    }
+
 
     .top-bar-sm {
         padding-top: 6px;
@@ -3150,9 +3148,7 @@ body {
         width: 200px !important;
     }
 
-    .products {
-        width: 338px !important;
-    }
+ 
 
     .products-btn {
         padding-top: 40px !important;
@@ -3625,9 +3621,7 @@ body {
         margin-top: 50px;
     }
 
-    .products {
-        width: 466px !important;
-    }
+
 
     .section-padding1 {
         padding-top: 35px !important;
@@ -3885,9 +3879,7 @@ body {
         width: 276px !important;
     }
 
-    .products {
-        width: 384px !important;
-    }
+
     .industrial-Product{
         height: 450px !important;
     }
@@ -3988,9 +3980,7 @@ body {
         margin-left: 51px;
     }
 
-    .products {
-        width: 433px !important;
-    }
+
 
     .products-btn {
         padding-top: 86px !important;
@@ -4089,9 +4079,7 @@ body {
         font-size: 16px !important;
     }
 
-    .products {
-        width: 449px !important;
-    }
+ 
     .PRODUCT-OVERVIEW{
         padding-right: 25px !important;
     }
@@ -4124,9 +4112,6 @@ body {
         flex-direction: column;
     }
 
-    .products {
-        width: 460px !important;
-    }
 
     .img-set {
         top: 12% !important;
@@ -4195,11 +4180,7 @@ body {
     gap: 30px;
 }
 
-.products {
-    border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #F5F5F5;
-}
+
 
 .products-icon i {
     transform: rotate(-45deg);

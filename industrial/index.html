@@ -461,7 +461,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             collectionType = "industrial_collection";
         }
         
-        const collectionData = await loadindustrialcollection(collectionType, collectionSlug);
+        const collectionData = await loadindustrialcollection(collectionType);
         console.log(collectionData);
 
         document.getElementById("industrial_products").innerHTML= collectionData.map((collection)=>{

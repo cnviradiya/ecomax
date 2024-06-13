@@ -51,15 +51,13 @@ g[aria-labelledby="id-72-title"] {
 }
 
 .products:hover {
-    box-shadow: 0px 1px 0px 0px rgb(161, 158, 158);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-
 @media (max-width:768px) {
     h2.title-contact {
         font-size: 26px;
         line-height: normal;
     }
-
     #chartdiv {
         width: 100%;
         height: 250px;
@@ -2093,7 +2091,7 @@ body {
 
     .Global-box {
         margin-top: 24px;
-        gap: 0;
+        gap: 16px;
     }
 
     .heading_container {
@@ -2639,7 +2637,7 @@ body {
 
     .industrial-Product-images img {
         height: 120px !important;
-        width: 188.57px !important;
+  
     }
 
     .industrial-Product-images {
@@ -2886,6 +2884,7 @@ body {
         width: 110px !important;
         height: 100px !important;
     }
+   
 
 }
 
@@ -3011,7 +3010,7 @@ body {
 
     .industrial-Product-images img {
         height: 120px !important;
-        width: 188.57px !important;
+ 
     }
 
     .industrial-Product-images {
@@ -3077,6 +3076,7 @@ body {
         justify-content: center;
         width: 100%;
     }
+   
 }
 
 @media(min-width:768px) {
@@ -3084,7 +3084,9 @@ body {
         padding-left: 26px !important;
         padding-right: 26px !important;
     }
-
+    .dynamic-text{
+        width: 230px;
+    }
     .Fueling-Excellence-img2 {
         display: flex;
         justify-content: center;
@@ -3528,6 +3530,9 @@ body {
     .produt{
         padding: 10px !important;
     }
+    .coll-md-6{
+        width: 49.82% !important;
+    }
 }
 
 @media(min-width:992px) {
@@ -3535,7 +3540,9 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
+    .dynamic-text{
+        width: auto;
+    }
     .image_with_form_container {
         margin-top: 50px !important;
     }
@@ -3600,7 +3607,9 @@ body {
     .sparkle-button {
         justify-content: start;
     }
-
+    .coll-lg-4{
+        width: 33% !important;
+    }
     .message_field {
         height: 465px !important;
     }
@@ -3896,7 +3905,7 @@ body {
     }
     .industrial-Product-images img{
         height: 350px !important;
-        width: 551.21px !important;
+
     }
     .DIRECTION-FOR-STORAGE-images{
         margin-top: 0;
@@ -4519,16 +4528,14 @@ body {
 }
 
 .industrial-Product-images img {
-    width: 551.21px;
+
     height: 350px;
 }
-
 .industrial-Product-images {
     height: 450px;
     display: flex;
     align-items: center;
 }
-
 .PRODUCT-OVERVIEW h2,
 .SPECIAL-FEATURES h2 {
     font-size: 24px;
@@ -4536,30 +4543,25 @@ body {
     font-weight: 500;
     color: #1E5F28;
 }
-
 .PRODUCT-OVERVIEW {
     padding-right: 25px;
     flex-direction: column;
     gap: 20px;
 }
-
 .PRODUCT-OVERVIEW p {
     font-weight: 400;
     line-height: 24px;
     color: #414141;
     font-size: 16px;
 }
-
 .SPECIAL-FEATURES {
     padding-left: 25px;
 }
-
 .SPECIAL-FEATURES ul li {
     line-height: 24px;
     font-weight: 400;
     color: #414141;
 }
-
 .SPECIAL-FEATURES ul li::marker {
     font-size: 14px;
 }
@@ -4578,7 +4580,6 @@ body {
     z-index: 1;
     position: relative;
 }
-
 .TECHNICAL-SPECIFICATIONS::after {
     align-items: center;
     background-size: cover;
@@ -4592,46 +4593,38 @@ body {
     z-index: -1;
     opacity: 70%;
 }
-
 .TECHNICAL-SPECIFICATIONS-Result {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
 .TECHNICAL-SPECIFICATIONS-title {
     height: 360px;
     display: flex;
     align-items: center;
 }
-
 .TECHNICAL-SPECIFICATIONS-title h2 {
     line-height: 54px;
     font-size: 36px;
     font-weight: 500;
 }
-
 .PROPERTY-TESTMETHOD-RESULT {
     width: 964px;
     height: 360px;
     gap: 30px;
 }
-
 .tbody tr td {
     font-weight: 400;
     line-height: 24px;
     background-color: #1E5F28;
 }
-
 .PROPERTY-gap {
     padding-right: 30px;
     border: 0.1px solid rgb(255, 255, 255);
 }
-
 .thead tr th {
     width: 0%;
     background-color: #0D4315;
 }
-
 .thead tr th span,
 tbody tr td span {
     display: flex;
@@ -4640,7 +4633,6 @@ tbody tr td span {
     height: 40px;
     border-right: 1px solid rgb(255, 255, 255);
 }
-
 .PROPERTY-gap-0 {
     padding: 0;
 }
@@ -4683,38 +4675,31 @@ tbody tr td span {
     gap: 50px;
     padding-right: 15px;
 }
-
 .DIRECTION-FOR-STORAGE-images {
     padding-left: 15px;
 }
-
 .DIRECTION-FOR-STORAGE-images img {
     height: 460px;
     object-fit: cover;
 }
-
 .STORAGS {
     display: flex;
     flex-direction: column;
     gap: 20px
 }
-
 .STORAGS::marker {
     font-size: 10px;
 }
-
 .STORAGS h2 {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     color: #1E5F28;
 }
-
 .STORAGS p,
 .STORAGS ul li {
     line-height: 24px;
     font-weight: 400;
     color: #414141;
 }
-
 /* DIRECTION FOR STORAGE AND USE End */

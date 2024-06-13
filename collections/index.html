@@ -16,8 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="https://ik.imagekit.io/ecomax/assets/images/home/Faviconicon.png" />
-
-    <link rel="stylesheet" href="/assets/css/Ecomaxstylesm.css" />
+    <link rel="stylesheet" href="/assets/css/Ecomaxstylecss.css" />
 
 
 
@@ -470,7 +469,9 @@
                 }
 
                 const collectionData = await loadCollectionData(collectionType, collectionSlug);
-
+                console.log(collectionData);
+                
+                
                 if (window.location.href != "https://ecomaxlubricant.com/collections/") {
                 document.getElementById("collection_title").innerHTML = collectionData.collection_title;
                 document.getElementById("collection_description").innerHTML = collectionData.collection_description;

@@ -197,7 +197,7 @@
                         reliability and longevity of your machinery.
                     </p>
                 </div>
-                <div class="col-12 d-flex flex-wrap p-0  Lubricants-gap text-white" id="industrial_products">
+                <div class="col-12 d-flex flex-wrap p-0  Lubricants-gap text-white justify-content-between" id="industrial_products">
                   
                 </div>
             </div>
@@ -460,7 +460,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log(collectionData);
             document.getElementById("industrial_products").innerHTML = collectionData.map((collection) => {
                 return `
-                    <div class="col-12 coll-md-6 products produt coll-lg-4">
+                    <div class="col-12 coll-md-6 products produt coll-lg-4 ">
                         <a href="/industrial_products/index.html?s=${collection.collection_slug}">
                             <div class="products-img">
                                 <img src="/assets/images/Industrial_collections/${collection.collection_slug}/${collection.collection_image}" alt="${collection.collection_title}" class="img-fluid col-12 product_img">

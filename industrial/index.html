@@ -442,52 +442,58 @@
 
 // Load the data when the document is ready
 document.addEventListener("DOMContentLoaded", async () => {
+    // Load JavaScript files
     loadJS([
         "/assets/JS/script.js",
         "/assets/JS/db.js"
     ]);
 
+    // Function to get the thumbnail URL
     const getThumbURL = (type, slug, collectionSlug = null) => {
         return "/" + (type === 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
     };
 
+    // Delay the execution to ensure scripts are loaded
     setTimeout(async function () {
-        // Query parameter
+        // Get query parameter
         let urlParams = new URLSearchParams(window.location.search);
         let collectionSlug = urlParams.get('s');
-        let collectionType = "allindustrial";
+        let collectionType = collectionSlug ? "industrial_collection" : "allindustrial";
 
-        if (collectionSlug) {
-            collectionType = "industrial_collection";
+        try {
+            // Load collection data
+            const collectionData = await loadindustrialcollection(collectionType);
+
+            // Log collection data for debugging
+            console.log(collectionData);
+
+            // Generate HTML for collections and insert into the DOM
+            document.getElementById("industrial_products").innerHTML = collectionData.map((collection) => {
+                return `
+                    <div class="col-12 coll-md-6 products produt coll-lg-4">
+                        <a href="/industrial_products/index.html?s=${collection.collection_slug}">
+                            <div class="products-img">
+                                <img src="/assets/images/Industrial_collections/${collection.collection_slug}/${collection.collection_image}" alt="${collection.collection_title}" class="img-fluid col-12 product_img">
+                            </div>
+                            <div class="products-title">
+                                <div class="d-flex justify-content-between">
+                                    <h5>${collection.collection_title}</h5>
+                                    <h5 class="products-icon">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                `;
+            }).join(''); // Join array to form a single string
+        } catch (error) {
+            // Log any errors encountered during the fetch
+            console.error("Error loading collection data:", error);
         }
-        
-        const collectionData = await loadindustrialcollection(collectionType);
-        console.log(collectionData);
-
-        document.getElementById("industrial_products").innerHTML= collectionData.map((collection)=>{
-            return  `<div class="col-12 coll-md-6 products  produt   coll-lg-4">
-                           <a href="/industrial_products/index.html?s=${collection.collection_slug}">
-                               <div class="products-img">
-                                   <img src="/assets/images/Industrial_collections/${collection.collection_slug}/${collection.collection_image}" alt="${collection.collection_title}"
-                                       class="img-fluid col-12 product_img">
-                               </div>
-                               <div class="products-title">
-                                   <div class="d-flex justify-content-between">
-                                       <h5>
-                                          ${collection.collection_title}
-                                       </h5>
-                                       <h5 class="products-icon">
-                                           <i class="fa-solid fa-arrow-right"></i>
-                                       </h5>
-                                   </div>
-                               </div>
-                           </a>
-                        </div>
-                 `;
-        })
-
     }, 500);
 });
+
 
     </script>
 

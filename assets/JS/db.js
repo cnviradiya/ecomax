@@ -25,8 +25,6 @@ const fetchApi = async (type = "collection", slug, collectionSlug = null) => {
     return {};
 }
 
-
-
 const loadCollectionData = async (type="all", slug = null, collectionSlug = null) => {
     return await fetchApi(type, slug, collectionSlug);
 }

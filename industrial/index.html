@@ -438,36 +438,26 @@
     </script>
     <!-- Script end -->
     <script>
-
-
-// Load the data when the document is ready
 document.addEventListener("DOMContentLoaded", async () => {
-    // Load JavaScript files
+
     loadJS([
         "/assets/JS/script.js",
         "/assets/JS/db.js"
     ]);
 
-    // Function to get the thumbnail URL
     const getThumbURL = (type, slug, collectionSlug = null) => {
         return "/" + (type === 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
     };
 
-    // Delay the execution to ensure scripts are loaded
     setTimeout(async function () {
-        // Get query parameter
+      
         let urlParams = new URLSearchParams(window.location.search);
         let collectionSlug = urlParams.get('s');
         let collectionType = collectionSlug ? "industrial_collection" : "allindustrial";
 
         try {
-            // Load collection data
             const collectionData = await loadindustrialcollection(collectionType);
-
-            // Log collection data for debugging
             console.log(collectionData);
-
-            // Generate HTML for collections and insert into the DOM
             document.getElementById("industrial_products").innerHTML = collectionData.map((collection) => {
                 return `
                     <div class="col-12 coll-md-6 products produt coll-lg-4">
@@ -486,9 +476,8 @@ document.addEventListener("DOMContentLoaded", async () => {
                         </a>
                     </div>
                 `;
-            }).join(''); // Join array to form a single string
+            }).join(''); 
         } catch (error) {
-            // Log any errors encountered during the fetch
             console.error("Error loading collection data:", error);
         }
     }, 500);

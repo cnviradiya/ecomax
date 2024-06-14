@@ -1,4 +1,4 @@
-const API_URL = "/assets/database/dbb.json";
+const API_URL = "/assets/database/db.json";
 
 const fetchApi = async (type = "collection", slug, collectionSlug = null) => {
     const allData = await fetch(API_URL).then((res) => {

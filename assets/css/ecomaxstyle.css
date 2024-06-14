@@ -16,7 +16,9 @@
     margin-top: 15px;
 }
 
-
+.PROPERTY-gap:last-child{
+    padding: 0;
+}
 
 #chartdiv {
     width: 100%;

@@ -21,16 +21,74 @@
                     "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
                 ],
                 "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Kinematic Viscosity",
+                    " cSt @ 40 Degree Cent.",
+                    "cSt @ 100 Degree Cent.",
+                    "Temperature Range",
+                    " Viscosity Index",
+                    "Flash Point Degree Cent."
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "",
+                    "ASTM D 445",
+                    "ASTM D445",
+                    "",
+                    "ASTM D 2270",
+                    ""
+                ],
+                "technical_specifications2":[
+                    "Amber / Yellow Liquid",
+                    "Synthetic Ester Mixture",
+                    "",
+                    "185",
+                    "31",
+                    "-30 to 300 Degree Cent.",
+                    " 211",
+                    "316 C"
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Amber / Yellow Liquid"
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Synthetic Ester Mixture"
+                ],
+                "data_tabal3":[
+                    "Kinematic Viscosity",
+                    "",
+                    ""
+                ],
+                "data_tabal4":[
+                    "cSt @ 40 Degree Cent.",
+                    "ASTM D 445",
+                    "185"
+                ],
+                "data_tabal5":[
+                    "cSt @ 100 Degree Cent.",
+                    "ASTM D445",
+                    "31"
+                ],
+                "data_tabal6":[
+                    "Temperature Range",
+                    "",
+                    "-30 to 300 Degree Cent."
+                ],
+                "data_tabal7":[
+                    "Viscosity Index",
+                    "ASTM D 2270",
+                    "211"
+                ],
+                "data_tabal8":[
+                    "Flash Point Degree Cent.",
+                    "",
+                    "316 C"
                 ],
                 "driection_for_storage_and_use":[
                     "Ecosynth 610 can be applied manually by brush or oilcan if required.",
@@ -64,16 +122,74 @@
                     "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
                 ],
                 "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Kinematic Viscosity",
+                    " cSt @ 40 Degree Cent.",
+                    "cSt @ 100 Degree Cent.",
+                    "Temperature Range",
+                    " Four ball weld load",
+                    "Four ball wear scar (mm)"
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "",
+                    "ASTM D 445",
+                    "ASTM D445",
+                    "",
+                    "ASTM D 2596",
+                    "ASTM D 2266"
+                ],
+                "technical_specifications2":[
+                    "Yellow Liquid",
+                    "Synthetic Ester Mixture",
+                    "",
+                    "385",
+                    "42",
+                    "0 to 260 Degree Cent.",
+                    "277 Kg",
+                    "0.41"
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Yellow Liquid"
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Synthetic Ester Mixture"
+                ],
+                "data_tabal3":[
+                    "Kinematic Viscosity",
+                    "",
+                    ""
+                ],
+                "data_tabal4":[
+                    "cSt @ 40 Degree Cent.",
+                    "ASTM D 445",
+                    "385"
+                ],
+                "data_tabal5":[
+                    "cSt @ 100 Degree Cent.",
+                    "ASTM D445",
+                    "42"
+                ],
+                "data_tabal6":[
+                    "Temperature Range",
+                    "",
+                    "0 to 260 Degree Cent."
+                ],
+                "data_tabal7":[
+                    "Four ball weld load",
+                    "ASTM D 2596",
+                    "277 Kg"
+                ],
+                "data_tabal8":[
+                    "Four ball wear scar (mm)",
+                    "ASTM D 2266",
+                    "0.41"
                 ],
                 "driection_for_storage_and_use":[
                     "Ecosynth 350 can be applied manually by brush or oilcan if required.",
@@ -109,17 +225,76 @@
                     "Ecomax-WRL wire rope lubricant is sufficiently greasy to resist fling off at high speed.",
                     "Ecomax-WRL wire rope lubricant."
                 ],
-                "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                  "technical_specifications":[
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Thickener ",
+                    "NLGI Grade",
+                    "Additives",
+                    "Worked penetration",
+                    "Oil separation",
+                    "Four ball wear scar (mm)"
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "",
+                    "ASTM D 445",
+                    "ASTM D445",
+                    "",
+                    "ASTM D 2596",
+                    "ASTM D 2266"
+                ],
+                "technical_specifications2":[
+                    "Homogeneous soft black grease",
+                    "Highly refined mineral oil",
+                    "Organically modified clay",
+                    "385",
+                    "440-450",
+                    "<4%",
+                    "350 KG",
+                    "0.4-0.45 mm"
+                    
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Homogeneous soft black grease  "
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Highly refined mineral oil"
+                ],
+                "data_tabal3":[
+                    "Thickener ",
+                    "N/A",
+                    "Organically modified clay"
+                ],
+                "data_tabal4":[
+                    "NLGI Grade",
+                    "",
+                    "00"
+                ],
+                "data_tabal5":[
+                    "Worked penetration",
+                    "ASTM D 217",
+                    "440-450"
+                ],
+                "data_tabal6":[
+                    "Oil separation",
+                    "ASTM D 1742",
+                    "<4%"
+                ],
+                "data_tabal7":[
+                    "Four ball weld load",
+                    "ASTM D 2596",
+                    "350 KG"
+                ],
+                "data_tabal8":[
+                    "Four ball wear scar (mm)",
+                    "ASTM D 2266",
+                    "0.4-0.45 mm"
                 ],
                 "driection_for_storage_and_use":[
                     "Easy to apply-Can be applied by brush or hands",
@@ -163,16 +338,34 @@
                     "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions."
                 ],
                 "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Thickener ",
+                    "NLGI Grade",
+                    "Additives",
+                    "Worked penetration",
+                    "Oil separation",
+                    "Four ball wear scar (mm)"
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "N/A",
+                    "",
+                    "N/A",
+                    "ASTM D 217",
+                    "ASTM D 1742",
+                    "ASTM D 2266"
+                ],
+                "technical_specifications2":[
+                    "Homogeneous soft black grease",
+                    "Highly refined mineral oil",
+                    "Organically modified clay",
+                    "2",
+                    "265-285",
+                    "<4%",
+                    "285 KG",
+                    "0.4-0.45 mm"  
                 ],
                 "driection_for_storage_and_use":[
                     "Ecomax HT- Hecton can be applied manually by grease gun , keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives",
@@ -180,6 +373,46 @@
                     "Avoid mixing of Ecomax HT- Hecton with soap thickened greases.",
                     "The storage temperature should be controlled between +1 C to +40 C.",
                     "Shelf life is 3 years from date of manufacturing."
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Homogeneous soft black grease  "
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Highly refined mineral oil"
+                ],
+                "data_tabal3":[
+                    "Thickener ",
+                    "N/A",
+                    "Organically modified clay"
+                ],
+                "data_tabal4":[
+                    "NLGI Grade",
+                    "",
+                    "2"
+                ],
+                "data_tabal5":[
+                    "Worked penetration",
+                    "ASTM D 217",
+                    "265-285"
+                ],
+                "data_tabal6":[
+                    "Oil separation",
+                    "ASTM D 1742",
+                    "<4%"
+                ],
+                "data_tabal7":[
+                    "Four ball weld load",
+                    "ASTM D 2596",
+                    "285 KG"
+                ],
+                "data_tabal8":[
+                    "Four ball wear scar (mm)",
+                    "ASTM D 2266",
+                    "0.4-0.45 mm"
                 ],
                 "typical_applications":[
                     "Ecomax HT- Hecton is particularly suitable for high temperature bearings operating in extreme conditions such as shock load, vibrations and wet environments.",
@@ -211,16 +444,74 @@
                     "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions."
                 ],
                 "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Thickener ",
+                    "NLGI Grade",
+                    "Additives",
+                    "Worked penetration",
+                    "Oil separation",
+                    "Four ball wear scar (mm)"
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "N/A",
+                    "",
+                    "N/A",
+                    "ASTM D 217",
+                    "ASTM D 1742",
+                    "ASTM D 2266"
+                ],
+                "technical_specifications2":[
+                    "Homogeneous soft black grease",
+                    "Highly refined mineral oil",
+                    "Organically modified clay",
+                    "1",
+                    "310-340",
+                    "<4%",
+                    "460 KG",
+                    "0.45-0.60 mm"  
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Homogeneous soft black grease "
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Highly refined mineral oil"
+                ],
+                "data_tabal3":[
+                    "Thickener ",
+                    "N/A",
+                    "Organically modified clay"
+                ],
+                "data_tabal4":[
+                    "NLGI Grade",
+                    "",
+                    "1"
+                ],
+                "data_tabal5":[
+                    "Worked penetration",
+                    "ASTM D 217",
+                    "310-340"
+                ],
+                "data_tabal6":[
+                    "Oil separation",
+                    "ASTM D 1742",
+                    "<4%"
+                ],
+                "data_tabal7":[
+                    "Four ball weld load",
+                    "ASTM D 2596",
+                    "460 KG"
+                ],
+                "data_tabal8":[
+                    "Four ball wear scar (mm)",
+                    "ASTM D 2266",
+                    "0.45-0.60 mm"
                 ],
                 "driection_for_storage_and_use":[],
                 "typical_applications":[
@@ -254,16 +545,74 @@
                     "Long storage life"
                 ],
                 "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Thickener ",
+                    "NLGI Grade",
+                    "Droping Point",
+                    "Worked penetration",
+                    "Oil separation",
+                    "Four ball wear scar (mm)"
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "N/A",
+                    "",
+                    "ASTM D 566",
+                    "ASTM D 217",
+                    "IP 239",
+                    "ASTM D 2266"
+                ],
+                "technical_specifications2":[
+                    "Homogeneous soft black grease",
+                    "Highly refined mineral oil",
+                    "Lithium Complex",
+                    "2",
+                    "265 Degree Cent.",
+                    "<4%",
+                    "320 KG",
+                    "0.44-0.45 mm"  
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Smooth and Tacky Blue Grease"
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Highly refined mineral oil"
+                ],
+                "data_tabal3":[
+                    "Thickener ",
+                    "N/A",
+                    "Lithium Complex"
+                ],
+                "data_tabal4":[
+                    "NLGI Grade",
+                    "",
+                    "2"
+                ],
+                "data_tabal5":[
+                    "Worked penetration",
+                    "ASTM D 217",
+                    "270 - 285"
+                ],
+                "data_tabal6":[
+                    "Oil separation",
+                    "ASTM D 1742",
+                    "<3%"
+                ],
+                "data_tabal7":[
+                    "Four ball weld load",
+                    "IP 239",
+                    "320 KG"
+                ],
+                "data_tabal8":[
+                    "Four ball wear scar (mm)",
+                    "ASTM D 2266",
+                    "0.44-0.45 mm"
                 ],
                 "driection_for_storage_and_use":[
                     "Ecomax Titanium 222 can be applied manually by grease gun, keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives",
@@ -301,16 +650,74 @@
                     "MoX Active lubricating solids –offers EP performance"
                 ],
                 "technical_specifications":[
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""],
-                    ["","",""]
+                    " Appearance",
+                    " Base Fluid Type",
+                    "Thickener ",
+                    "NLGI Grade",
+                    "Additives",
+                    "Worked penetration",
+                    "Oil separation",
+                    "Four ball wear scar (mm)"
+                ],
+                "technical_specifications1":[
+                    "Visual",
+                    " N/A",
+                    "N/A",
+                    "",
+                    "N/A",
+                    "ASTM D 217",
+                    "ASTM D 2596",
+                    "ASTM D 2266"
+                ],
+                "technical_specifications2":[
+                    "Homogeneous soft black grease",
+                    "Highly refined mineral oil",
+                    "Organically modified clay",
+                    "00",
+                    "440-450",
+                    "<4%",
+                    "350 KG",
+                    "0.44-0.45 mm"  
+                ],
+                "data_tabal1":[
+                    "Appearance",
+                    "Visual",
+                    "Homogeneous soft black grease"
+                ],
+                "data_tabal2":[
+                    "Base Fluid Type",
+                    "N/A",
+                    "Highly refined mineral oil"
+                ],
+                "data_tabal3":[
+                    "Thickener ",
+                    "N/A",
+                    "Organically modified clay"
+                ],
+                "data_tabal4":[
+                    "NLGI Grade",
+                    "",
+                    "00"
+                ],
+                "data_tabal5":[
+                    "Worked penetration",
+                    "ASTM D 217",
+                    "440-450"
+                ],
+                "data_tabal6":[
+                    "Oil separation",
+                    "ASTM D 1742",
+                    "<4%"
+                ],
+                "data_tabal7":[
+                    "Four ball weld load",
+                    "ASTM D 2596",
+                    "350 KG"
+                ],
+                "data_tabal8":[
+                    "Four ball wear scar (mm)",
+                    "ASTM D 2266",
+                    "0.44-0.45 mm"
                 ],
                 "driection_for_storage_and_use":[
                     "Ecomax GL NLGI # 00 lubricant should be stored in its unopened original container",

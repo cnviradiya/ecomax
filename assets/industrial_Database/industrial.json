@@ -39,7 +39,8 @@
                     "Shelf life is 3 years from date of manufacturing."
                 ],
                 "typical_applications":["Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."],
-                "direction_images":"Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                "pack_size":"Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack",
+                "direction_image" : "direction_ecosynth_610.png"
             }
         ]
     },
@@ -52,8 +53,16 @@
                 "title" : "Ecosynth 350",
                 "short_description": "HIGH TEMPERATURE EP CHAIN AND CONVEYOR LUBRICANT",
                 "products_image":"product_ecosynth_350.png",
-                "product_overview":[""],
-                "special_features":[""],
+                "product_overview":["Ecosynth 350 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."],
+                "special_features":[
+                    "Has a temperature range of 0 C to +282 C.",
+                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
+                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
+                    "Low Evaporation of oil offers good economy.",
+                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions.",
+                    "Does not form any carbon deposits and provides clean and safe working environment.",
+                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
+                ],
                 "technical_specifications":[
                     ["","",""],
                     ["","",""],
@@ -66,9 +75,17 @@
                     ["","",""],
                     ["","",""]
                 ],
-                "driection_for_storage_and_use":[""],
-                "typical_applications":[""],
-                "direction_images":""
+                "driection_for_storage_and_use":[
+                    "Ecosynth 350 can be applied manually by brush or oilcan if required.",
+                    "Ecosynth 350 should be stored in unopened container.",
+                    "The storage temperature should be controlled between +1 C to +40 C.",
+                    "Shelf life is 3 years from date of manufacturing."
+                ],
+                "typical_applications":[
+                    "Ecosynth 350 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                ],
+                "pack_size":"Available in 5 Ltr., 10 Ltr. and 20 Ltr. pack",
+                "direction_image" : "direction_ecosynth_350.png"
             }
         ]
     },
@@ -81,8 +98,17 @@
                 "title" : "Mox Active-HECTON WRL",
                 "short_description": "HIGH PERFORMANCE SEMI-FLUID WIRE ROPE LUBRICANT",
                 "products_image":"product_mox-active-hecton-wrl.png",
-                "product_overview":[""],
-                "special_features":[""],
+                "product_overview":[
+                    "Ecomax-WRL Hecton NLGI # 00  is semi-fluid grease based on highly refined mineraloil and organically modified clay thickener.",
+                    "The unique blend of lubricating solids and proprietary additive package contained in Ecomax-WRL wire rope lubricant reduces the internal friction and wear often encountered in multi strand wire ropes.",
+                    "Ecomax-WRL is highly resistant to water and provides excellent corrosion protection making it suitable for use in salt water environments even under water."
+                ],
+                "special_features":[
+                    "Ecomax-WRL wire rope lubricant has a temperature range of -30 c to +100 c.",
+                    "Ecomax-WRL wire rope lubricant is sufficiently fluid enough to penetrate through the strands to the core of the rope.",
+                    "Ecomax-WRL wire rope lubricant is sufficiently greasy to resist fling off at high speed.",
+                    "Ecomax-WRL wire rope lubricant."
+                ],
                 "technical_specifications":[
                     ["","",""],
                     ["","",""],
@@ -95,9 +121,25 @@
                     ["","",""],
                     ["","",""]
                 ],
-                "driection_for_storage_and_use":[""],
-                "typical_applications":[""],
-                "direction_images":""
+                "driection_for_storage_and_use":[
+                    "Easy to apply-Can be applied by brush or hands",
+                    "Excellent water wash out resistance and corrosion protection ",
+                    "Polar by Nature-Make uninterrupted lubricating film to reduce friction",
+                    "High COF and High VI base oil contributes to long service life",
+                    "Mox active lubricating solids –offers EP performance ",
+                    "Provides a thin non tacky film which prevents the build- up of dust and dirt on the wire rope.",
+                    "Ecomax-WRL wire rope lubricant should be stored in its unopened original container.",
+                    "Ecomax-WRL wire rope lubricantis stored in proper way in original container, the shelf life is 4 years from date of manufacture.",
+                    "Ecomax-WRL wire rope lubricant can be applied by using a brush, hand or automatic lubricator. ",
+                    "The minimum application temperature for Ecomax-WRL wire rope lubricant is 0 c.",
+                    "For best results always apply Ecomax-WRL wire rope lubricant to clean, dry ropes.",
+                    "Approximate rope coverage, based on a 25mm diameter rope is 45-50meters per kg."
+                ],
+                "typical_applications":[
+                    "Ecomax-WRL wire rope lubricant is designed for use on ropes operating in marine and other arduous environmental conditions on equipment such as hoists, drag lines, cranes, ships and ship hoists.  Ecomax-WRL wire rope lubricant can also be used as semi fluid high load gearbox grease."
+                ],
+                "pack_size":"",
+                "direction_image" : "direction_mox-active-hecton-wrl.png"
             }
         ]
     },
@@ -110,8 +152,16 @@
                 "title" : "HT-HECTON GREASE",
                 "short_description": "",
                 "products_image":"product_ht-hecton-grease.png",
-                "product_overview":[""],
-                "special_features":[""],
+                "product_overview":[
+                    "Ecomax HT- Hecton NLGI # 2 is heavy duty, high temperature bearing grease fortified with molybdenum disulphide. It has been designed for the effective lubrication and protection of ball, roller and plain bearings used in extreme environments. The unique blend of lubricating solids and proprietary additive package contained in Ecomax HT- Hecton lubricant reduces the internal friction and wear often encountered in bearings."
+                ],
+                "special_features":[
+                    "Has a temperature range of -10 C to +360 C, is Non-melting , organically modified clay thickened, fortified with molybdenum disulphide,for excellent high temperature and water resistance.",
+                    "Ideal for highly loaded applications, where shock load and vibrations can occure.",
+                    "Highly resistance to oxidation , providing extended lubrication intervals over conventional lubricants.",
+                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions.",
+                    "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions."
+                ],
                 "technical_specifications":[
                     ["","",""],
                     ["","",""],
@@ -124,9 +174,19 @@
                     ["","",""],
                     ["","",""]
                 ],
-                "driection_for_storage_and_use":[""],
-                "typical_applications":[""],
-                "direction_images":""
+                "driection_for_storage_and_use":[
+                    "Ecomax HT- Hecton can be applied manually by grease gun , keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives",
+                    "Ecomax HT- Hecton is compatible with other clay thickened greases. However, for best results the previous lubricant should be removed before application.",
+                    "Avoid mixing of Ecomax HT- Hecton with soap thickened greases.",
+                    "The storage temperature should be controlled between +1 C to +40 C.",
+                    "Shelf life is 3 years from date of manufacturing."
+                ],
+                "typical_applications":[
+                    "Ecomax HT- Hecton is particularly suitable for high temperature bearings operating in extreme conditions such as shock load, vibrations and wet environments.",
+                    "Ecomax HT- Hecton is designed for all types of ball, roller and plain bearings typically found in industries such as refineries, chemical, process plants, Glass, Textile, Petrochemicals, marine docks, mining, agriculture, construction, tile work, steel and other industries."
+                ],
+                "pack_size":"",
+                "direction_image" : "direction-ht-hecton-grease.png"
             }
         ]
     },
@@ -139,8 +199,17 @@
                 "title" : "HECTON OGL",
                 "short_description": "OPEN GEAR LUBRICANT",
                 "products_image":"product_hecton_ogl.png",
-                "product_overview":[""],
-                "special_features":[""],
+                "product_overview":[
+                    "Ecomax  Hecton OGL Open gear lubricant is a special weather-resistant open gear grease that clings tenaciously in position regardless of wind, rain, sleet, snow, sun , dust storm and other climatic conditions. It is heavy duty grease fortified with molybdenum disulphide. It has been designed for the effective lubrication and protection of open gears.",
+                    "The unique blend of lubricating solids and proprietary additive package contained in Ecomax Hecton OGL lubricant reduces the internal friction and wear often encountered in meshing metal surfaces of open gears."
+                ],
+                "special_features":[
+                    "Is Non-melting , organically modified clay thickened, fortified with molybdenum disulphide, for excellent high temperature and water resistance.",
+                    "Ideal for highly loaded applications, where shock load and vibrations can occure. ",
+                    "Highly resistance to oxidation , providing extended lubrication intervals over conventional lubricants.",
+                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions. ",
+                    "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions."
+                ],
                 "technical_specifications":[
                     ["","",""],
                     ["","",""],
@@ -153,9 +222,12 @@
                     ["","",""],
                     ["","",""]
                 ],
-                "driection_for_storage_and_use":[""],
-                "typical_applications":[""],
-                "direction_images":""
+                "driection_for_storage_and_use":[],
+                "typical_applications":[
+                    "Ecomax  Hecton OGL open gear grease has umlimited application in  open gear equipments:  Cranes, Hoists, wind-pumps, water pumps, winches, heavy equipments, rail pulley and more."
+                ],
+                "pack_size":"",
+                "direction_image" : "direction-hecton_ogl.png"
             }
         ]
     },
@@ -168,8 +240,19 @@
                 "title" : "HT-TITANIUM GREASE - 222",
                 "short_description": "HIGH TEMPERATURE BEARING GREASE",
                 "products_image":"product_ht-titanium-grease-222.png",
-                "product_overview":[""],
-                "special_features":[""],
+                "product_overview":[
+                    "Ecomax Titanium - 222 is extended service lithium complex grease intended for a wide variety of applications and severs operating conditions. This grease is designed to be superior as compared to conventional products by applying lithium complex based chemistry. This grease is formulated to provide excellent high temperature performance with superb adhesion, structural stability and resistance to water contamination. It has a high level of chemical stability and offers excellent protection against rust and corrosion.",
+                    "Ecomax titanium -222 is designed for a wide range of applications including the industrial, automotive, construction and marine sector. Its performance features makes it an ideal choice for operating conditions including high temperature, water contamination, shock loading and  extended republication intervals."
+                ],
+                "special_features":[
+                    "Extended bearing life and low oil bleed.",
+                    "High wash off resistance .  ",
+                    "Excellent low temperature performance and reliable high temperature performance.",
+                    "Good oxidation and mechanical stability. ",
+                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions. ",
+                    "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions.",
+                    "Long storage life"
+                ],
                 "technical_specifications":[
                     ["","",""],
                     ["","",""],
@@ -182,9 +265,18 @@
                     ["","",""],
                     ["","",""]
                 ],
-                "driection_for_storage_and_use":[""],
-                "typical_applications":[""],
-                "direction_images":""
+                "driection_for_storage_and_use":[
+                    "Ecomax Titanium 222 can be applied manually by grease gun, keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives",
+                    "The storage temperature should be controlled between +1 C to +40 C.",
+                    "Shelf life is 3 years from date of manufacturing."
+                ],
+                "typical_applications":[
+                    "Ecomax Titanium 222 can be applied manually by grease gun, keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives.",
+                    "The storage temperature should be controlled between +1 C to +40 C.",
+                    "Shelf life is 3 years from date of manufacturing."
+                ],
+                "pack_size":"",
+                "direction_image" : "direction-ht-titanium-grease-222.png"
             }
         ]
     }, {
@@ -196,8 +288,18 @@
                 "title" : "Semi fluid Gear box",
                 "short_description": "",
                 "products_image":"product_semi-fluid-gear-box.png",
-                "product_overview":[""],
-                "special_features":[""],
+                "product_overview":[
+                    "Ecomax-GL NLGI is semi-fluid grease based on highly refined mineral oil and organically modified clay thickener. The unique blend of lubricating solids and proprietary additive package contained in Ecomax GL reduces the internal friction and wear often encountered between meshing gear teeths."
+                ],
+                "special_features":[
+                    "Ecomax-GL lubricant has a temperature range of -30 c to +280 c.",
+                    "Ecomax-GL lubricant is sufficiently greasy to resist fling off at high speed.",
+                    "Ecomax-GL lubricant",
+                    "Excellent water wash out resistance and corrosion protection ",
+                    "Polar by Nature-Make uninterrupted lubricating film to reduce friction",
+                    "High COF and High VI base oil contributes to long service life",
+                    "MoX Active lubricating solids –offers EP performance"
+                ],
                 "technical_specifications":[
                     ["","",""],
                     ["","",""],
@@ -210,9 +312,16 @@
                     ["","",""],
                     ["","",""]
                 ],
-                "driection_for_storage_and_use":[""],
-                "typical_applications":[""],
-                "direction_images":""
+                "driection_for_storage_and_use":[
+                    "Ecomax GL NLGI # 00 lubricant should be stored in its unopened original container",
+                    "If Ecomax-GL NLGI # 00   lubricants stored in proper way in original container,the shelf life is 4 years from date of manufacture.",
+                    "The minimum application temperature for Ecomax-GL NLGI # 00 lubricant is 0 c."
+                ],
+                "typical_applications":[
+                    "Ecomax-GL NLGI # 00 lubricant is designed for use high load gear box operating in demanding industrial environmental conditions."
+                ],
+                "pack_size":"",
+                "direction_image" : "direction-semi-fluid-gear-box.png"
             }
         ]
     }

@@ -151,12 +151,12 @@
                 <div class="col-12 d-flex justify-content-between industrial-Product-item flex-wrap p-0">
                     <div class="industrial-Product-title text-white">
                         <h1 class="m-0 dynamic-data" data-title>
-                            
+
                         </h1>
                         <p class="dynamic-data dynamic-text" data-description></p>
                     </div>
                     <div class="industrial-Product-images dynamic-data" data-images>
-                       
+
                     </div>
                 </div>
             </div>
@@ -172,45 +172,16 @@
                         <h2 class="m-0">
                             PRODUCT OVERVIEW
                         </h2>
-                        <p>Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base
-                            high
-                            temperature chain oil with optimum wear protection, formulated for lubrication of
-                            chains and
-                            conveyors working at elevated temperature and also under influence of humidity Unique
-                            combination of synthetic ester and specifically designed anti-oxidant package ensures
-                            superior
-                            performance in terms of evaporation, thermal stability and varnish formation.</p>
+                        <ul class="dynamic-data" data-product-overview>
+
+                        </ul>
                     </div>
                     <div class="col-12 col-xxl-6 SPECIAL-FEATURES">
                         <h2>
                             SPECIAL FEATURES
                         </h2>
-                        <ul>
-                            <li>
-                                Has a temperature range of -30 C to +300 C.
-                            </li>
-                            <li>
-                                Excellent anti wear properties at elevated temperature gives longer chain life.
-                            </li>
-                            <li>
-                                It penetrates into link and pins and by reducing wear in highest potential wear area,
-                                it
-                                increase life of chain and further reduces maintenance cost.
-                            </li>
-                            <li>
-                                Low Evaporation of oil offers good economy.
-                            </li>
-                            <li>
-                                Excellent corrosion resistance to protect in humid , damp and even wet conditions.
-                            </li>
-                            <li>
-                                Does not form any carbon deposits and provides clean and safe working environment.
-                            </li>
-                            <li>
-                                Uniquely designed anti-oxidant package provides long service life with lower
-                                deposits
-                                and varnish formation.
-                            </li>
+                        <ul class="dynamic-data" data-special-features>
+                           
                         </ul>
                     </div>
                 </div>
@@ -380,48 +351,33 @@
     <section class="section-padding DIRECTION-FOR-STORAGE-AND-USE ">
         <div class="container1">
             <div class="row">
-                <div class="col-12 flex-wrap d-flex p-0">
+                <div class="col-12 flex-wrap align-items-center d-flex p-0">
                     <div class="col-12 col-xl-6 DIRECTION-FOR-STORAGE">
                         <div class="STORAGS ">
                             <h2 class="m-0">
                                 DIRECTION FOR STORAGE AND USE
                             </h2>
-                            <ul class="m-0">
-                                <li>
-                                    Ecosynth 610 can be applied manually by brush or oilcan if required.
-                                </li>
-                                <li>
-                                    Ecosynth 610 should be stored in unopened container.
-                                </li>
-                                <li>
-                                    The storage temperature should be controlled between +1 C to +40 C.
-                                </li>
-                                <li>
-                                    Shelf life is 3 years from date of manufacturing.
-                                </li>
+                            <ul class="m-0 dynamic-data" data-driection_for_storage_and_use>
+                               
                             </ul>
                         </div>
                         <div class="STORAGS">
                             <h2 class="m-0">
                                 TYPICAL APPLICATIONS
                             </h2>
-                            <p class="m-0">Ecosynth 610 is designed for lubrication of Textile stenters, drying
-                                machines, paint stoving ovens,
-                                bakery ovens and similar high temperature chain applications, hinges, joints and slide
-                                ways at
-                                higher temperature.</p>
+                            <ul class="m-0 dynamic-data" data-typical_applications>
+                                
+                            </ul>
                         </div>
                         <div class="STORAGS">
                             <h2 class="m-0">
-                                TYPICAL APPLICATIONS
+                                PACK SIZE
                             </h2>
-                            <p class="m-0">Available in
-                                5 Ltr., 10 Ltr. and 50 Ltr. pack</p>
+                            <p class="m-0 dynamic-data" data-pack_size></p>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-6 DIRECTION-FOR-STORAGE-images">
-                        <img src="/assets/images/industrial_product/DIRECTION.png" alt="DIRECTION FOR STORAGE AND USE"
-                            class="img-fluid">
+                    <div class="col-12 col-xl-6 DIRECTION-FOR-STORAGE-images dynamic-data" data-direction_image>
+                       
                     </div>
                 </div>
                 <div class="product_btn product_btn_bak justify-content-center d-flex">
@@ -725,6 +681,46 @@
                             class="img-fluid">`
                         );
                     }
+
+                    if ($(this).attr('data-product-overview') !== undefined) {
+                        // replace the PRODUCT OVERVIEW
+                        $(this).append(collectionData.products[0].product_overview.map(function (overviewt) {
+                            return "<li>" + overviewt + "</li>";
+                        }));
+                    }
+
+                    if ($(this).attr('data-special-features') !== undefined) {
+                        // replace the SPECIAL FEATURES
+                        $(this).append(collectionData.products[0].special_features.map(function (features) {
+                            return "<li>" + features + "</li>";
+                        }));
+                    }
+
+                    if ($(this).attr('data-driection_for_storage_and_use') !== undefined) {
+                        // replace the driection_for_storage_and_use
+                        $(this).append(collectionData.products[0].driection_for_storage_and_use.map(function (storage) {
+                            return "<li>" + storage + "</li>";
+                        }));
+                    }
+                    if ($(this).attr('data-typical_applications') !== undefined) {
+                        // replace the typical_applications
+                        $(this).append(collectionData.products[0].typical_applications.map(function (applications) {
+                            return "<li>" + applications + "</li>";
+                        }));
+                    }
+                    if ($(this).attr('data-pack_size') !== undefined) {
+                        // replace the pack_size
+                        $(this).html(collectionData.products[0].pack_size);
+                    }
+
+                    if ($(this).attr('data-direction_image') !== undefined) {
+                        // replace the direction_image
+                        $(this).html(
+                            ` <img src="/assets/images/Industrial_collections/${collectionData.collection_slug}/${collectionData.products[0].direction_image}" alt="${collectionData.products[0].title}"
+                            class="img-fluid">`
+                        );
+                    }
+
                 });
             }, 500);
         });

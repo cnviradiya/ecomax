@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="https://ik.imagekit.io/ecomax/assets/images/home/Faviconicon.png" />
-    <link rel="stylesheet" href="/assets/css/ecomaxstyle.css" />
+    <link rel="stylesheet" href="/assets/css/ecomax__style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -197,10 +197,8 @@
                     </div>
                     <table class="PROPERTY-TESTMETHOD-RESULT d-none d-md-block">
                         <thead class="thead">
-                            <tr class="text-white text-center">
-                                <th scope="col" class="PROPERTY-gap"><span>PROPERTY</span></th>
-                                <th scope="col" class="PROPERTY-gap"><span>TEST METHOD</span></th>
-                                <th scope="col" class="PROPERTY-gap PROPERTY-gap-0"><span>RESULT</span></th>
+                            <tr class="text-white text-center dynamic-data" data-tabal-title>
+                               
                             </tr>
                         </thead>
                         <tbody class="text-center tbody text-white">
@@ -265,24 +263,24 @@
                 <div class="col-12 flex-wrap align-items-center d-flex p-0">
                     <div class="col-12 col-xl-6 DIRECTION-FOR-STORAGE">
                         <div class="STORAGS ">
-                            <h2 class="m-0">
-                                DIRECTION FOR STORAGE AND USE
+                            <h2 class="m-0 dynamic-data" DIRECTION>
+                              
                             </h2>
                             <ul class="m-0 dynamic-data" data-driection_for_storage_and_use>
                                
                             </ul>
                         </div>
                         <div class="STORAGS">
-                            <h2 class="m-0">
-                                TYPICAL APPLICATIONS
+                            <h2 class="m-0 dynamic-data" TYPICAL>
+                              
                             </h2>
                             <ul class="m-0 dynamic-data" data-typical_applications>
                                 
                             </ul>
                         </div>
                         <div class="STORAGS">
-                            <h2 class="m-0">
-                                PACK SIZE
+                            <h2 class="m-0 dynamic-data" PACK>
+                             
                             </h2>
                             <p class="m-0 dynamic-data" data-pack_size></p>
                         </div>
@@ -711,6 +709,25 @@
                         }));
                     }
 
+                    if ($(this).attr('data-tabal-title') !== undefined) {
+                        // replace the  data-special-1
+                        $(this).append(collectionData.products[0].data_title.map(function (data_special) {
+                            return  `<th scope="col" class="PROPERTY-gap"><span>${data_special}</span></th>`;
+                        }));
+                    }
+
+                    if ($(this).attr('DIRECTION') !== undefined) {
+                        // replace the title
+                        $(this).html(collectionData.products[0].direction);
+                    }
+                    if ($(this).attr('TYPICAL') !== undefined) {
+                        // replace the title
+                        $(this).html(collectionData.products[0].typical);
+                    }
+                    if ($(this).attr('PACK') !== undefined) {
+                        // replace the title
+                        $(this).html(collectionData.products[0].pack);
+                    }
 
                 });
             }, 500);

@@ -90,6 +90,15 @@
                     "",
                     "316 C"
                 ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
+                ],
+                "direction" :  "DIRECTION FOR STORAGE AND USE",
+                "typical" : "TYPICAL APPLICATIONS",
+                "pack" : "PACK SIZE",
+
                 "driection_for_storage_and_use":[
                     "Ecosynth 610 can be applied manually by brush or oilcan if required.",
                     "Ecosynth 610 should be stored in unopened container.",
@@ -191,6 +200,14 @@
                     "ASTM D 2266",
                     "0.41"
                 ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
+                ],
+                "direction" :  "DIRECTION FOR STORAGE AND USE",
+                "typical" : "TYPICAL APPLICATIONS",
+                "pack" : "PACK SIZE",
                 "driection_for_storage_and_use":[
                     "Ecosynth 350 can be applied manually by brush or oilcan if required.",
                     "Ecosynth 350 should be stored in unopened container.",
@@ -276,6 +293,11 @@
                     "",
                     "00"
                 ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
+                ],
                 "data_tabal5":[
                     "Worked penetration",
                     "ASTM D 217",
@@ -296,6 +318,9 @@
                     "ASTM D 2266",
                     "0.4-0.45 mm"
                 ],
+                    "direction" :  "DIRECTION FOR STORAGE AND USE",
+                    "typical" : "TYPICAL APPLICATIONS",
+                    "pack" : "",
                 "driection_for_storage_and_use":[
                     "Easy to apply-Can be applied by brush or hands",
                     "Excellent water wash out resistance and corrosion protection ",
@@ -384,6 +409,11 @@
                     "N/A",
                     "Highly refined mineral oil"
                 ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
+                ],
                 "data_tabal3":[
                     "Thickener ",
                     "N/A",
@@ -414,6 +444,9 @@
                     "ASTM D 2266",
                     "0.4-0.45 mm"
                 ],
+                "direction" :  "DIRECTION FOR STORAGE AND USE",
+                "typical" : "TYPICAL APPLICATIONS",
+                "pack" : "",
                 "typical_applications":[
                     "Ecomax HT- Hecton is particularly suitable for high temperature bearings operating in extreme conditions such as shock load, vibrations and wet environments.",
                     "Ecomax HT- Hecton is designed for all types of ball, roller and plain bearings typically found in industries such as refineries, chemical, process plants, Glass, Textile, Petrochemicals, marine docks, mining, agriculture, construction, tile work, steel and other industries."
@@ -483,6 +516,11 @@
                     "N/A",
                     "Highly refined mineral oil"
                 ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
+                ],
                 "data_tabal3":[
                     "Thickener ",
                     "N/A",
@@ -517,6 +555,9 @@
                 "typical_applications":[
                     "Ecomax  Hecton OGL open gear grease has umlimited application in  open gear equipments:  Cranes, Hoists, wind-pumps, water pumps, winches, heavy equipments, rail pulley and more."
                 ],
+                "direction" :  "",
+                "typical" : "TYPICAL APPLICATIONS",
+                "pack" : "",
                 "pack_size":"",
                 "direction_image" : "direction-hecton_ogl.png"
             }
@@ -579,6 +620,11 @@
                     "Visual",
                     "Smooth and Tacky Blue Grease"
                 ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
+                ],
                 "data_tabal2":[
                     "Base Fluid Type",
                     "N/A",
@@ -624,11 +670,15 @@
                     "The storage temperature should be controlled between +1 C to +40 C.",
                     "Shelf life is 3 years from date of manufacturing."
                 ],
+                "direction" :  "DIRECTION FOR STORAGE AND USE",
+                "typical" : "TYPICAL APPLICATIONS",
+                "pack" : "",
                 "pack_size":"",
                 "direction_image" : "direction-ht-titanium-grease-222.png"
             }
         ]
-    }, {
+    },
+    {
         "collection_image":"semi-fluid-gear-box.png",
         "collection_title":"Semi fluid Gear box",
         "collection_slug": "semi-fluid-gear-box",
@@ -668,6 +718,11 @@
                     "ASTM D 217",
                     "ASTM D 2596",
                     "ASTM D 2266"
+                ],
+                "data_title":[
+                    "PROPERTY",
+                    "TEST METHOD",
+                    "RESULT"
                 ],
                 "technical_specifications2":[
                     "Homogeneous soft black grease",
@@ -727,8 +782,340 @@
                 "typical_applications":[
                     "Ecomax-GL NLGI # 00 lubricant is designed for use high load gear box operating in demanding industrial environmental conditions."
                 ],
+                "direction" :  "DIRECTION FOR STORAGE AND USE",
+                "typical" : "TYPICAL APPLICATIONS",
+                "pack" : "",
                 "pack_size":"",
                 "direction_image" : "direction-semi-fluid-gear-box.png"
+            }
+        ]
+    },
+    {
+        "collection_image":"extreme-pressure-grease.png",
+        "collection_title":"Extreme Pressure Grease",
+        "collection_slug": "extreme-pressure-grease",
+        "products":[
+            {
+                "title" : "Extreme Pressure Grease",
+                "short_description": "High performance EP 2 Grease",
+                "products_image":"extreme-pressure-grease.png",
+                "product_overview":[
+                    "Ecomax Lithium Grease is a premium quality multi-purpose long life grease. It is manufactured from lithium soap and extreme pressure additives. It provides high temperature and extreme pressure properties. It is suitable for use in all anti-friction and plain bearing subjected to high load condition."
+                ],
+                "special_features":[
+                    "Made from lithium soap and enhanced with extreme pressure (EP) additives, this grease delivers exceptional performance in demanding applications.",
+                    "Specially designed to withstand heavy loads and high-pressure conditions, protecting against wear and tear.",
+                    "Offers extended lubrication intervals, reducing the frequency of maintenance and downtime.",
+                    "Provides robust protection against rust and corrosion, extending the service life of your equipment.",
+                    "Versatile enough for use in a wide range of applications, including anti-friction and plain bearings subjected to high load conditions."
+                ],
+                "technical_specifications":[
+                    "Soap Type",
+                    "Worked penetration @ 25",
+                    "Drop Point Degree Cent",
+                    "Appearance and structure",
+                    "NLGI Grade",
+                    "Viscosity of base oil @ 40 .",
+                    "Copper strip corrosion @ 100",
+                    "Roll stability % Change Max"
+                ],
+                "technical_specifications1":[
+                    "SATM D 3340",
+                    "ASTM D 217",
+                    "ASTM D 2265",
+                    "Visual",
+                    "",
+                    "ASTM D 445",
+                    "ASTM D 4048",
+                    "ASTM D 1831"
+                ],
+                "technical_specifications2":[
+                    "Lithium",
+                    "235",
+                    "200 Degree Cent",
+                    "Smooth and shiny",
+                    "2/3",
+                    "160 cSt",
+                    "1A",
+                    "20"  
+                ],
+                "data_title":[
+                    "CHARACTERISTICS",
+                    "METHOD",
+                    "SPECIFICATIONS"
+                ],
+                "data_tabal1":[
+                    "Soap Type",
+                    "SATM D 3340",
+                    "Lithium"
+                ],
+                "data_tabal2":[
+                    "Worked penetration @ 25 Degree",
+                    "ASTM D 217",
+                    "235"
+                ],
+                "data_tabal3":[
+                    "Drop Point Degree Cent",
+                    "ASTM D 2265",
+                    "200 Degree Cent"
+                ],
+                "data_tabal4":[
+                    "Appearance and structure",
+                    "Visual",
+                    "Smooth and shiny"
+                ],
+                "data_tabal5":[
+                    "NLGI Grade",
+                    "",
+                    "2/3"
+                ],
+                "data_tabal6":[
+                    "Viscosity of base oil @ 40 Degree",
+                    "ASTM D 445",
+                    "160 cSt"
+                ],
+                "data_tabal7":[
+                    "Copper strip corrosion @ 100 Degree",
+                    "ASTM D 4048",
+                    "1A"
+                ],
+                "data_tabal8":[
+                    "Roll stability % Change Max",
+                    "ASTM D 1831",
+                    "20"
+                ],
+                "driection_for_storage_and_use":[
+                    "Lithium complex is recommended for use in highly loaded industrial and automotive applications such as wheel bearing , pump bearing etc.. It has been primarily designed as a wheel bearing and chassis grease. Performance criteria of 70000 Km can be achieved with Lithium soap and proprietary additive package."
+                ],
+                "typical_applications":[
+                    "Reduces wear and tear, extending the operational life of your machinery.",
+                    "Ensures smooth and efficient operation, enhancing overall performance.",
+                    "Long-lasting lubrication intervals minimize the need for frequent reapplication, saving time and costs.",
+                    "Delivers consistent performance under a wide range of operating conditions, ensuring your equipment stays in optimal condition."
+                ],
+                "direction" :  "",
+                "typical" : "Benefits",
+                "pack" : "",
+                "pack_size":"",
+                "direction_image" : "direction_extreme-pressure-grease.png"
+            }
+        ]
+    },
+    {
+        "collection_image":"extreme-pressure-gear-lubricant.png",
+        "collection_title":"Extreme Pressure Gear Lubricant",
+        "collection_slug": "extreme-pressure-gear-lubricant",
+        "products":[
+            {
+                "title" : "Extreme Pressure Gear Lubricant",
+                "short_description": "Heavy Duty Transmission Gear Lubricant",
+                "products_image":"extreme-pressure-gear-lubricant.png",
+                "product_overview":[
+                    "Ecomax Gear Care Extreme Pressure Heavy Duty Gear Oil is a premium mono grade gear oil specifically engineered to provide superior protection and performance under the most demanding conditions. This advanced formulation ensures that your machinery operates smoothly and efficiently, even under extreme pressures and temperatures."
+                ],
+                "special_features":[
+                    "Designed to handle the most demanding gear applications, providing excellent protection against wear, scuffing, and pitting.",
+                    "Resists oxidation and thermal degradation, maintaining its protective properties at high operating temperatures.",
+                    "Reduces the need for frequent oil changes, lowering maintenance costs and downtime.",
+                    "Provides excellent film strength to prevent metal-to-metal contact, reducing friction and wear.",
+                    "Protects against rust and corrosion, extending the life of gears and bearings."
+                ],
+                "technical_specifications":[
+                    "Soap Type",
+                    "Worked penetration @ 25",
+                    "Drop Point Degree Cent",
+                    "Appearance and structure",
+                    "NLGI Grade",
+                    "Viscosity of base oil @ 40 .",
+                    "Copper strip corrosion @ 100",
+                    "Roll stability % Change Max"
+                ],
+                "technical_specifications1":[
+                    "SATM D 3340",
+                    "ASTM D 217",
+                    "ASTM D 2265",
+                    "Visual",
+                    "",
+                    "ASTM D 445",
+                    "ASTM D 4048",
+                    "ASTM D 1831"
+                ],
+                "technical_specifications2":[
+                    "Lithium",
+                    "235",
+                    "200 Degree Cent",
+                    "Smooth and shiny",
+                    "2/3",
+                    "160 cSt",
+                    "1A",
+                    "20"  
+                ],
+                "data_tabal1":[
+                    "Kinematic Viscosity ",
+                    "D445",
+                    "11.3",
+                    "14.9",
+                    "18.6",
+                    "24.2"
+                ],
+                "data_tabal2":[
+                    "Kinematic Viscosity ",
+                    "D445",
+                    "100",
+                    "150",
+                    "220",
+                    "320"
+                ],
+                "data_tabal3":[
+                    "Viscosity Index",
+                    "D2270",
+                    "98",
+                    "98",
+                    "98",
+                    "97"
+                ],
+                "data_tabal4":[
+                    "Pour Pointl",
+                    "D97",
+                    "-9 Degree cent",
+                    "-9 Degree cent",
+                    "-9 Degree cent",
+                    "-9 Degree cent"
+                ],
+                
+                "data_tabal5":[
+                    "Flash Point",
+                    "D92",
+                    "245",
+                    "245",
+                    "247",
+                    "247"
+                ],
+                "data_title":[
+                    "TEST PARAMETER",
+                    "TEST METHOD",
+                    "100",
+                    "150",
+                    "220",
+                    "320"
+                ],
+              
+                "driection_for_storage_and_use":[
+                    "For optimal performance, always follow the manufacturer's recommendations regarding the grade and type of gear oil required for your equipment. Regularly check oil levels and replace as needed to maintain peak performance."
+                ],
+                "typical_applications":[
+                    "Excellent gear shift capability.",
+                    "Excellent seal compatibility",
+                    "Protects against rust & corrosion",
+                    "Good resistance to foaming & provide outstanding lubricant properties."
+                ],
+                "pack_size":"",
+                "direction_image" : "driection_extreme-pressure-gear-lubricant.png"
+            }
+        ]
+    },
+    {
+        "collection_image":"hydro-power-68-heavy-duty-hydraulic-oil.png",
+        "collection_title":"HYDRO POWER - 68 HEAVY DUTY HYDRAULIC OIL",
+        "collection_slug": "hydro-power-68-heavy-duty-hydraulic-oil",
+        "products":[
+            {
+                "title" : "HYDRO POWER - <br> 68  HEAVY DUTY HYDRAULIC OIL",
+                "short_description": "",
+                "products_image":"hydro-power-68-heavy-duty-hydraulic-oil.png",
+                "product_overview":[
+                    "Ecomax Hydro Power - 68 is a heavy-duty hydraulic oil engineered to deliver maximum power to your equipment. Formulated with premium base oils and high-performance additives, it provides excellent wear protection, oxidation stability, and thermal resistance. This ensures optimal performance and longevity of hydraulic systems, even under high pressure and extreme conditions. Ecomax Hydro Power - 68 enhances equipment efficiency and reliability, reduces downtime and maintenance costs and offers superior water separation and rust protection. Choose Ecomax Hydro Power - 68 for robust hydraulic performance and durability."
+                ],
+                "special_features":[
+                    "Ensures superior quality and performance.",
+                    "Enhances wear protection, oxidation stability, and thermal resistance.",
+                    "Prevents emulsification and maintains efficiency.",
+                    "Guards against corrosion, extending equipment life.",
+                    "Protects against rust and corrosion, extending the life of gears and bearings."
+                ],
+                "technical_specifications":[
+                    "Soap Type",
+                    "Worked penetration @ 25",
+                    "Drop Point Degree Cent",
+                    "Appearance and structure",
+                    "NLGI Grade",
+                    "Viscosity of base oil @ 40 .",
+                    "Copper strip corrosion @ 100",
+                    "Roll stability % Change Max"
+                ],
+                "technical_specifications1":[
+                    "SATM D 3340",
+                    "ASTM D 217",
+                    "ASTM D 2265",
+                    "Visual",
+                    "",
+                    "ASTM D 445",
+                    "ASTM D 4048",
+                    "ASTM D 1831"
+                ],
+                "technical_specifications2":[
+                    "Lithium",
+                    "235",
+                    "200 Degree Cent",
+                    "Smooth and shiny",
+                    "2/3",
+                    "160 cSt",
+                    "1A",
+                    "20"  
+                ],
+                "data_tabal1":[
+                    "Flash Point",
+                    "220"
+                ],
+                "data_tabal2":[
+                    "Density @ 15 Degree cent.",
+                    "0.867"
+                ],
+                "data_tabal3":[
+                    "TBN Content",
+                    "4.1"
+                ],
+                "data_tabal4":[
+                    "Kinematic Viscosity @ 40 Degree cent",
+                    "73"
+                ],
+                "data_tabal5":[
+                    "Kinematic Viscosity @ 100 Degree cent",
+                    "9"
+                ],
+                "data_tabal6":[
+                    "Viscosity Index",
+                    "97"
+                ],
+                "data_tabal7":[
+                    "Pour Point",
+                    "-20"
+                ],
+                "data_tabal8":[
+                    "Copper Strip Corrosion for 3 Hrs at 100 Deg Cent",
+                    "1a"
+                ],
+                "data_title":[
+                    "TEST PARAMETER",
+                    "TEST RESULT"
+                ],
+                "driection_for_storage_and_use":[
+                    "Ensure Ecomax Hydro Power - 68 is suitable for your hydraulic system specifications.",
+                    "Clean the hydraulic system to remove any contaminants before oil application.",
+                    "Pour the hydraulic oil into the reservoir according to the equipment manufacturer’s guidelines.",
+                    "Regularly check oil levels and quality, topping up as necessary to maintain optimal performance."
+                ],
+                "typical_applications":[
+                    "Excellent gear shift capability.",
+                    "Excellent seal compatibility",
+                    "Protects against rust & corrosion",
+                    "Good resistance to foaming & provide outstanding lubricant properties."
+                ],
+                "direction" :  "Usage Instructions",
+                "typical" : "Benefits",
+                "pack" : "",
+                "pack_size":"",
+                "direction_image" : "driection_extreme-pressure-gear-lubricant.png"
             }
         ]
     }

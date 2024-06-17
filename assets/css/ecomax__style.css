@@ -2754,140 +2754,25 @@ body {
     .Lubricants-gap{
         padding-top: 30px !important;
     }
-   
-}
-
-@media(max-width:320px) {
-    .products-btn {
-        padding-top: 30px !important;
+    .product-images{
+        width: 100% !important; 
     }
-
-    .product-images {
-        width: 100%;
+    .product-sab-images .swiper-slide{
+      height: auto !important;
+      margin-right: 0 !important;
     }
-
-    .product-main-images {
-        width: 100% !important;
+    .product-icon .icon{
+        width: 47% !important;
     }
-
-    .product-images {
-        width: 100% !important;
+    .product-sab-images{
+        justify-content: space-between;
     }
-
-    .product-main-images {
-        height: 243.27px !important;
-    }
-
-    .products_detail {
-        height: 100px !important;
-    }
-
-    .details {
-        width: 100% !important;
-        gap: 40px !important;
-    }
-
-    .product-icon .icon {
-        width: 136px !important;
-    }
-
-    .Similar_Products_next {
-        left: 243px !important;
-    }
-
-    .Similar_Products_prev {
-        left: 190px !important;
-    }
-
-    .product-sab-images {
+    .product-sab-images{
         gap: 5px !important;
     }
-
-    .product-sab-images .swiper-slide {
-        width: 81px !important;
-        height: 72px !important;
-    }
-
-}
-
-@media(min-width:375px) {
-    .product-images {
-        width: 100%;
-    }
-
-    .product-main-images {
-        width: 100% !important;
-    }
-
-    .product-images {
-        width: 100% !important;
-    }
-
-    .product-main-images {
-        height: 280.27px !important;
-    }
-
-    .products_detail {
-        height: 113px !important;
-    }
-
-    .product-icon .icon {
-        width: 163px !important;
-    }
-
-    .Similar_Products_next {
-        left: 298px !important;
-    }
-
-    .Similar_Products_prev {
-        left: 245px !important;
-    }
-
-    .product-sab-images .swiper-slide {
-        width: 90px !important;
-        height: 80px !important;
-    }
-}
-
-@media(min-width:425px) {
-    .product-images {
-        width: 100%;
-    }
-
-    .product-main-images {
-        width: 100% !important;
-    }
-
-    .product-images {
-        width: 100% !important;
-    }
-
-    .product-main-images {
-        height: 333.27px !important;
-    }
-
-    .products_detail {
-        height: 127px !important;
-    }
-
-    .product-icon .icon {
-        width: 188px !important;
-    }
-
-    .Similar_Products_next {
-        left: 347px !important;
-    }
-
-    .Similar_Products_prev {
-        left: 291px !important;
-    }
-
-    .product-sab-images .swiper-slide {
-        width: 110px !important;
-        height: 100px !important;
-    }
-   
-
+   .product-sab-images div{
+    width: 30% !important;
+   }
 }
 
 @media(min-width:576px) {
@@ -3078,7 +2963,52 @@ body {
         justify-content: center;
         width: 100%;
     }
-   
+
+
+    .products-btn {
+        padding-top: 30px !important;
+    }
+
+    .product-main-images {
+        width: 100% !important;
+    }
+    .product-images{
+        width: 100% !important; 
+    }
+
+    .product-main-images {
+        height: 243.27px !important;
+    }
+
+    .products_detail {
+        height: 100px !important;
+    }
+
+    .details {
+        width: 100% !important;
+        gap: 40px !important;
+    }
+
+    .product-icon .icon {
+        width: 136px !important;
+    }
+
+    .Similar_Products_next {
+        left: 243px !important;
+    }
+
+    .Similar_Products_prev {
+        left: 190px !important;
+    }
+
+    .product-sab-images {
+        gap: 5px !important;
+    }
+
+    .product-sab-images .swiper-slide {
+        width: 81px !important;
+        height: 72px !important;
+    }
 }
 
 @media(min-width:768px) {
@@ -4635,9 +4565,7 @@ tbody tr td span {
     height: 40px;
     border-right: 1px solid rgb(255, 255, 255);
 }
-.PROPERTY-gap-0 {
-    padding: 0;
-}
+
 .industrial_slaider{
     width: 100% !important;
 }
@@ -4703,5 +4631,8 @@ tbody tr td span {
     line-height: 24px;
     font-weight: 400;
     color: #414141;
+}
+.thead tr:last-child{
+    padding: 0;
 }
 /* DIRECTION FOR STORAGE AND USE End */

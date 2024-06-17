@@ -904,7 +904,7 @@
     {
         "collection_image":"extreme-pressure-gear-lubricant.png",
         "collection_title":"Extreme Pressure Gear Lubricant",
-        "collection_slug": "extreme-pressure-gear-lubricant",
+        "collection_slug": "extreme-pressure-gear-lubricant1",
         "products":[
             {
                 "title" : "Extreme Pressure Gear Lubricant",
@@ -975,14 +975,13 @@
                     "97"
                 ],
                 "data_tabal4":[
-                    "Pour Pointl",
+                    "Pour Point",
                     "D97",
                     "-9 Degree cent",
                     "-9 Degree cent",
                     "-9 Degree cent",
                     "-9 Degree cent"
                 ],
-                
                 "data_tabal5":[
                     "Flash Point",
                     "D92",
@@ -990,6 +989,15 @@
                     "245",
                     "247",
                     "247"
+                ],
+                "data_tabal6":[
+                    
+                ],
+                "data_tabal7":[
+                   
+                ],
+                "data_tabal8":[
+                   
                 ],
                 "data_title":[
                     "TEST PARAMETER",
@@ -999,9 +1007,11 @@
                     "220",
                     "320"
                 ],
-              
                 "driection_for_storage_and_use":[
-                    "For optimal performance, always follow the manufacturer's recommendations regarding the grade and type of gear oil required for your equipment. Regularly check oil levels and replace as needed to maintain peak performance."
+                    "Ensure Ecomax Hydro Power - 68 is suitable for your hydraulic system specifications.",
+                    "Clean the hydraulic system to remove any contaminants before oil application.",
+                    "Pour the hydraulic oil into the reservoir according to the equipment manufacturer’s guidelines.",
+                    "Regularly check oil levels and quality, topping up as necessary to maintain optimal performance."
                 ],
                 "typical_applications":[
                     "Excellent gear shift capability.",
@@ -1009,6 +1019,9 @@
                     "Protects against rust & corrosion",
                     "Good resistance to foaming & provide outstanding lubricant properties."
                 ],
+                "direction" :  "Usage Instructions",
+                "typical" : "Benefits",
+                "pack" : "",
                 "pack_size":"",
                 "direction_image" : "driection_extreme-pressure-gear-lubricant.png"
             }

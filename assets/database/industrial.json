@@ -925,30 +925,21 @@
                     "Worked penetration @ 25",
                     "Drop Point Degree Cent",
                     "Appearance and structure",
-                    "NLGI Grade",
-                    "Viscosity of base oil @ 40 .",
-                    "Copper strip corrosion @ 100",
-                    "Roll stability % Change Max"
+                    "NLGI Grade"
                 ],
                 "technical_specifications1":[
                     "SATM D 3340",
                     "ASTM D 217",
                     "ASTM D 2265",
                     "Visual",
-                    "",
-                    "ASTM D 445",
-                    "ASTM D 4048",
-                    "ASTM D 1831"
+                    ""
                 ],
                 "technical_specifications2":[
                     "Lithium",
                     "235",
                     "200 Degree Cent",
                     "Smooth and shiny",
-                    "2/3",
-                    "160 cSt",
-                    "1A",
-                    "20"  
+                    "2/3"    
                 ],
                 "data_tabal1":[
                     "Kinematic Viscosity ",

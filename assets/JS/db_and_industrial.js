@@ -36,7 +36,7 @@ const industrialdata = async (type = "industrial_collection", slug , collectionS
     
     if (type == "allindustrial") {
         return allindustrial;
-    } else if (type == "industrial_collection") {
+    } else if (type == "industrial_collection") {   
         return allindustrial.find(function(collection) {
             return collection.collection_slug == slug;
         });

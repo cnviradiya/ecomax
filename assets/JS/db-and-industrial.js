@@ -29,7 +29,7 @@ const loadCollectionData = async (type="all", slug = null, collectionSlug = null
     return await fetchApi(type, slug, collectionSlug);
 }
 
-const industrial_url = "/assets/industrial_Database/industrial.json";
+const industrial_url = "/assets/industrial_Database/industrial_data.json";
 
 const industrialdata = async (type = "industrial_collection", slug , collectionSlug = null ) => {
     const allindustrial = await fetch(industrial_url).then((res) => res.json());

@@ -290,7 +290,7 @@
                     </div>
                 </div>
                 <div class="product_btn product_btn_bak justify-content-center d-flex">
-                    <a href="/industrial/index.html">
+                    <a href="/industrial/">
                         <div class="btn_back d-flex align-items-center">
                             <span class="about-btn d-flex back_btn align-items-center justify-content-center">
                                 <i class="fa-solid fa-arrow-left-long"></i>
@@ -457,9 +457,8 @@
                                                 src="https://ik.imagekit.io/ecomax/assets/images/home/ad.png"
                                                 alt="images">
                                             <p class="text-light footer-add">Block No. E-37, Hindva Dreams,<br> Dhoran
-                                                Pardi Gaypagla Road,<br> Kamrej, Surat, Gujarat-394155</p>
+                                            Pardi Gaypagla Road,<br> Kamrej, Surat, Gujarat-394155</p>
                                         </div>
-
                                     </li>
                                 </ul>
                             </div>
@@ -473,9 +472,8 @@
                                         <span class="col-12 justify-content-between d-flex">
                                             <span class="m-0 footer-link-title">Connect wit us</span>
                                             <span class="m-0 footer-link-icon "><i
-                                                    class="fa-solid fa-angle-down mt-1 me-5"></i></span>
+                                            class="fa-solid fa-angle-down mt-1 me-5"></i></span>
                                         </span>
-
                                     </button>
                                 </h2>
                                 <div id="collapseTwo3" class="accordion-collapse collapse" aria-labelledby="headingTwo3"
@@ -506,7 +504,6 @@
                                                         Dhoran Pardi Gaypagla Road,<br> Kamrej, Surat, Gujarat-394155
                                                     </p>
                                                 </div>
-
                                             </li>
                                         </ul>
                                     </div>
@@ -551,19 +548,15 @@
         });
     </script>
     <script>
-
-
         // Load the data when the document is ready
         document.addEventListener("DOMContentLoaded", async () => {
             loadJS([
                 "/assets/JS/script.js",
                 "/assets/JS/db_industrial_all_data.js"
             ]);
-
             const getThumbURL = (type, slug, collectionSlug = null) => {
                 return "/" + (type === 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
             };
-
             setTimeout(async function () {
                 // Query parameter
                 let urlParams = new URLSearchParams(window.location.search);
@@ -575,7 +568,7 @@
                 }
 
                 const collectionData = await loadindustrialcollection(collectionType, collectionSlug);
-                console.log(collectionData);
+            
 
                 $('.dynamic-data').each(function () {
 
@@ -593,7 +586,7 @@
                     if ($(this).attr('data-images') !== undefined) {
                         // replace the images
                         $(this).html(
-                            ` <img src="/assets/images/Industrial_collection/${collectionData.collection_slug}/${collectionData.products[0].products_image}" alt="${collectionData.products[0].title}"
+                            ` <img src="/assets/images/Industrial_Collection/${collectionData.collection_slug}/${collectionData.products[0].products_image}" alt="${collectionData.products[0].title}"
                             class="img-fluid">`
                         );
                     }
@@ -632,7 +625,7 @@
                     if ($(this).attr('data-direction_image') !== undefined) {
                         // replace the direction_image
                         $(this).html(
-                            ` <img src="/assets/images/Industrial_collection/${collectionData.collection_slug}/${collectionData.products[0].direction_image}" alt="${collectionData.products[0].title}"
+                            ` <img src="/assets/images/Industrial_Collection/${collectionData.collection_slug}/${collectionData.products[0].direction_image}" alt="${collectionData.products[0].title}"
                             class="img-fluid">`
                         );
                     }

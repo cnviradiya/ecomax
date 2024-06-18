@@ -391,9 +391,7 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
@@ -418,16 +416,17 @@
                 else {
                     $(".scrollbar").removeClass("show_scroll_btn");
                 }
+               
             });
         </script>
     <script>
 
         if (window.location.href == "https://ecomaxlubricant.com/collections/") {
             document.getElementById("collections_bak_btn").style.display = 'none';
-            console.log("none");
+       
         } else {
             document.getElementById("collections_bak_btn").style.display = 'flex';
-            console.log("block");
+        
         }
 
         $(document).ready(function () {
@@ -457,8 +456,6 @@
                             </div>
                         </a>
                     </div>`;
-
-
             const getThumbURL = (type, slug, collectionSlug = null) => {
                 return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
             }
@@ -475,7 +472,7 @@
                 }
 
                 const collectionData = await loadCollectionData(collectionType, collectionSlug);
-                console.log(collectionData);
+             
                 
                 
                 if (window.location.href != "https://ecomaxlubricant.com/collections/") {

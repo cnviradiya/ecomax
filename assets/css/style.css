@@ -84,6 +84,7 @@ body {
 }
 
 :root {
+
     --primary-color: rgba(58, 122, 67, 1);
     --dark-primary-color: rgba(18, 67, 25, 1);
     --secondary-color: rgba(65, 65, 65, 1);
@@ -315,7 +316,7 @@ a {
 }
 
 .form_field_container {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .image_container {

@@ -464,13 +464,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         try {
             const collectionData = await loadindustrialcollection(collectionType);
-            console.log(collectionData);
             document.getElementById("industrial_products").innerHTML = collectionData.map((collection) => {
                 return `
                     <div class="col-12 coll-md-6 products produt coll-lg-4 ">
-                        <a href="/industrial_products/index.html?s=${collection.collection_slug}">
+                        <a href="/industrial/products/index.html?s=${collection.collection_slug}">
                             <div class="products-img">
-                                <img src="/assets/images/Industrial_collection/${collection.collection_slug}/${collection.collection_image}" alt="${collection.collection_title}" class="img-fluid col-12 product_img">
+                                <img src="/assets/images/Industrial_Collection/${collection.collection_slug}/${collection.collection_image}" alt="${collection.collection_title}" class="img-fluid col-12 product_img">
                             </div>
                             <div class="products-title">
                                 <div class="d-flex justify-content-between">
@@ -489,9 +488,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     }, 500);
 });
-
-
-    </script>
+</script>
 
 </body>
 

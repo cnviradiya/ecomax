@@ -102,10 +102,6 @@ $(document).ready(function () {
         },
       }
     });
-
-
-  
-
     var swiper = new Swiper(".mySwiper1", {
       slidesPerView: 1,
       spaceBetween: 30,

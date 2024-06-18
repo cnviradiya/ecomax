@@ -701,7 +701,7 @@
 
                 const getThumbURL = (type, slug) => {
                     return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" + slug;
-                    console.log(slug);
+                
                 }
                 setTimeout(async function () {
                     // Query parameter
@@ -711,7 +711,7 @@
 
                     if (productSlug && collectionSlug) {
                         const productData = await loadCollectionData('product', productSlug, collectionSlug);
-                        console.log(productData);
+                   
 
                         // Image slider
 

@@ -231,19 +231,19 @@
                     <div class="swiper industrial_swiper industrial-slaid  PROPERTY-TESTMETHOD-RESULT d-md-none">
                         <div class="swiper-wrapper industrial_slaider1 m-0">
                             <div class="swiper-slide industrial_slaider_item text-center text-white">
-                                <h5>PROPERTY</h5>
+                                <h5 class="dynamic-data" data_tabal_title_property></h5>
                                 <ul class="dynamic-data" data-technical_specifications>
                                  
                                 </ul>
                             </div>
                             <div class="swiper-slide industrial_slaider_item text-center text-white">
-                                <h5>TEST METHOD</h5>
+                                <h5 class="dynamic-data" data_tabal_title_test_method></h5>
                                 <ul class="dynamic-data" data-technical_specifications1>
                                     
                                 </ul>
                             </div>
                             <div class="swiper-slide industrial_slaider_item text-center text-white">
-                                <h5>RESULT</h5>
+                                <h5 class="dynamic-data" data_tabal_title_result>RESULT</h5>
                                 <ul class="dynamic-data" data-technical_specifications2>
                                    
                                 </ul>
@@ -727,6 +727,19 @@
                     if ($(this).attr('PACK') !== undefined) {
                         // replace the title
                         $(this).html(collectionData.products[0].pack);
+                    }
+
+                    if ($(this).attr('data_tabal_title_property') !== undefined) {
+                        // replace the title
+                        $(this).html(collectionData.products[0].data_property);
+                    }
+                    if ($(this).attr('data_tabal_title_test_method') !== undefined) {
+                        // replace the title
+                        $(this).html(collectionData.products[0].data_method);
+                    }
+                    if ($(this).attr('data_tabal_title_result') !== undefined) {
+                        // replace the title
+                        $(this).html(collectionData.products[0].data_result);
                     }
 
                 });

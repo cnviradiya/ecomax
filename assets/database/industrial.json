@@ -98,7 +98,9 @@
                 "direction" :  "DIRECTION FOR STORAGE AND USE",
                 "typical" : "TYPICAL APPLICATIONS",
                 "pack" : "PACK SIZE",
-
+                "data_property": "PROPERTY",
+                "data_method": "TEST METHOD",
+                "data_result": "RESULT",
                 "driection_for_storage_and_use":[
                     "Ecosynth 610 can be applied manually by brush or oilcan if required.",
                     "Ecosynth 610 should be stored in unopened container.",
@@ -208,6 +210,9 @@
                 "direction" :  "DIRECTION FOR STORAGE AND USE",
                 "typical" : "TYPICAL APPLICATIONS",
                 "pack" : "PACK SIZE",
+                "data_property": "PROPERTY",
+                "data_method": "TEST METHOD",
+                "data_result": "RESULT",
                 "driection_for_storage_and_use":[
                     "Ecosynth 350 can be applied manually by brush or oilcan if required.",
                     "Ecosynth 350 should be stored in unopened container.",
@@ -321,6 +326,9 @@
                     "direction" :  "DIRECTION FOR STORAGE AND USE",
                     "typical" : "TYPICAL APPLICATIONS",
                     "pack" : "",
+                    "data_property": "PROPERTY",
+                    "data_method": "TEST METHOD",
+                    "data_result": "RESULT",
                 "driection_for_storage_and_use":[
                     "Easy to apply-Can be applied by brush or hands",
                     "Excellent water wash out resistance and corrosion protection ",
@@ -447,6 +455,9 @@
                 "direction" :  "DIRECTION FOR STORAGE AND USE",
                 "typical" : "TYPICAL APPLICATIONS",
                 "pack" : "",
+                "data_property": "PROPERTY",
+                "data_method": "TEST METHOD",
+                "data_result": "RESULT",
                 "typical_applications":[
                     "Ecomax HT- Hecton is particularly suitable for high temperature bearings operating in extreme conditions such as shock load, vibrations and wet environments.",
                     "Ecomax HT- Hecton is designed for all types of ball, roller and plain bearings typically found in industries such as refineries, chemical, process plants, Glass, Textile, Petrochemicals, marine docks, mining, agriculture, construction, tile work, steel and other industries."
@@ -555,6 +566,9 @@
                 "typical_applications":[
                     "Ecomax  Hecton OGL open gear grease has umlimited application in  open gear equipments:  Cranes, Hoists, wind-pumps, water pumps, winches, heavy equipments, rail pulley and more."
                 ],
+                "data_property": "PROPERTY",
+                "data_method": "TEST METHOD",
+                "data_result": "RESULT",
                 "direction" :  "",
                 "typical" : "TYPICAL APPLICATIONS",
                 "pack" : "",
@@ -670,6 +684,9 @@
                     "The storage temperature should be controlled between +1 C to +40 C.",
                     "Shelf life is 3 years from date of manufacturing."
                 ],
+                "data_property": "PROPERTY",
+                "data_method": "TEST METHOD",
+                "data_result": "RESULT",
                 "direction" :  "DIRECTION FOR STORAGE AND USE",
                 "typical" : "TYPICAL APPLICATIONS",
                 "pack" : "",
@@ -782,6 +799,9 @@
                 "typical_applications":[
                     "Ecomax-GL NLGI # 00 lubricant is designed for use high load gear box operating in demanding industrial environmental conditions."
                 ],
+                "data_property": "PROPERTY",
+                "data_method": "TEST METHOD",
+                "data_result": "RESULT",
                 "direction" :  "DIRECTION FOR STORAGE AND USE",
                 "typical" : "TYPICAL APPLICATIONS",
                 "pack" : "",
@@ -893,6 +913,9 @@
                     "Long-lasting lubrication intervals minimize the need for frequent reapplication, saving time and costs.",
                     "Delivers consistent performance under a wide range of operating conditions, ensuring your equipment stays in optimal condition."
                 ],
+                "data_property": "CHARACTERISTICS",
+                "data_method": "METHOD",
+                "data_result": "SPECIFICATIONS",
                 "direction" :  "",
                 "typical" : "Benefits",
                 "pack" : "",
@@ -1010,6 +1033,9 @@
                     "Protects against rust & corrosion",
                     "Good resistance to foaming & provide outstanding lubricant properties."
                 ],
+                "data_property": "TEST PARAMETER",
+                "data_method": "TEST METHOD",
+                "data_result": "100",
                 "direction" :  "Usage Instructions",
                 "typical" : "Benefits",
                 "pack" : "",
@@ -1038,34 +1064,34 @@
                     "Protects against rust and corrosion, extending the life of gears and bearings."
                 ],
                 "technical_specifications":[
-                    "Soap Type",
-                    "Worked penetration @ 25",
-                    "Drop Point Degree Cent",
-                    "Appearance and structure",
-                    "NLGI Grade",
-                    "Viscosity of base oil @ 40 .",
-                    "Copper strip corrosion @ 100",
-                    "Roll stability % Change Max"
+                    "Flash Point",
+                    "Density @ 15 Degree cent.",
+                    "TBN Content",
+                    "Kinematic Viscosity @ 40 ",
+                    "Kinematic Viscosity @ 100 ",
+                    "Viscosity Index",
+                    "Pour Point",
+                    "Copper Strip Corrosion for 3 Hrs "
                 ],
                 "technical_specifications1":[
-                    "SATM D 3340",
-                    "ASTM D 217",
-                    "ASTM D 2265",
-                    "Visual",
-                    "",
-                    "ASTM D 445",
-                    "ASTM D 4048",
-                    "ASTM D 1831"
+                    "D445",
+                    "D445",
+                    "D2270",
+                    "D97",
+                    "D92",
+                    "11.3",
+                    "-9 Degree cent",
+                    "245"
                 ],
                 "technical_specifications2":[
-                    "Lithium",
-                    "235",
-                    "200 Degree Cent",
-                    "Smooth and shiny",
-                    "2/3",
-                    "160 cSt",
-                    "1A",
-                    "20"  
+                    "220",
+                    "0.867",
+                    "4.1",
+                    "73",
+                    "9",
+                    "97",
+                    "-20",
+                    "1a"  
                 ],
                 "data_tabal1":[
                     "Flash Point",
@@ -1115,6 +1141,9 @@
                     "Protects against rust & corrosion",
                     "Good resistance to foaming & provide outstanding lubricant properties."
                 ],
+                "data_property": "TEST PARAMETER",
+                "data_method": " TEST METHOD",
+                "data_result": "TEST RESULT",
                 "direction" :  "Usage Instructions",
                 "typical" : "Benefits",
                 "pack" : "",

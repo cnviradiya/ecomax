@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ecomax | industrial</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -421,8 +418,7 @@
         </div>
         <div class="copy-right-footer col-md-12 position-relative">
             <div class="d-flex justify-content-center align-items-center">
-                <p class="m-0 text-light">© 2024 ECOMAX. All rights reserved</p><a
-                    href="/collections/two-wheeler-engine-oil.html"></a>
+                <p class="m-0 text-light">© 2024 ECOMAX. All rights reserved</p>
             </div>
         </div>
     </footer>
@@ -449,7 +445,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     loadJS([
         "/assets/JS/script.js",
-        "/assets/JS/db_industrial_all_data.js"
+        "/assets/JS/db.js"
     ]);
 
     const getThumbURL = (type, slug, collectionSlug = null) => {
@@ -469,11 +465,11 @@ document.addEventListener("DOMContentLoaded", async () => {
                     <div class="col-12 coll-md-6 products produt coll-lg-4 ">
                         <a href="/industrial/products/index.html?s=${collection.collection_slug}">
                             <div class="products-img">
-                                <img src="/assets/images/Industrial_collection/${collection.collection_slug}/${collection.collection_image}" alt="${collection.collection_title}" class="img-fluid col-12 product_img">
+                                <img src="/assets/images/collections/industrial/${collection.collection_slug}/${collection.collection_image}" alt="${collection.products[0].thumb_title}" class="img-fluid col-12 product_img">
                             </div>
                             <div class="products-title">
                                 <div class="d-flex justify-content-between">
-                                    <h5>${collection.collection_title}</h5>
+                                    <h5>${collection.products[0].thumb_title}</h5>
                                     <h5 class="products-icon">
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </h5>

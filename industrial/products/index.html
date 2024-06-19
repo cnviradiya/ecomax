@@ -246,26 +246,26 @@
                 <div class="col-12 flex-wrap align-items-center d-flex p-0">
                     <div class="col-12 col-xl-6 DIRECTION-FOR-STORAGE">
                         <div class="STORAGS ">
-                            <h2 class="m-0 dynamic-data">
+                            <h2 class="m-0 dynamic-data" direction-for-storage-and-use-title>
 
                             </h2>
-                            <ul class="m-0 dynamic-data">
+                            <ul class="m-0 dynamic-data" for-storage-and-use-point>
 
                             </ul>
                         </div>
                         <div class="STORAGS">
-                            <h2 class="m-0 dynamic-data">
+                            <h2 class="m-0 dynamic-data" typical-applications-title>
 
                             </h2>
-                            <ul class="m-0 dynamic-data">
+                            <ul class="m-0 dynamic-data" typical-applications-point>
 
                             </ul>
                         </div>
                         <div class="STORAGS">
-                            <h2 class="m-0 dynamic-data">
+                            <h2 class="m-0 dynamic-data" pack-size-title>
 
                             </h2>
-                            <p class="m-0 dynamic-data"></p>
+                            <p class="m-0 dynamic-data" pack-size-point></p>
                         </div>
                     </div>
                     <div class="col-12 col-xl-6 DIRECTION-FOR-STORAGE-images dynamic-data" data-direction_image>
@@ -539,7 +539,7 @@
                 // when window width is >= 640px
                 768: {
                     slidesPerView: 3,
-                    spaceBetween: 0
+                    spaceBetween: 10
                 }
             }
         });
@@ -601,8 +601,6 @@
                             return "<li>" + features + "</li>";
                         }));
                     }
-
-                    
                     $('.dynamic-data').each(function () {
                         if ($(this).attr('data-direction_image') !== undefined) {
                             // replace the direction image
@@ -611,6 +609,42 @@
                             );
                         }
                     });
+                    $('.dynamic-data').each(function () {
+                        if ($(this).attr('direction-for-storage-and-use-title') !== undefined) {
+                            // replace the direction-for-storage-and-use-title
+                            $(this).html(collectionData.products[0].descriptions[0].title);
+                        }
+                    });
+                    $('.dynamic-data').each(function () {
+                        if ($(this).attr('typical-applications-title') !== undefined) {
+                            // replace the typical-applications-title
+                            $(this).html(collectionData.products[0].descriptions[1].title);
+                        }
+                    });
+                    $('.dynamic-data').each(function () {
+                        if ($(this).attr('pack-size-title') !== undefined) {
+                            // replace the direction-for-storage-and-use-title
+                            $(this).html(collectionData.products[0].descriptions[2].title);
+                        }
+                    });
+                    if ($(this).attr('for-storage-and-use-point') !== undefined) {
+                        // replace the product-overview
+                        $(this).append(collectionData.products[0].descriptions[0].points.map(function (point) {
+                            return "<li>" + point + "</li>";
+                        }));
+                    }
+                    if ($(this).attr('typical-applications-point') !== undefined) {
+                        // replace the product-overview
+                        $(this).append(collectionData.products[0].descriptions[1].points.map(function (point) {
+                            return "<li>" + point + "</li>";
+                        }));
+                    }
+                    if ($(this).attr('pack-size-point') !== undefined) {
+                        // replace the product-overview
+                        $(this).append(collectionData.products[0].descriptions[2].points.map(function (point) {
+                            return "<p>" + point + "</p>";
+                        }));
+                    }
                 });
             }, 500);
         });

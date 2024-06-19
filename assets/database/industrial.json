@@ -79,81 +79,6 @@
                     }
                 ],
                 "description_image": "direction_ecosynth_610.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -217,8 +142,8 @@
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
+                            "Ecosynth 350 can be applied manually by brush or oilcan if required.",
+                            "Ecosynth 350 should be stored in unopened container.",
                             "The storage temperature should be controlled between +1 C to +40 C.",
                             "Shelf life is 3 years from date of manufacturing."
                         ]
@@ -226,88 +151,13 @@
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Ecosynth 350 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
                         ]
                     },
                     {
                         "title": "PACK SIZE",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_350.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            "Available in 5 Ltr., 10 Ltr. and 20 Ltr. pack"
                         ]
                     }
                 ],
@@ -374,101 +224,34 @@
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
+                            "Easy to apply-Can be applied by brush or hands",
+                            "Excellent water wash out resistance and corrosion protection ",
+                            "Polar by Nature-Make uninterrupted lubricating film to reduce friction ",
+                            "High COF and High VI base oil contributes to long service life ",
+                            "Mox active lubricating solids –offers EP performance  ",
+                            "Provides a thin non tacky film which prevents the build- up of dust and dirt on the wire rope.",
+                            "Ecomax-WRL wire rope lubricant should be stored in its unopened original container. ",
+                            "Ecomax-WRL wire rope lubricantis stored in proper way in original container, the shelf life is 4 years from date of manufacture.",
+                            "Ecomax-WRL wire rope lubricant can be applied by using a brush, hand or automatic lubricator.",
+                            "The minimum application temperature for Ecomax-WRL wire rope lubricant is 0 c. ",
+                            "For best results always apply Ecomax-WRL wire rope lubricant to clean, dry ropes.  ",
+                            "Approximate rope coverage, based on a 25mm diameter rope is 45-50meters per kg."
                         ]
                     },
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Ecomax-WRL wire rope lubricant is designed for use on ropes operating in marine and other arduous environmental conditions on equipment such as hoists, drag lines, cranes, ships and ship hoists. Ecomax-WRL wire rope lubricant can also be used as semi fluid high load gearbox grease."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "direction_mox-active-hecton-wrl.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -530,101 +313,28 @@
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
+                            "Ecomax HT- Hecton can be applied manually by grease gun , keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives",
+                            "Ecomax HT- Hecton is compatible with other clay thickened greases. However, for best results the previous lubricant should be removed before application.",
+                            "Avoid mixing of Ecomax HT- Hecton with soap thickened greases.",
+                            "The storage temperature should be controlled between +1 C to +40 C. ",
                             "Shelf life is 3 years from date of manufacturing."
                         ]
                     },
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Ecomax HT- Hecton is particularly suitable for high temperature bearings operating in extreme conditions such as shock load, vibrations and wet environments.",
+                            "Ecomax HT- Hecton is designed for all types of ball, roller and plain bearings typically found in industries such as refineries, chemical, process plants, Glass, Textile, Petrochemicals, marine docks, mining, agriculture, construction, tile work, steel and other industries."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "direction-ht-hecton-grease.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -685,103 +395,25 @@
                 },
                 "descriptions": [
                     {
-                        "title": "DIRECTION FOR STORAGE AND USE",
+                        "title": "",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
+                            
                         ]
                     },
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Ecomax  Hecton OGL open gear grease has umlimited application in open gear equipments:  Cranes, Hoists, wind-pumps, water pumps, winches, heavy equipments, rail pulley and more."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "direction-hecton_ogl.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -846,8 +478,7 @@
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
+                            "Ecomax Titanium 222 can be applied manually by grease gun, keg pump or by other method suitable or dispersing NLGI 2 grease with solid additives",
                             "The storage temperature should be controlled between +1 C to +40 C.",
                             "Shelf life is 3 years from date of manufacturing."
                         ]
@@ -855,92 +486,18 @@
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Ecomax Titanium 222 is particularly suitable for high temperature bearings operating in extreme conditions such as shock load, vibrations and wet environments.",
+                            "Ecomax Titanium 222 is designed for all types of ball, roller and plain bearings typically found in industries such as refineries, chemical, process plants, Glass, Textile, Petrochemicals, marine docks, mining, agriculture, construction, tile work, steel and other industries."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "direction-ht-titanium-grease-222.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -1004,101 +561,26 @@
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
+                            "Ecomax GL NLGI # 00 lubricant should be stored in its unopened original container. ",
+                            "If Ecomax-GL NLGI # 00   lubricants stored in proper way in original container, the shelf life is 4 years from date of manufacture.",
+                            "The minimum application temperature for Ecomax-GL NLGI # 00 lubricant is 0 c."
+                        
                         ]
                     },
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Ecomax-GL NLGI # 00 lubricant is designed for use high load gear box operating in demanding industrial environmental conditions."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "direction-semi-fluid-gear-box.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -1158,103 +640,28 @@
                 },
                 "descriptions": [
                     {
-                        "title": "DIRECTION FOR STORAGE AND USE",
+                        "title": "",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
+                           "Lithium complex is recommended for use in highly loaded industrial and automotive applications such as wheel bearing , pump bearing etc.. It has been primarily designed as a wheel bearing and chassis grease. Performance criteria of 70000 Km can be achieved with Lithium soap and proprietary additive package."
                         ]
                     },
                     {
-                        "title": "TYPICAL APPLICATIONS",
+                        "title": "Benefits",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Reduces wear and tear, extending the operational life of your machinery.",
+                            "Ensures smooth and efficient operation, enhancing overall performance.",
+                            "Long-lasting lubrication intervals minimize the need for frequent reapplication, saving time and costs.",
+                            "Delivers consistent performance under a wide range of operating conditions, ensuring your equipment stays in optimal condition."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            
                         ]
                     }
                 ],
                 "description_image": "direction_extreme-pressure-grease.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -1314,103 +721,28 @@
                 },
                 "descriptions": [
                     {
-                        "title": "DIRECTION FOR STORAGE AND USE",
+                        "title": "Usage Instructions",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
+                            "For optimal performance, always follow the manufacturer's recommendations regarding the grade and type of gear oil required for your equipment. Regularly check oil levels and replace as needed to maintain peak performance."
                         ]
                     },
                     {
-                        "title": "TYPICAL APPLICATIONS",
+                        "title": "Benefits",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Excellent gear shift capability.",
+                            "Excellent seal compatibility",
+                            "Protects against rust & corrosion",
+                            "Good resistance to foaming & provide outstanding lubricant properties."
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "driection_extreme-pressure-gear-lubricant.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
-                    "Does not form any carbon deposits and provides clean and safe working environment.",
-                    "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
@@ -1470,101 +802,31 @@
                 },
                 "descriptions": [
                     {
-                        "title": "DIRECTION FOR STORAGE AND USE",
+                        "title": "Usage Instructions",
                         "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
+                            "Ensure Ecomax Hydro Power - 68 is suitable for your hydraulic system specifications.",
+                            "Clean the hydraulic system to remove any contaminants before oil application.",
+                            "Pour the hydraulic oil into the reservoir according to the equipment manufacturer’s guidelines.",
+                            "Regularly check oil levels and quality, topping up as necessary to maintain optimal performance."
                         ]
                     },
                     {
-                        "title": "TYPICAL APPLICATIONS",
+                        "title": "Benefits",
                         "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
+                            "Enhances overall performance and productivity.",
+                            "Superior wear protection and thermal stability ensure long-term use.",
+                            "Minimizes the need for frequent repairs and servicing.",
+                            "Consistent and reliable operation under all conditions.    "
                         ]
                     },
                     {
-                        "title": "PACK SIZE",
+                        "title": "",
                         "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
+                            ""
                         ]
                     }
                 ],
                 "description_image": "driection_extreme-pressure-gear-lubricant.png"
-            },
-            {
-                "title": "ECOSYNTH 610",
-                "thumb_title": "Ecosynth 610",
-                "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
-                "short_description": "High temperature ep chain and conveyor lubricant",
-                "product_overview": [
-                    "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and  conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
-                ],
-                "special_features":[
-                    "Has a temperature range of -30 C to +300 C.",
-                    "Excellent anti wear properties at elevated temperature gives longer chain life.",
-                    "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
-                    "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions"
-                ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
-                "descriptions": [
-                    {
-                        "title": "DIRECTION FOR STORAGE AND USE",
-                        "points": [
-                            "Ecosynth 610 can be applied manually by brush or oilcan if required.",
-                            "Ecosynth 610 should be stored in unopened container.",
-                            "The storage temperature should be controlled between +1 C to +40 C.",
-                            "Shelf life is 3 years from date of manufacturing."
-                        ]
-                    },
-                    {
-                        "title": "TYPICAL APPLICATIONS",
-                        "points": [
-                            "Ecosynth 610 is designed for lubrication of Textile stenters, drying machines, paint stoving ovens, bakery ovens and similar high temperature chain applications, hinges, joints and slide ways at higher temperature."
-                        ]
-                    },
-                    {
-                        "title": "PACK SIZE",
-                        "points": [
-                            "Available in 5 Ltr., 10 Ltr. and 50 Ltr. pack"
-                        ]
-                    }
-                ],
-                "description_image": "direction_ecosynth_610.png"
             }
         ]
     }

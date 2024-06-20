@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://ik.imagekit.io/ecomax/assets/images/home/Faviconicon.png" />
+    <link rel="icon" href="/assets/images/Favicon-icon-Ecomax.png" />
     <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
@@ -150,7 +150,7 @@
                     <form class="form_container_in" id="careerForm">
                         <div class="row form_field_container flex-column flex-sm-row ">
                             <div class="col">
-                                <input type="text" name="name" id="customer_first_name" placeholder="First Name*" class="form-control field" aria-label="First name" required />
+                                <input type="text" name="name" id="customer_first_name first_name" placeholder="First Name*" class="form-control field" aria-label="First name" required />
                                 <p class="text-danger" id="customer_fname"></p>
                             </div>
                             <div class="col ">
@@ -500,15 +500,24 @@
     <script>
 
         document.getElementById('careerForm').addEventListener('submit', async function (event) {
-            event.preventDefault();
-            
+    
+
             const formData = new FormData();
+            event.preventDefault();
+
             formData.append('first_name', document.getElementById('customer_first_name').value);
             formData.append('last_name', document.getElementById('customer_last_name').value);
             formData.append('email', document.getElementById('customer_email').value);
             formData.append('number', document.getElementById('customer_number').value);
             formData.append('resume', document.getElementById('customer_data').files[0]);
             formData.append('message', document.getElementById('customer_message').value);
+
+            if(formData === ""){
+                console.log("err");
+            }else{
+                console.log("ok");
+            }
+
 
             try {
                 const response = await fetch('https://ecomaxlubricant.com/api/index.php?a=career', {

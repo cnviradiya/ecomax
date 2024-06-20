@@ -6,7 +6,7 @@ $responseArr = [
 if(!empty($_POST['email'])) {
     try {
         $to = $_POST['email'];
-        $subject = "dharumil";
+        $subject = "HTML email";
         
         $message = "
         <html>
@@ -28,7 +28,6 @@ if(!empty($_POST['email'])) {
         </body>
         </html>
         ";
-        
         // Always set content-type when sending HTML email
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -51,6 +50,4 @@ if(!empty($_POST['email'])) {
 }
 echo json_encode($responseArr);
 exit;
-
-
 ?>

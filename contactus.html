@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="icon" href="https://ik.imagekit.io/ecomax/assets/images/home/Faviconicon.png"/>
+  <link rel="icon" href="/assets/images/Favicon-icon-Ecomax.png" />
   <link rel="stylesheet" href="/assets/css/style.css" />
   <style>
     #chartdiv {
@@ -238,19 +238,23 @@
               <div class="col">
                 <input type="text" name="name" id="name" placeholder="First Name*" class="form-control field"
                   aria-label="First name" required>
+                  <p id="name_err" class="text-danger"></p>
               </div>
               <div class="col ">
                 <input type="text" name="name" id="lname" placeholder="Last Name*" class="form-control field"
                   aria-label="Last name" required>
+                  <p id="l_name_err" class="text-danger"></p>
               </div>
             </div>
             <div class="row form_field_container flex-column flex-sm-row">
               <div class="col ">
                 <input type="email" name="email" id="email" placeholder="Email*" required class="field form-control">
+                <p id="email_err" class="text-danger"></p>
               </div>
               <div class="col ">
                 <input type="number" name="phone_number" id="number" placeholder="Phone Number*" required
                   class="field form-control">
+                  <p id="number_err" class="text-danger"></p>
               </div>
             </div>
             <div class="row form_field_container flex-column flex-sm-row ">
@@ -261,8 +265,8 @@
             </div>
             <div class="sparkle-button contactus-form-btn mb-3 ms-2">
               <div class="sparkle-button ">
-                <button class="btn2 d-flex align-items-center" value="click" id="contact"
-                  onclick="return contact()">
+                <button class="btn2 d-flex align-items-center" 
+                  onclick=" contact()">
                     <span class="about-btn d-flex align-items-center justify-content-center">
                       <i class="fa-solid fa-arrow-up-long"></i>
                     </span>
@@ -688,25 +692,18 @@
 
       event.preventDefault();
       if (name.value == "") {
-
-        document.getElementById("n1").innerHTML = "Please fill in this field";
+        document.getElementById("name_err").innerHTML = "Please fill in this field";
       }
       if (lname.value == "") {
-
-        document.getElementById("l1").innerHTML = "Please fill in this field";
+        document.getElementById("l_name_err").innerHTML = "Please fill in this field";
       }
       if (number.value == 10 || number.value == "") {
-
-        document.getElementById("nu1").innerHTML = "Please fill in this field";
+        document.getElementById("number_err").innerHTML = "Please fill in this field";
       }
       if (email.value == "") {
-
-        document.getElementById("e1").innerHTML = "Please fill in this field";
+        document.getElementById("email_err").innerHTML = "Please fill in this field";
       }
-
-
-      if (name.value == "" || lname.value == " " || number.value == "" || email.value == "") {
-        console.log("enter a fild");
+      if (name.value == "" || lname.value == " " || number.value == "" || email.value == "") { 
       } else {
 
         let detaform = document.getElementById("detaform")
@@ -718,22 +715,9 @@
           using the information above:`
         let mel = ""
 
-        tank = document.getElementById("Submit-form").innerHTML = tank
-
-        $(document).ready(function () {
-        event.preventDefault();
-
-          $('#contact').click(function () {
-            $('#detaform').attr('action',
-              'Pp3681382@gmail.com?subject=' +
-              $('#name').val() + '&body=' + $('#email').val());
-            $('#detaform').submit();
-          });
-        });
+        tank = document.getElementById("Submit-form").innerHTML = tank;
       }
-
     }
   </script>
 </body>
-
 </html>

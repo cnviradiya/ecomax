@@ -2062,7 +2062,6 @@ body {
 .Revitalize-card {
     height: 410px;
 }
-
 @media(max-width:575px) {
     .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
       

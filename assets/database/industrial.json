@@ -839,31 +839,27 @@
                     {
                         "property": "TEST PARAMETER",
                         "property_point": [
-                            "Kinematic Viscosity @ 100 Deg Cent cSt",
-                            "Kinematic Viscosity @ 40 Degree Cent cSt",
-                            "Viscosity Index",
-                            "Pour Point",
-                            "Flash Point"
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
                         ]
                     },
                     {
                         "test_method": "TEST METHOD",
                         "method_point": [
-                            "D445",
-                            " D445",
-                            "D2270",
-                            "D97",
-                            "D92"
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
                         ]
                     },
                     {
-                        "result": "100",
+                        
                         "result_poinet": [
-                            "11.3",
-                            "100",
-                            "98",
-                            "-9 Degree cent",
-                            "245"
+                        
                         ]
                     }
                 ],

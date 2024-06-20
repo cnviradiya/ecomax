@@ -191,7 +191,7 @@
                         </div>
                         <div class="sparkle-button">
                             <div class="sparkle-button career-form-btn">
-                                <button class="btn2 d-flex align-items-center" type="submit">
+                                <button onclick=" return demo()" class="btn2 d-flex align-items-center" type="submit">
                                     <span class="about-btn d-flex align-items-center justify-content-center">
                                         <i class="fa-solid fa-arrow-up-long"></i>
                                     </span>
@@ -505,13 +505,15 @@
     </script>
 
     <script>
+        const demo = () => {
+            event.preventDefault();
+            console.log("ok");
+        }
         document.getElementById('careerForm').addEventListener('submit', async function (event) {
 
 
             const formData = new FormData();
             event.preventDefault();
-
-
 
             formData.append('first_name', document.getElementById('customer_first_name').value);
             formData.append('last_name', document.getElementById('customer_last_name').value);

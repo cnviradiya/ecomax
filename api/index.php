@@ -35,7 +35,7 @@ if(!empty($_POST['email'])) {
         
         // More headers
         $headers .= 'From: <info@ecomaxlubricant.com>' . "\r\n";
-        $headers .= 'Cc: trushang_rathod@itcoders.in' . "\r\n";
+        $headers .= 'Cc: bhalanidhrumil72@gmail.com' . "\r\n";
         
         mail($to,$subject,$message,$headers);
         $responseArr = [

@@ -1,7 +1,7 @@
 [
     {
-        "collection_image":"ecosynth_610.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "ecosynth_610.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "ecosynth-610",
         "products": [
@@ -9,12 +9,12 @@
                 "title": "ECOSYNTH 610",
                 "thumb_title": "Ecosynth 610",
                 "slug": "ecosynth-610",
-                "products_image":"product_ecosynth_610.png",
+                "products_image": "product_ecosynth_610.png",
                 "short_description": "High temperature ep chain and conveyor lubricant",
                 "product_overview": [
                     "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
                 ],
-                "special_features":[
+                "special_features": [
                     "Has a temperature range of -30 C to +300 C.",
                     "Excellent anti wear properties at elevated temperature gives longer chain life.",
                     "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
@@ -23,38 +23,47 @@
                     "Does not form any carbon deposits and provides clean and safe working environment.",
                     "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Kinematic Viscosity",
+                            "cSt @ 40 Degree Cent.",
+                            "cSt @ 100 Degree Cent.",
+                            "Temperature Range",
+                            "Viscosity Index",
+                            "Flash Point Degree Cent."
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "",
+                            "ASTM D 445",
+                            "ASTM D445",
+                            "",
+                            "ASTM D 2270",
+                            ""
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Amber / Yellow Liquid",
+                            "Synthetic Ester Mixture",
+                            "",
+                            "185",
+                            "31",
+                            "-30 to 300 Degree Cent.",
+                            "211",
+                            "316 C"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -83,8 +92,8 @@
         ]
     },
     {
-        "collection_image":"ecosynth_350.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "ecosynth_350.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "ecosynth-350",
         "products": [
@@ -92,12 +101,12 @@
                 "title": "ECOSYNTH 350",
                 "thumb_title": "ECOSYNTH 350",
                 "slug": "ecosynth-350",
-                "products_image":"product_ecosynth_350.png",
+                "products_image": "product_ecosynth_350.png",
                 "short_description": "High temperature ep chain and conveyor lubricant",
                 "product_overview": [
                     "Ecosynth 350 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
                 ],
-                "special_features":[
+                "special_features": [
                     "Has a temperature range of 0 C to +282 C.",
                     "Excellent anti wear properties at elevated temperature gives longer chain life.",
                     "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
@@ -106,38 +115,47 @@
                     "Does not form any carbon deposits and provides clean and safe working environment.",
                     "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Kinematic Viscosity",
+                            "cSt @ 40 Degree Cent.",
+                            "cSt @ 100 Degree Cent.",
+                            "Temperature Range",
+                            "Four ball weld load",
+                            "Four ball wear scar (mm)"
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "",
+                            "ASTM D 445",
+                            "ASTM D445",
+                            "",
+                            "ASTM D 2596",
+                            "ASTM D 2266"
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Yellow Liquid",
+                            "Synthetic Ester Mixture",
+                            "",
+                            "385",
+                            "42",
+                            "-0 to 260 Degree Cent.",
+                            "277 kg",
+                            "0.41"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -166,8 +184,8 @@
         ]
     },
     {
-        "collection_image":"mox-active-hecton-wrl.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "mox-active-hecton-wrl.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "mox-active-hecton-wrl",
         "products": [
@@ -175,51 +193,60 @@
                 "title": "Mox Active-HECTON WRL",
                 "thumb_title": "Mox Active-HECTON WRL",
                 "slug": "mox-active-hecton-wrl",
-                "products_image":"product_mox-active-hecton-wrl.png",
+                "products_image": "product_mox-active-hecton-wrl.png",
                 "short_description": "High performance semi-fluid wire rope lubricant",
                 "product_overview": [
                     "Ecomax-WRL Hecton NLGI # 00  is semi-fluid grease based on highly refined mineraloil and organically modified clay thickener.",
                     "The unique blend of lubricating solids and proprietary additive package contained in Ecomax-WRL wire rope lubricant reduces the internal friction and wear often encountered in multi strand wire ropes.",
                     "Ecomax-WRL is highly resistant to water and provides excellent corrosion protection making it suitable for use in salt water environments even under water."
                 ],
-                "special_features":[
+                "special_features": [
                     "Ecomax-WRL wire rope lubricant has a temperature range of -30 c to +100 c.",
                     "Ecomax-WRL wire rope lubricant is sufficiently fluid enough to penetrate through the strands to the core of the rope.",
                     "Ecomax-WRL wire rope lubricant is sufficiently greasy to resist fling off at high speed.",
                     "Ecomax-WRL wire rope lubricant."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Thickener ",
+                            "NLGI Grade",
+                            "Additives",
+                            "Worked penetration",
+                            "Four ball weld load",
+                            "Four ball wear scar(mm)"
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "N/A",
+                            "",
+                            "N/A",
+                            "ASTM D 217",
+                            "ASTM D 2596",
+                            "ASTM D 2266"
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Homogeneous soft black grease",
+                            "Highly refined mineral oil",
+                            "Organically modified clay",
+                            "00",
+                            "440-450",
+                            "<4%",
+                            "350 KG",
+                            "0.4-0.45 mm"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -256,8 +283,8 @@
         ]
     },
     {
-        "collection_image":"ht-hecton-grease.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "ht-hecton-grease.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "ht-hecton-grease",
         "products": [
@@ -265,50 +292,59 @@
                 "title": "HT-HECTON GREASE",
                 "thumb_title": "HT-HECTON GREASE",
                 "slug": "ht-hecton-grease",
-                "products_image":"product_ht-hecton-grease.png",
+                "products_image": "product_ht-hecton-grease.png",
                 "short_description": "",
                 "product_overview": [
                     "Ecomax HT- Hecton NLGI # 2 is heavy duty, high temperature bearing grease fortified with molybdenum disulphide. It has been designed for the effective lubrication and protection of ball, roller and plain bearings used in extreme environments. The unique blend of lubricating solids and proprietary additive package contained in Ecomax HT- Hecton lubricant reduces the internal friction and wear often encountered in bearings."
                 ],
-                "special_features":[
+                "special_features": [
                     "Has a temperature range of -10 C to +360 C, is Non-melting , organically modified clay thickened, fortified with molybdenum disulphide, for excellent high temperature and water resistance.",
                     "Ideal for highly loaded applications, where shock load and vibrations can occure.",
                     "Highly resistance to oxidation , providing extended lubrication intervals over conventional lubricants.",
                     "Excellent corrosion resistance to protect in humid , damp and even wet conditions.",
                     "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Thickener ",
+                            "NLGI Grade",
+                            "Worked penetration",
+                            "Oil separation",
+                            "Four ball weld load",
+                            "Four ball wear scar(mm)"
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "N/A",
+                            "",
+                            "ASTM D 217",
+                            "ASTM D 1742",
+                            "ASTM D 2596",
+                            "ASTM D 2266"
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Homogeneous soft black grease",
+                            "Highly refined mineral oil",
+                            "Organically modified clay",
+                            "2",
+                            "265-285",
+                            "<4%",
+                            "285 KG",
+                            "0.4-0.45 mm"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -339,8 +375,8 @@
         ]
     },
     {
-        "collection_image":"hecton-ogl.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "hecton-ogl.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "hecton-ogl",
         "products": [
@@ -348,57 +384,64 @@
                 "title": "HECTON OGL",
                 "thumb_title": "HECTON OGL",
                 "slug": "hecton-ogl",
-                "products_image":"product_hecton_ogl.png",
+                "products_image": "product_hecton_ogl.png",
                 "short_description": "Open gear lubricant",
                 "product_overview": [
                     "Ecomax  Hecton OGL Open gear lubricant is a special weather-resistant open gear grease that clings tenaciously in position regardless of wind, rain, sleet, snow, sun , dust storm and other climatic conditions. It is heavy duty grease fortified with molybdenum disulphide. It has been designed for the effective lubrication and protection of open gears.",
                     "The unique blend of lubricating solids and proprietary additive package contained in Ecomax Hecton OGL lubricant reduces the internal friction and wear often encountered in meshing metal surfaces of open gears."
                 ],
-                "special_features":[
+                "special_features": [
                     "Is Non-melting , organically modified clay thickened, fortified with molybdenum disulphide, for excellent high temperature and water resistance.",
                     "Ideal for highly loaded applications, where shock load and vibrations can occure.",
                     "Highly resistance to oxidation , providing extended lubrication intervals over conventional lubricants.",
                     "Excellent corrosion resistance to protect in humid , damp and even wet conditions.",
                     "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Thickener ",
+                            "NLGI Grade",
+                            "Worked penetration",
+                            "Oil separation",
+                            "Four ball weld load",
+                            "Four ball wear scar(mm)."
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "N/A",
+                            "",
+                            "ASTM D 217",
+                            "ASTM D 1742",
+                            "ASTM D 2596",
+                            "ASTM D 2266"
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Homogeneous soft black grease",
+                            "Highly refined mineral oil",
+                            "Organically modified clay",
+                            "1",
+                            "310-340",
+                            "<4%",
+                            "460 KG",
+                            ""
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "",
-                        "points": [
-                            
-                        ]
+                        "points": []
                     },
                     {
                         "title": "TYPICAL APPLICATIONS",
@@ -418,8 +461,8 @@
         ]
     },
     {
-        "collection_image":"ht-titanium-grease-222.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "ht-titanium-grease-222.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "ht-titanium-grease-222",
         "products": [
@@ -427,13 +470,13 @@
                 "title": "HT-TITANIUM GREASE - 222",
                 "thumb_title": "HT-TITANIUM GREASE - 222",
                 "slug": "ht-titanium-grease-222",
-                "products_image":"product_ht-titanium-grease-222.png",
+                "products_image": "product_ht-titanium-grease-222.png",
                 "short_description": "High temperature bearing grease",
                 "product_overview": [
                     "Ecomax Titanium - 222 is extended service lithium complex grease intended for a wide variety of applications and severs operating conditions. This grease is designed to be superior as compared to conventional products by applying lithium complex based chemistry. This grease is formulated to provide excellent high temperature performance with superb adhesion, structural stability and resistance to water contamination. It has a high level of chemical stability and offers excellent protection against rust and corrosion.",
                     "Ecomax titanium -222 is designed for a wide range of applications including the industrial, automotive, construction and marine sector. Its performance features makes it an ideal choice for operating conditions including high temperature, water contamination, shock loading and extended republication intervals."
                 ],
-                "special_features":[
+                "special_features": [
                     "Extended bearing life and low oil bleed.",
                     "High wash off resistance .",
                     "Excellent low temperature performance and reliable high temperature performance.",
@@ -442,38 +485,47 @@
                     "Highly tenacious lubricant with outstanding film strength, ensure the lubricant remain in place even in severe operating conditions.",
                     "Long storage life"
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Thickener ",
+                            "NLGI Grade",
+                            "Worked penetration",
+                            "Oil separation",
+                            "Four ball weld load",
+                            "Four ball wear scar(mm)."
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "N/A",
+                            "",
+                            "ASTM D 217",
+                            "ASTM D 1742",
+                            "IP 239",
+                            "ASTM D 2266"
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Homogeneous soft black grease",
+                            "Highly refined mineral oil",
+                            "Lithium Complex",
+                            "2",
+                            "270 - 285",
+                            "<3%",
+                            "320 KG",
+                            "0.44-0.45 mm"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -502,8 +554,8 @@
         ]
     },
     {
-        "collection_image":"semi-fluid-gear-box.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "semi-fluid-gear-box.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "semi-fluid-gear-box",
         "products": [
@@ -511,12 +563,12 @@
                 "title": "Ecomax GL <br> Semi fluid Gear box Lubricant",
                 "thumb_title": "Semi fluid Gear box",
                 "slug": "semi-fluid-gear-box",
-                "products_image":"product_semi-fluid-gear-box.png",
+                "products_image": "product_semi-fluid-gear-box.png",
                 "short_description": "",
                 "product_overview": [
                     "Ecomax-GL NLGI is semi-fluid grease based on highly refined mineral oil and organically modified clay thickener. The unique blend of lubricating solids and proprietary additive package contained in Ecomax GL reduces the internal friction and wear often encountered between meshing gear teeths."
                 ],
-                "special_features":[
+                "special_features": [
                     "Ecomax-GL lubricant has a temperature range of -30 c to +280 c.",
                     "Ecomax-GL lubricant is sufficiently greasy to resist fling off at high speed.",
                     "Ecomax-GL lubricant",
@@ -525,38 +577,47 @@
                     "High COF and High VI base oil contributes to long service life",
                     "MoX Active lubricating solids –offers EP performance"
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "PROPERTY",
+                        "property_point": [
+                            "Appearance",
+                            "Base Fluid Type",
+                            "Thickener ",
+                            "NLGI Grade",
+                            "Worked penetration",
+                            "Oil separation",
+                            "Four ball weld load",
+                            "Four ball wear scar(mm)."
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "Visual",
+                            " N/A",
+                            "N/A",
+                            "",
+                            "ASTM D 217",
+                            "ASTM D 1742",
+                            "ASTM D 2596",
+                            "ASTM D 2266"
+                        ]
+                    },
+                    {
+                        "result": "RESULT",
+                        "result_poinet": [
+                            "Homogeneous soft black grease",
+                            "Highly refined mineral oil",
+                            "Organically modified clay",
+                            "00",
+                            "440-450",
+                            "<4%",
+                            "350 KG",
+                            "0.40-0.45 mm"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -564,7 +625,6 @@
                             "Ecomax GL NLGI # 00 lubricant should be stored in its unopened original container. ",
                             "If Ecomax-GL NLGI # 00   lubricants stored in proper way in original container, the shelf life is 4 years from date of manufacture.",
                             "The minimum application temperature for Ecomax-GL NLGI # 00 lubricant is 0 c."
-                        
                         ]
                     },
                     {
@@ -585,8 +645,8 @@
         ]
     },
     {
-        "collection_image":"extreme-pressure-grease.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "extreme-pressure-grease.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "extreme-pressure-grease",
         "products": [
@@ -594,55 +654,64 @@
                 "title": "Extreme Pressure Grease",
                 "thumb_title": "Extreme Pressure Grease",
                 "slug": "extreme-pressure-grease",
-                "products_image":"product_extreme-pressure-grease.png",
+                "products_image": "product_extreme-pressure-grease.png",
                 "short_description": "High performance EP 2 Grease",
                 "product_overview": [
                     "Ecomax Lithium Grease is a premium quality multi-purpose long life grease. It is manufactured from lithium soap and extreme pressure additives. It provides high temperature and extreme pressure properties. It is suitable for use in all anti-friction and plain bearing subjected to high load condition."
                 ],
-                "special_features":[
+                "special_features": [
                     "Made from lithium soap and enhanced with extreme pressure (EP) additives, this grease delivers exceptional performance in demanding applications.",
                     "Specially designed to withstand heavy loads and high-pressure conditions, protecting against wear and tear.",
                     "Offers extended lubrication intervals, reducing the frequency of maintenance and downtime.",
                     "Provides robust protection against rust and corrosion, extending the service life of your equipment.",
                     "Versatile enough for use in a wide range of applications, including anti-friction and plain bearings subjected to high load conditions."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "Characteristics",
+                        "property_point": [
+                            "Soap Type",
+                            "Worked penetration @ 25 Degree Cent",
+                            "Drop Point Degree Cent",
+                            "Appearance and structure",
+                            "NLGI Grade",
+                            "Viscosity of base oil @ 40 Degree .",
+                            "Copper strip corrosion @ 100 Degree.",
+                            "Roll stability % Change Max"
+                        ]
+                    },
+                    {
+                        "test_method": "METHOD",
+                        "method_point": [
+                            "SATM D 3340",
+                            " ASTM D 217",
+                            "ASTM D 2265",
+                            "Visual",
+                            "",
+                            "ASTM D 445",
+                            "ASTM D 4048",
+                            "ASTM D 1831"
+                        ]
+                    },
+                    {
+                        "result": "Specifications",
+                        "result_poinet": [
+                            "Lithium",
+                            "235",
+                            "200 Degree Cent",
+                            "Smooth and shiny",
+                            "2/3",
+                            "160 cSt",
+                            "1A",
+                            "20 "
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "",
                         "points": [
-                           "Lithium complex is recommended for use in highly loaded industrial and automotive applications such as wheel bearing , pump bearing etc.. It has been primarily designed as a wheel bearing and chassis grease. Performance criteria of 70000 Km can be achieved with Lithium soap and proprietary additive package."
+                            "Lithium complex is recommended for use in highly loaded industrial and automotive applications such as wheel bearing , pump bearing etc.. It has been primarily designed as a wheel bearing and chassis grease. Performance criteria of 70000 Km can be achieved with Lithium soap and proprietary additive package."
                         ]
                     },
                     {
@@ -656,9 +725,7 @@
                     },
                     {
                         "title": "",
-                        "points": [
-                            
-                        ]
+                        "points": []
                     }
                 ],
                 "description_image": "direction_extreme-pressure-grease.png"
@@ -666,8 +733,8 @@
         ]
     },
     {
-        "collection_image":"extreme-pressure-gear-lubricant.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "extreme-pressure-gear-lubricant.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "extreme-pressure-gear-lubricant",
         "products": [
@@ -675,50 +742,50 @@
                 "title": "Extreme Pressure Gear Lubricant",
                 "thumb_title": "Extreme Pressure Gear Lubricant",
                 "slug": "extreme-pressure-gear-lubricant",
-                "products_image":"product_extreme-pressure-gear-lubricant.png",
+                "products_image": "product_extreme-pressure-gear-lubricant.png",
                 "short_description": "Heavy Duty Transmission Gear Lubricant",
                 "product_overview": [
                     "Ecomax Gear Care Extreme Pressure Heavy Duty Gear Oil is a premium mono grade gear oil specifically engineered to provide superior protection and performance under the most demanding conditions. This advanced formulation ensures that your machinery operates smoothly and efficiently, even under extreme pressures and temperatures."
                 ],
-                "special_features":[
+                "special_features": [
                     "Designed to handle the most demanding gear applications, providing excellent protection against wear, scuffing, and pitting.",
                     "Resists oxidation and thermal degradation, maintaining its protective properties at high operating temperatures.",
                     "Reduces the need for frequent oil changes, lowering maintenance costs and downtime.",
                     "Provides excellent film strength to prevent metal-to-metal contact, reducing friction and wear.",
                     "Protects against rust and corrosion, extending the life of gears and bearings."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "TEST PARAMETER",
+                        "property_point": [
+                            "Kinematic Viscosity @ 100 Deg Cent cSt",
+                            "Kinematic Viscosity @ 40 Degree Cent cSt",
+                            "Viscosity Index",
+                            "Pour Point",
+                            "Flash Point"
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "D445",
+                            " D445",
+                            "D2270",
+                            "D97",
+                            "D92"
+                        ]
+                    },
+                    {
+                        "result": "100",
+                        "result_poinet": [
+                            "11.3",
+                            "100",
+                            "98",
+                            "-9 Degree cent",
+                            "245"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "Usage Instructions",
@@ -747,8 +814,8 @@
         ]
     },
     {
-        "collection_image":"hydro-power-68-heavy-duty-hydraulic-oil.png",
-        "collection_title":"Ecomax's Industrial Lubricants",
+        "collection_image": "hydro-power-68-heavy-duty-hydraulic-oil.png",
+        "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "hydro-power-68-heavy-duty-hydraulic-oil",
         "products": [
@@ -756,50 +823,50 @@
                 "title": "HYDRO POWER - 68 <br> HEAVY DUTY HYDRAULIC OIL",
                 "thumb_title": "HYDRO POWER - 68 HEAVY DUTY HYDRAULIC OIL",
                 "slug": "hydro-power-68-heavy-duty-hydraulic-oil",
-                "products_image":"product_hydro-power-68-heavy-duty-hydraulic-oil.png",
+                "products_image": "product_hydro-power-68-heavy-duty-hydraulic-oil.png",
                 "short_description": "",
                 "product_overview": [
                     "Ecomax Hydro Power - 68 is a heavy-duty hydraulic oil engineered to deliver maximum power to your equipment. Formulated with premium base oils and high-performance additives, it provides excellent wear protection, oxidation stability, and thermal resistance. This ensures optimal performance and longevity of hydraulic systems, even under high pressure and extreme conditions. Ecomax Hydro Power - 68 enhances equipment efficiency and reliability, reduces downtime and maintenance costs and offers superior water separation and rust protection. Choose Ecomax Hydro Power - 68 for robust hydraulic performance and durability."
                 ],
-                "special_features":[
+                "special_features": [
                     "Ensures superior quality and performance.",
                     "Enhances wear protection, oxidation stability, and thermal resistance.",
                     "Prevents emulsification and maintains efficiency.",
                     "Guards against corrosion, extending equipment life.",
                     "Maintains optimal function in challenging environments."
                 ],
-                "technical_specifications": {
-                    "property": [
-                        "Appearance",
-                        "Base Fluid Type",
-                        "Kinematic Viscosity",
-                        "cSt @ 40 Degree Cent.",
-                        "cSt @ 100 Degree Cent.",
-                        "Temperature Range",
-                        "Viscosity Index",
-                        "Flash Point Degree Cent."
-                    ],
-                    "test_method": [
-                        "Visual",
-                        " N/A",
-                        "",
-                        "ASTM D 445",
-                        "ASTM D445",
-                        "",
-                        "ASTM D 2270",
-                        ""
-                    ],
-                    "result": [
-                        "Amber / Yellow Liquid",
-                        "Synthetic Ester Mixture",
-                        "",
-                        "185",
-                        "31",
-                        "-30 to 300 Degree Cent.",
-                        "211",
-                        "316 C"
-                    ]
-                },
+                "technical_specifications": [
+                    {
+                        "property": "TEST PARAMETER",
+                        "property_point": [
+                            "Kinematic Viscosity @ 100 Deg Cent cSt",
+                            "Kinematic Viscosity @ 40 Degree Cent cSt",
+                            "Viscosity Index",
+                            "Pour Point",
+                            "Flash Point"
+                        ]
+                    },
+                    {
+                        "test_method": "TEST METHOD",
+                        "method_point": [
+                            "D445",
+                            " D445",
+                            "D2270",
+                            "D97",
+                            "D92"
+                        ]
+                    },
+                    {
+                        "result": "100",
+                        "result_poinet": [
+                            "11.3",
+                            "100",
+                            "98",
+                            "-9 Degree cent",
+                            "245"
+                        ]
+                    }
+                ],
                 "descriptions": [
                     {
                         "title": "Usage Instructions",
@@ -830,5 +897,4 @@
             }
         ]
     }
-
 ]

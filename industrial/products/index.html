@@ -189,46 +189,30 @@
     <div class="TECHNICAL-SPECIFICATIONS">
         <div class="container1">
             <div class="row">
-                <div class="col-12 p-0 TECHNICAL-SPECIFICATIONS-Result justify-content-between d-flex flex-wrap">
+                <div class="col-12 p-0 align-items-center TECHNICAL-SPECIFICATIONS-Result justify-content-between d-flex flex-wrap">
                     <div class="TECHNICAL-SPECIFICATIONS-title">
                         <h2 class="text-white">
                             TECHNICAL <br class="d-none d-xl-block"> SPECIFICATIONS
                         </h2>
                     </div>
-                    <div class="swiper industrial_swiper industrial-slaid  PROPERTY-TESTMETHOD-RESULT">
-                        <div class="swiper-wrapper industrial_slaider1 m-0">
-                            <div class="swiper-slide industrial_slaider_item text-center text-white">
-                                <h5 class="dynamic-data">1</h5>
-                                <ul class="dynamic-data">
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-
+                    <div class="swiper industrial_swiper m-0 col-12 industrial-border col-lg-8">
+                        <div class="swiper-wrapper col-12 m-0">
+                            <div class="swiper-slide col-4  industrial-border text-white">
+                                <h5 class="dynamic-data text-center  industrial-border m-0" property-title></h5>
+                                <ul class="dynamic-data text-center list-none p-0 m-0" property-point>
+                                  
                                 </ul>
                             </div>
-                            <div class="swiper-slide industrial_slaider_item text-center text-white">
-                                <h5 class="dynamic-data">1</h5>
-                                <ul class="dynamic-data">
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
+                            <div class="swiper-slide industrial-border col-4 text-white">
+                                <h5 class="dynamic-data text-center  industrial-border m-0" method-title></h5>
+                                <ul class="dynamic-data  text-center list-none p-0 m-0" method-point>
+                                  
                                 </ul>
                             </div>
-                            <div class="swiper-slide industrial_slaider_item text-center text-white">
-                                <h5 class="dynamic-data">RESULT</h5>
-                                <ul class="dynamic-data">
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
-                                    <li>1</li>
+                            <div class="swiper-slide col-4 industrial-border text-white">
+                                <h5 class="dynamic-data text-center  industrial-border m-0" result-title></h5>
+                                <ul class="dynamic-data text-center list-none  p-0 m-0"result-point >
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -539,11 +523,35 @@
                 // when window width is >= 640px
                 768: {
                     slidesPerView: 3,
-                    spaceBetween: 10
+                    spaceBetween: 0
                 }
             }
         });
     </script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 50,
+            },
+          },
+        });
+      </script>
     <script>
         // Load the data when the document is ready
         document.addEventListener("DOMContentLoaded", async () => {
@@ -643,6 +651,42 @@
                         // replace the product-overview
                         $(this).append(collectionData.products[0].descriptions[2].points.map(function (point) {
                             return "<p>" + point + "</p>";
+                        }));
+                    }
+                    $('.dynamic-data').each(function () {
+                        if ($(this).attr('property-title') !== undefined) {
+                            // replace the direction-for-storage-and-use-title
+                            $(this).html(collectionData.products[0].technical_specifications[0].property);
+                        }
+                    });
+                    $('.dynamic-data').each(function () {
+                        if ($(this).attr('method-title') !== undefined) {
+                            // replace the direction-for-storage-and-use-title
+                            $(this).html(collectionData.products[0].technical_specifications[1].test_method);
+                        }
+                    });
+                    $('.dynamic-data').each(function () {
+                        if ($(this).attr('result-title') !== undefined) {
+                            // replace the direction-for-storage-and-use-title
+                            $(this).html(collectionData.products[0].technical_specifications[2].result);
+                        }
+                    });
+                    if ($(this).attr('property-point') !== undefined) {
+                        // replace the product-overview
+                        $(this).append(collectionData.products[0].technical_specifications[0].property_point.map(function (point) {
+                            return `<li class="p-1">${point}</li>`;
+                        }));
+                    }
+                    if ($(this).attr('method-point') !== undefined) {
+                        // replace the product-overview
+                        $(this).append(collectionData.products[0].technical_specifications[1].method_point.map(function (point) {
+                            return `<li class="p-1">${point}</li>`;
+                        }));
+                    }
+                    if ($(this).attr('result-point') !== undefined) {
+                        // replace the product-overview
+                        $(this).append(collectionData.products[0].technical_specifications[2].result_poinet.map(function (point) {
+                            return `<li class="p-1">${point}</li>`;
                         }));
                     }
                 });

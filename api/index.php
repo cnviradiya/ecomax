@@ -6,7 +6,7 @@ $responseArr = [
 if(!empty($_POST['email'])) {
     try {
         $to = $_POST['email'];
-        $subject = "HTML email";
+        $subject = "dharumil";
         
         $message = "
         <html>

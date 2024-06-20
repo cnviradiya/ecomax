@@ -197,8 +197,8 @@
                     </div>
                     <div class="swiper industrial_swiper m-0 col-12 industrial-border col-lg-8">
                         <div class="swiper-wrapper col-12 m-0">
-                            <div class="swiper-slide col-4  industrial-border text-white">
-                                <h5 class="dynamic-data text-center  industrial-border m-0" property-title></h5>
+                            <div class="swiper-slide col-4   industrial-border text-white">
+                                <h5 class="dynamic-data text-center industrial-border m-0" property-title></h5>
                                 <ul class="dynamic-data text-center list-none p-0 m-0" property-point>
                                   
                                 </ul>
@@ -209,13 +209,17 @@
                                   
                                 </ul>
                             </div>
-                            <div class="swiper-slide col-4 industrial-border text-white">
-                                <h5 class="dynamic-data text-center  industrial-border m-0" result-title></h5>
+                            <div class="swiper-slide col-4 industrial-border text-white" >
+                            
+                                    <h5 id="last_page" class="dynamic-data text-center industrial-border m-0 "result-title></h5>
+                             
                                 <ul class="dynamic-data text-center list-none  p-0 m-0"result-point >
                                   
                                 </ul>
                             </div>
                         </div>
+                        <br>
+                        <br>
                         <div class="swiper-pagination"></div>
                     </div>
                 </div>
@@ -507,6 +511,15 @@
                 $(".scrollbar").removeClass("show_scroll_btn");
             }
         });
+
+        if (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=hydro-power-68-heavy-duty-hydraulic-oil" || "http://127.0.0.1:5500/industrial/products/index.html?s=hydro-power-68-heavy-duty-hydraulic-oil" || "https://ecomax.vercel.app/industrial/products/index.html?s=hydro-power-68-heavy-duty-hydraulic-oil" ) {
+            document.getElementById("last_page").style.display = 'none';
+       
+        } else {
+            document.getElementById("last_page").style.display = 'block';
+        
+        }
+       
     </script>
     <script>
         var swiper = new Swiper(".industrial_swiper", {

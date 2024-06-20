@@ -759,7 +759,7 @@
                         "property": "TEST PARAMETER",
                         "property_point": [
                             "Kinematic Viscosity @ 100 Deg Cent cSt",
-                            "Kinematic Viscosity @ 40 Degree Cent cSt",
+                            "Kinematic Viscosity @ 40 Degree Cent ",
                             "Viscosity Index",
                             "Pour Point",
                             "Flash Point"
@@ -839,21 +839,27 @@
                     {
                         "property": "TEST PARAMETER",
                         "property_point": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "Flash Point",
+                            "Density @ 15 Degree cent.",
+                            "TBN Content",
+                            "Kinematic Viscosity @ 40 Degree cent",
+                            "Kinematic Viscosity @ 100 Degree cent",
+                            "Viscosity Index",
+                            "Pour Point",
+                            "Copper Strip Corrosion for 3 Hrs at 100 "
                         ]
                     },
                     {
                         "test_method": "TEST METHOD",
                         "method_point": [
-                            "",
-                            "",
-                            "",
-                            "",
-                            ""
+                            "220",
+                            "0.867",
+                            "4.1",
+                            "73",
+                            "9",
+                            "97",
+                            "-20",
+                            "1a"
                         ]
                     },
                     {

@@ -508,38 +508,39 @@
         const demo = () => {
             event.preventDefault();
             console.log("ok");
-        }
-        document.getElementById('careerForm').addEventListener('submit', async function (event) {
+            document.getElementById('careerForm').addEventListener('submit', async function (event) {
 
 
-            const formData = new FormData();
-            event.preventDefault();
+                const formData = new FormData();
+                event.preventDefault();
 
-            formData.append('first_name', document.getElementById('customer_first_name').value);
-            formData.append('last_name', document.getElementById('customer_last_name').value);
-            formData.append('email', document.getElementById('customer_email').value);
-            formData.append('number', document.getElementById('customer_number').value);
-            formData.append('resume', document.getElementById('customer_data').files[0]);
-            formData.append('message', document.getElementById('customer_message').value);
+                formData.append('first_name', document.getElementById('customer_first_name').value);
+                formData.append('last_name', document.getElementById('customer_last_name').value);
+                formData.append('email', document.getElementById('customer_email').value);
+                formData.append('number', document.getElementById('customer_number').value);
+                formData.append('resume', document.getElementById('customer_data').files[0]);
+                formData.append('message', document.getElementById('customer_message').value);
 
-            try {
-                const response = await fetch('https://ecomaxlubricant.com/api/index.php?a=career', {
-                    method: 'POST',
-                    body: formData
-                });
+                try {
+                    const response = await fetch('https://ecomaxlubricant.com/api/index.php?a=career', {
+                        method: 'POST',
+                        body: formData
+                    });
 
-                if (response.ok) {
-                    const result = await response.json();
-                    alert('Form submitted successfully: ' + JSON.stringify(result));
-                } else {
-                    alert('Failed to submit form: ' + response.statusText);
-                    console.log("ok");
+                    if (response.ok) {
+                        const result = await response.json();
+                        alert('Form submitted successfully: ' + JSON.stringify(result));
+                    } else {
+                        alert('Failed to submit form: ' + response.statusText);
+                        console.log("ok");
+                    }
+                } catch (error) {
+
+                    alert('Error form ' + error.message);
                 }
-            } catch (error) {
-                
-                alert('Error form ' + error.message);
-            }
-        });
+            });
+        }
+
     </script>
     <!-- Script end -->
 </body>

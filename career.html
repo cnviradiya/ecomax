@@ -147,36 +147,31 @@
             </div>
             <div class="row p-0 image_with_form_container align-items-center">
                 <div class="col-12 pe-0 form_container order-1 order-sm-0 col-sm-7 ">
-                    <form class="form_container_in" >
+                    <form class="form_container_in" id="careerForm">
                         <div class="row form_field_container flex-column flex-sm-row ">
                             <div class="col">
-                                <input type="text" name="name" id="customer_first_name" placeholder="First Name*" class="form-control field"
-                                    aria-label="First name" required>
-                                    <p class="text-danger" id="customer_fname"></p>
+                                <input type="text" name="name" id="customer_first_name" placeholder="First Name*" class="form-control field" aria-label="First name" required>
+                                <p class="text-danger" id="customer_fname"></p>
                             </div>
                             <div class="col ">
-                                <input type="text" name="name" id="customer_last_name"  placeholder="Last Name*" class="form-control field"
-                                    aria-label="Last name" required>
-                                    <p class="text-danger" id="customer_lname"></p>
+                                <input type="text" name="name" id="customer_last_name" placeholder="Last Name*" class="form-control field" aria-label="Last name" required>
+                                <p class="text-danger" id="customer_lname"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col ">
-                                <input type="email" name="email" id="customer_email" placeholder="Email*" required
-                                    class="field form-control">
-                                    <p class="text-danger" id="customer_email_w"></p>
+                                <input type="email" name="email" id="customer_email" placeholder="Email*" required class="field form-control">
+                                <p class="text-danger" id="customer_email_w"></p>
                             </div>
                             <div class="col ">
-                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*" required
-                                    class="field form-control">
-                                    <p class="text-danger" id="customer_number_w"></p>
+                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*" required class="field form-control">
+                                <p class="text-danger" id="customer_number_w"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row ">
                             <div class="col ">
-                                <div
-                                    class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
-                                    <input type='file' id="customer_data" class="position-absolute  top-0 bottom-0 start-0 end-0 opacity-0">
+                                <div class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                                    <input type='file' id="customer_data" class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0">
                                     <span class='label' data-js-label>Resume</span>
                                     <span class='button'>Browse</span>
                                 </div>
@@ -184,17 +179,16 @@
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row ">
                             <div class="col ">
-                                <textarea placeholder="Your Message" id="customer_message" name="career_message"
-                                    class="form-control w-100 field message_field"></textarea>
+                                <textarea placeholder="Your Message" id="customer_message" name="career_message" class="form-control w-100 field message_field"></textarea>
                             </div>
                         </div>
                         <div class="sparkle-button">
                             <div class="sparkle-button career-form-btn">
-                                <button class="btn2 d-flex align-items-center">
+                                <button class="btn2 d-flex align-items-center" type="submit">
                                     <span class="about-btn d-flex align-items-center justify-content-center">
                                         <i class="fa-solid fa-arrow-up-long"></i>
                                     </span>
-                                    <span class="text" onclick="customerdata()"> Submit</span>
+                                    <span class="text">Submit</span>
                                 </button>
                             </div>
                         </div>
@@ -504,29 +498,36 @@
     </script>
 
     <script>
-        const customerdata = () => {
-            event.preventDefault()
-            let customer_fname = document.getElementById("customer_first_name").value
-            let customer_lname = document.getElementById("customer_last_name").value
-            let customer_email = document.getElementById("customer_email").value
-            let customer_number = document.getElementById("customer_number").value
-            let customer_data = document.getElementById("customer_data").value
-            let customer_message = document.getElementById("customer_message").value
 
-            if(customer_fname === ""){
-                document.getElementById("customer_fname").innerHTML="Please fill in this field";
+        document.getElementById('careerForm').addEventListener('submit', async function (event) {
+            event.preventDefault();
+            
+            const formData = new FormData();
+            formData.append('first_name', document.getElementById('customer_first_name').value);
+            formData.append('last_name', document.getElementById('customer_last_name').value);
+            formData.append('email', document.getElementById('customer_email').value);
+            formData.append('number', document.getElementById('customer_number').value);
+            formData.append('resume', document.getElementById('customer_data').files[0]);
+            formData.append('message', document.getElementById('customer_message').value);
+
+            try {
+                const response = await fetch('https://ecomaxlubricant.com/api/index.php?a=career', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    alert('Form submitted successfully: ' + JSON.stringify(result));
+                } else {
+                    alert('Failed to submit form: ' + response.statusText);
+                }
+            } catch (error) {
+                alert('Error form ' + error.message);
             }
-            if(customer_lname === ""){
-                document.getElementById("customer_lname").innerHTML="Please fill in this field";
-            }
-            if(customer_email === ""){
-                document.getElementById("customer_email_w").innerHTML="Please fill in this field";
-            }
-            if(customer_number === ""){
-                document.getElementById("customer_number_w").innerHTML="Please fill in this field";
-            }
-        }
+        });
     </script>
     <!-- Script end -->
 </body>
+
 </html>

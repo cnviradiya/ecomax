@@ -12,8 +12,10 @@ if(!empty($_POST['email'])) {
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
         $subject  = "Sample mail for the career page"; //subject for the email
+        $name1 = "Customer Name:-".$_POST["first_name"]; //body of the email
+        "\n"
         $message = "Message:-".$_POST["career_message"]; //body of the email
-        $name1 = "Name:-".$_POST["first_name"]; //body of the email
+    
         
         /*Always remember to validate the form fields like this
         if(strlen($sender_name)<1)

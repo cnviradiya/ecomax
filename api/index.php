@@ -6,18 +6,17 @@ $responseArr = [
 if(!empty($_POST['email'])) {
     try {
         $from_email = 'info@ecomaxlubricant.com'; //from mail, sender email address
-        $recipient_email = 'trushang_rathod@itcoders.in'; //recipient email address
+        $recipient_email = 'pp3681382@gmail.com'; //recipient email address
          
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
         $subject  = "Sample mail for the career page"; 
         //subject for the email
+        // $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
         // $last_name = $_POST["last_name"]; //body of the email
         // $customer_number = "Customer Name:-".$_POST["customernumber"]; //body of the email
         $message = "Message:-".$_POST["career_message"]; //body of the email
-        // $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
-
     
         
         /*Always remember to validate the form fields like this
@@ -58,10 +57,10 @@ if(!empty($_POST['email'])) {
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-        $body .= chunk_split(base64_encode($message));
         // $body .= chunk_split(base64_encode($first_name));
         // $body .= chunk_split(base64_encode($last_name));
         // $body .= chunk_split(base64_encode($customer_number));
+        $body .= chunk_split(base64_encode($message));
        
         //attachment
         $body .= "--$boundary\r\n";

@@ -39,6 +39,17 @@
         height: 250px;
       }
     }
+    .loader-section {
+      text-align: center;
+      opacity: 0;
+      transition: all 0.5s ease-in;
+    }
+    .contact-form-section.active .loader-section {
+      opacity: 1;
+    }
+    .contact-form-section.active #detaform {
+      display: none;
+    }
     .loader {
     width: 48px;
     height: 48px;
@@ -251,7 +262,7 @@
           </div>
         </div>
 
-        <div class="col-12 p-0 ps-lg-5 form_container  col-sm-7 pe-lg-4 ">
+        <div class="col-12 p-0 ps-lg-5 form_container contact-form-section col-sm-7 pe-lg-4 ">
           <div class="loader-section">
             <span class="loader"></span>
           </div>
@@ -706,40 +717,61 @@
     });
   </script>
   <script>
-    const contact = () => {
-      let name = document.getElementById("name");
-      let lname = document.getElementById("lname");
-      let number = document.getElementById("number");
-      let email = document.getElementById("email");
+    $(function() {
+       $("form#detaform").submit(function(e) {
+            e.preventDefault();
+           $('.contact-form-section').addClass('active');
+            var formData = new FormData(this);
+        
+            $.ajax({
+                url: "https://ecomaxlubricant.com/api/index.php?a=contact",
+                type: 'POST',
+                data: formData,
+                success: function (data) {
+                    console.log(data);
+                    alert(data);
+                    $('.contact-form-section').removeClass('active');
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+        });
+    });
+    // const contact = () => {
+    //   let name = document.getElementById("name");
+    //   let lname = document.getElementById("lname");
+    //   let number = document.getElementById("number");
+    //   let email = document.getElementById("email");
 
-      event.preventDefault();
-      if (name.value == "") {
-        document.getElementById("name_err").innerHTML = "Please fill in this field";
-      }
-      if (lname.value == "") {
-        document.getElementById("l_name_err").innerHTML = "Please fill in this field";
-      }
-      if (number.value == 10 || number.value == "") {
-        document.getElementById("number_err").innerHTML = "Please fill in this field";
-      }
-      if (email.value == "") {
-        document.getElementById("email_err").innerHTML = "Please fill in this field";
-      }
-      if (name.value == "" || lname.value == " " || number.value == "" || email.value == "") { 
-      } else {
+    //   event.preventDefault();
+    //   if (name.value == "") {
+    //     document.getElementById("name_err").innerHTML = "Please fill in this field";
+    //   }
+    //   if (lname.value == "") {
+    //     document.getElementById("l_name_err").innerHTML = "Please fill in this field";
+    //   }
+    //   if (number.value == 10 || number.value == "") {
+    //     document.getElementById("number_err").innerHTML = "Please fill in this field";
+    //   }
+    //   if (email.value == "") {
+    //     document.getElementById("email_err").innerHTML = "Please fill in this field";
+    //   }
+    //   if (name.value == "" || lname.value == " " || number.value == "" || email.value == "") { 
+    //   } else {
 
-        let detaform = document.getElementById("detaform")
+    //     let detaform = document.getElementById("detaform")
 
-        detaform.style.display = "none";
+    //     detaform.style.display = "none";
 
-        let tank = `Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're
-          here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us
-          using the information above:`
-        let mel = ""
+    //     let tank = `Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're
+    //       here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us
+    //       using the information above:`
+    //     let mel = ""
 
-        tank = document.getElementById("Submit-form").innerHTML = tank;
-      }
-    }
+    //     tank = document.getElementById("Submit-form").innerHTML = tank;
+    //   }
+    // }
   </script>
 </body>
 </html>

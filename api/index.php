@@ -60,7 +60,7 @@ if(!empty($_POST['email'])) {
         // $body .= chunk_split(base64_encode($first_name));
         // $body .= chunk_split(base64_encode($last_name));
         // $body .= chunk_split(base64_encode($customer_number));
-        $body .= chunk_split(base64_encode($message ,$first_name ,$last_name ,$customer_number));
+        $body .= chunk_split(base64_encode($customer_number));
        
         //attachment
         $body .= "--$boundary\r\n";

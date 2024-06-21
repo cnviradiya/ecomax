@@ -11,9 +11,13 @@ if(!empty($_POST['email'])) {
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
-        $subject  = "Sample mail for the career page"; //subject for the email
-        $name1 = "Customer Name:-".$_POST["first_name"]; //body of the email
-        "\n"
+        $subject  = "Sample mail for the career page"; 
+        //subject for the email
+        $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
+        $last_name = $_POST["last_name"]; //body of the email
+        $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
+        $customer_number = "Customer Name:-".$_POST["customernumber"]; //body of the email
+        
         $message = "Message:-".$_POST["career_message"]; //body of the email
     
         
@@ -55,10 +59,12 @@ if(!empty($_POST['email'])) {
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+        $body .= chunk_split(base64_encode($first_name));
+        $body .= chunk_split(base64_encode($last_name));
+        $body .= chunk_split(base64_encode($customer_number));
         $body .= chunk_split(base64_encode($message));
-        $body .= chunk_split(base64_encode($name1));
-
-             
+       
+ 
         //attachment
         $body .= "--$boundary\r\n";
         $body .="Content-Type: $type; name=".$name."\r\n";

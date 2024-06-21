@@ -15,9 +15,7 @@ if(!empty($_POST['email'])) {
         //subject for the email
         $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name = $_POST["last_name"]; //body of the email
-        $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
         $customer_number = "Customer Name:-".$_POST["customernumber"]; //body of the email
-        
         $message = "Message:-".$_POST["career_message"]; //body of the email
     
         

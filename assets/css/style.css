@@ -486,12 +486,10 @@ a {
     cursor: pointer;
 
 }
-
 .contact_detail {
     word-wrap: break-word;
     word-break: break-all;
 }
-
 /* loader */
 .loader-section {
     text-align: center;

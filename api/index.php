@@ -6,7 +6,7 @@ $responseArr = [
 if(!empty($_POST['email'])) {
     try {
         $from_email = 'info@ecomaxlubricant.com'; //from mail, sender email address
-        $recipient_email = 'chirag@itcoders.in'; //recipient email address
+        $recipient_email = 'pp3681382@gmail.com'; //recipient email address
          
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name

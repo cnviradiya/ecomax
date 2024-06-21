@@ -12,7 +12,7 @@ if(!empty($_POST['email'])) {
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
         $subject  = "Sample mail for the career page"; //subject for the email
-        $message = "Message".$_POST["career_message"]; //body of the email
+        $message = "Message:-".$_POST["career_message"]; //body of the email
         
         /*Always remember to validate the form fields like this
         if(strlen($sender_name)<1)
@@ -74,7 +74,25 @@ if(!empty($_POST['email'])) {
         else{
             $responseArr['message'] = 'Failed to send email.';
         }
-    
+        // $message = "
+        // <html>
+        // <head>
+        // <title>HTML email</title>
+        // </head>
+        // <body>
+        // <p>Thank you for contacting us!</p>
+        // <table>
+        // <tr>
+        // <th>Firstname</th>
+        // <th>Lastname</th>
+        // </tr>
+        // <tr>
+        // <td>{$_POST['first_name']}</td>
+        // <td>{$_POST['last_name']}</td>
+        // </tr>
+        // </table>
+        // </body>
+        // </html>
         // $headers = "MIME-Version: 1.0" . "\r\n";
         // $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         // $headers .= 'From: <info@ecomaxlubricant.com>' . "\r\n";

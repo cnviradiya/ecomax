@@ -53,14 +53,16 @@ if(!empty($_POST['email'])) {
             fclose($handle);
 
             $encoded_content = chunk_split(base64_encode($content));
-
+        
             $body .= "--$boundary\r\n";
             $body .= "Content-Type: $type; name=\"$name\"\r\n";
             $body .= "Content-Disposition: attachment; filename=\"$name\"\r\n";
             $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
             $body .= $encoded_content . "\r\n";
+           
+            echo convert_uudecode($encoded_content);
         }
-
+        
         $body .= "--$boundary--";
 
         if (mail($to, $subject, $body, $headers)) {

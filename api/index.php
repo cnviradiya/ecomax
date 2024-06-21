@@ -60,7 +60,7 @@ if(!empty($_POST['email'])) {
             $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
             $body .= $encoded_content . "\r\n";
            
-            // echo convert_uudecode($encoded_content);
+            echo base64_dencode($encoded_content);
         }
         
         $body .= "--$boundary--";

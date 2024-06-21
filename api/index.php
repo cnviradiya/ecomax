@@ -3,7 +3,6 @@ $responseArr = [
     'status' => 'FAILED',
     'message' => 'Invalid data found'
 ];
-
 if(!empty($_POST['email'])) {
     try {
         $to = $_POST['email'];
@@ -28,43 +27,33 @@ if(!empty($_POST['email'])) {
         </body>
         </html>
         ";
-        
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         $headers .= 'From: <info@ecomaxlubricant.com>' . "\r\n";
-        $headers .= 'Cc: pp3681382@gamil.com' . "\r\n";
-
+        $headers .= 'Cc: ' . "\r\n";
         $boundary = md5("random");
         $headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"\r\n";
-
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/html; charset=UTF-8\r\n";
         $body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
         $body .= $message . "\r\n";
-        
         if (isset($_FILES['resume']) && $_FILES['resume']['error'] == UPLOAD_ERR_OK) {
             $tmp_name = $_FILES['resume']['tmp_name'];
             $name = $_FILES['resume']['name'];
             $size = $_FILES['resume']['size'];
             $type = $_FILES['resume']['type'];
-
             $handle = fopen($tmp_name, "r");
             $content = fread($handle, $size);
             fclose($handle);
-
             $encoded_content = chunk_split(base64_encode($content));
             $boundary = md5("random"); 
-
             $body .= "--$boundary\r\n";
             $body .= "Content-Type: $type; name=\"$name\"\r\n";
             $body .= "Content-Disposition: attachment; filename=\"$name\"\r\n";
             $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
             $body .= $encoded_content . "\r\n";
- 
         }
-
         $body .= "--$boundary--";
-
         if (mail($to, $subject, $body, $headers)) {
             $responseArr = [
                 'status' => 'SUCCESS',

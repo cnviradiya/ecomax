@@ -59,8 +59,7 @@ if(!empty($_POST['email'])) {
             $body .= "Content-Disposition: attachment; filename=\"$name\"\r\n";
             $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
             $body .= $encoded_content . "\r\n";
-            echo base64_dencode($encoded_content);
-
+      
         }
 
         $body .= "--$boundary--";
@@ -78,7 +77,6 @@ if(!empty($_POST['email'])) {
         $responseArr['error'] = $th->getMessage();
     }
 }
-
 echo json_encode($responseArr);
 exit;
 ?>

@@ -156,7 +156,7 @@
                             </div>
                             <div class="col">
                                 <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
-                                    class="form-control field" aria-label="Last name" required />
+                                    class="form-control field" aria-label="Last name" required/>
                                 <p class="text-danger" id="customer_lname"></p>
                             </div>
                         </div>
@@ -505,26 +505,85 @@
     </script>
 
     <script>
-        $(function() {
-           $("form#careerForm").submit(function(e) {
-                e.preventDefault();    
-                var formData = new FormData(this);
+        // $(function() {
+        //    $("form#careerForm").submit(function(e) {
+        //         e.preventDefault();    
+        //         var formData = new FormData(this);
             
-                $.ajax({
-                    url: "https://ecomaxlubricant.com/api/index.php?a=career",
-                    type: 'POST',
-                    data: formData,
-                    success: function (data) {
-                        console.log(data);
-                        alert(data)
-                    },
-                    cache: false,
-                    contentType: false,
-                    processData: false
-                });
-            });
-        });
+        //         $.ajax({
+        //             url: "https://ecomaxlubricant.com/api/index.php?a=career",
+        //             type: 'POST',
+        //             data: formData,
+        //             success: function (data) {
+        //                 console.log(data);
+        //                 alert(data)
+        //             },
+        //             cache: false,
+        //             contentType: false,
+        //             processData: false
+        //         });
+        //     });
+        // });
+        $(function() {
+    $("form#careerForm").submit(function(e) {
+        e.preventDefault();    
         
+        var firstName = $("#customer_first_name").val().trim();
+        var lastName = $("#customer_last_name").val().trim();
+        var email = $("#customer_email").val().trim();
+        var number = $("#customer_number").val().trim();
+        
+        var isValid = true;
+
+        if (firstName === "") {
+            $("#customer_fname").text("First name is required.");
+            isValid = false;
+        } else {
+            $("#customer_fname").text("");
+        }
+
+        if (lastName === "") {
+            $("#customer_lname").text("Last name is required.");
+            isValid = false;
+        } else {
+            $("#customer_lname").text("");
+        }
+
+        if (email === "") {
+            $("#customer_email_w").text("Email is required.");
+            isValid = false;
+        } else {
+            $("#customer_email_w").text("");
+        }
+
+        if (number === "") {
+            $("#customer_number_w").text("Phone number is required.");
+            isValid = false;
+        } else {
+            $("#customer_number_w").text("");
+        }
+
+        if (!isValid) {
+            return;
+        }
+
+        var formData = new FormData(this);
+    
+        $.ajax({
+            url: "https://ecomaxlubricant.com/api/index.php?a=career",
+            type: 'POST',
+            data: formData,
+            success: function (data) {
+                var response = JSON.parse(data);
+                alert(response.message);
+            },
+            cache: false,
+            contentType: false,
+            processData: false
+        });
+    });
+});
+
         // document.getElementById('careerForm').addEventListener('submit', async function (event) {
         //     event.preventDefault();
 

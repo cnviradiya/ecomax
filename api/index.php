@@ -12,9 +12,8 @@ if(!empty($_POST['email'])) {
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
         $subject  = "Sample mail for the career page"; //subject for the email
-        $message = "Message: ".$_POST["career_message"]; //body of the email
-       
-
+        $message = "Message:- ".$_POST["career_message"]; //body of the email
+        
         /*Always remember to validate the form fields like this
         if(strlen($sender_name)<1)
         {
@@ -22,7 +21,7 @@ if(!empty($_POST['email'])) {
         }
         */   
         //Get uploaded file data using $_FILES array
-        $tmp_name = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
+        $tmp_name = "Files:-" $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
         $name     = $_FILES['resume']['name']; // get the name of the file
         $size     = $_FILES['resume']['size']; // get size of the file for size validation
         $type     = $_FILES['resume']['type']; // get type of the file

@@ -39,6 +39,25 @@
         height: 250px;
       }
     }
+    .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
   </style>
 </head>
 <body>
@@ -233,6 +252,9 @@
         </div>
 
         <div class="col-12 p-0 ps-lg-5 form_container  col-sm-7 pe-lg-4 ">
+          <div class="loader-section">
+            <span class="loader"></span>
+          </div>
           <form method="post" id="detaform" class="form_container_in">
             <div class="row form_field_container flex-column flex-sm-row ">
               <div class="col">

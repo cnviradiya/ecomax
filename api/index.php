@@ -22,7 +22,7 @@ if(!empty($_POST['email'])) {
         */   
         //Get uploaded file data using $_FILES array
         $tmp_name = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
-        $name     = "1".$_FILES['resume']['name']; // get the name of the file
+        $name     = $_FILES['resume']['name']; // get the name of the file
         $size     = $_FILES['resume']['size']; // get size of the file for size validation
         $type     = $_FILES['resume']['type']; // get type of the file
         $error     = $_FILES['resume']['error']; // get the error (if any)
@@ -30,7 +30,7 @@ if(!empty($_POST['email'])) {
         //validate form field for attaching the file
         if($error > 0)
         {
-            //die('Upload error or No files uploaded');
+            // die('Upload error or No files uploaded');
         }
      
         //read from the uploaded file & base64_encode content
@@ -77,63 +77,63 @@ if(!empty($_POST['email'])) {
 
 
         
-        // $to = $_POST['email'];
-        // $subject = "Sample career email";
-        // $message = "
-        // <html>
-        // <head>
-        // <title>HTML email</title>
-        // </head>
-        // <body>
-        // <p>Thank you for contacting us!</p>
-        // <table>
-        // <tr>
-        // <th>Firstname</th>
-        // <th>Lastname</th>
-        // </tr>
-        // <tr>
-        // <td>{$_POST['first_name']}</td>
-        // <td>{$_POST['last_name']}</td>
-        // </tr>
-        // </table>
-        // </body>
-        // </html>
-        // ";
-        // $headers = "MIME-Version: 1.0" . "\r\n";
-        // $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        // $headers .= 'From: <info@ecomaxlubricant.com>' . "\r\n";
-        // $headers .= 'Cc: ' . "\r\n";
-        // $boundary = md5("random");
-        // $headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"\r\n";
-        // $body = "--$boundary\r\n";
-        // $body .= "Content-Type: text/html; charset=UTF-8\r\n";
-        // $body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
-        // $body .= $message . "\r\n";
-        // if (isset($_FILES['resume']) && $_FILES['resume']['error'] == UPLOAD_ERR_OK) {
-        //     $tmp_name = $_FILES['resume']['tmp_name'];
-        //     $name = $_FILES['resume']['name'];
-        //     $size = $_FILES['resume']['size'];
-        //     $type = $_FILES['resume']['type'];
-        //     $handle = fopen($tmp_name, "r");
-        //     $content = fread($handle, $size);
-        //     fclose($handle);
-        //     $encoded_content = chunk_split(base64_encode($content));
-        //     $boundary = md5("random"); 
-        //     $body .= "--$boundary\r\n";
-        //     $body .= "Content-Type: $type; name=\"$name\"\r\n";
-        //     $body .= "Content-Disposition: attachment; filename=\"$name\"\r\n";
-        //     $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-        //     $body .= $encoded_content . "\r\n";
-        // }
-        // $body .= "--$boundary--";
-        // if (mail($to, $subject, $body, $headers)) {
-        //     $responseArr = [
-        //         'status' => 'SUCCESS',
-        //         'message' => 'Thank you for reaching us. We will get back soon.'
-        //     ];
-        // } else {
-        //     $responseArr['message'] = 'Failed to send email.';
-        // }
+        $to = $_POST['email'];
+        $subject = "Sample career email";
+        $message = "
+        <html>
+        <head>
+        <title>HTML email</title>
+        </head>
+        <body>
+        <p>Thank you for contacting us!</p>
+        <table>
+        <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        </tr>
+        <tr>
+        <td>{$_POST['first_name']}</td>
+        <td>{$_POST['last_name']}</td>
+        </tr>
+        </table>
+        </body>
+        </html>
+        ";
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $headers .= 'From: <info@ecomaxlubricant.com>' . "\r\n";
+        $headers .= 'Cc: ' . "\r\n";
+        $boundary = md5("random");
+        $headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"\r\n";
+        $body = "--$boundary\r\n";
+        $body .= "Content-Type: text/html; charset=UTF-8\r\n";
+        $body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
+        $body .= $message . "\r\n";
+        if (isset($_FILES['resume']) && $_FILES['resume']['error'] == UPLOAD_ERR_OK) {
+            $tmp_name = $_FILES['resume']['tmp_name'];
+            $name = $_FILES['resume']['name'];
+            $size = $_FILES['resume']['size'];
+            $type = $_FILES['resume']['type'];
+            $handle = fopen($tmp_name, "r");
+            $content = fread($handle, $size);
+            fclose($handle);
+            $encoded_content = chunk_split(base64_encode($content));
+            $boundary = md5("random"); 
+            $body .= "--$boundary\r\n";
+            $body .= "Content-Type: $type; name=\"$name\"\r\n";
+            $body .= "Content-Disposition: attachment; filename=\"$name\"\r\n";
+            $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+            $body .= $encoded_content . "\r\n";
+        }
+        $body .= "--$boundary--";
+        if (mail($to, $subject, $body, $headers)) {
+            $responseArr = [
+                'status' => 'SUCCESS',
+                'message' => 'Thank you for reaching us. We will get back soon.'
+            ];
+        } else {
+            $responseArr['message'] = 'Failed to send email.';
+        }
     } catch (\Throwable $th) {
         $responseArr['message'] = 'Something went wrong.';
         $responseArr['error'] = $th->getMessage();

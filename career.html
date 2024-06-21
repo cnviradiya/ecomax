@@ -505,34 +505,53 @@
     </script>
 
     <script>
-
-        document.getElementById('careerForm').addEventListener('submit', async function (event) {
-            event.preventDefault();
-
-            const formData = new FormData();
-            formData.append('first_name', document.getElementById('customer_first_name').value);
-            formData.append('last_name', document.getElementById('customer_last_name').value);
-            formData.append('email', document.getElementById('customer_email').value);
-            formData.append('number', document.getElementById('customer_number').value);
-            formData.append('resume', document.getElementById('customer_data').files[0]);
-            formData.append('career_message', document.getElementById('customer_message').value);
-
-            try {
-                const response = await fetch('https://ecomaxlubricant.com/api/index.php?a=career', {
-                    method: 'POST',
-                    body: formData
+        $(function() {
+           $("form#careerForm").submit(function(e) {
+                e.preventDefault();    
+                var formData = new FormData(this);
+            
+                $.ajax({
+                    url: "https://ecomaxlubricant.com/api/index.php?a=career",
+                    type: 'POST',
+                    data: formData,
+                    success: function (data) {
+                        console.log(data);
+                        alert(data)
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
                 });
-
-                if (response.ok) {
-                    const result = await response.json();
-                    alert('Form submitted successfully: ' + JSON.stringify(result));
-                } else {
-                    alert('Failed to submit form: ' + response.statusText);
-                }
-            } catch (error) {
-                alert('Error submitting form: ' + error.message);
-            }
+            });
         });
+        
+        // document.getElementById('careerForm').addEventListener('submit', async function (event) {
+        //     event.preventDefault();
+
+        //     const formData = new FormData();
+        //     formData.append('first_name', document.getElementById('customer_first_name').value);
+        //     formData.append('last_name', document.getElementById('customer_last_name').value);
+        //     formData.append('email', document.getElementById('customer_email').value);
+        //     formData.append('number', document.getElementById('customer_number').value);
+        //     formData.append('resume', document.getElementById('customer_data').files[0]);
+        //     formData.append('career_message', document.getElementById('customer_message').value);
+
+        //     try {
+        //         const response = await fetch('https://ecomaxlubricant.com/api/index.php?a=career', {
+        //             method: 'POST',
+        //             body: formData
+        //         });
+
+        //         if (response.ok) {
+        //             const result = await response.json();
+        //             alert('Form submitted successfully: ' + JSON.stringify(result));
+        //         } else {
+        //             alert('Failed to submit form: ' + response.statusText);
+        //         }
+        //     } catch (error) {
+        //         alert('Error submitting form: ' + error.message);
+        //     }
+        // });
 
 
 

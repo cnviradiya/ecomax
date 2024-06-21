@@ -39,6 +39,36 @@
         height: 250px;
       }
     }
+    .loader-section {
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+  }
+  .contact-form-section.active .loader-section {
+    opacity: 1;
+  }
+  .contact-form-section.active #detaform {
+    display: none;
+  }
+  .loader {
+  width: 48px;
+  height: 48px;
+  border: 7px solid #FFF;
+  border-bottom-color: #1e5f28;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
   </style>
 </head>
 <body>

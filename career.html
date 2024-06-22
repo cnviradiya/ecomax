@@ -191,7 +191,8 @@
                         </div>
                         <div class="sparkle-button">
                             <div class="sparkle-button career-form-btn">
-                                <button onclick="return careerForm()" class="btn2 d-flex align-items-center" type="submit">
+                                <button onclick=" careerForm()" class="btn2 d-flex align-items-center"
+                                    type="submit">
                                     <span class="about-btn d-flex align-items-center justify-content-center">
                                         <i class="fa-solid fa-arrow-up-long"></i>
                                     </span>
@@ -505,39 +506,40 @@
     </script>
 
     <script>
-            $(function() {
-           $("form#careerForm").submit(function(e) {
-                e.preventDefault();    
+        const careerForm = () => {
+            $(function () {
+            $("form#careerForm").submit(function (e) {
+                e.preventDefault();
                 var formData = new FormData(this);
-            
+
                 $.ajax({
                     url: "https://ecomaxlubricant.com/api/index.php?a=career",
                     type: 'POST',
                     data: formData,
                     success: function (data) {
-                        console.log(data);
                         alert(data)
                     },
                     cache: false,
                     contentType: false,
                     processData: false
                 });
+                console.log("ok");
+               
             });
         });
-        // const careerForm = () => {
-       
-        
-        event.preventDefault()
+        console.log("ok");
+          // let name = document.getElementById("customer_first_name");     
+        //   let lname = document.getElementById("customer_last_name");
+        //   let number = document.getElementById("customer_number");
+        //   let email = document.getElementById("customer_email");
 
-    // let name = document.getElementById("customer_first_name");
-    //   let lname = document.getElementById("customer_last_name");
-    //   let number = document.getElementById("customer_number");
-    //   let email = document.getElementById("customer_email");
-
-    //   event.preventDefault();
-    //   if (name.value == "") {
-    //     document.getElementById("customer_fname").innerHTML = "Please fill in this field";
-    //   }
+        // event.preventDefault();
+        // if (name.value == "") {
+        //             document.getElementById("customer_fname").innerHTML = "Please fill in this field";
+        //         }
+        // if (name.value == "") {
+        //     document.getElementById("customer_fname").innerHTML = "Please fill in this field";
+        // }
     //   if (lname.value == "") {
     //     document.getElementById("customer_lname").innerHTML = "Please fill in this field";
     //   }
@@ -547,10 +549,17 @@
     //   if (email.value == "") {
     //     document.getElementById("customer_email_w").innerHTML = "Please fill in this field";
     //   }
-    
-    // }
+        }
        
-        
+
+
+
+
+      
+
+
+
+
     </script>
     <!-- Script end -->
 </body>

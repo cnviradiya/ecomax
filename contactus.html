@@ -740,53 +740,28 @@
   </script>
   <script>
 
-    // $(function() {
-    //    $("form#detaform").submit(function(e) {
-    //         e.preventDefault();
-    //        $('.contact-form-section').addClass('active');
-    //         var formData = new FormData(this);
-    //           console.log(formData);
-    //         $.ajax({
-    //             url: "https://ecomaxlubricant.com/api/index.php?a=contact",
-    //             type: 'POST',
-    //             data: formData,
-    //             success: function (data) {
-    //                 console.log(data);
-    //                 alert(data);
-    //                 $('.contact-form-section').removeClass('active');
-    //             },
-    //             cache: false,
-    //             contentType: false,
-    //             processData: false
-    //         });
-    //     });
-    // });
-
     $(function() {
-    $("form#detaform").submit(function(e) {
-        e.preventDefault();
-        $('.contact-form-section').addClass('active');
-        var formData = new FormData(this);
-        console.log(formData); // This won't output the form data as expected in the console. Consider logging form data differently.
-        $.ajax({
-            url: "https://ecomaxlubricant.com/api/index.php?a=contact",
-            type: 'POST',
-            data: formData,
-            success: function (data) {
-                console.log(data);
-                alert(data);
-                $('.contact-form-section').removeClass('active');
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                console.error("Error: " + textStatus, errorThrown);
-                $('.contact-form-section').removeClass('active');
-            },
-            cache: false,
-            contentType: false,
-            processData: false
+       $("form#detaform").submit(function(e) {
+            e.preventDefault();
+           $('.contact-form-section').addClass('active');
+            var formData = new FormData(this);
+              console.log(formData);
+            $.ajax({
+                url: "https://ecomaxlubricant.com/api/index.php?a=contact",
+                type: 'POST',
+                data: formData,
+                success: function (data) {
+                    console.log(data);
+                    alert(data);
+                    $('.contact-form-section').removeClass('active');
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
         });
     });
-});
+
 
 
   </script>

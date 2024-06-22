@@ -191,8 +191,7 @@
                         </div>
                         <div class="sparkle-button">
                             <div class="sparkle-button career-form-btn">
-                                <button class="btn2 d-flex align-items-center"
-                                    type="submit">
+                                <button class="btn2 d-flex align-items-center" type="submit">
                                     <span class="about-btn d-flex align-items-center justify-content-center">
                                         <i class="fa-solid fa-arrow-up-long"></i>
                                     </span>
@@ -506,12 +505,33 @@
     </script>
 
     <script>
- 
+
         $(function () {
             $("form#careerForm").submit(function (e) {
-                console.log("ok");
-                
+
+
                 e.preventDefault();
+
+                let name = document.getElementById("customer_first_name");
+                let lname = document.getElementById("customer_last_name");
+                let number = document.getElementById("customer_number");
+                let email = document.getElementById("customer_email");
+
+                event.preventDefault();
+                if (name.value == "") {
+                    document.getElementById("customer_fname").innerHTML = "Please fill in this field";
+                }
+                if (name.value == "") {
+                    document.getElementById("customer_fname").innerHTML = "Please fill in this field";
+                }
+                if (lname.value == "") {
+                    document.getElementById("customer_lname").innerHTML = "Please fill in this field";
+                }
+                if (number.value == 10 || number.value == "") {
+                    document.getElementById("customer_number_w").innerHTML = "Please fill in this field";
+                }
+
+
                 var formData = new FormData(this);
 
                 $.ajax({
@@ -525,34 +545,17 @@
                     contentType: false,
                     processData: false
                 });
-               
-               
+
+
+
+
             });
         });
 
 
 
 
-        // let name = document.getElementById("customer_first_name");     
-        //   let lname = document.getElementById("customer_last_name");
-        //   let number = document.getElementById("customer_number");
-        //   let email = document.getElementById("customer_email");
-
-        // event.preventDefault();
-        if (name.value == "") {
-                    document.getElementById("customer_fname").innerHTML = "Please fill in this field";
-                }
-        // if (name.value == "") {
-        //     document.getElementById("customer_fname").innerHTML = "Please fill in this field";
-        // }
-    //   if (lname.value == "") {
-    //     document.getElementById("customer_lname").innerHTML = "Please fill in this field";
-    //   }
-    //   if (number.value == 10 || number.value == "") {
-    //     document.getElementById("customer_number_w").innerHTML = "Please fill in this field";
-    //   }
-    //   if (email.value == "") {
-    //     document.getElementById("customer_email_w").innerHTML = "Please fill in this field";
+        ocument.getElementById("customer_email_w").innerHTML = "Please fill in this field";
     //   }
 
 

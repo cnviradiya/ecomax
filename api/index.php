@@ -14,7 +14,7 @@ if(!empty($_POST['email'])) {
         $subject  = "Sample mail for the career page"; 
         //subject for the email
         $first_name = "Customer Name:-".$_POST["first_name"].$_POST["last_name"]; //body of the email
-        $customer_email = "Customer Email:-".$_POST["customer_email"]; //body of the email
+        // $customer_email = "Customer Email:-".$_POST["customer_email"]; //body of the email
         $customer_number = "Customer Number:-".$_POST["customer_number"]; //body of the email
         $message = "Message:-".$_POST["career_message"]; //body of the email
     
@@ -57,7 +57,7 @@ if(!empty($_POST['email'])) {
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-        $body .= chunk_split(base64_encode($first_name."\n".$customer_number."\n".$customer_email."\n".$message));
+        $body .= chunk_split(base64_encode($first_name."\n".$customer_number."\n".$message));
        
  
         //attachment

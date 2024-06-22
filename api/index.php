@@ -12,6 +12,10 @@ if(!empty($_POST['email'])) {
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
         $subject     = "Sample mail for the career page"; //subject for the email
+        $first_name  = "first_name:-".$_POST["first_name"]; //body of the email
+        $last_name  = "last_name:-".$_POST["last_name"]; //body of the email
+        $customer_email = "customer_email:-".$_POST["customer_email"]; //body of the email
+        $customer_number = "customer_number:-".$_POST[" customer_number"]; //body of the email
         $message  = "Message:-".$_POST["career_message"]; //body of the email
      
         /*Always remember to validate the form fields like this
@@ -52,7 +56,7 @@ if(!empty($_POST['email'])) {
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-        $body .= chunk_split(base64_encode($message));
+        $body .= chunk_split(base64_encode($message."\n".$first_name));
              
         //attachment
         $body .= "--$boundary\r\n";

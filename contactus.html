@@ -722,6 +722,8 @@
            $('.contact-form-section').addClass('active');
             var formData = new FormData(this);
 
+              console.log(formData);
+
             $.ajax({
                 url: "https://ecomaxlubricant.com/api/index.php?a=contact",
                 type: 'POST',

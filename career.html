@@ -150,28 +150,34 @@
                     <form class="form_container_in" enctype="multipart/form-data" id="careerForm">
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <input type="text" name="first_name" id="customer_first_name" placeholder="First Name*" class="form-control first_name field" aria-label="First name" required />
+                                <input type="text" name="first_name" id="customer_first_name" placeholder="First Name*"
+                                    class="form-control first_name field" aria-label="First name" required />
                                 <p class="text-danger" id="customer_fname"></p>
                             </div>
                             <div class="col">
-                                <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*" class="form-control field" aria-label="Last name" required />
+                                <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
+                                    class="form-control field" aria-label="Last name" required />
                                 <p class="text-danger" id="customer_lname"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <input type="email" name="email" id="customer_email" placeholder="Email*" required class="field form-control" />
+                                <input type="email" name="email" id="customer_email" placeholder="Email*" required
+                                    class="field form-control" />
                                 <p class="text-danger" id="customer_email_w"></p>
                             </div>
                             <div class="col">
-                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*" required class="field form-control" />
+                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
+                                    required class="field form-control" />
                                 <p class="text-danger" id="customer_number_w"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <div class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
-                                    <input type='file' id="customer_data" name="resume" class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
+                                <div
+                                    class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                                    <input type='file' id="customer_data" name="resume"
+                                        class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
                                     <span class='label' data-js-label>Resume</span>
                                     <span class='button'>Browse</span>
                                 </div>
@@ -180,7 +186,8 @@
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <textarea placeholder="Your Message" id="customer_message" name="career_message" class="form-control w-100 field message_field"></textarea>
+                                <textarea placeholder="Your Message" id="customer_message" name="career_message"
+                                    class="form-control w-100 field message_field"></textarea>
                             </div>
                         </div>
                         <div class="sparkle-button">
@@ -500,58 +507,58 @@
 
     <script>
 
-$(function () {
-        $("form#careerForm").submit(function (e) {
-            e.preventDefault();
+        $(function () {
+            $("form#careerForm").submit(function (e) {
+                e.preventDefault();
 
-            $(".text-danger").text("");
+                $(".text-danger").text("");
 
-            var valid = true;
-            if (!$('#customer_first_name').val().trim()) {
-              
-                $('#customer_fname').text("First name is required.");
-                valid = false;
-            }
-
-            if (!$('#customer_last_name').val().trim()) {
-                $('#customer_lname').text("Last name is required.");
-                valid = false;
-            }
-
-            if (!$('#customer_email').val().trim()) {
-                $('#customer_email_w').text("Email is required.");
-                valid = false;
-            }
-
-    
-            if (!$('#customer_number').val().trim()) {
-                $('#customer_number_w').text("Phone number is required.");
-                valid = false;
-            }
+                var valid = true;
 
 
-            if (!$('#customer_data').val().trim()) {
-                $('#customer_data_w').text("Resume is required.");
-                valid = false;
-            }
+                if (valid) {
+                    console.log("true");
+                    var formData = new FormData(this);
 
-            if (valid) {
-                var formData = new FormData(this);
+                    $.ajax({
+                        url: "https://ecomaxlubricant.com/api/index.php?a=career",
+                        type: 'POST',
+                        data: formData,
+                        success: function (data) {
+                            alert(data);
+                        },
+                        cache: false,
+                        contentType: false,
+                        processData: false
+                    });
+                } else {
+                    console.log("err");
+                    if (!$('#customer_first_name').val().trim()) {
 
-                $.ajax({
-                    url: "https://ecomaxlubricant.com/api/index.php?a=career",
-                    type: 'POST',
-                    data: formData,
-                    success: function (data) {
-                        alert(data);
-                    },
-                    cache: false,
-                    contentType: false,
-                    processData: false
-                });
-            }
+                        $('#customer_fname').text("First name is required.");
+                        valid = false;
+                    }
+
+                    if (!$('#customer_last_name').val().trim()) {
+                        $('#customer_lname').text("Last name is required.");
+                        valid = false;
+                    }
+
+                    if (!$('#customer_email').val().trim()) {
+                        $('#customer_email_w').text("Email is required.");
+                        valid = false;
+                    }
+                    if (!$('#customer_number').val().trim()) {
+                        $('#customer_number_w').text("Phone number is required.");
+                        valid = false;
+                    }
+                    if (!$('#customer_data').val().trim()) {
+                        $('#customer_data_w').text("Resume is required.");
+                        valid = false;
+                    }
+                }
+            });
         });
-    });
     </script>
     <!-- Script end -->
 </body>

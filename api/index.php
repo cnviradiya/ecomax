@@ -59,7 +59,7 @@ if(!empty($_POST['email'])) {
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
         // $body .= chunk_split(base64_encode($first_name));
         // $body .= chunk_split(base64_encode($last_name));
-        $body .= chunk_split(base64_encode($customer_number , $message));
+        $body .= chunk_split(base64_encode($first_name."\n".$customer_number."\n".$message));
         // $body .= chunk_split(base64_encode($message));
        
  

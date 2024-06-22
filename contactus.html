@@ -266,7 +266,7 @@
           <div class="loader-section">
             <span class="loader"></span>
           </div>
-          <form method="post" id="detaform" class="form_container_in">
+          <form method="post" id="careerForm" class="form_container_in">
             <div class="row form_field_container flex-column flex-sm-row ">
               <div class="col">
                 <input type="text" name="first_name" id="name" placeholder="First Name*" class="form-control field"
@@ -717,7 +717,7 @@
   </script>
   <script>
      $(function () {
-            $("form#detaform").submit(function (e) {
+            $("form#careerForm").submit(function (e) {
                 e.preventDefault();
                     var formData = new FormData(this);
 

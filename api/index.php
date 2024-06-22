@@ -17,7 +17,6 @@ if(!empty($_POST['email'])) {
         // $last_name = $_POST["last_name"]; //body of the email
         // $customer_number = "Customer Name:-".$_POST["customernumber"]; //body of the email
         $message = "Message:-".$_POST["Career_Message"]; //body of the email
-    
         
         /*Always remember to validate the form fields like this
         if(strlen($sender_name)<1)

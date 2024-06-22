@@ -147,12 +147,14 @@
             </div>
             <div class="row p-0 image_with_form_container align-items-center">
                 <div class="col-12 pe-0 form_container order-1 order-sm-0 col-sm-7 ">
-                    <form class="form_container_in" enctype="multipart/form-data" id="careerForm">
+                    <form class="form_container_in needs-validation" enctype="multipart/form-data" id="careerForm" novalidate>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <input type="text" name="first_name" id="customer_first_name" placeholder="First Name*"
+                                <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
                                     class="form-control first_name field" aria-label="First name" required />
-                                <p class="text-danger" id="customer_fname"></p>
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
                             </div>
                             <div class="col">
                                 <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
@@ -503,6 +505,26 @@
                 $(".scrollbar").removeClass("show_scroll_btn");
             }
         });
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
     </script>
 
     <script>
@@ -510,20 +532,19 @@
         $(function () {
             $("form#careerForm").submit(function (e) {
                 e.preventDefault();
-                    console.log("true");
-                    var formData = new FormData(this);
+                var formData = new FormData(this);
 
-                    $.ajax({
-                        url: "https://ecomaxlubricant.com/api/index.php?a=career",
-                        type: 'POST',
-                        data: formData,
-                        success: function (data) {
-                            alert(data);
-                        },
-                        cache: false,
-                        contentType: false,
-                        processData: false
-                    }); 
+                $.ajax({
+                    url: "https://ecomaxlubricant.com/api/index.php?a=career",
+                    type: 'POST',
+                    data: formData,
+                    success: function (data) {
+                        alert(data);
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
             });
         });
     </script>

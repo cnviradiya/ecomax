@@ -15,7 +15,7 @@ if(!empty($_POST['email'])) {
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email
         $customer_email = "Customer Email:-".$_POST["customer_email"]; //body of the email
-        $customer_number = "Customer Number:-".$_POST[" customer_number"]; //body of the email
+        $customer_number = "Customer Number:-".$_POST["customer_number"]; //body of the email
         $message  = "Customer Message:-".$_POST["career_message"]; //body of the email
      
         /*Always remember to validate the form fields like this

@@ -11,14 +11,9 @@ if(!empty($_POST['email'])) {
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
-        $subject  = "Sample mail for the career page"; 
-        //subject for the email
-        // $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
-        // $last_name = $_POST["last_name"]; //body of the email
-        // $customer_number = "Customer Name:-".$_POST["customernumber"]; //body of the email
-        $message = "Message:-".$_POST["career_message"]; //body of the email
-    
-        
+        $subject     = "Sample mail for the career page"; //subject for the email
+        $message     = $_POST["career_message"]; //body of the email
+     
         /*Always remember to validate the form fields like this
         if(strlen($sender_name)<1)
         {
@@ -35,7 +30,7 @@ if(!empty($_POST['email'])) {
         //validate form field for attaching the file
         if($error > 0)
         {
-            // die('Upload error or No files uploaded');
+            //die('Upload error or No files uploaded');
         }
      
         //read from the uploaded file & base64_encode content
@@ -57,11 +52,8 @@ if(!empty($_POST['email'])) {
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-        // $body .= chunk_split(base64_encode($first_name));
-        // $body .= chunk_split(base64_encode($last_name));
-        // $body .= chunk_split(base64_encode($customer_number));
-        $body = .chunk_split(base64_encode($message));
-       
+        $body .= chunk_split(base64_encode($message));
+             
         //attachment
         $body .= "--$boundary\r\n";
         $body .="Content-Type: $type; name=".$name."\r\n";
@@ -82,6 +74,11 @@ if(!empty($_POST['email'])) {
         else{
             $responseArr['message'] = 'Failed to send email.';
         }
+
+
+        
+        // $to = $_POST['email'];
+        // $subject = "Sample career email";
         // $message = "
         // <html>
         // <head>
@@ -101,6 +98,7 @@ if(!empty($_POST['email'])) {
         // </table>
         // </body>
         // </html>
+        // ";
         // $headers = "MIME-Version: 1.0" . "\r\n";
         // $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         // $headers .= 'From: <info@ecomaxlubricant.com>' . "\r\n";
@@ -111,6 +109,11 @@ if(!empty($_POST['email'])) {
         // $body .= "Content-Type: text/html; charset=UTF-8\r\n";
         // $body .= "Content-Transfer-Encoding: 7bit\r\n\r\n";
         // $body .= $message . "\r\n";
+        // if (isset($_FILES['resume']) && $_FILES['resume']['error'] == UPLOAD_ERR_OK) {
+        //     $tmp_name = $_FILES['resume']['tmp_name'];
+        //     $name = $_FILES['resume']['name'];
+        //     $size = $_FILES['resume']['size'];
+        //     $type = $_FILES['resume']['type'];
         //     $handle = fopen($tmp_name, "r");
         //     $content = fread($handle, $size);
         //     fclose($handle);
@@ -121,6 +124,15 @@ if(!empty($_POST['email'])) {
         //     $body .= "Content-Disposition: attachment; filename=\"$name\"\r\n";
         //     $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
         //     $body .= $encoded_content . "\r\n";
+        // }
+        // $body .= "--$boundary--";
+        // if (mail($to, $subject, $body, $headers)) {
+        //     $responseArr = [
+        //         'status' => 'SUCCESS',
+        //         'message' => 'Thank you for reaching us. We will get back soon.'
+        //     ];
+        // } else {
+        //     $responseArr['message'] = 'Failed to send email.';
         // }
     } catch (\Throwable $th) {
         $responseArr['message'] = 'Something went wrong.';

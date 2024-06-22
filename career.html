@@ -513,25 +513,10 @@
 
                 $(".text-danger").text("");
 
-                var valid = true;
+                var valid = document.getElementById("customer_first_name");
 
 
-                if (valid) {
-                    console.log("true");
-                    var formData = new FormData(this);
-
-                    $.ajax({
-                        url: "https://ecomaxlubricant.com/api/index.php?a=career",
-                        type: 'POST',
-                        data: formData,
-                        success: function (data) {
-                            alert(data);
-                        },
-                        cache: false,
-                        contentType: false,
-                        processData: false
-                    });
-                } else {
+                if (valid == "") {
                     console.log("err");
                     if (!$('#customer_first_name').val().trim()) {
 
@@ -556,6 +541,22 @@
                         $('#customer_data_w').text("Resume is required.");
                         valid = false;
                     }
+                  
+                }else {
+                    console.log("true");
+                    var formData = new FormData(this);
+
+                    $.ajax({
+                        url: "https://ecomaxlubricant.com/api/index.php?a=career",
+                        type: 'POST',
+                        data: formData,
+                        success: function (data) {
+                            alert(data);
+                        },
+                        cache: false,
+                        contentType: false,
+                        processData: false
+                    }); 
                 }
             });
         });

@@ -507,11 +507,10 @@ $(function () {
             $(".text-danger").text("");
 
             var valid = true;
-
-            if (valid == true) {
-                
-                console.log("ok");
+            if (!$('#customer_first_name').val().trim()) {
               
+                $('#customer_fname').text("First name is required.");
+                valid = false;
             }
 
             if (!$('#customer_last_name').val().trim()) {

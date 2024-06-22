@@ -150,43 +150,37 @@
                     <form class="form_container_in" enctype="multipart/form-data" id="careerForm">
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <input type="text" name="first_name" id="customer_first_name" placeholder="First Name*"
-                                    class="form-control first_name field" aria-label="First name" required />
+                                <input type="text" name="first_name" id="customer_first_name" placeholder="First Name*" class="form-control first_name field" aria-label="First name" required />
                                 <p class="text-danger" id="customer_fname"></p>
                             </div>
                             <div class="col">
-                                <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
-                                    class="form-control field" aria-label="Last name" required />
+                                <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*" class="form-control field" aria-label="Last name" required />
                                 <p class="text-danger" id="customer_lname"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <input type="email" name="email" id="customer_email" placeholder="Email*" required
-                                    class="field form-control" />
+                                <input type="email" name="email" id="customer_email" placeholder="Email*" required class="field form-control" />
                                 <p class="text-danger" id="customer_email_w"></p>
                             </div>
                             <div class="col">
-                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
-                                    required class="field form-control" />
+                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*" required class="field form-control" />
                                 <p class="text-danger" id="customer_number_w"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <div
-                                    class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
-                                    <input type='file' id="customer_data" name="resume"
-                                        class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" />
+                                <div class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                                    <input type='file' id="customer_data" name="resume" class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
                                     <span class='label' data-js-label>Resume</span>
                                     <span class='button'>Browse</span>
                                 </div>
+                                <p class="text-danger" id="customer_data_w"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <textarea placeholder="Your Message" id="customer_message" name="career_message"
-                                    class="form-control w-100 field message_field"></textarea>
+                                <textarea placeholder="Your Message" id="customer_message" name="career_message" class="form-control w-100 field message_field"></textarea>
                             </div>
                         </div>
                         <div class="sparkle-button">
@@ -506,12 +500,46 @@
 
     <script>
 
-        $(function () {
-            $("form#careerForm").submit(function (e) {
+$(function () {
+        $("form#careerForm").submit(function (e) {
+            e.preventDefault();
+            
+            // Clear previous error messages
+            $(".text-danger").text("");
 
+            var valid = true;
 
-                e.preventDefault();
+            // Validate first name
+            if (!$('#customer_first_name').val().trim()) {
+                $('#customer_fname').text("First name is required.");
+                valid = false;
+            }
 
+            // Validate last name
+            if (!$('#customer_last_name').val().trim()) {
+                $('#customer_lname').text("Last name is required.");
+                valid = false;
+            }
+
+            // Validate email
+            if (!$('#customer_email').val().trim()) {
+                $('#customer_email_w').text("Email is required.");
+                valid = false;
+            }
+
+            // Validate phone number
+            if (!$('#customer_number').val().trim()) {
+                $('#customer_number_w').text("Phone number is required.");
+                valid = false;
+            }
+
+            // Validate resume
+            if (!$('#customer_data').val().trim()) {
+                $('#customer_data_w').text("Resume is required.");
+                valid = false;
+            }
+
+            if (valid) {
                 var formData = new FormData(this);
 
                 $.ajax({
@@ -519,33 +547,15 @@
                     type: 'POST',
                     data: formData,
                     success: function (data) {
-                        alert(data)
+                        alert(data);
                     },
                     cache: false,
                     contentType: false,
                     processData: false
                 });
-
-            });
+            }
         });
-        let name = document.getElementById("customer_first_name");
-                let lname = document.getElementById("customer_last_name");
-                let number = document.getElementById("customer_number");
-                let email = document.getElementById("customer_email");
-
-                event.preventDefault();
-                if (name.value == "") {
-                    document.getElementById("customer_fname").innerHTML = "Please fill in this field";
-                }
-                if (name.value == "") {
-                    document.getElementById("customer_fname").innerHTML = "Please fill in this field";
-                }
-                if (lname.value == "") {
-                    document.getElementById("customer_lname").innerHTML = "Please fill in this field";
-                }
-                if (number.value == 10 || number.value == "") {
-                    document.getElementById("customer_number_w").innerHTML = "Please fill in this field";
-                }
+    });
     </script>
     <!-- Script end -->
 </body>

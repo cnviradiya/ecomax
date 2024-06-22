@@ -506,7 +506,7 @@
     </script>
 
     <script>
-        const careerForm = () => {
+        const careerForm = (e) => {
             $(function () {
             $("form#careerForm").submit(function (e) {
                 e.preventDefault();
@@ -527,6 +527,8 @@
                
             });
         });
+        e.preventDefault();
+
         console.log("ok");
           // let name = document.getElementById("customer_first_name");     
         //   let lname = document.getElementById("customer_last_name");

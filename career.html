@@ -510,39 +510,6 @@
         $(function () {
             $("form#careerForm").submit(function (e) {
                 e.preventDefault();
-
-                $(".text-danger").text("");
-
-                var valid = document.getElementById("customer_first_name");
-
-
-                if (valid == "") {
-                    console.log("err");
-                    if (!$('#customer_first_name').val().trim()) {
-
-                        $('#customer_fname').text("First name is required.");
-                        valid = false;
-                    }
-
-                    if (!$('#customer_last_name').val().trim()) {
-                        $('#customer_lname').text("Last name is required.");
-                        valid = false;
-                    }
-
-                    if (!$('#customer_email').val().trim()) {
-                        $('#customer_email_w').text("Email is required.");
-                        valid = false;
-                    }
-                    if (!$('#customer_number').val().trim()) {
-                        $('#customer_number_w').text("Phone number is required.");
-                        valid = false;
-                    }
-                    if (!$('#customer_data').val().trim()) {
-                        $('#customer_data_w').text("Resume is required.");
-                        valid = false;
-                    }
-                  
-                }else {
                     console.log("true");
                     var formData = new FormData(this);
 
@@ -557,7 +524,6 @@
                         contentType: false,
                         processData: false
                     }); 
-                }
             });
         });
     </script>

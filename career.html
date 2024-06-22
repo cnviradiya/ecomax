@@ -509,6 +509,8 @@
  
         $(function () {
             $("form#careerForm").submit(function (e) {
+                console.log("ok");
+                
                 e.preventDefault();
                 var formData = new FormData(this);
 
@@ -523,7 +525,7 @@
                     contentType: false,
                     processData: false
                 });
-                console.log("ok");
+               
                
             });
         });

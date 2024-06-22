@@ -15,7 +15,7 @@ if(!empty($_POST['email'])) {
         //subject for the email
         $first_name = "Customer Name:-".$_POST["first_name"]; //body of the email
         // $last_name = $_POST["last_name"]; //body of the email
-        $customer_number = "Customer Name:-".$_POST["customer_number"]; //body of the email
+        $customer_number = "Customer Number:-".$_POST["customer_number"]; //body of the email
         $message = "Message:-".$_POST["career_message"]; //body of the email
     
         
@@ -59,8 +59,8 @@ if(!empty($_POST['email'])) {
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
         // $body .= chunk_split(base64_encode($first_name));
         // $body .= chunk_split(base64_encode($last_name));
-        $body .= chunk_split(base64_encode($customer_number));
-        $body .= chunk_split(base64_encode($message));
+        $body .= chunk_split(base64_encode($customer_number , $message));
+        // $body .= chunk_split(base64_encode($message));
        
  
         //attachment

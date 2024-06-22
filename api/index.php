@@ -56,7 +56,7 @@ if(!empty($_POST['email'])) {
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-        $body .= chunk_split(base64_encode($first_name.$last_name."\n".$customer_email."\n".$customer_number."\n".$message));
+        $body .= chunk_split(base64_encode($first_name."\r".$last_name."\n".$customer_email."\n".$customer_number."\n".$message));
              
         //attachment
         $body .= "--$boundary\r\n";

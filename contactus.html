@@ -267,7 +267,7 @@
             <span class="loader"></span>
           </div>
           
-          <form class="form_container_in needs-validation contact-form-section" enctype="multipart/form-data" id="careerForm" novalidate>
+          <form class="form_container_in needs-validation" enctype="multipart/form-data" id="detaform" novalidate>
             <div class="row form_field_container flex-column flex-sm-row">
                 <div class="col">
                     <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
@@ -293,18 +293,6 @@
             </div>
             <div class="row form_field_container flex-column flex-sm-row">
                 <div class="col">
-                    <div
-                        class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
-                        <input type='file' id="customer_data" name="resume"
-                            class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
-                        <span class='label' data-js-label>Resume</span>
-                        <span class='button'>Browse</span>
-                    </div>
-                    <p class="text-danger" id="customer_data_w"></p>
-                </div>
-            </div>
-            <div class="row form_field_container flex-column flex-sm-row">
-                <div class="col">
                     <textarea placeholder="Your Message" id="customer_message" name="career_message"
                         class="form-control w-100 field message_field"></textarea>
                 </div>
@@ -320,7 +308,6 @@
                 </div>
             </div>
         </form>
-
           <div class="heading_container text-center">
             <p id="Submit-form" class="heading_description"></p>
           </div>
@@ -752,11 +739,12 @@
         })()
   </script>
   <script>
- $(function() {
-       $("form#careerForm").submit(function(e) {
+    $(function() {
+       $("form#detaform").submit(function(e) {
             e.preventDefault();
            $('.contact-form-section').addClass('active');
             var formData = new FormData(this);
+              console.log(formData);
             $.ajax({
                 url: "https://ecomaxlubricant.com/api/index.php?a=contact",
                 type: 'POST',
@@ -772,24 +760,6 @@
             });
         });
     });
-// $(function () {
-//             $("form#careerForm").submit(function (e) {
-//                 e.preventDefault();
-//                 var formData = new FormData(this);
-
-//                 $.ajax({
-//                     url: "https://ecomaxlubricant.com/api/index.php?a=career",
-//                     type: 'POST',
-//                     data: formData,
-//                     success: function (data) {
-//                         alert(data);
-//                     },
-//                     cache: false,
-//                     contentType: false,
-//                     processData: false
-//                 });
-//             });
-//         });
   </script>
 </body>
 </html>

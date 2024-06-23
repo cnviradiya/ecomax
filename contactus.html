@@ -269,44 +269,56 @@
           
           <form class="form_container_in needs-validation" enctype="multipart/form-data" id="detaform" novalidate>
             <div class="row form_field_container flex-column flex-sm-row">
-                <div class="col">
-                    <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
-                        class="form-control first_name field" aria-label="First name" required />
-                </div>
-                <div class="col">
-                    <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
-                        class="form-control field" aria-label="Last name" required />
-                    <p class="text-danger" id="customer_lname"></p>
-                </div>
-            </div>
-            <div class="row form_field_container flex-column flex-sm-row">
-                <div class="col">
-                    <input type="email" name="email" id="customer_email" placeholder="Email*" required
-                        class="field form-control" />
-                    <p class="text-danger" id="customer_email_w"></p>
-                </div>
-                <div class="col">
-                    <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
-                        required class="field form-control" />
-                    <p class="text-danger" id="customer_number_w"></p>
-                </div>
-            </div>
-            <div class="row form_field_container flex-column flex-sm-row">
-                <div class="col">
-                    <textarea placeholder="Your Message" id="customer_message" name="career_message"
-                        class="form-control w-100 field message_field"></textarea>
-                </div>
-            </div>
-            <div class="sparkle-button">
-                <div class="sparkle-button career-form-btn">
-                    <button class="btn2 d-flex align-items-center" type="submit">
-                        <span class="about-btn d-flex align-items-center justify-content-center">
-                            <i class="fa-solid fa-arrow-up-long"></i>
-                        </span>
-                        <span class="text">Submit</span>
-                    </button>
-                </div>
-            </div>
+              <div class="col">
+                  <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
+                      class="form-control first_name field" aria-label="First name" required />
+              </div>
+              <div class="col">
+                  <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
+                      class="form-control field" aria-label="Last name" required />
+                  <p class="text-danger" id="customer_lname"></p>
+              </div>
+          </div>
+          <div class="row form_field_container flex-column flex-sm-row">
+              <div class="col">
+                  <input type="email" name="email" id="customer_email" placeholder="Email*" required
+                      class="field form-control" />
+                  <p class="text-danger" id="customer_email_w"></p>
+              </div>
+              <div class="col">
+                  <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
+                      required class="field form-control" />
+                  <p class="text-danger" id="customer_number_w"></p>
+              </div>
+          </div>
+          <div class="row form_field_container flex-column flex-sm-row">
+              <div class="col">
+                  <div
+                      class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                      <input type='file' id="customer_data" name="resume"
+                          class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
+                      <span class='label' data-js-label>Resume</span>
+                      <span class='button'>Browse</span>
+                  </div>
+                  <p class="text-danger" id="customer_data_w"></p>
+              </div>
+          </div>
+          <div class="row form_field_container flex-column flex-sm-row">
+              <div class="col">
+                  <textarea placeholder="Your Message" id="customer_message" name="career_message"
+                      class="form-control w-100 field message_field"></textarea>
+              </div>
+          </div>
+          <div class="sparkle-button">
+              <div class="sparkle-button career-form-btn">
+                  <button class="btn2 d-flex align-items-center" type="submit">
+                      <span class="about-btn d-flex align-items-center justify-content-center">
+                          <i class="fa-solid fa-arrow-up-long"></i>
+                      </span>
+                      <span class="text">Submit</span>
+                  </button>
+              </div>
+          </div>
         </form>
           <div class="heading_container text-center">
             <p id="Submit-form" class="heading_description"></p>

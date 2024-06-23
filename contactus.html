@@ -267,29 +267,46 @@
             <span class="loader"></span>
           </div>
           
-          <form class="form_container_in needs-validation" enctype="multipart/form-data" id="detaform" novalidate>
+          <form class="form_container_in needs-validation" enctype="multipart/form-data" id="careerForm" novalidate>
             <div class="row form_field_container flex-column flex-sm-row">
                 <div class="col">
-                    <input type="text" name="first_name" id="validationCustom01" placeholder="First Name*" class="form-control first_name field" aria-label="First name" required />
+                    <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
+                        class="form-control first_name field" aria-label="First name" required />
                 </div>
                 <div class="col">
-                    <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*" class="form-control field" aria-label="Last name" required />
+                    <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
+                        class="form-control field" aria-label="Last name" required />
                     <p class="text-danger" id="customer_lname"></p>
                 </div>
             </div>
             <div class="row form_field_container flex-column flex-sm-row">
                 <div class="col">
-                    <input type="email" name="email" id="customer_email" placeholder="Email*" required class="field form-control" />
+                    <input type="email" name="email" id="customer_email" placeholder="Email*" required
+                        class="field form-control" />
                     <p class="text-danger" id="customer_email_w"></p>
                 </div>
                 <div class="col">
-                    <input type="number" name="number" id="customer_number" placeholder="Phone Number*" required class="field form-control" />
+                    <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
+                        required class="field form-control" />
                     <p class="text-danger" id="customer_number_w"></p>
                 </div>
             </div>
             <div class="row form_field_container flex-column flex-sm-row">
                 <div class="col">
-                    <textarea placeholder="Your Message" id="customer_message" name="career_message" class="form-control w-100 field message_field"></textarea>
+                    <div
+                        class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                        <input type='file' id="customer_data" name="resume"
+                            class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
+                        <span class='label' data-js-label>Resume</span>
+                        <span class='button'>Browse</span>
+                    </div>
+                    <p class="text-danger" id="customer_data_w"></p>
+                </div>
+            </div>
+            <div class="row form_field_container flex-column flex-sm-row">
+                <div class="col">
+                    <textarea placeholder="Your Message" id="customer_message" name="career_message"
+                        class="form-control w-100 field message_field"></textarea>
                 </div>
             </div>
             <div class="sparkle-button">
@@ -735,30 +752,48 @@
         })()
   </script>
   <script>
-$(function() {
-    $("form#detaform").submit(function(e) {
-        e.preventDefault();
-        $('.contact-form-section').addClass('active');
-        var formData = new FormData(this);
-        $.ajax({
-            url: "https://ecomaxlubricant.com/api/index.php?a=contact",
-            type: 'POST',
-            data: formData,
-            contentType: false,
-            processData: false,
-            success: function (data) {
-                console.log(data);
-                alert(data.message);
-                $('.contact-form-section').removeClass('active');
-            },
-            error: function(xhr, status, error) {
-                console.error(xhr.responseText);
-                alert('An error occurred: ' + xhr.responseText);
-                $('.contact-form-section').removeClass('active');
-            }
+// $(function() {
+//     $("form#detaform").submit(function(e) {
+//         e.preventDefault();
+//         $('.contact-form-section').addClass('active');
+//         var formData = new FormData(this);
+//         $.ajax({
+//             url: "https://ecomaxlubricant.com/api/index.php?a=contact",
+//             type: 'POST',
+//             data: formData,
+//             contentType: false,
+//             processData: false,
+//             success: function (data) {
+//                 console.log(data);
+//                 alert(data.message);
+//                 $('.contact-form-section').removeClass('active');
+//             },
+//             error: function(xhr, status, error) {
+//                 console.error(xhr.responseText);
+//                 alert('An error occurred: ' + xhr.responseText);
+//                 $('.contact-form-section').removeClass('active');
+//             }
+//         });
+//     });
+// });
+$(function () {
+            $("form#careerForm").submit(function (e) {
+                e.preventDefault();
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: "https://ecomaxlubricant.com/api/index.php?a=career",
+                    type: 'POST',
+                    data: formData,
+                    success: function (data) {
+                        alert(data);
+                    },
+                    cache: false,
+                    contentType: false,
+                    processData: false
+                });
+            });
         });
-    });
-});
   </script>
 </body>
 </html>

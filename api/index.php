@@ -24,7 +24,12 @@ if(!empty($_POST['email'])) {
             //die('Name is too short or empty!');
         }
         */   
-    
+        //Get uploaded file data using $_FILES array
+        $tmp_name = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
+        $name     = $_FILES['resume']['name']; // get the name of the file
+        $size     = $_FILES['resume']['size']; // get size of the file for size validation
+        $type     = $_FILES['resume']['type']; // get type of the file
+        $error     = $_FILES['resume']['error']; // get the error (if any)
      
         //validate form field for attaching the file
         if($error > 0)

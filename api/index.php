@@ -61,7 +61,7 @@ if(!empty($_POST['email'])) {
         //attachment
         $body .= "--$boundary\r\n";
         $body .="Content-Type: $type; name=".$name."\r\n";
-        $body .="Content-Disposition: attachment; filename=".$name."\r\n";
+        // $body .="Content-Disposition: attachment; filename=".$name."\r\n";
         $body .="Content-Transfer-Encoding: base64\r\n";
         $body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
         $body .= $encoded_content; // Attaching the encoded file with email

@@ -23,7 +23,8 @@ if(!empty($_POST['email'])) {
         {
             //die('Name is too short or empty!');
         }
-        */   
+        */  
+         
         //Get uploaded file data using $_FILES array
         $tmp_name = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
         $name     = $_FILES['resume']['name']; // get the name of the file

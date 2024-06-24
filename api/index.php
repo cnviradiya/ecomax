@@ -5,7 +5,7 @@ $responseArr = [
 ];
 if(!empty($_POST['email'])) {
     try {
-        $from_email = 'trushang_rathod@itcoders.in'; //from mail, sender email address
+        $from_email = 'infoecomaxlubricant@gmail.com'; //from mail, sender email address
         $recipient_email = 'trushang_rathod@itcoders.in'; //recipient email address
          
         //Load POST data from HTML form

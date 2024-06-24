@@ -12,7 +12,7 @@ if(!empty($_POST['email'])) {
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
 
-        if ($_SERVER['REQUEST_URI'] == "/career") {
+        if ("https://ecomaxlubricant.com/career" == "https://ecomaxlubricant.com/career") {
             $subject = "Sample mail for the career page"; //subject for the email
         } else {
             $subject  = "Sample mail for the444";     //subject for the email

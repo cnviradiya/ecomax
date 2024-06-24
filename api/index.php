@@ -11,9 +11,7 @@ if(!empty($_POST['email'])) {
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
-  
-            $subject = "Sample mail for the Ecomax page"; //subject for the email
-     
+        $subject = "Sample mail for the Ecomax page"; //subject for the email
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email
         $customer_email = "Customer Email:-".$_POST["email"]; //body of the email

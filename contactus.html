@@ -763,8 +763,8 @@
                 data: formData,
                 success: function (data) {
                     alert(data);
-                  console.log(data.message);
-                    if(data.status == undefined){
+                    let validationCustom01 = document.getElementById("validationCustom01")
+                    if(validationCustom01 == ""){
                     // $('.contact-form-section').removeClass('active');
                       console.log("no data");
                     }else{

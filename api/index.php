@@ -11,14 +11,7 @@ if(!empty($_POST['email'])) {
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
-
-        // if ($_SERVER['REQUEST_URI'] == "/career") {
-        //      $subject = "Sample mail for the Career page"; //subject for the email
-        // } else {
-        
-        // }
-
-        $subject = "Sample mail for the Contact Us page"; //subject for the email
+        $subject     = "Sample mail for the career page"; //subject for the email
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email
         $customer_email = "Customer Email:-".$_POST["email"]; //body of the email
@@ -73,7 +66,7 @@ if(!empty($_POST['email'])) {
         $body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
         $body .= $encoded_content; // Attaching the encoded file with email
          
-        $sentMailResult = mail($recipient_email, $subject, $body , $headers);
+        $sentMailResult = mail($recipient_email, $subject, $body, $headers);
      
         if($sentMailResult ){
             $responseArr = [

@@ -14,13 +14,13 @@ if(!empty($_POST['email'])) {
    
     
         
-        if ($_SERVER['REQUEST_URI'] == "/career") {
-             $subject = "Sample mail for the Career page"; //subject for the email
-        } else {
-            $subject = "Sample mail for the Contact Us page"; //subject for the email
-        }
-
+        // if ($_SERVER['REQUEST_URI'] == "/career") {
+        //      $subject = "Sample mail for the Career page"; //subject for the email
+        // } else {
         
+        // }
+
+        $subject = "Sample mail for the Contact Us page"; //subject for the email
        
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email

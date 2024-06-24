@@ -17,7 +17,7 @@ if(!empty($_POST['email'])) {
         } else {
             $subject = "Sample mail for the Contact Us page"; //subject for the email
         }
-        $subject = "Sample mail for the Contact Us page"; //subject for the email
+
        
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email

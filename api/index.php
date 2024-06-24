@@ -66,7 +66,7 @@ if(!empty($_POST['email'])) {
         $body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
         $body .= $encoded_content; // Attaching the encoded file with email
          
-        $sentMailResult = mail($recipient_email, $subject, $body, $headers);
+        $sentMailResult = mail($recipient_email, $subject, $headers);
      
         if($sentMailResult ){
             $responseArr = [

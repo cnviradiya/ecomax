@@ -16,7 +16,6 @@ if(!empty($_POST['email'])) {
         }else{
             $subject = "Sample mail for the Ecomax page2"; //subject for the email
         }
-
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email
         $customer_email = "Customer Email:-".$_POST["email"]; //body of the email

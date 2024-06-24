@@ -11,20 +11,23 @@ if(!empty($_POST['email'])) {
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
-        $subject = "Sample mail for the Ecomax page"; //subject for the email
+        if("https://ecomaxlubricant.com/career" == "https://ecomaxlubricant.com/career"){
+            $subject = "Sample mail for the Ecomax page1"; //subject for the email
+        }else{
+            $subject = "Sample mail for the Ecomax page2"; //subject for the email
+        }
+
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email
         $customer_email = "Customer Email:-".$_POST["email"]; //body of the email
         $customer_number = "Customer Number:-".$_POST["number"]; //body of the email
         $message  = "Customer Message:-".$_POST["career_message"]; //body of the email
-     
         /*Always remember to validate the form fields like this
         if(strlen($sender_name)<1)
         {
             //die('Name is too short or empty!');
         }
-        */  
-         
+        */   
         //Get uploaded file data using $_FILES array
         $tmp_name = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
         $name     = $_FILES['resume']['name']; // get the name of the file

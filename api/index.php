@@ -7,7 +7,6 @@ if(!empty($_POST['email'])) {
     try {
         $from_email = 'info@ecomaxlubricant.com'; //from mail, sender email address
         $recipient_email = 'pp3681382@gmail.com'; //recipient email address
-         
         //Load POST data from HTML form
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header

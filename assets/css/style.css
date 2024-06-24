@@ -305,6 +305,15 @@ a {
     margin-left: 5px;
     margin-bottom: 66px;
 }
+.error
+{
+  color: red;
+  size: 80%
+}
+.hidden
+{
+  display:none;
+}
 
 .message_field {
     height: 464px !important;

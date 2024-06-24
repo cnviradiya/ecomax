@@ -147,28 +147,30 @@
             </div>
             <div class="row p-0 image_with_form_container align-items-center">
                 <div class="col-12 pe-0 form_container order-1 order-sm-0 col-sm-7 ">
-                    <form class="form_container_in needs-validation" enctype="multipart/form-data" id="careerForm" novalidate>
+                    <form class="form_container_in needs-validation" enctype="multipart/form-data" id="careerForm"
+                        novalidate>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
-                                <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
+                                <input type="text" name="first_name" id="validationCustom01" placeholder="First Name*"
                                     class="form-control first_name field" aria-label="First name" required />
                             </div>
                             <div class="col">
                                 <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
                                     class="form-control field" aria-label="Last name" required />
-                              
+
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col">
                                 <input type="email" name="email" id="customer_email" placeholder="Email*" required
                                     class="field form-control" />
-                              
+
                             </div>
                             <div class="col">
-                                <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
-                                    required class="field form-control" />
-                              
+                                <input type="number" name="number" id="phone_error" placeholder="Phone Number*" required
+                                    class="field form-control error hidden" />
+                                    Please enter a valid phone number
+
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
@@ -180,7 +182,7 @@
                                     <span class='label' data-js-label>Resume</span>
                                     <span class='button'>Browse</span>
                                 </div>
-                       
+
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
@@ -485,7 +487,7 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- Footer end -->
     <!-- Script start -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -523,6 +525,24 @@
                     }, false)
                 })
         })()
+        function validatePhoneNumber(input_str) {
+            var re = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+
+            return re.test(input_str);
+        }
+
+        function validateForm(event) {
+            var phone = document.getElementById('myform_phone').value;
+            if (!validatePhoneNumber(phone)) {
+                document.getElementById('phone_error').classList.remove('hidden');
+            } else {
+                document.getElementById('phone_error').classList.add('hidden');
+                alert("validation success")
+            }
+            event.preventDefault();
+        }
+
+        document.getElementById('myform').addEventListener('submit', validateForm);
     </script>
 
     <script>

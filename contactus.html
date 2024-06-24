@@ -762,9 +762,9 @@
                 type: 'POST',
                 data: formData,
                 success: function (data) {
-                    console.log(data);
                     alert(data);
-                    if(data == ""){
+                    console.log(data);
+                    if(data == null){
                     // $('.contact-form-section').removeClass('active');
                       console.log("no data");
                     }else{
@@ -772,9 +772,7 @@
                     // document.getElementById("Submit-form").innerHTML=Thank;
                     console.log("data");
                     }
-                   
                 },
-             
                 cache: false,
                 contentType: false,
                 processData: false

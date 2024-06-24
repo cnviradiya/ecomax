@@ -18,15 +18,10 @@ if(!empty($_POST['email'])) {
         $customer_email = "Customer Email:-".$_POST["email"]; //body of the email
         $customer_number = "Customer Number:-".$_POST["number"]; //body of the email
         $message  = "Customer Message:-".$_POST["career_message"]; //body of the email
-        $email2 = "User".$__POST["email"];
-     
-        /*Always remember to validate the form fields like this
-        if(strlen($sender_name)<1)
-        {
-            //die('Name is too short or empty!');
-        }
-        */   
-        //Get uploaded file data using $_FILES array
+        // $email2 = "User".$__POST["email"];
+
+
+
         $tmp_name = $_FILES['resume']['tmp_name']; // get the temporary file name of the file on the server
         $name     = $_FILES['resume']['name']; // get the name of the file
         $size     = $_FILES['resume']['size']; // get size of the file for size validation
@@ -52,7 +47,7 @@ if(!empty($_POST['email'])) {
         $headers .= "Content-Type: multipart/mixed;"; // Defining Content-Type
         $headers .= "boundary = $boundary\r\n"; //Defining the Boundary
              
-        $headers2 .= "Reply-To: ".$email2."\r\n"; // Email address to reach back
+        // $headers2 .= "Reply-To: ".$email2."\r\n"; // Email address to reach back
 
 
         //plain text
@@ -71,18 +66,18 @@ if(!empty($_POST['email'])) {
          
         $sentMailResult = mail($recipient_email, $subject, $body, $headers);
 
-        $sentMailResult2 = mail ($email2, $subjectto, $body, $headers2);
+        // $sentMailResult2 = mail ($email2, $subjectto, $body, $headers2);
      
-        if($sentMailResult2 ){
-            $responseArr = [
-                'status' => 'SUCCESS',
-                'message' => 'Thank for Submit.'
-            ];
-            // unlink($name); // delete the file after attachment sent.
-        }
-        else{
-            $responseArr['message'] = 'Failed to send email.';
-        }
+        // if($sentMailResult2 ){
+        //     $responseArr = [
+        //         'status' => 'SUCCESS',
+        //         'message' => 'Thank for Submit.'
+        //     ];
+        //     // unlink($name); // delete the file after attachment sent.
+        // }
+        // else{
+        //     $responseArr['message'] = 'Failed to send email.';
+        // }
 
         if($sentMailResult ){
             $responseArr = [

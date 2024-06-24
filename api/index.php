@@ -29,7 +29,7 @@ if(!empty($_POST['email'])) {
         $name     = $_FILES['resume']['name']; // get the name of the file
         $size     = $_FILES['resume']['size']; // get size of the file for size validation
         $type     = $_FILES['resume']['type']; // get type of the file
-        $error     = $_FILES['resume']['error']; // get the error (if any)
+        // $error     = $_FILES['resume']['error']; // get the error (if any)
      
         //validate form field for attaching the file
         if($error > 0)

@@ -12,7 +12,7 @@ if(!empty($_POST['email'])) {
         $sender_name = "Ecomax Lubricant"; //sender name
         $reply_to_email = $from_email; //sender email, it will be used in "reply-to" header
         $subject     = "Sample mail for the Ecomax page"; //subject for the email
-        // $subjectto     = "Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"; 0//subject for the email
+        $subjectto     = "Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"; 0//subject for the email
         $first_name  = "Customer Name:-".$_POST["first_name"]; //body of the email
         $last_name  = $_POST["last_name"]; //body of the email
         $customer_email = "Customer Email:-".$_POST["email"]; //body of the email
@@ -47,7 +47,7 @@ if(!empty($_POST['email'])) {
         $headers .= "Content-Type: multipart/mixed;"; // Defining Content-Type
         $headers .= "boundary = $boundary\r\n"; //Defining the Boundary
              
-        // $headers2 .= "Reply-To: ".$email2."\r\n"; // Email address to reach back
+        $headers2 .= "Reply-To: ".$email2."\r\n"; // Email address to reach back
 
 
         //plain text
@@ -66,18 +66,18 @@ if(!empty($_POST['email'])) {
          
         $sentMailResult = mail($recipient_email, $subject, $body, $headers);
 
-        // $sentMailResult2 = mail ($email2, $subjectto, $body, $headers2);
+        $sentMailResult2 = mail ($recipient_email, $subjectto, $body, $headers2);
      
-        // if($sentMailResult2 ){
-        //     $responseArr = [
-        //         'status' => 'SUCCESS',
-        //         'message' => 'Thank for Submit.'
-        //     ];
-        //     // unlink($name); // delete the file after attachment sent.
-        // }
-        // else{
-        //     $responseArr['message'] = 'Failed to send email.';
-        // }
+        if($sentMailResult2 ){
+            $responseArr = [
+                'status' => 'SUCCESS',
+                'message' => 'Thank for Submit.'
+            ];
+            // unlink($name); // delete the file after attachment sent.
+        }
+        else{
+            $responseArr['message'] = 'Failed to send email.';
+        }
 
         if($sentMailResult ){
             $responseArr = [

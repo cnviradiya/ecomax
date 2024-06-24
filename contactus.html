@@ -293,10 +293,9 @@
           </div>
           <div class="row form_field_container flex-column flex-sm-row">
               <div class="col">
-                  <div
-                      class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                  <div class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
                       <input type='file' id="customer_data" name="resume"
-                          class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
+                          class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" />
                       <span class='label' data-js-label>Resume</span>
                       <span class='button'>Browse</span>
                   </div>
@@ -769,12 +768,10 @@
                     let customer_number = document.getElementById("customer_number").value;
                     if(validationCustom01 == "" || customer_last_name == "" || customer_email == "" || customer_number == ""){
                     $('.contact-form-section').removeClass('active');
-                      console.log("no data");
                     }else{
                     document.getElementById("loader-none").style.display = "none" 
                     let Thank ="Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"
                     document.getElementById("Submit-form").innerHTML=Thank;
-                    console.log("data");
                     }
                 },
                 cache: false,

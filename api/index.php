@@ -11,9 +11,8 @@ function mailSend($to, $subject, $message, $headers) {
     mail($to, $subject, $message, $headers);
 }
 function thankYouMail($toEmail) {
-    $to = 'bob@example.com';
 
-    $subject = 'Website Change Request';
+    $subject = 'Thanks for the contacting Ecommax';
 
     $headers  = "From: " . strip_tags($_FROM_EMAIL) . "\r\n";
     $headers .= "Reply-To: " . strip_tags($_FROM_EMAIL) . "\r\n";

@@ -4,7 +4,8 @@ $responseArr = [
     'message' => 'Invalid data found'
 ];
 // const $_FROM_EMAIL = "infoecomaxlubricant@gmail.com";
-$_FROM_EMAIL = "trushang_rathod@itcodrs.in";
+$_FROM_EMAIL = "infoecomaxlubricant@gmail.com";
+$_ADMIN_EMAIL = "trushang_rathod@itcodrs.in";
 // echo $_FROM_EMAIL;
 // exit;
 function mailSend($to, $subject, $message, $headers) {
@@ -47,7 +48,7 @@ function sentAdminEmail($requestdInput, $type, $requestdFiles = null) {
     $htmlBody .= "</tbody>";
     $htmlBody .= "</table>";
     if(!empty($requestdFiles)) {
-        
+        // attachment
 
     }
 
@@ -60,12 +61,12 @@ function sentAdminEmail($requestdInput, $type, $requestdFiles = null) {
         // sent career data to admin with attach
         $subject= "Career | Request founded from " . $requestdInput['first_name'] . " " .$requestdInput['last_name'] . " | " . $requestdInput['phone'];
 
-        mailSend($_FROM_EMAIL, $subject, $htmlBody, $headers);
+        mailSend($_ADMIN_EMAIL, $subject, $htmlBody, $headers);
     } else {
         // contact us mail
         $subject= "Contact | Request founded from " . $requestdInput['first_name'] . " " .$requestdInput['last_name'] . " | " . $requestdInput['phone'];
 
-        mailSend($_FROM_EMAIL, $subject, $htmlBody, $headers);
+        mailSend($_ADMIN_EMAIL, $subject, $htmlBody, $headers);
         // sent contact data to admin
     }
 }

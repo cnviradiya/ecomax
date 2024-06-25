@@ -84,13 +84,10 @@ function contactMail($requestedInput) {
 if(!empty($_POST['email'])) {
     try {
         if (!empty($_GET['a'])) {
-            switch($_GET['a']) {
-                case 'career':
-                    careerMail($_POST, $_FILES);
-                    break;
-                default:
-                    contactMail($_POST);
-                    break;
+            if($_GET['a'] == 'career') {
+                careerMail($_POST, $_FILES);
+            } else {
+                contactMail($_POST);
             }
         }
         // $from_email = 'infoecomaxlubricant@gmail.com'; //from mail, sender email address

@@ -5,7 +5,8 @@ $responseArr = [
 ];
 // const $_FROM_EMAIL = "infoecomaxlubricant@gmail.com";
 const $_FROM_EMAIL = "trushang_rathod@itcodrs.in";
-
+echo $_FROM_EMAIL;
+exit;
 function mailSend($to, $subject, $message, $headers) {
     mail($to, $subject, $message, $headers);
 }

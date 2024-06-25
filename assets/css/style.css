@@ -36,7 +36,9 @@ g[aria-labelledby="id-72-title"] {
 .cout-box {
     height: 180px;
 }
-
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+    background-color: #FFFFFF;
+}
 .border {
     height: 25px;
 }
@@ -2121,7 +2123,7 @@ body {
     .count {
         font-weight: 400;
         line-height: 45px;
-        font-size: 16px;
+        font-size: 30px;
     }
 
     .copy-right-footer div p {
@@ -2246,11 +2248,11 @@ body {
     }
 
     .benefit {
-        height: 680px;
+        height: 700px;
     }
 
     .benefit::after {
-        height: 680px;
+        height: 700px;
     }
 
     .benefit-text {
@@ -3137,7 +3139,7 @@ body {
     }
 
     .menej-box {
-        width: 581px;
+        width: 84%;
     }
 
     .products-icon i {
@@ -4870,13 +4872,14 @@ tbody tr td span {
     color: #2c3e50;
     background: white;
     transition: all 0.35s;
+    
 }
 .Fueling-Excellence_input:checked+.tab-label::after {
     transition: all 0.5s;
     content: "-";
 }
 .Fueling-Excellence_input:checked~.tab-content {
-    max-height: 67px;
+    max-height: 100px;
 }
 .tab-label:hover::after{
     background-color: #d2dfd4;

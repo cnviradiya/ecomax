@@ -612,7 +612,6 @@
             animateBullet(event.target.object);
         });
     }
-
     var colorSet = new am4core.ColorSet();
     imageSeries.data = [
         {
@@ -724,7 +723,6 @@
             "color": colorSet.next()
         }
     ];
-
     // Disable map's default mouse wheel zoom
     chart.seriesContainer.events.disableType("doublehit");
     chart.chartContainer.wheelable = false;

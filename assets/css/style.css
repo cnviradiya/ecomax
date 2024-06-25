@@ -16,7 +16,7 @@
     margin-top: 15px;
 }
 
-.PROPERTY-gap:last-child{
+.PROPERTY-gap:last-child {
     padding: 0;
 }
 
@@ -45,6 +45,7 @@ g[aria-labelledby="id-72-title"] {
     overflow: hidden !important;
     transition: all 0.8s;
     transition: transform .5s;
+  
 }
 
 .products:hover .product_img {
@@ -55,11 +56,10 @@ g[aria-labelledby="id-72-title"] {
 .products:hover {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
+
 @media (max-width:768px) {
-    h2.title-contact {
-        font-size: 26px;
-        line-height: normal;
-    }
+  
+
     #chartdiv {
         width: 100%;
         height: 250px;
@@ -172,10 +172,12 @@ body {
 .section_padding {
     padding: 100px 0;
 }
+
 .dropdown-products {
     position: relative;
 }
-.dropdown-menu-products{
+
+.dropdown-menu-products {
     margin-top: 26px;
     position: absolute;
     min-width: 200px;
@@ -185,18 +187,21 @@ body {
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s ease-in-out;
-    padding:10px;
+    padding: 10px;
     z-index: 5;
 }
+
 .dropdown-menu-products li {
-    
-   padding: 16px;
+
+    padding: 16px;
 }
-.dropdown-products:hover .dropdown-menu-products{
+
+.dropdown-products:hover .dropdown-menu-products {
     opacity: 1;
     visibility: visible;
     top: 100%;
-} 
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -208,42 +213,50 @@ a {
     margin: 20px 0;
     transition: all 0.5s;
 }
-.dropdown-menu-products-res{
+
+.dropdown-menu-products-res {
     padding: 10px;
     width: 150px;
     height: auto;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    
-}
-.dropdown-menu-products-res  li:first-child{
-    padding-top: 15px;
-    
-    padding-bottom: 5px;
-   list-style: none;
-   margin-left: 10px;
 
 }
-.dropdown-menu-products-res  li:last-child{
+
+.dropdown-menu-products-res li:first-child {
+    padding-top: 15px;
+
+    padding-bottom: 5px;
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+.dropdown-menu-products-res li:last-child {
     padding-top: 5px;
     padding-bottom: 15px;
-   list-style: none;
-   margin-left: 10px;
+    list-style: none;
+    margin-left: 10px;
 }
-.dropdown-menu-products-res  li a{
-    list-style: none; 
- }
-.dropdown-products-res .accordion{
+
+.dropdown-menu-products-res li a {
+    list-style: none;
+}
+
+.dropdown-products-res .accordion {
     padding: 0 !important;
 }
-.dropdown-products-res .accordion{
+
+.dropdown-products-res .accordion {
     background-color: white !important;
     border: none;
 }
-.dropdown-products-res .accordion span{
+
+.dropdown-products-res .accordion span {
     font-size: 16px;
 }
-.panel1 .accordion-body ul{
+
+.panel1 .accordion-body ul {
     padding: 0;
 }
 
@@ -310,9 +323,11 @@ a {
 .message_field {
     height: 464px !important;
 }
+
 .uppercase-text {
     text-transform: uppercase;
 }
+
 .heading_description {
     font-size: var(--small-font);
     font-weight: var(--regular-font);
@@ -393,10 +408,11 @@ a {
 
 .industrial-border ul li {
     border: 1px solid white;
-    background-color:  #1E5F28;
+    background-color: #1E5F28;
     height: 40px;
 }
-.industrial-border h5{
+
+.industrial-border h5 {
     border: 1px solid white;
     font-size: 20px;
     font-weight: 400;
@@ -444,7 +460,7 @@ a {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
-    color: var(--green);
+    color:#3A7A43;
 }
 
 .contact_map {
@@ -487,6 +503,7 @@ a {
     cursor: pointer;
 
 }
+
 .contact_detail {
     word-wrap: break-word;
     word-break: break-all;
@@ -798,10 +815,7 @@ a {
         margin-bottom: 30px !important;
     }
 
-    .form_field_container div.col {
-        padding: 0px 6px;
-    }
-
+    
     .message_field {
         height: 92px;
     }
@@ -913,10 +927,7 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
-    .contact-title {
-        padding-top: 40px;
-        padding-bottom: 30px;
-    }
+   
 
     .navbar-logo img {
         max-width: 170px;
@@ -2062,16 +2073,30 @@ body {
 .Revitalize-card {
     height: 410px;
 }
+
 @media(max-width:575px) {
-    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
-      
+
+    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+    .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {}
+    .contact-title {
+        padding-top: 40px;
+     
     }
     .Lubricants-products {
         justify-content: center !important;
         margin-top: 30px !important;
         gap: 20px !important;
     }
-
+    .Connect_padding{
+       padding-top: 40px !important;
+    }
+    .title-contact{
+        margin: 0;
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 600;
+        padding-bottom: 0 !important;
+    }
     .heading_description {
         font-size: 14px;
         line-height: 21px;
@@ -2080,9 +2105,11 @@ body {
     .count-card {
         width: 47%;
     }
+
     .industrial-border ul li {
-        height: 30px ;
+        height: 30px;
     }
+
     .Revitalize-card {
         width: 100% !important;
     }
@@ -2184,7 +2211,7 @@ body {
     }
 
     .products-title {
-        margin: 14px !important;
+      padding: 14px !important;
     }
 
     .Lubricants-text {
@@ -2196,7 +2223,12 @@ body {
     .About-title-xs h1 {
         font-size: 30px;
     }
-
+    .form_field_container div.col {
+       padding: 0;
+     }
+     .contactus_btn{
+         padding-left: 0px;
+     }
     .About-des-xs p {
         font-size: 14px;
     }
@@ -2589,7 +2621,7 @@ body {
     }
 
     .product_btn_bak {
-        margin-top: 30px !important;
+        margin-top: 10px !important;
     }
 
     .img-set {
@@ -2659,7 +2691,7 @@ body {
 
     .industrial-Product-images img {
         height: 120px !important;
-  
+
     }
 
     .industrial-Product-images {
@@ -2682,117 +2714,154 @@ body {
         line-height: 45px !important;
         text-align: center;
     }
-    .PRODUCT-OVERVIEW{
+
+    .PRODUCT-OVERVIEW {
         gap: 10px !important;
         padding: 0 !important;
     }
-    .PRODUCT-OVERVIEW h2, .SPECIAL-FEATURES h2{
+
+    .PRODUCT-OVERVIEW h2,
+    .SPECIAL-FEATURES h2 {
         font-size: 20px !important;
         line-height: 30px !important;
     }
-    .PRODUCT-OVERVIEW ul li{
+
+    .PRODUCT-OVERVIEW ul li {
         line-height: 21px !important;
         font-size: 14px !important;
         margin-bottom: 30px !important;
     }
-    .SPECIAL-FEATURES{
+
+    .SPECIAL-FEATURES {
         padding: 0 !important;
     }
-    .PRODUCT-OVERVIEW h2, .SPECIAL-FEATURES h2{
+
+    .PRODUCT-OVERVIEW h2,
+    .SPECIAL-FEATURES h2 {
         margin: 0 !important;
     }
-    .SPECIAL-FEATURES{
+
+    .SPECIAL-FEATURES {
         display: flex !important;
         flex-direction: column !important;
-        gap: 10px  !important;
+        gap: 10px !important;
     }
-    .SPECIAL-FEATURES ul li{
+
+    .SPECIAL-FEATURES ul li {
         font-size: 14px !important;
         line-height: 21px !important;
     }
-    .SPECIAL-FEATURES ul{
+
+    .SPECIAL-FEATURES ul {
         padding-left: 23px !important;
     }
-    .SPECIAL-FEATURES ul li::marker{
+
+    .SPECIAL-FEATURES ul li::marker {
         font-size: 10px !important;
     }
-    .STORAGS{
+
+    .STORAGS {
         gap: 10px !important;
     }
-    .STORAGS h2{
+
+    .STORAGS h2 {
         font-size: 20px !important;
         line-height: 30px !important;
     }
-    .DIRECTION-FOR-STORAGE{
+
+    .DIRECTION-FOR-STORAGE {
         padding: 0px !important;
     }
-    .STORAGS p, .STORAGS ul li{
+
+    .STORAGS p,
+    .STORAGS ul li {
         font-size: 14px !important;
         line-height: 21px !important;
     }
-    .STORAGS ul{
+
+    .STORAGS ul {
         padding-left: 24px !important;
     }
-    .STORAGS ul::marker{
+
+    .STORAGS ul::marker {
         font-size: 10px !important;
     }
-    .DIRECTION-FOR-STORAGE{
+
+    .DIRECTION-FOR-STORAGE {
         gap: 30px !important;
     }
-    .DIRECTION-FOR-STORAGE-images{
+
+    .DIRECTION-FOR-STORAGE-images {
         padding: 0 !important;
         margin-top: 30px;
     }
-    .DIRECTION-FOR-STORAGE-images img{
-        width: 100% ;
+
+    .DIRECTION-FOR-STORAGE-images img {
+        width: 100%;
         height: 186px !important;
     }
-    .TECHNICAL-SPECIFICATIONS{
+
+    .TECHNICAL-SPECIFICATIONS {
         height: 474px !important;
     }
-    .TECHNICAL-SPECIFICATIONS::after{
+
+    .TECHNICAL-SPECIFICATIONS::after {
         height: 474px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title{
+
+    .TECHNICAL-SPECIFICATIONS-title {
         height: auto !important;
     }
-    .TECHNICAL-SPECIFICATIONS-Result{
+
+    .TECHNICAL-SPECIFICATIONS-Result {
         margin-top: 40px !important;
         margin-bottom: 40px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title h2{
+
+    .TECHNICAL-SPECIFICATIONS-title h2 {
         text-align: center;
         font-size: 30px;
         line-height: 45px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title h2{
+
+    .TECHNICAL-SPECIFICATIONS-title h2 {
         font-size: 30px !important;
         line-height: 45px !important;
         font-weight: 500;
         margin: 0 !important;
     }
-    .Lubricants-gap{
+
+    .Lubricants-gap {
         padding-top: 30px !important;
     }
-    .product-images{
-        width: 100% !important; 
+
+    .product-images {
+        width: 100% !important;
     }
-    .product-sab-images .swiper-slide{
-      height: auto !important;
-      margin-right: 0 !important;
+
+    .product-sab-images .swiper-slide {
+        height: auto !important;
+        margin-right: 0 !important;
     }
-    .product-icon .icon{
+
+    .product-icon .icon {
         width: 47% !important;
     }
-    .product-sab-images{
+
+    .product-sab-images {
         justify-content: space-between;
     }
-    .product-sab-images{
+
+    .product-sab-images {
         gap: 5px !important;
     }
-   .product-sab-images div{
-    width: 30% !important;
-   }
+
+    .product-sab-images div {
+        width: 30% !important;
+    }
+    .produt{
+        margin-bottom: 20px ;
+    }
 }
 
 @media(min-width:576px) {
@@ -2806,9 +2875,6 @@ body {
         margin-top: 40px !important;
         gap: 40px !important;
     }
-
-
-
     .top-bar-sm {
         padding-top: 6px;
     }
@@ -2909,6 +2975,7 @@ body {
     .industrial-Product {
         height: 317px !important;
     }
+
     .industrial-Product-title {
         width: 100% !important;
         justify-content: End !important;
@@ -2917,7 +2984,7 @@ body {
 
     .industrial-Product-images img {
         height: 120px !important;
- 
+
     }
 
     .industrial-Product-images {
@@ -2940,46 +3007,58 @@ body {
         line-height: 45px !important;
         text-align: center;
     }
-    .PRODUCT-OVERVIEW{
+
+    .PRODUCT-OVERVIEW {
         padding: 0 !important;
     }
-    .SPECIAL-FEATURES{
+
+    .SPECIAL-FEATURES {
         padding: 0 !important;
     }
-    .DIRECTION-FOR-STORAGE{
+
+    .DIRECTION-FOR-STORAGE {
         gap: 30px !important;
     }
-    .DIRECTION-FOR-STORAGE-images img{
+
+    .DIRECTION-FOR-STORAGE-images img {
         width: 100% !important;
         height: auto !important;
     }
-    .DIRECTION-FOR-STORAGE-images{
-        margin-top: 40px ;
+
+    .DIRECTION-FOR-STORAGE-images {
+        margin-top: 40px;
         margin-bottom: 40px;
         padding: 0 !important;
     }
-    .DIRECTION-FOR-STORAGE{
+
+    .DIRECTION-FOR-STORAGE {
         padding: 0 !important;
     }
-    .TECHNICAL-SPECIFICATIONS-Result{
+
+    .TECHNICAL-SPECIFICATIONS-Result {
         margin-top: 40px !important;
         margin-bottom: 40px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title{
+
+    .TECHNICAL-SPECIFICATIONS-title {
         height: auto !important;
     }
-    .TECHNICAL-SPECIFICATIONS{
+
+    .TECHNICAL-SPECIFICATIONS {
         height: 460px !important;
     }
-    .TECHNICAL-SPECIFICATIONS::after{
+
+    .TECHNICAL-SPECIFICATIONS::after {
         height: 460px !important;
 
     }
-    .TECHNICAL-SPECIFICATIONS-title h2{
+
+    .TECHNICAL-SPECIFICATIONS-title h2 {
         margin: 0 !important;
         font-size: 30px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title{
+
+    .TECHNICAL-SPECIFICATIONS-title {
         justify-content: center;
         width: 100%;
     }
@@ -2992,8 +3071,9 @@ body {
     .product-main-images {
         width: 100% !important;
     }
-    .product-images{
-        width: 100% !important; 
+
+    .product-images {
+        width: 100% !important;
     }
 
     .product-main-images {
@@ -3029,6 +3109,10 @@ body {
         width: 81px !important;
         height: 72px !important;
     }
+    .produt{
+        margin-bottom: 20px ;
+    }
+
 }
 
 @media(min-width:768px) {
@@ -3036,14 +3120,22 @@ body {
         padding-left: 26px !important;
         padding-right: 26px !important;
     }
-    .dynamic-text{
+
+    .dynamic-text {
         width: 230px;
     }
+    .form_field_container div.col {
+        padding-left: 20px;
+        padding-right: 7px;
+     }
+     .contactus_btn{
+         padding-left: 20px;
+     }
     .Fueling-Excellence-img2 {
         display: flex;
         justify-content: center;
     }
-   
+
     .menej-box {
         width: 581px;
     }
@@ -3102,7 +3194,7 @@ body {
         width: 200px !important;
     }
 
- 
+
 
     .products-btn {
         padding-top: 40px !important;
@@ -3367,7 +3459,7 @@ body {
     }
 
     .product_btn_bak {
-        margin-top: 40px !important;
+        margin-top: 20px !important;
     }
 
     .product-sab-images .swiper-slide {
@@ -3439,52 +3531,78 @@ body {
     .industrial-Product {
         height: 180px !important;
     }
-    .industrial-Product-title{
+
+    .industrial-Product-title {
         width: auto !important;
     }
-    .industrial-Product-title p{
+
+    .industrial-Product-title p {
         text-align: start;
     }
-    .industrial-Product-title h1{
+
+    .industrial-Product-title h1 {
         text-align: start !important;
     }
-    .industrial-Product-images{
+
+    .industrial-Product-images {
         width: auto !important;
     }
-    .DIRECTION-FOR-STORAGE-images{
+
+    .DIRECTION-FOR-STORAGE-images {
         margin-bottom: 0;
     }
-    .DIRECTION-FOR-STORAGE-images img{
+
+    .DIRECTION-FOR-STORAGE-images img {
         height: 460px !important;
     }
-    .TECHNICAL-SPECIFICATIONS{
+
+    .TECHNICAL-SPECIFICATIONS {
         height: 474px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title{
+
+    .TECHNICAL-SPECIFICATIONS-title {
         height: auto !important;
         display: flex;
         justify-content: center;
         width: 100% !important;
     }
-    .TECHNICAL-SPECIFICATIONS-Result{
+
+    .TECHNICAL-SPECIFICATIONS-Result {
         margin-top: 60px !important;
         margin-bottom: 60px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title h2{
+
+    .TECHNICAL-SPECIFICATIONS-title h2 {
         margin-bottom: 30px !important;
     }
-    .thead tr th span, tbody tr td span{
+
+    .thead tr th span,
+    tbody tr td span {
         height: 30px !important;
     }
-    .TECHNICAL-SPECIFICATIONS::after{
+
+    .TECHNICAL-SPECIFICATIONS::after {
         height: 474px !important;
     }
-    .produt{
+
+    .produt {
         padding: 10px !important;
     }
-    .coll-md-6{
+
+    .coll-md-6 {
         width: 49.82% !important;
     }
+    .Connect_map{
+        padding-top: 40px;
+    }
+    .Connect_padding{
+        padding-top: 60px !important;
+    }
+    .Connect_thank_padding
+    {
+        padding-bottom: 60px !important;
+    }
+    
 }
 
 @media(min-width:992px) {
@@ -3492,13 +3610,11 @@ body {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .dynamic-text{
+
+    .dynamic-text {
         width: auto;
     }
-    .image_with_form_container {
-        margin-top: 50px !important;
-    }
-   
+
     .hero-lg-image img {
         height: 720px;
         object-fit: cover;
@@ -3559,9 +3675,11 @@ body {
     .sparkle-button {
         justify-content: start;
     }
-    .coll-lg-4{
+
+    .coll-lg-4 {
         width: 33% !important;
     }
+
     .message_field {
         height: 465px !important;
     }
@@ -3638,7 +3756,8 @@ body {
         left: 85%;
     }
 }
-.list-none{
+
+.list-none {
     list-style: none;
 }
 
@@ -3668,7 +3787,7 @@ body {
         gap: 20px;
         flex-direction: column;
     }
- 
+
 
     .About-img img {
         width: 100%;
@@ -3807,7 +3926,7 @@ body {
     }
 
     .product_btn_bak {
-        margin-top: 70px !important;
+        margin-top: 50px !important;
     }
 
     .product-sab-images .swiper-slide {
@@ -3845,52 +3964,67 @@ body {
     }
 
 
-    .industrial-Product{
+    .industrial-Product {
         height: 450px !important;
     }
-    .industrial-Product-title{
+
+    .industrial-Product-title {
         height: 450px !important;
-       justify-content: center !important;
+        justify-content: center !important;
     }
-    .industrial-Product-title h1{
+
+    .industrial-Product-title h1 {
         font-size: 36px !important;
         line-height: 54px !important;
     }
-    .industrial-Product-images{
+
+    .industrial-Product-images {
         height: 450px !important;
     }
-    .industrial-Product-images img{
+
+    .industrial-Product-images img {
         height: 350px !important;
 
     }
-    .DIRECTION-FOR-STORAGE-images{
+
+    .DIRECTION-FOR-STORAGE-images {
         margin-top: 0;
     }
-    .DIRECTION-FOR-STORAGE{
+
+    .DIRECTION-FOR-STORAGE {
         padding-right: 15px !important;
     }
-    .DIRECTION-FOR-STORAGE-images{
+
+    .DIRECTION-FOR-STORAGE-images {
         padding-left: 15px !important;
     }
-    .thead tr th span, tbody tr td span{
+
+    .thead tr th span,
+    tbody tr td span {
         height: 35px !important;
     }
-    .TECHNICAL-SPECIFICATIONS{
+
+    .TECHNICAL-SPECIFICATIONS {
         height: 560px !important;
     }
-    .TECHNICAL-SPECIFICATIONS::after{
+
+    .TECHNICAL-SPECIFICATIONS::after {
         height: 560px !important;
     }
-    .PROPERTY-TESTMETHOD-RESULT{
+
+    .PROPERTY-TESTMETHOD-RESULT {
         width: 800px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title h2{
+
+    .TECHNICAL-SPECIFICATIONS-title h2 {
         margin-bottom: 0 !important;
     }
-    .TECHNICAL-SPECIFICATIONS-title{
+
+    .TECHNICAL-SPECIFICATIONS-title {
         width: auto !important;
     }
-    .produt{
+
+    .produt {
         padding: 15px !important;
     }
 }
@@ -4009,7 +4143,7 @@ body {
         width: 342px;
         height: 261px;
     }
-    
+
     .product_details-sab {
         width: 884px !important;
     }
@@ -4044,24 +4178,29 @@ body {
         font-size: 16px !important;
     }
 
- 
-    .PRODUCT-OVERVIEW{
+
+    .PRODUCT-OVERVIEW {
         padding-right: 25px !important;
     }
-    .SPECIAL-FEATURES{
+
+    .SPECIAL-FEATURES {
         padding-left: 25px !important;
     }
-    .PROPERTY-TESTMETHOD-RESULT{
+
+    .PROPERTY-TESTMETHOD-RESULT {
         width: 964px !important;
     }
-    .thead tr th span, tbody tr td span{
+
+    .thead tr th span,
+    tbody tr td span {
         height: 40px !important;
     }
-    .TECHNICAL-SPECIFICATIONS-Result{
+
+    .TECHNICAL-SPECIFICATIONS-Result {
         margin-top: 100px !important;
         margin-bottom: 100px !important;
     }
-    
+
 }
 
 @media(min-width:1600px) {
@@ -4097,14 +4236,17 @@ body {
         padding-left: 30px;
         padding-top: 0 !important;
     }
+
     .cout-m {
         padding-right: 15px;
     }
-    .count-carsd{
+
+    .count-carsd {
         padding-left: 15px;
         margin-top: 20px;
     }
-    .after-befor{
+
+    .after-befor {
         margin-bottom: 30px;
     }
 
@@ -4147,7 +4289,7 @@ body {
 }
 
 .products-title {
-    margin: 20px;
+  padding: 20px;
 }
 
 .products:hover .products-icon i {
@@ -4481,11 +4623,13 @@ body {
 
     height: 350px;
 }
+
 .industrial-Product-images {
     height: 450px;
     display: flex;
     align-items: center;
 }
+
 .PRODUCT-OVERVIEW h2,
 .SPECIAL-FEATURES h2 {
     font-size: 24px;
@@ -4493,31 +4637,38 @@ body {
     font-weight: 500;
     color: #1E5F28;
 }
+
 .PRODUCT-OVERVIEW {
     padding-right: 25px;
     flex-direction: column;
     gap: 20px;
 }
+
 .PRODUCT-OVERVIEW ul li {
     font-weight: 400;
     line-height: 24px;
     color: #414141;
     font-size: 16px;
 }
+
 .SPECIAL-FEATURES {
     padding-left: 25px;
 }
+
 .SPECIAL-FEATURES ul li {
     line-height: 24px;
     font-weight: 400;
     color: #414141;
 }
+
 .SPECIAL-FEATURES ul li::marker {
     font-size: 14px;
 }
-.thead tr th{
+
+.thead tr th {
     width: 1% !important;
 }
+
 /* industrial hero End */
 /* TECHNICAL SPECIFICATIONS Start */
 .TECHNICAL-SPECIFICATIONS {
@@ -4530,6 +4681,7 @@ body {
     z-index: 1;
     position: relative;
 }
+
 .TECHNICAL-SPECIFICATIONS::after {
     align-items: center;
     background-size: cover;
@@ -4543,38 +4695,46 @@ body {
     z-index: -1;
     opacity: 70%;
 }
+
 .TECHNICAL-SPECIFICATIONS-Result {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .TECHNICAL-SPECIFICATIONS-title {
     height: 360px;
     display: flex;
     align-items: center;
 }
+
 .TECHNICAL-SPECIFICATIONS-title h2 {
     line-height: 54px;
     font-size: 36px;
     font-weight: 500;
 }
+
 .PROPERTY-TESTMETHOD-RESULT {
     width: 964px;
     height: 360px;
     gap: 30px;
 }
+
 .tbody tr td {
     font-weight: 400;
     line-height: 24px;
     background-color: #1E5F28;
 }
+
 .PROPERTY-gap {
     padding-right: 30px;
     border: 0.1px solid rgb(255, 255, 255);
 }
+
 .thead tr th {
     width: 0%;
     background-color: #0D4315;
 }
+
 .thead tr th span,
 tbody tr td span {
     display: flex;
@@ -4584,19 +4744,21 @@ tbody tr td span {
     border-right: 1px solid rgb(255, 255, 255);
 }
 
-.industrial_slaider{
+.industrial_slaider {
     width: 100% !important;
 }
 
-.industrial-slaid{
+.industrial-slaid {
     padding-top: 25px !important;
 
     height: 320px !important;
 }
-.industrial_slaider_item ul{
+
+.industrial_slaider_item ul {
     padding: 0 !important;
 }
-.industrial_slaider_item ul li{
+
+.industrial_slaider_item ul li {
     list-style: none;
     padding: 2px;
     border: 1px solid rgba(255, 255, 255, 0.363);
@@ -4606,15 +4768,17 @@ tbody tr td span {
     line-height: 21px;
     height: 30px !important;
 }
-.industrial_slaider_item h5{
+
+.industrial_slaider_item h5 {
     border: 1px solid rgba(255, 255, 255, 0.363);
     background-color: #0D4315;
     margin: 0;
-    padding:4px  ;
+    padding: 4px;
     font-weight: 500;
     line-height: 24px !important;
     font-size: 16px !important;
 }
+
 /* TECHNICAL SPECIFICATIONS End */
 /* DIRECTION FOR STORAGE AND USE Start */
 .DIRECTION-FOR-STORAGE {
@@ -4623,34 +4787,113 @@ tbody tr td span {
     gap: 50px;
     padding-right: 15px;
 }
+
 .DIRECTION-FOR-STORAGE-images {
     padding-left: 15px;
 }
+
 .DIRECTION-FOR-STORAGE-images img {
     height: 460px;
     object-fit: cover;
 }
+
 .STORAGS {
     display: flex;
     flex-direction: column;
     gap: 20px
 }
+
 .STORAGS::marker {
     font-size: 10px;
 }
+
 .STORAGS h2 {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     color: #1E5F28;
 }
+
 .STORAGS p,
 .STORAGS ul li {
     line-height: 24px;
     font-weight: 400;
     color: #414141;
 }
-.thead tr:last-child{
+
+.thead tr:last-child {
     padding: 0;
 }
+
 /* DIRECTION FOR STORAGE AND USE End */
+.Fueling-Excellence_input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.tab {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    cursor: pointer;
+    border-top: 1px #dad8d8 solid;
+}
+
+.tab-label span {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+.tab-label::after {
+    content: "+";
+    transition: all 2s;
+    font-size: 20px;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+}
+.h-set{
+    height: 46px;
+}
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #2c3e50;
+    background: white;
+    transition: all 0.35s;
+}
+.Fueling-Excellence_input:checked+.tab-label::after {
+    transition: all 0.5s;
+    content: "-";
+}
+.Fueling-Excellence_input:checked~.tab-content {
+    max-height: 67px;
+}
+.tab-label:hover::after{
+    background-color: #d2dfd4;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    color:  #0D4315;
+}
+.Thank_mes{
+    font-weight: 400;
+    list-style: 24px;
+}
+.Connect_padding{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.Connect_thank_padding{
+    padding-bottom: 100px;
+}

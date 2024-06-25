@@ -47,7 +47,7 @@ if(!empty($_POST['email'])) {
         $headers .= "Content-Type: multipart/mixed;"; // Defining Content-Type
         $headers .= "boundary = $boundary\r\n"; //Defining the Boundary
              
-        // $headers2 .= "Reply-To: ".$email2."\r\n"; // Email address to reach back
+        // $headers2 .= "Reply-To: ".$from_email."\r\n"; // Email address to reach back
 
 
         //plain text
@@ -66,7 +66,7 @@ if(!empty($_POST['email'])) {
          
         $sentMailResult = mail($recipient_email, $subject, $body, $headers);
 
-        // $sentMailResult2 = mail ($email2, $subjectto, $body, $headers2);
+        // $sentMailResult2 = mail ($recipient_email, $subjectto, $body, $headers2);
      
         // if($sentMailResult2 ){
         //     $responseArr = [

@@ -186,15 +186,16 @@
     <div class="container1">
       <div class="row">
         <h1 class="title-contact">
-          Get in Touch with Ecomax: Reach Out for Lubricant <br> Engine Oil Solutions
+          Get in Touch with Ecomax: Reach Out for Lubricant <br class="d-none d-lg-block">  Engine Oil Solutions
         </h1>
       </div>
     </div>
+   
+      <div class="Connect_map" id="chartdiv"></div>
+  
+  
   </section>
-  <section class="map-section ">
-    <div id="chartdiv"></div>
-
-  </section>
+ 
 <!-- map Section End -->
 <!-- Contact Connect Section Start  -->
   <section class="section_padding Connect-Section">
@@ -251,23 +252,23 @@
   </section>
   <!-- Contact Connect Section End -->
 <!-- Contact Form Section Start -->
-  <section class="career_form_section section_padding">
-    <div class="page_width">
+  <section class="career_form_section Connect_padding">
+    <div class="container1">
 
-      <div class="row image_with_form_container align-items-center  p-0">
-        <div class="col-12  image_container col-sm-5  ps-0  d-flex justify-content-end align-items-center ">
+      <div class="row m-0 col-12  align-items-center  p-0">
+        <div class="col-12  image_container col-md-5  ps-0 col-lg-5  d-flex justify-content-sm-center justify-content-lg-end  align-items-center ">
           <div class="career-img-container">
             <img src="https://ik.imagekit.io/ecomax/assets/images/contact/contact_form.png" alt="oil-img"
               class="img-fluid bg-dark h-100 col-12">
           </div>
         </div>
 
-        <div class="col-12 p-0 ps-lg-5 form_container contact-form-section col-sm-7 pe-lg-4 ">
+        <div class="col-12 p-0  form_container contact-form-section col-md-7 col-lg-6 ">
           <div class="loader-section" id="loader-none">
             <span class="loader"></span>
           </div>
           
-          <form class="form_container_in needs-validation" enctype="multipart/form-data" id="detaform" novalidate>
+          <form class="form_container_in needs-validation " enctype="multipart/form-data" id="detaform" novalidate>
             <div class="row form_field_container flex-column flex-sm-row">
               <div class="col">
                   <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
@@ -283,12 +284,10 @@
               <div class="col">
                   <input type="email" name="email" id="customer_email" placeholder="Email*" required
                       class="field form-control" />
-            
               </div>
               <div class="col">
                   <input type="number" name="number" id="customer_number" placeholder="Phone Number*"
                       required class="field form-control" />
-                
               </div>
           </div>
           <div class="row form_field_container flex-column flex-sm-row">
@@ -308,7 +307,7 @@
                       class="form-control w-100 field message_field" ></textarea>
               </div>
           </div>
-          <div class="sparkle-button">
+          <div class="sparkle-button contactus_btn">
               <div class="sparkle-button career-form-btn">
                   <button class="btn2 d-flex align-items-center" type="submit">
                       <span class="about-btn d-flex align-items-center justify-content-center">
@@ -323,6 +322,13 @@
             <p id="Submit-form" class="heading_description"></p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="Connect_thank_padding  d-none d-md-block">
+    <div class="container1">
+      <div class="row">
+        <p class="text-center Thank_mes p-0 m-0">Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above.</p>
       </div>
     </div>
   </section>
@@ -511,9 +517,7 @@
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
@@ -542,183 +546,193 @@
 
   <!-- Chart code -->
   <script>
+  try {
+    // Create chart instance
+    var chart = am4core.create("chartdiv", am4maps.MapChart);
 
-    try {
-      // Create chart instance
-      var chart = am4core.create("chartdiv", am4maps.MapChart);
+    // Make the chart fade-in on init
+    chart.hiddenState.properties.opacity = 0;
 
-      // Make the chart fade-in on init
-      chart.hiddenState.properties.opacity = 0;
+    // Set geodata
+    chart.geodata = am4geodata_worldLow;
 
-      // Set geodata
-      chart.geodata = am4geodata_worldLow;
+    // Set projection to be used
+    // @see {@link https://www.amcharts.com/docs/v4/reference/mapchart/#projection_property}
+    chart.projection = new am4maps.projections.Miller();
 
-      // Set projection to be used
-      // @see {@link https://www.amcharts.com/docs/v4/reference/mapchart/#projection_property}
-      chart.projection = new am4maps.projections.Miller();
+    // Create map polygon series
+    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 
-      // Create map polygon series
-      var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
-      // polygonSeries.fill= "rgba(58, 122, 67, 1)";
+    // Exclude Antarctica
+    polygonSeries.exclude = ["AQ"];
 
-      // Exclude Antartica
-      polygonSeries.exclude = ["AQ"];
+    // Make map load polygon (like country names) data from GeoJSON
+    polygonSeries.useGeodata = true;
 
-      // Make map load polygon (like country names) data from GeoJSON
-      polygonSeries.useGeodata = true;
+    // Configure series
+    var polygonTemplate = polygonSeries.mapPolygons.template;
+    polygonTemplate.tooltipText = "{name}";
+    polygonTemplate.polygon.fill = "rgba(58, 122, 67, 0.4)";
+    polygonTemplate.polygon.fillOpacity = 0.6;
 
-      // Configure series
-      var polygonTemplate = polygonSeries.mapPolygons.template;
-      polygonTemplate.tooltipText = "{name}";
-      polygonTemplate.polygon.fill = "rgba(58, 122, 67, .4)";
-      polygonTemplate.polygon.fillOpacity = 0.6;
+    // Create hover state and set alternative fill color
+    var hs = polygonTemplate.states.create("hover");
+    hs.properties.fill = chart.colors.getIndex(0);
 
+    // Add image series
+    var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+    imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+    imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+    imageSeries.mapImages.template.tooltipText = "{title}";
+    imageSeries.mapImages.template.propertyFields.url = "url";
 
-      // Create hover state and set alternative fill color
-      var hs = polygonTemplate.states.create("hover");
-      hs.properties.fill = chart.colors.getIndex(0);
+    // Add image marker
+    var circle = imageSeries.mapImages.template.createChild(am4core.Image);
+    circle.href = "https://ik.imagekit.io/ecomax/assets/images/marker-icon.png";
+    circle.width = 30;
+    circle.height = 30;
+    circle.nonScaling = true;
+    circle.horizontalCenter = "middle";
+    circle.verticalCenter = "bottom";
 
-      // Add image series
-      var imageSeries = chart.series.push(new am4maps.MapImageSeries());
-      imageSeries.mapImages.template.propertyFields.longitude = "longitude";
-      imageSeries.mapImages.template.propertyFields.latitude = "latitude";
-      imageSeries.mapImages.template.tooltipText = "{title}";
-      imageSeries.mapImages.template.propertyFields.url = "url";
-
-      var circle = imageSeries.mapImages.template.createChild(am4core.Image);
-      circle.href = "https://ik.imagekit.io/ecomax/assets/images/marker-icon.png";
-      circle.width = 30;
-      circle.height = 30;
-      circle.nonScaling = true;
-      circle.horizontalCenter = "middle";
-      circle.verticalCenter = "bottom";
-
-      var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-      circle2.radius = 2;
-      circle2.propertyFields.fill = "color";
-
-
-      circle2.events.on("inited", function (event) {
+    // Add animated circle
+    var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
+    circle2.radius = 2;
+    circle2.propertyFields.fill = "color";
+    circle2.events.on("inited", function(event) {
         animateBullet(event.target);
-      })
+    });
 
-
-      function animateBullet(circle) {
-        var animation = circle.animate([{ property: "scale", from: 1, to: 5 }, { property: "opacity", from: 1, to: 0 }], 1000, am4core.ease.circleOut);
-        animation.events.on("animationended", function (event) {
-          animateBullet(event.target.object);
-        })
-      }
-
-      var colorSet = new am4core.ColorSet();
-
-      imageSeries.data = [{
-        "tooltipText": "Myanmar",
-        "latitude": 21.916222,
-        "longitude": 95.955971,
-        "color": colorSet.next()
-      }, {
-        "title": "India",
-        "latitude": 20.593683,
-        "longitude": 78.962883,
-        "color": colorSet.next()
-      }, {
-        "title": "Iraq",
-        "latitude": 33.223190,
-        "longitude": 43.679291,
-        "color": colorSet.next()
-      }, {
-        "title": "Tanzania",
-        "latitude": -8.510342,
-        "longitude": 38.892686,
-        "color": colorSet.next()
-      }, {
-        "title": "Ghana",
-        "latitude": 7.9039267,
-        "longitude": -3.2744616,
-        "color": colorSet.next()
-      }, {
-        "title": "Taiwan",
-        "latitude": 23.6978,
-        "longitude": 120.9605,
-        "color": colorSet.next()
-      }, {
-        "title": "Chad",
-        "latitude": 15.454166,
-        "longitude": 18.732206,
-        "color": colorSet.next()
-      }, {
-        "title": "Zimbabwe",
-        "latitude": -18.9968841,
-        "longitude": 26.909101,
-        "color": colorSet.next()
-      },
-      {
-        "title": "Russia",
-        "latitude": 61.524010,
-        "longitude": 105.318756,
-        "color": colorSet.next()
-      },
-
-      {
-        "title": "Somalia",
-        "latitude": 5.2420051,
-        "longitude": 41.807918,
-        "color": colorSet.next()
-      },
-
-      {
-        "title": "Libya",
-        "latitude": 26.2999273,
-        "longitude": 12.8370978,
-        "color": colorSet.next()
-      },
-      {
-        "title": "Kazakhstan",
-        "latitude": 48.1012954,
-        "longitude": 66.7780818,
-        "color": colorSet.next()
-      },
-
-
-      {
-        "title": "Pakistan",
-        "latitude": 30.3308401,
-        "longitude": 71.247499,
-        "color": colorSet.next()
-      },
-      {
-        "title": "Cambodia",
-        "latitude": 12.5433216,
-        "longitude": 104.8144914,
-        "color": colorSet.next()
-      },
-      {
-        "title": "Brazil",
-        "latitude": -10.00000000,
-        "longitude": -55.00000000,
-        "color": colorSet.next()
-      },
-      {
-        "title": "Australia",
-        "latitude": -27.00000000,
-        "longitude": 133.00000000,
-        "color": colorSet.next()
-      },
-      {
-        "title": "Canada",
-        "latitude": 61.0666922,
-        "longitude": -107.991707,
-        "color": colorSet.next()
-      },
-      {
-        "title": "United States of America",
-        "latitude": 38.673433,
-        "longitude": -100.677040,
-        "color": colorSet.next()
-      }];
+    function animateBullet(circle) {
+        var animation = circle.animate([
+            { property: "scale", from: 1, to: 5 },
+            { property: "opacity", from: 1, to: 0 }
+        ], 1000, am4core.ease.circleOut);
+        animation.events.on("animationended", function(event) {
+            animateBullet(event.target.object);
+        });
     }
-    catch (err) { console.log(err); }
+
+    var colorSet = new am4core.ColorSet();
+    imageSeries.data = [
+        {
+            "title": "Myanmar",
+            "latitude": 21.916222,
+            "longitude": 95.955971,
+            "color": colorSet.next()
+        },
+        {
+            "title": "India",
+            "latitude": 20.593683,
+            "longitude": 78.962883,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Iraq",
+            "latitude": 33.223190,
+            "longitude": 43.679291,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Tanzania",
+            "latitude": -8.510342,
+            "longitude": 38.892686,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Ghana",
+            "latitude": 7.9039267,
+            "longitude": -3.2744616,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Taiwan",
+            "latitude": 23.6978,
+            "longitude": 120.9605,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Chad",
+            "latitude": 15.454166,
+            "longitude": 18.732206,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Zimbabwe",
+            "latitude": -18.9968841,
+            "longitude": 26.909101,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Russia",
+            "latitude": 61.524010,
+            "longitude": 105.318756,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Somalia",
+            "latitude": 5.2420051,
+            "longitude": 41.807918,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Libya",
+            "latitude": 26.2999273,
+            "longitude": 12.8370978,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Kazakhstan",
+            "latitude": 48.1012954,
+            "longitude": 66.7780818,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Pakistan",
+            "latitude": 30.3308401,
+            "longitude": 71.247499,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Cambodia",
+            "latitude": 12.5433216,
+            "longitude": 104.8144914,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Brazil",
+            "latitude": -10.000000,
+            "longitude": -55.000000,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Australia",
+            "latitude": -27.000000,
+            "longitude": 133.000000,
+            "color": colorSet.next()
+        },
+        {
+            "title": "Canada",
+            "latitude": 61.0666922,
+            "longitude": -107.991707,
+            "color": colorSet.next()
+        },
+        {
+            "title": "United States of America",
+            "latitude": 38.673433,
+            "longitude": -100.677040,
+            "color": colorSet.next()
+        }
+    ];
+
+    // Disable map's default mouse wheel zoom
+    chart.seriesContainer.events.disableType("doublehit");
+    chart.chartContainer.wheelable = false;
+    chart.seriesContainer.wheelable = false;
+
+} catch (err) {
+    console.log(err);
+}
   </script>
   <script>
     $(window).scroll(function () {
@@ -762,18 +776,19 @@
                 data: formData,
                 success: function (data) {
                     alert(data);
-                    let validationCustom01 = document.getElementById("validationCustom01").value;
-                    let customer_last_name = document.getElementById("customer_last_name").value;
-                    let customer_email = document.getElementById("customer_number").value;
-                    console.log(customer_email);
-                    let customer_number = document.getElementById("customer_number").value;
-                    if(validationCustom01 == "" || customer_last_name == "" || customer_email == "" || customer_number == ""){
                     $('.contact-form-section').removeClass('active');
-                    }else{
-                    document.getElementById("loader-none").style.display = "none" 
-                    let Thank ="Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"
-                    document.getElementById("Submit-form").innerHTML=Thank;
-                    }
+
+                    // let validationCustom01 = document.getElementById("validationCustom01").value;
+                    // let customer_last_name = document.getElementById("customer_last_name").value;
+                    // let customer_email = document.getElementById("customer_number").value;
+                    // let customer_number = document.getElementById("customer_number").value;
+                    // if(validationCustom01 == "" || customer_last_name == "" || customer_email == "" || customer_number == ""){
+                    // $('.contact-form-section').removeClass('active');
+                    // }else{
+                    // document.getElementById("loader-none").style.display = "none" 
+                    // let Thank ="Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"
+                    // document.getElementById("Submit-form").innerHTML=Thank;
+                    // }
                 },
                 cache: false,
                 contentType: false,

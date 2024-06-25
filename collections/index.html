@@ -437,7 +437,8 @@
 
             const collectionThumbHTML = ({ url, img, title }) =>
                 `
-                <div class="col-12 col-md-6 products produt   col-lg-4">
+                <div class="col-12 col-md-6  produt col-lg-4">
+                       <div class="products">
                         <a href="${url}">
                             <div class="products-img">
                                 <img src="${img}"
@@ -454,6 +455,7 @@
                                 </div>
                             </div>
                         </a>
+                        </div>
                     </div>`;
             const getThumbURL = (type, slug, collectionSlug = null) => {
                 return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");

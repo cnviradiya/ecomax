@@ -773,19 +773,19 @@
                 data: formData,
                 success: function (data) {
                     alert(data);
-                    $('.contact-form-section').removeClass('active');
-
-                    // let validationCustom01 = document.getElementById("validationCustom01").value;
-                    // let customer_last_name = document.getElementById("customer_last_name").value;
-                    // let customer_email = document.getElementById("customer_number").value;
-                    // let customer_number = document.getElementById("customer_number").value;
-                    // if(validationCustom01 == "" || customer_last_name == "" || customer_email == "" || customer_number == ""){
                     // $('.contact-form-section').removeClass('active');
-                    // }else{
-                    // document.getElementById("loader-none").style.display = "none" 
-                    // let Thank ="Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"
-                    // document.getElementById("Submit-form").innerHTML=Thank;
-                    // }
+
+                    let validationCustom01 = document.getElementById("validationCustom01").value;
+                    let customer_last_name = document.getElementById("customer_last_name").value;
+                    let customer_email = document.getElementById("customer_email").value;
+                    let customer_number = document.getElementById("customer_number").value;
+                    if(validationCustom01 == "" || customer_last_name == "" || customer_email == "" || customer_number == ""){
+                    $('.contact-form-section').removeClass('active');
+                    }else{
+                    document.getElementById("loader-none").style.display = "none" 
+                    let Thank ="Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above:"
+                    document.getElementById("Submit-form").innerHTML=Thank;
+                    }
                 },
                 cache: false,
                 contentType: false,

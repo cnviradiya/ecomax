@@ -280,7 +280,7 @@ a {
 }
 
 .footer-hover li a {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .copy-right-footer div p {
@@ -481,13 +481,21 @@ a {
     margin-bottom: 10px;
     color: var(--primary-color);
 }
-
+.contact_detail_container_gap{
+    gap: 30px;
+}
 .contact_card {
     border: 1px solid #D2DFD4;
-    width: calc(33.33% - 12px);
-    padding: 30px;
+    width: calc(32.33% - 12px);
+    padding: 32px;
     transition: transform .8s;
     /* Animation */
+}
+.contact_detail_add{
+    border: 1px solid #D2DFD4;
+    width: calc(33.33% - 12px);
+    transition: transform .8s;
+    padding: 25px !important;
 }
 
 .contact_card:hover {
@@ -907,10 +915,6 @@ a {
         padding: 20px;
     }
 
-    .contact_card {
-        padding: 20px;
-    }
-
     .footer-logo-image {
         max-width: 277px;
     }
@@ -1097,7 +1101,7 @@ a {
 }
 
 .icon-text {
-    margin-top: 28px;
+    margin-top: 16px;
 }
 
 .icon-text1 {
@@ -1304,7 +1308,7 @@ body {
 }
 
 .about-sab {
-    gap: 21px;
+    gap: 20px;
     flex-direction: column;
 }
 
@@ -1614,9 +1618,7 @@ body {
     object-fit: cover;
 }
 
-.icon-text {
-    margin-top: 28px;
-}
+
 
 .icon-text h3 {
     color: white;
@@ -2121,7 +2123,9 @@ body {
         font-size: 14px;
         line-height: 21px;
     }
-
+    .contact_card{
+        padding: 32px;
+    }
     .count-card {
         width: 47%;
     }
@@ -2147,7 +2151,9 @@ body {
     .copy-right-footer div p {
         font-size: 16px;
     }
-
+    .about-sab{
+        gap: 24px;
+    }
     .text {
         font-size: 16px;
         font-weight: 500;
@@ -2268,7 +2274,9 @@ body {
     .benefit {
         height: 700px;
     }
-
+    .swiper-wrapper{
+        margin-top: 30px;
+    }
     .benefit::after {
         height: 700px;
     }
@@ -2322,7 +2330,11 @@ body {
         width: 260px;
         height: 260px;
     }
+    .icon_container img{
+        width: 56px;
 
+
+    }
     .facility-img {
         display: flex;
         justify-content: center;
@@ -2332,10 +2344,13 @@ body {
         width: 96px;
         height: 54px;
     }
-
+    .contact_card_gap{
+        gap: 20px;
+        align-items: center;
+    }
     .swiper-button-next,
     .swiper-button-prev {
-        top: 29%;
+        top: 33%;
         left: 80%;
     }
 
@@ -2567,6 +2582,9 @@ body {
 
     .contact_detail {
         font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #333333 !important;
     }
 
     .section-padding-footer {
@@ -2644,11 +2662,13 @@ body {
         width: 45px !important;
         height: 45px !important;
     }
-
+    
     .product_btn_bak {
         margin-top: 10px !important;
     }
-
+    .All_product{
+        margin-top: 24px !important;
+    }
     .img-set {
         top: 1% !important;
     }
@@ -2886,6 +2906,9 @@ body {
     }
     .produt{
         margin-bottom: 20px ;
+    }
+    .contact_detail_container_gap{
+        gap: 16px;
     }
 }
 
@@ -3137,7 +3160,9 @@ body {
     .produt{
         margin-bottom: 20px ;
     }
-
+    .contact_detail_container_gap{
+        gap: 16px;
+    }
 }
 
 @media(min-width:768px) {
@@ -3145,7 +3170,9 @@ body {
         padding-left: 26px !important;
         padding-right: 26px !important;
     }
-
+    .contact_detail_container_gap{
+        gap: 20px;
+    }
     .dynamic-text {
         width: 230px;
     }
@@ -3156,11 +3183,16 @@ body {
      .contactus_btn{
          padding-left: 20px;
      }
+     .contact_card{
+        padding:51px 35px;
+     }
     .Fueling-Excellence-img2 {
         display: flex;
         justify-content: center;
     }
-
+    .contact_card_gap{
+        gap: 30px;
+    }
     .menej-box {
         width: 84%;
     }
@@ -4065,7 +4097,13 @@ body {
         gap: 20px;
         flex-direction: column;
     }
-
+    .contact_card {
+        width: calc(32.64% - 10px);
+        padding: 51px 35px;
+    }
+    .contact_detail_container_gap{
+        gap: 30px;
+    }
     .Fueling-Excellence-width {
         width: 1212px;
     }

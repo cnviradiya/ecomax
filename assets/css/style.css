@@ -4826,77 +4826,33 @@ tbody tr td span {
 .thead tr:last-child {
     padding: 0;
 }
-
 /* DIRECTION FOR STORAGE AND USE End */
-.Fueling-Excellence_input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
+.Vision{
+    border-top: 2px solid #F5F5F5 !important;
+    border-bottom: 2px solid #F5F5F5 !important;
 }
+.Vision span i{
+    font-size: 14px;
+    color: #000000;
+    transition: all 0.9s;
 
-.tab {
-    width: 100%;
-    overflow: hidden;
 }
-
-.tab-label {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    cursor: pointer;
-    border-top: 1px #dad8d8 solid;
+.accordion-button:focus{
+    box-shadow: none;
 }
-
-.tab-label span {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 33px;
-    font-weight: 500;
-}
-
-.tab-label::after {
-    content: "+";
-    transition: all 2s;
-    font-size: 20px;
-    width: 1em;
-    height: 1em;
-    text-align: center;
-    transition: all 0.35s;
-}
-.h-set{
-    height: 46px;
-}
-.tab-content {
-    max-height: 0;
-    padding: 0 1em;
-    color: #2c3e50;
-    background: white;
-    transition: all 0.35s;
-    
-}
-.Fueling-Excellence_input:checked+.tab-label::after {
-    transition: all 0.5s;
-    content: "-";
-}
-.Fueling-Excellence_input:checked~.tab-content {
-    max-height: 100px;
-}
-.tab-label:hover::after{
-    background-color: #d2dfd4;
-    border-radius: 50%;
+.Vision span i:hover{
     width: 30px;
     height: 30px;
-    line-height: 32px;
-    color:  #0D4315;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#d2dfd4;
+    border-radius: 50%;
+    transition: all 0.9s;
 }
-.Thank_mes{
-    font-weight: 400;
-    list-style: 24px;
-}
-.Connect_padding{
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-.Connect_thank_padding{
-    padding-bottom: 100px;
+.accordion-button:not(.collapsed) , .Mission_title{
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
 
 </head>
+
 <body class="d-xs-none d-sm-block">
     <a href="#top">
         <div class="scrollbar back d-none ">
@@ -103,26 +105,26 @@
                                         <a href="/" class="text-success">HOME</a>
                                     </li>
                                     <li class="dropdown-products-res ms-2">
-                                
-                                            <div class="accordion" id="accordionExample">
-                                                <button
-                                                    class="accordion d-flex Fueling-text justify-content-between col-12">
-                                                    <span> PRODUCTS</span>
-                                                </button>
-                                                <div class="panel1">
-                                                    <div class="accordion-body p-0">
-                                                        <ul class="dropdown-menu-products-res">
-                                                            <li>
-                                                                <a href="/collections/">AUTOMOTIVE</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="/industrial/">INDUDTRIAL</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
+
+                                        <div class="accordion" id="accordionExample">
+                                            <button
+                                                class="accordion d-flex Fueling-text justify-content-between col-12">
+                                                <span> PRODUCTS</span>
+                                            </button>
+                                            <div class="panel1">
+                                                <div class="accordion-body p-0">
+                                                    <ul class="dropdown-menu-products-res">
+                                                        <li>
+                                                            <a href="/collections/">AUTOMOTIVE</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/industrial/">INDUDTRIAL</a>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                     
+                                        </div>
+
                                     </li>
                                     <li class="m-2">
                                         <a href="about.html">ABOUT US </a>
@@ -160,10 +162,9 @@
                             <div
                                 class="carousel-item active hero-images hero-xs-image hero-sm-image hero-md-image hero-lg-image hero-xl-image">
                                 <img src="https://ik.imagekit.io/ecomax/assets/images/home/hero.png"
-                                    class="d-block img-fluid d-none d-lg-block imagexxl col-12" alt="images"
+                                    class="d-block img-fluid  imagexxl col-12" alt="images"
                                     loading="lazy" />
-                                <img src="https://ik.imagekit.io/ecomax/assets/images/home/4aaad017295fca31b48000780707993c.png"
-                                    class="img-fluid col-12 d-lg-none" alt="images" loading="lazy" />
+                               
                             </div>
                             <div
                                 class="carousel-item hero-xs-image hero-sm-image hero-md-image hero-lg-image hero-xl-image">
@@ -551,29 +552,48 @@
                                     cleaner, more efficient future for all.</p>
                             </div>
                             <div class="col">
-                                <div class="tabs">
-                                  <div class="tab">
-                                    <input class="Fueling-Excellence_input" type="radio" id="rd1" name="rd">
-                                    <label class="tab-label" for="rd1"><span>Vision</span></label>
-                                    <div class="tab-content">
-                                        To develop and manufacture
-                                        specialty lubricant that provide
-                                        value of money along with
-                                        exceptional services support
-                                        meeting customers' expectations
+                                <div class="accordion p-0" id="accordionExample">
+                                    <div class="accordion-item border-0 p-0 ">
+                                        <h2 class="accordion-header  Vision  " id="headingOne">
+                                            <button class="accordion-button d-flex col-12 align-items-center" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                               <span class="col-11 Mission_title"> Vision</span>
+                                                <span class="col-1 justify-content-center d-flex"><i class="fa-solid fa-minus"></i></span>
+                                            </button>
+                                         
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse  collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                To develop and manufacture
+                                                specialty lubricant that provide
+                                                value of money along with
+                                                exceptional services support
+                                                meeting customers' expectations
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
-                                  <div class="tab">
-                                    <input type="radio"  class="Fueling-Excellence_input" id="rd2" name="rd">
-                                    <label class="tab-label" for="rd2"><span>Mission</span></label>
-                                    <div class="tab-content">
-                                        To develop and manufacture
-                                        specialty lubricant that provide
-                                        value of money along with
-                                        exceptional services support
-                                        meeting customers' expectations
+                                    <div class="accordion-item p-0 border-0 ">
+                                        <h2 class="accordion-header eadingTwo Vision d-flex justify-content-between align-items-center">
+                                            <button class="accordion-button  collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                <span class="col-11 Mission_title">Mission</span>
+                                                <span class="col-1 justify-content-center d-flex"><i class="fa-solid fa-plus"></i></span>
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                To develop and manufacture
+                                                specialty lubricant that provide
+                                                value of money along with
+                                                exceptional services support
+                                                meeting customers' expectations
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -591,7 +611,8 @@
                     <div class="col-12 col-xxl-6 Global-Excellence-title-main">
                         <div class="Global-Excellence-title">
                             <h3 class="mb-0">Driving Success Through <br class="d-none"> Customer - Centric Solutions &
-                                <br class="d-none"> Global Excellence</h3>
+                                <br class="d-none"> Global Excellence
+                            </h3>
                         </div>
                         <div class="Global-Excellence-text">
                             <p class="mb-0">Discover the power of Ecomax, a trusted leader in lubricant engine oil<br
@@ -600,7 +621,8 @@
                                     class="d-none"> automotive to industrial applications, we deliver tailored solutions
                                 <br class="d-none"> designed to optimize performance and ensure the longevity of <br
                                     class="d-none"> machinery. Experience the difference with Ecomax and unlock the
-                                full<br class="d-none"> potential of your operations.</p>
+                                full<br class="d-none"> potential of your operations.
+                            </p>
                         </div>
                     </div>
                     <div class="col-12 col-xxl-6">
@@ -650,14 +672,14 @@
     <!-- End: Global Excellence -->
     <!-- Start: Contact -->
     <section class="map-section section-padding1">
-       <div class="container">
-        <div class="row">
-            <div class="Fueling-Excellence-title text-center">
-                <h3 class="mb-3">Contact Us</h3>
+        <div class="container">
+            <div class="row">
+                <div class="Fueling-Excellence-title text-center">
+                    <h3 class="mb-3">Contact Us</h3>
+                </div>
+                <div id="chartdiv"></div>
             </div>
-            <div id="chartdiv"></div>
         </div>
-       </div>
     </section>
     <!-- End:  Contact -->
     <!-- Footer start -->
@@ -692,10 +714,12 @@
                                         <a href="/" class="link-light text-decoration-none text-success1">Home</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                                        <a href="collections/" class="link-light text-decoration-none">Automotive Products</a>
+                                        <a href="collections/" class="link-light text-decoration-none">Automotive
+                                            Products</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                                        <a href="industrial/" class="link-light text-decoration-none">Industrial Products</a>
+                                        <a href="industrial/" class="link-light text-decoration-none">Industrial
+                                            Products</a>
                                     </li>
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
                                         <a href="#" class="link-light text-decoration-none">Brochure</a>
@@ -731,7 +755,8 @@
                                                     class="link-light text-decoration-none">Automotive Products</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
-                                                <a href="#" class="link-light text-decoration-none">Industrial Products</a>
+                                                <a href="#" class="link-light text-decoration-none">Industrial
+                                                    Products</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
                                                 <a href="#" class="link-light text-decoration-none">Brochure</a>
@@ -743,7 +768,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 d-none d-md-block col-sm-3 col-md-3 col-xl-3   p-0 mb-3 float-left  ">
+                            <div class="col-12 d-none d-md-block col-sm-3 col-md-3 col-xl-3  p-0 mb-3 float-left  ">
                                 <h5 class="mb-4 footer_heading">Company</h5>
                                 <ul class="list-group footer-hover">
                                     <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2"><a
@@ -830,16 +855,15 @@
                                                     href="tel:+919998035620" class="link-light text-decoration-none">
                                                     <img class="me-3"
                                                         src="https://ik.imagekit.io/ecomax/assets/images/home/cal.png"
-                                                        alt="images">+91 99980 35620</a>\
+                                                        alt="images">+91 99980 35620</a>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
-                                                <div class="d-flex">
+                                                <div class="d-flex ">
                                                     <img class="me-3 mt-2 email-web"
                                                         src="https://ik.imagekit.io/ecomax/assets/images/home/email.png"
                                                         alt="images" />
                                                     <a href="https://mail.google.com/mail/u/0/#search/infoecomaxlubricant@gmail.com?compose=new"
-                                                        class="link-light text-decoration-none">infoecomaxlubricant@gma
-                                                        <br> il.com</a>
+                                                        class="link-light text-decoration-none">infoecomaxlubricant@ <br>gmail.com</a>
                                                 </div>
                                             </li>
                                             <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4">
@@ -874,12 +898,7 @@
     <!-- swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
@@ -902,208 +921,193 @@
     <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
     <!-- Chart code -->
     <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-    </script>
-    <script>
         try {
-    // Create chart instance
-    var chart = am4core.create("chartdiv", am4maps.MapChart);
+            // Create chart instance
+            var chart = am4core.create("chartdiv", am4maps.MapChart);
 
-    // Make the chart fade-in on init
-    chart.hiddenState.properties.opacity = 0;
+            // Make the chart fade-in on init
+            chart.hiddenState.properties.opacity = 0;
 
-    // Set geodata
-    chart.geodata = am4geodata_worldLow;
+            // Set geodata
+            chart.geodata = am4geodata_worldLow;
 
-    // Set projection to be used
-    // @see {@link https://www.amcharts.com/docs/v4/reference/mapchart/#projection_property}
-    chart.projection = new am4maps.projections.Miller();
+            // Set projection to be used
+            // @see {@link https://www.amcharts.com/docs/v4/reference/mapchart/#projection_property}
+            chart.projection = new am4maps.projections.Miller();
 
-    // Create map polygon series
-    var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+            // Create map polygon series
+            var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 
-    // Exclude Antarctica
-    polygonSeries.exclude = ["AQ"];
+            // Exclude Antarctica
+            polygonSeries.exclude = ["AQ"];
 
-    // Make map load polygon (like country names) data from GeoJSON
-    polygonSeries.useGeodata = true;
+            // Make map load polygon (like country names) data from GeoJSON
+            polygonSeries.useGeodata = true;
 
-    // Configure series
-    var polygonTemplate = polygonSeries.mapPolygons.template;
-    polygonTemplate.tooltipText = "{name}";
-    polygonTemplate.polygon.fill = "rgba(58, 122, 67, 0.4)";
-    polygonTemplate.polygon.fillOpacity = 0.6;
+            // Configure series
+            var polygonTemplate = polygonSeries.mapPolygons.template;
+            polygonTemplate.tooltipText = "{name}";
+            polygonTemplate.polygon.fill = "rgba(58, 122, 67, 0.4)";
+            polygonTemplate.polygon.fillOpacity = 0.6;
 
-    // Create hover state and set alternative fill color
-    var hs = polygonTemplate.states.create("hover");
-    hs.properties.fill = chart.colors.getIndex(0);
+            // Create hover state and set alternative fill color
+            var hs = polygonTemplate.states.create("hover");
+            hs.properties.fill = chart.colors.getIndex(0);
 
-    // Add image series
-    var imageSeries = chart.series.push(new am4maps.MapImageSeries());
-    imageSeries.mapImages.template.propertyFields.longitude = "longitude";
-    imageSeries.mapImages.template.propertyFields.latitude = "latitude";
-    imageSeries.mapImages.template.tooltipText = "{title}";
-    imageSeries.mapImages.template.propertyFields.url = "url";
+            // Add image series
+            var imageSeries = chart.series.push(new am4maps.MapImageSeries());
+            imageSeries.mapImages.template.propertyFields.longitude = "longitude";
+            imageSeries.mapImages.template.propertyFields.latitude = "latitude";
+            imageSeries.mapImages.template.tooltipText = "{title}";
+            imageSeries.mapImages.template.propertyFields.url = "url";
 
-    // Add image marker
-    var circle = imageSeries.mapImages.template.createChild(am4core.Image);
-    circle.href = "https://ik.imagekit.io/ecomax/assets/images/marker-icon.png";
-    circle.width = 30;
-    circle.height = 30;
-    circle.nonScaling = true;
-    circle.horizontalCenter = "middle";
-    circle.verticalCenter = "bottom";
+            // Add image marker
+            var circle = imageSeries.mapImages.template.createChild(am4core.Image);
+            circle.href = "https://ik.imagekit.io/ecomax/assets/images/marker-icon.png";
+            circle.width = 30;
+            circle.height = 30;
+            circle.nonScaling = true;
+            circle.horizontalCenter = "middle";
+            circle.verticalCenter = "bottom";
 
-    // Add animated circle
-    var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
-    circle2.radius = 2;
-    circle2.propertyFields.fill = "color";
-    circle2.events.on("inited", function(event) {
-        animateBullet(event.target);
-    });
+            // Add animated circle
+            var circle2 = imageSeries.mapImages.template.createChild(am4core.Circle);
+            circle2.radius = 2;
+            circle2.propertyFields.fill = "color";
+            circle2.events.on("inited", function (event) {
+                animateBullet(event.target);
+            });
 
-    function animateBullet(circle) {
-        var animation = circle.animate([
-            { property: "scale", from: 1, to: 5 },
-            { property: "opacity", from: 1, to: 0 }
-        ], 1000, am4core.ease.circleOut);
-        animation.events.on("animationended", function(event) {
-            animateBullet(event.target.object);
-        });
-    }
+            function animateBullet(circle) {
+                var animation = circle.animate([
+                    { property: "scale", from: 1, to: 5 },
+                    { property: "opacity", from: 1, to: 0 }
+                ], 1000, am4core.ease.circleOut);
+                animation.events.on("animationended", function (event) {
+                    animateBullet(event.target.object);
+                });
+            }
 
-    var colorSet = new am4core.ColorSet();
-    imageSeries.data = [
-        {
-            "title": "Myanmar",
-            "latitude": 21.916222,
-            "longitude": 95.955971,
-            "color": colorSet.next()
-        },
-        {
-            "title": "India",
-            "latitude": 20.593683,
-            "longitude": 78.962883,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Iraq",
-            "latitude": 33.223190,
-            "longitude": 43.679291,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Tanzania",
-            "latitude": -8.510342,
-            "longitude": 38.892686,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Ghana",
-            "latitude": 7.9039267,
-            "longitude": -3.2744616,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Taiwan",
-            "latitude": 23.6978,
-            "longitude": 120.9605,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Chad",
-            "latitude": 15.454166,
-            "longitude": 18.732206,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Zimbabwe",
-            "latitude": -18.9968841,
-            "longitude": 26.909101,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Russia",
-            "latitude": 61.524010,
-            "longitude": 105.318756,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Somalia",
-            "latitude": 5.2420051,
-            "longitude": 41.807918,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Libya",
-            "latitude": 26.2999273,
-            "longitude": 12.8370978,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Kazakhstan",
-            "latitude": 48.1012954,
-            "longitude": 66.7780818,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Pakistan",
-            "latitude": 30.3308401,
-            "longitude": 71.247499,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Cambodia",
-            "latitude": 12.5433216,
-            "longitude": 104.8144914,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Brazil",
-            "latitude": -10.000000,
-            "longitude": -55.000000,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Australia",
-            "latitude": -27.000000,
-            "longitude": 133.000000,
-            "color": colorSet.next()
-        },
-        {
-            "title": "Canada",
-            "latitude": 61.0666922,
-            "longitude": -107.991707,
-            "color": colorSet.next()
-        },
-        {
-            "title": "United States of America",
-            "latitude": 38.673433,
-            "longitude": -100.677040,
-            "color": colorSet.next()
+            var colorSet = new am4core.ColorSet();
+            imageSeries.data = [
+                {
+                    "title": "Myanmar",
+                    "latitude": 21.916222,
+                    "longitude": 95.955971,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "India",
+                    "latitude": 20.593683,
+                    "longitude": 78.962883,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Iraq",
+                    "latitude": 33.223190,
+                    "longitude": 43.679291,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Tanzania",
+                    "latitude": -8.510342,
+                    "longitude": 38.892686,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Ghana",
+                    "latitude": 7.9039267,
+                    "longitude": -3.2744616,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Taiwan",
+                    "latitude": 23.6978,
+                    "longitude": 120.9605,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Chad",
+                    "latitude": 15.454166,
+                    "longitude": 18.732206,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Zimbabwe",
+                    "latitude": -18.9968841,
+                    "longitude": 26.909101,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Russia",
+                    "latitude": 61.524010,
+                    "longitude": 105.318756,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Somalia",
+                    "latitude": 5.2420051,
+                    "longitude": 41.807918,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Libya",
+                    "latitude": 26.2999273,
+                    "longitude": 12.8370978,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Kazakhstan",
+                    "latitude": 48.1012954,
+                    "longitude": 66.7780818,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Pakistan",
+                    "latitude": 30.3308401,
+                    "longitude": 71.247499,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Cambodia",
+                    "latitude": 12.5433216,
+                    "longitude": 104.8144914,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Brazil",
+                    "latitude": -10.000000,
+                    "longitude": -55.000000,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Australia",
+                    "latitude": -27.000000,
+                    "longitude": 133.000000,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "Canada",
+                    "latitude": 61.0666922,
+                    "longitude": -107.991707,
+                    "color": colorSet.next()
+                },
+                {
+                    "title": "United States of America",
+                    "latitude": 38.673433,
+                    "longitude": -100.677040,
+                    "color": colorSet.next()
+                }
+            ];
+
+            // Disable map's default mouse wheel zoom
+            chart.seriesContainer.events.disableType("doublehit");
+            chart.chartContainer.wheelable = false;
+            chart.seriesContainer.wheelable = false;
+
+        } catch (err) {
+            console.log(err);
         }
-    ];
-
-    // Disable map's default mouse wheel zoom
-    chart.seriesContainer.events.disableType("doublehit");
-    chart.chartContainer.wheelable = false;
-    chart.seriesContainer.wheelable = false;
-
-} catch (err) {
-    console.log(err);
-}
 
     </script>
     <script>

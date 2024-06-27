@@ -15,6 +15,10 @@
     cursor: pointer;
     margin-top: 15px;
 }
+.form_container_in{
+    padding-left: 20px;
+    padding-right: 20px ;
+}
 
 .PROPERTY-gap:last-child {
     padding: 0;
@@ -33,9 +37,7 @@ g[aria-labelledby="id-72-title"] {
     display: none;
 }
 
-.cout-box {
-    height: 180px;
-}
+
 .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
     background-color: #FFFFFF;
 }
@@ -167,7 +169,7 @@ body {
 }
 
 .numeric {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
 }
 
@@ -312,7 +314,6 @@ a {
 
 /* ------------- Career Form Section ------------- */
 .Choose-card {
-    height: 358px;
     background-color: white;
 }
 
@@ -437,12 +438,6 @@ a {
 .connect-card-heading {
     color: var(--primary-color);
 }
-
-.wcu_card {
-    padding: 0 10px;
-    margin-top: 0px;
-}
-
 /* ---------------------------------------------------- Contact Us Page ------------------------------------------------------- */
 .contact-mainheading {
     margin-bottom: 70px;
@@ -758,7 +753,7 @@ a {
 }
 
 .Kalsaria-title h2 {
-    font-size: 34px;
+    font-size: 36px;
     color: var(--green);
     line-height: 54px;
     font-weight: 600;
@@ -783,7 +778,6 @@ a {
     color: #414141;
 }
 
-.swiper-button-prevRevitalize {}
 
 /*Media Query */
 @media only screen and (max-width: 1200px) {
@@ -821,9 +815,6 @@ a {
         padding: 60px 0px;
     }
 
-    .heading_container {
-        margin-bottom: 30px !important;
-    }
 
     
     .message_field {
@@ -912,6 +903,7 @@ a {
     }
 
     .wcu-card-container {
+        margin-top: 16px;
         padding: 20px;
     }
 
@@ -945,10 +937,7 @@ a {
         max-width: 288px;
     }
 
-    .heading_description {
-        font-size: 14px;
-        margin: 20px 0 0 0;
-    }
+
 
     .heading_container {
         margin-bottom: 20px !important;
@@ -1178,28 +1167,23 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
-
 .fa-bars-staggered {
     color: var(--green);
     width: 24px !important;
     height: 20px !important;
 }
-
 .collections_products:hover {
     color: white;
 }
-
 .collections_products {
     color: white;
 }
-
 .container1 {
     max-width: 1460px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
 }
-
 .container-fluid {
     padding: 0;
 }
@@ -2097,12 +2081,21 @@ body {
 }
 
 @media(max-width:575px) {
-
+    .heading_container{
+        margin-bottom: 24px !important;
+    }
+    .contact_All_detail{
+        gap: 16px;
+    }
     .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
     .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {}
     .contact-title {
         padding-top: 40px;
      
+    }
+    .wcu_card {
+        padding: 0 ;
+        margin-top: 0px;
     }
     .Lubricants-products {
         justify-content: center !important;
@@ -2122,6 +2115,7 @@ body {
     .heading_description {
         font-size: 14px;
         line-height: 21px;
+        font-weight: 400;
     }
     .contact_card{
         padding: 32px;
@@ -2137,7 +2131,7 @@ body {
     .Revitalize-card {
         width: 100% !important;
     }
-
+    
     .Lubricants-products {
         justify-content: center !important;
     }
@@ -2173,9 +2167,7 @@ body {
         margin-bottom: 0px;
     }
 
-    .heading_description {
-        margin-top: 20px;
-    }
+  
 
     .section-padding {
         padding-top: 40px;
@@ -2203,7 +2195,10 @@ body {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
+    .product-icon{
+        padding-top: 26px !important;
+        padding-bottom: 26px !important;
+    }
     .logo-xs img {
         width: 170px;
         height: 32px;
@@ -2326,10 +2321,6 @@ body {
         justify-content: center;
     }
 
-    .facility-img img {
-        width: 260px;
-        height: 260px;
-    }
     .icon_container img{
         width: 56px;
 
@@ -2501,7 +2492,7 @@ body {
     }
 
     .befor-img {
-        top: 70%;
+        top: 74%;
         display: flex;
         justify-content: end;
 
@@ -2635,14 +2626,15 @@ body {
         line-height: 21px !important;
     }
 
-    .Key_Features_sab {
-        gap: 10px !important;
-    }
-
     .features-recommendation {
-        gap: 26px !important;
+        gap: 0px !important;
     }
-
+    .Key_Features-text{
+        padding: 10px !important;
+    }
+    .Key_Features_sab{
+        gap: 0 !important;
+    }
     .Key_Features h2 {
         font-size: 20px !important;
         line-height: 30px !important;
@@ -2662,7 +2654,7 @@ body {
         width: 45px !important;
         height: 45px !important;
     }
-    
+   
     .product_btn_bak {
         margin-top: 10px !important;
     }
@@ -2910,58 +2902,541 @@ body {
     .contact_detail_container_gap{
         gap: 16px;
     }
+    .about-image-container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .Available-btn {
+        margin-top: 10px;
+    }
+    .produt_gap{
+        margin-bottom: 30px !important;
+    }
+    .Global-Excellence-text p {
+        padding-bottom: 20px;
+    }
+   .cout-box{
+    margin-top: 14px;
+   }
+   .count_number{
+    font-size: 16px;
+    margin-bottom: 0;
+   }
+   .cout_of_years span{
+    margin-top: 10px !important;
+   }
+   .cout_Branche{
+    height: 110px;
+    width: 100%;
+    border-radius: 10px;
+   }
 }
 
 @media(min-width:576px) {
-    .section-padding {
-        padding-top: 60px;
-        padding-bottom: 60px;
+    .heading_container{
+        margin-bottom: 24px !important;
     }
-
+    .contact_All_detail{
+        gap: 16px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+    .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {}
+    .contact-title {
+        padding-top: 40px;
+     
+    }
+    .wcu_card {
+        padding: 0 ;
+        margin-top: 0px;
+    }
     .Lubricants-products {
         justify-content: center !important;
-        margin-top: 40px !important;
-        gap: 40px !important;
+        margin-top: 30px !important;
+        gap: 20px !important;
     }
-    .top-bar-sm {
-        padding-top: 6px;
+    .Connect_padding{
+       padding-top: 40px !important;
+    }
+    .title-contact{
+        margin: 0;
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 600;
+        padding-bottom: 0 !important;
+    }
+    .heading_description {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+    .contact_card{
+        padding: 32px;
+    }
+    .count-card {
+        width: 47%;
     }
 
-    .header-sm {
-        padding-top: 6px;
-        padding-bottom: 6px;
+    .industrial-border ul li {
+        height: 30px;
     }
 
-    .logo-sm img {
-        width: 192px;
-        height: 36px;
+    .Revitalize-card {
+        width: 100% !important;
+    }
+    
+    .Lubricants-products {
+        justify-content: center !important;
     }
 
-    .hero-sm-image img {
+    .count {
+        font-weight: 400;
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .copy-right-footer div p {
+        font-size: 16px;
+    }
+    .about-sab{
+        gap: 24px;
+    }
+    .text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+
+    .products-icon i {
+        font-size: 16px;
+    }
+
+    .Global-box {
+        margin-top: 24px;
+        gap: 16px;
+    }
+
+    .heading_container {
+        margin-bottom: 0px;
+    }
+
+  
+
+    .section-padding {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero-xs-image img {
         height: 400px;
         object-fit: cover;
     }
 
-    .about-sab {
-        padding-left: 26px;
-        padding-right: 26px;
+    .xs-hero {
+        height: auto !important;
     }
 
-    .About-des p {
+    .top-bar-xs {
+        padding-top: 4px;
+    }
+
+    .About-us-con-xs {
+        margin-top: 40px;
+    }
+
+    .About-us-xs {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .product-icon{
+        padding-top: 26px !important;
+        padding-bottom: 26px !important;
+    }
+    .logo-xs img {
+        width: 170px;
+        height: 32px;
+    }
+
+    .header-xs {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .image_with_form_container {
+        margin-top: 10px !important;
+    }
+
+    .carousel-item-xs img {
+        height: 400px;
+    }
+
+    .Lubricants-title {
+        font-size: 30px !important;
+        line-height: 45px !important;
+        margin: 0;
+    }
+
+    .products-title h5 {
+        color: #1E5F28;
         font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 0;
     }
 
-    .About-img img {
-        height: 388px;
+    .products-title {
+      padding: 14px !important;
+    }
+
+    .Lubricants-text {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
+    }
+
+    .About-title-xs h1 {
+        font-size: 30px;
+    }
+    .form_field_container div.col {
+       padding: 0;
+     }
+     .contactus_btn{
+         padding-left: 0px;
+     }
+    .About-des-xs p {
+        font-size: 14px;
     }
 
     .about-main {
         gap: 30px;
     }
 
-    .footer-set {
+    .about-sab {
+        padding-left: 16px;
+    }
+
+    .About-des p {
+        font-size: 14px;
+    }
+
+    .benefit {
+        height: 700px;
+    }
+    .swiper-wrapper{
+        margin-top: 30px;
+    }
+    .benefit::after {
+        height: 700px;
+    }
+
+    .benefit-text {
+        gap: 20px;
+    }
+
+    .About-title H2 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .facility-text h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .facility-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .facility-logo img {
+        width: 96px;
+        padding: 0;
+    }
+
+    .main-heading {
+        margin-bottom: 0;
+    }
+
+    .facility-desc p {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .facility-desc {
+        gap: 24px;
+    }
+
+    .btn-facility {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+    }
+
+
+    .icon_container img{
+        width: 56px;
+
+
+    }
+    .facility-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .facility-logo img {
+        width: 96px;
+        height: 54px;
+    }
+    .contact_card_gap{
+        gap: 20px;
+        align-items: center;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 33%;
+        left: 80%;
+    }
+
+    .swiper-button-prev {
+        left: 60% !important;
+    }
+
+    .Revitalize-title h3 {
+        margin-left: 24px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .swiper-slide .card {
+        padding: 0;
+    }
+
+    .box-set {
+        margin-right: 16px !important;
+        margin-left: 16px !important;
+    }
+
+    .card {
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    .card-body {
+        margin: 10px;
+    }
+
+    .Revitalize-btn {
+        margin-top: 24px;
+    }
+
+    .card1 img {
+        object-fit: contain;
+    }
+
+    .card-body p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .Fueling-Excellence-width {
+        width: 320px;
+    }
+
+    .Fueling-Excellence-img,
+    .Fueling-Excellence-img2 {
+        padding: 0;
+    }
+
+    .Fueling-Excellence-title h3 {
+        margin-top: 20px;
+        line-height: 45px;
+        font-size: 30px;
+    }
+
+    .Fueling-Excellence-text p {
+        margin-top: 20px;
+    }
+
+    .Fueling-Excellence-sab {
+        margin-top: 24px;
+    }
+
+    .Fueling-Excellence-sab .accordion-item {
+        border: none;
+    }
+
+    .Fueling-Excellence-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .accordion-button {
+        padding: 0;
+    }
+
+    .accordion-body {
+        padding: 0;
+    }
+
+    .accordion-body p {
+        font-size: 14px;
+        line-height: 21px;
+        border: none;
+    }
+
+    .Fueling-text {
+        padding-right: 23px;
+    }
+
+    .Global-Excellence-title h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin: 0;
+    }
+
+    .Global-Excellence-text p {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #414141;
+    }
+
+    .cout {
+        font-size: 16px !important;
+        width: 100%;
+        border-radius: 10px;
+        height: 145px;
+    }
+    .Global_Excellence_box{
+        font-size: 16px !important;
+        width: 100%;
+        border-radius: 10px;
+        height: 145px;
+    }
+    .numeric {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-cout {
+        gap: 16px !important;
+    }
+
+    .Global-Excellence-title-main {
+        padding-right: 0px;
+    }
+
+    .contact-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .footer-icon-set {
+        gap: 24px;
+    }
+
+    .career-form-btn {
+        margin-bottom: 20px;
+    }
+
+    .message_field {
+        height: 92px !important;
+    }
+
+    .befor-img {
+        top: 74%;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .befor-img img {
+        width: 58%;
+
+    }
+
+    .Kalsaria-title h2 {
+        font-size: 26px;
+        line-height: 39px;
+        margin-top: 20px;
+    }
+
+    .Kalsaria-title-text {
+        margin: 0 !important;
+    }
+
+    .Kalsaria-img img {
+        width: 212px;
+        height: auto;
+    }
+
+    .Kalsaria-title span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .Kalsaria-text p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 0;
+    }
+
+    .Kalsaria-sab p {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .cout5 {
+        width: 100%;
+    }
+
+    .cout-sab span {
+        text-align: center;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .about-description p {
+        font-size: 14px;
+    }
+
+    .about-hero-subtext {
+        margin-top: 30px;
+    }
+
+    .about-hero-subtext .set-margin {
+        margin-top: 20px;
+    }
+
+    .about-hero-subtext p {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+
+    .contact_card_heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .contact_detail {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #333333 !important;
+    }
+
+    .section-padding-footer {
+        padding-top: 40px;
+    }
+
+    .Kalsaria-title-text {
+        margin: 0 !important;
     }
 
     .section-padding1 {
@@ -2969,8 +3444,78 @@ body {
         padding-bottom: 15px !important;
     }
 
-    .kalsari1-img img {
-        width: 79px !important;
+    .product_details_title h2 {
+        font-size: 24px !important;
+        line-height: 36px !important;
+    }
+
+    .product_details_title {
+        gap: 16px !important;
+    }
+
+    .product_details_title p {
+        line-height: 21px;
+        font-size: 14px;
+    }
+
+    .product_border {
+        margin-top: 10px !important;
+    }
+
+    .product-icon {
+        margin: 10px;
+        gap: 16px !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .product-icon .icon p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .Key_Features-text li {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    .features-recommendation {
+        gap: 0px !important;
+    }
+    .Key_Features-text{
+        padding: 10px !important;
+    }
+    .Key_Features_sab{
+        gap: 0 !important;
+    }
+    .Key_Features h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .Key_Features-text {
+        padding: 16px;
+    }
+
+    .Similar-Products-title h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .Similar_Products_next,
+    .Similar_Products_prev {
+        width: 45px !important;
+        height: 45px !important;
+    }
+   
+    .product_btn_bak {
+        margin-top: 10px !important;
+    }
+    .All_product{
+        margin-top: 24px !important;
+    }
+    .img-set {
+        top: 1% !important;
     }
 
     .industrial {
@@ -2978,46 +3523,50 @@ body {
     }
 
     .industrial-sab {
-        margin-top: 28px !important;
-        margin-bottom: 28px !important;
-    }
-
-    .industrial-height {
-        height: auto !important;
-    }
-
-    .industrial-images .industrial-image img {
-        border-radius: 30px !important;
-        width: 108px !important;
-        height: 114px !important;
+        gap: 11px !important;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
     }
 
     .industrial-text {
-        text-align: center !important;
         width: 100% !important;
+        display: block !important;
+        text-align: center;
     }
 
-    .industrial-images {
-        width: auto !important;
+    .industrial-title h1 {
+        font-size: 30px;
+        line-height: 45px;
     }
 
-    .industrial-images-circle img {
-        width: 114px !important;
-        height: 114px !important;
+    .industrial-description p {
+        font-size: 14px;
+        font-weight: 500 !important;
+        line-height: 21px !important;
+        margin-bottom: 9px !important;
     }
 
     .industrial-images-circle {
         width: auto !important;
     }
 
-    .industrial-sab {
-        gap: 20px !important;
+    .industrial-images-circle img {
+        width: 91px !important;
+        height: 91px !important;
     }
 
-    .industrial-description p {
-        margin: 0 !important;
-        font-size: 15px !important;
-        font-weight: 500 !important;
+    .industrial-images {
+        width: auto !important;
+    }
+
+    .industrial-height {
+        height: auto !important;
+    }
+
+    .industrial-image img {
+        width: 87px !important;
+        height: 91px !important;
+        border-radius: 19.03px !important;
     }
 
     .industrial-Product {
@@ -3036,7 +3585,7 @@ body {
     }
 
     .industrial-Product-images {
-        width: 100% !important;
+        width: 100%;
         justify-content: center;
         height: 158.5px !important;
     }
@@ -3057,30 +3606,101 @@ body {
     }
 
     .PRODUCT-OVERVIEW {
+        gap: 10px !important;
         padding: 0 !important;
+    }
+
+    .PRODUCT-OVERVIEW h2,
+    .SPECIAL-FEATURES h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .PRODUCT-OVERVIEW ul li {
+        line-height: 21px !important;
+        font-size: 14px !important;
+        margin-bottom: 30px !important;
     }
 
     .SPECIAL-FEATURES {
         padding: 0 !important;
     }
 
+    .PRODUCT-OVERVIEW h2,
+    .SPECIAL-FEATURES h2 {
+        margin: 0 !important;
+    }
+
+    .SPECIAL-FEATURES {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+
+    .SPECIAL-FEATURES ul li {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    .SPECIAL-FEATURES ul {
+        padding-left: 23px !important;
+    }
+
+    .SPECIAL-FEATURES ul li::marker {
+        font-size: 10px !important;
+    }
+
+    .STORAGS {
+        gap: 10px !important;
+    }
+
+    .STORAGS h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+
+    .DIRECTION-FOR-STORAGE {
+        padding: 0px !important;
+    }
+
+    .STORAGS p,
+    .STORAGS ul li {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    .STORAGS ul {
+        padding-left: 24px !important;
+    }
+
+    .STORAGS ul::marker {
+        font-size: 10px !important;
+    }
+
     .DIRECTION-FOR-STORAGE {
         gap: 30px !important;
     }
 
-    .DIRECTION-FOR-STORAGE-images img {
-        width: 100% !important;
-        height: auto !important;
-    }
-
     .DIRECTION-FOR-STORAGE-images {
-        margin-top: 40px;
-        margin-bottom: 40px;
         padding: 0 !important;
+        margin-top: 30px;
     }
 
-    .DIRECTION-FOR-STORAGE {
-        padding: 0 !important;
+    .DIRECTION-FOR-STORAGE-images img {
+        width: 100%;
+        height: 186px !important;
+    }
+
+    .TECHNICAL-SPECIFICATIONS {
+        height: 474px !important;
+    }
+
+    .TECHNICAL-SPECIFICATIONS::after {
+        height: 474px !important;
+    }
+
+    .TECHNICAL-SPECIFICATIONS-title {
+        height: auto !important;
     }
 
     .TECHNICAL-SPECIFICATIONS-Result {
@@ -3088,74 +3708,46 @@ body {
         margin-bottom: 40px !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS-title {
-        height: auto !important;
-    }
-
-    .TECHNICAL-SPECIFICATIONS {
-        height: 460px !important;
-    }
-
-    .TECHNICAL-SPECIFICATIONS::after {
-        height: 460px !important;
-
+    .TECHNICAL-SPECIFICATIONS-title h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 45px !important;
     }
 
     .TECHNICAL-SPECIFICATIONS-title h2 {
-        margin: 0 !important;
         font-size: 30px !important;
+        line-height: 45px !important;
+        font-weight: 500;
+        margin: 0 !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS-title {
-        justify-content: center;
-        width: 100%;
-    }
-
-
-    .products-btn {
+    .Lubricants-gap {
         padding-top: 30px !important;
-    }
-
-    .product-main-images {
-        width: 100% !important;
     }
 
     .product-images {
         width: 100% !important;
     }
 
-    .product-main-images {
-        height: 243.27px !important;
-    }
-
-    .products_detail {
-        height: 100px !important;
-    }
-
-    .details {
-        width: 100% !important;
-        gap: 40px !important;
+    .product-sab-images .swiper-slide {
+        height: auto !important;
+        margin-right: 0 !important;
     }
 
     .product-icon .icon {
-        width: 136px !important;
+        width: 47% !important;
     }
 
-    .Similar_Products_next {
-        left: 243px !important;
-    }
-
-    .Similar_Products_prev {
-        left: 190px !important;
+    .product-sab-images {
+        justify-content: space-between;
     }
 
     .product-sab-images {
         gap: 5px !important;
     }
 
-    .product-sab-images .swiper-slide {
-        width: 81px !important;
-        height: 72px !important;
+    .product-sab-images div {
+        width: 30% !important;
     }
     .produt{
         margin-bottom: 20px ;
@@ -3163,6 +3755,34 @@ body {
     .contact_detail_container_gap{
         gap: 16px;
     }
+    .about-image-container{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .Available-btn {
+        margin-top: 10px;
+    }
+    .produt_gap{
+        margin-bottom: 30px !important;
+    }
+    .Global-Excellence-text p {
+        padding-bottom: 20px;
+    }
+   .cout-box{
+    margin-top: 14px;
+   }
+   .count_number{
+    font-size: 16px;
+    margin-bottom: 0;
+   }
+   .cout_of_years span{
+    margin-top: 10px !important;
+   }
+   .cout_Branche{
+    height: 110px;
+    width: 100%;
+    border-radius: 10px;
+   }
 }
 
 @media(min-width:768px) {
@@ -3173,8 +3793,33 @@ body {
     .contact_detail_container_gap{
         gap: 20px;
     }
+    .wcu_card {
+        padding: 15px;
+    }
     .dynamic-text {
         width: 230px;
+    }
+    .product-icon{
+        margin: 0 !important;
+    }
+    .product_details_title{
+        gap: 30px !important;
+    }
+    .Available_Size{
+        padding-bottom: 30px !important;
+    }
+    .Kalsaria-img img{
+        width: auto;
+    }
+    .Vision_text{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    font-weight: 400;
+    line-height: 24px;
+    color: #414141;
+}
+    .icon-text1{
+        margin-top: 16px !important;
     }
     .form_field_container div.col {
         padding-left: 20px;
@@ -3183,6 +3828,17 @@ body {
      .contactus_btn{
          padding-left: 20px;
      }
+     .contact_All_detail{
+        gap: 20px;
+    }
+     .Lubricants-text{
+        margin-bottom: 30px !important;
+     }
+     .product-icon{
+        gap: 20px !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
      .contact_card{
         padding:51px 35px;
      }
@@ -3243,12 +3899,12 @@ body {
     }
 
     .img-set {
-        top: 2% !important;
-        width: 30%;
+        top: 4% !important;
     }
 
     .img-set img {
-        width: 200px !important;
+        
+        width: 340px !important;
     }
 
 
@@ -3300,9 +3956,7 @@ body {
         gap: 30px;
     }
 
-    .facility-desc p {
-        margin-top: 30px;
-    }
+
 
     .hero-md-image img {
         height: 720px;
@@ -3333,11 +3987,11 @@ body {
     }
 
     .benefit {
-        height: 646px;
+        height: 676px;
     }
 
     .benefit::after {
-        height: 646px;
+        height: 676px;
     }
 
     .facility-text h2 {
@@ -3386,7 +4040,8 @@ body {
     }
 
     .card-body p {
-        font-size: 22px;
+        font-weight: 500;
+        font-size: 24px;
         line-height: 36px;
     }
 
@@ -3450,7 +4105,7 @@ body {
     }
 
     .befor-img {
-        top: 51%;
+        top: 59%;
     }
 
     .Kalsaria-title-text {
@@ -3468,7 +4123,7 @@ body {
     }
     .Global_Excellence_box{
         z-index: 10;
-        width: 343px;
+        width: 47%;
         height: 181px;
     }
 
@@ -3497,9 +4152,7 @@ body {
         gap: 60px !important;
     }
 
-    .product-icon {
-        gap: 20px !important;
-    }
+   
 
     .product-icon .icon {
         width: 164px !important;
@@ -3520,7 +4173,7 @@ body {
     }
 
     .product_btn_bak {
-        margin-top: 20px !important;
+        margin-top: 10px !important;
     }
 
     .product-sab-images .swiper-slide {
@@ -3618,7 +4271,7 @@ body {
     }
 
     .TECHNICAL-SPECIFICATIONS {
-        height: 474px !important;
+        height: 560px !important;
     }
 
     .TECHNICAL-SPECIFICATIONS-title {
@@ -3643,7 +4296,7 @@ body {
     }
 
     .TECHNICAL-SPECIFICATIONS::after {
-        height: 474px !important;
+        height: 560px !important;
     }
 
     .produt {
@@ -3663,7 +4316,54 @@ body {
     {
         padding-bottom: 60px !important;
     }
-    
+    .about-image-container img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .about-hero-subtext{
+        margin: 0;
+    }
+    .heading_description {
+        margin-top: 20px;
+    }
+    .heading_container{
+
+        margin-bottom: 15px !important;
+
+    }
+    .about-section{
+        margin: 60px 0 !important;
+    }
+    .main-Global-Excellence{
+        gap: 104px;
+    }
+    .Global-Excellence-text p {
+        padding-bottom: 0;
+    }
+    .cout_Branche{
+        height: 261px;
+        width: 100%;
+        border-radius: 10px;
+       }
+       
+       .cout_Branche{
+        margin-top: 30px;
+       }
+       .features-recommendation{
+        gap: 30px !important;
+       }
+       .contact_card_heading{
+        font-size: 24px;
+        line-height: 36px;
+       }
+       .Kalsaria-title h2{
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: 600;
+       }
+       .col-md-768-6{
+        width: 53%;
+       }
 }
 
 @media(min-width:992px) {
@@ -3684,7 +4384,9 @@ body {
     .top-bar-lg {
         padding-top: 8px;
     }
-
+    .benefit::after , .benefit{
+        height: 600px;
+    }
     .header-lg {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -3760,6 +4462,9 @@ body {
     .benefit-icon {
         margin-top: 50px;
     }
+    .main-Global-Excellence{
+        padding-top: 100px;
+    }
 
 
 
@@ -3801,11 +4506,11 @@ body {
     }
 
     .heading_container {
-        margin-bottom: 50px !important;
+        margin-bottom: 35px !important;
     }
 
     .product-sab-images .swiper-slide {
-        width: 305px !important;
+        width: 32% !important;
         height: 250px !important;
     }
 
@@ -3940,7 +4645,7 @@ body {
     }
 
     .product-images {
-        width: 591px !important;
+        width: 49% !important;
     }
 
     .product-main-images {
@@ -3952,7 +4657,7 @@ body {
     }
 
     .product_details-sab {
-        width: 560px !important;
+        width: 49% !important;
     }
 
     .product_details_title {
@@ -3991,8 +4696,8 @@ body {
     }
 
     .product-sab-images .swiper-slide {
-        width: 132px !important;
-        height: 113px !important;
+        width: 183px !important;
+        height: 155px !important;
     }
 
     .swiper-button-prevRevitalize {
@@ -4088,18 +4793,28 @@ body {
     .produt {
         padding: 15px !important;
     }
+    .main-Global-Excellence{
+        gap: 0 !important;
+    }
+    .befor-befor, .after-befor{
+        padding: 15px 0;
+    }
+    .cout_Branche {
+        width: 97%;
+    }
+    .contact_card {
+        padding: 30px 30px;
+    }
 }
-
 @media(min-width:1400px) {
-
     .about-sab {
         width: 684px;
         gap: 20px;
         flex-direction: column;
     }
     .contact_card {
-        width: calc(32.64% - 10px);
-        padding: 51px 35px;
+        width: calc(32.00% - 10px);
+        padding: 33px 35px;
     }
     .contact_detail_container_gap{
         gap: 30px;
@@ -4125,10 +4840,13 @@ body {
     .about-main {
         gap: 0;
     }
-
+    .swiper-button-prev{
+        left: 87% !important;
+    }
     .kalsari1-img {
         right: 15%;
     }
+   
     .about-description p {
         font-size: 16px;
         line-height: 24px;
@@ -4143,7 +4861,9 @@ body {
     .cout {
         width: 300px;
     }
-
+    .contact_All_detail{
+        gap: 30px;
+    }
     .Kalsaria-title-text {
         margin-left: 51px;
     }
@@ -4155,7 +4875,7 @@ body {
     }
 
     .product-images {
-        width: 460px !important;
+        width: 40.4795% !important;
     }
 
     .product-main-images {
@@ -4167,11 +4887,11 @@ body {
     }
 
     .product_details-sab {
-        width: 786px !important;
+        width: 56.4658% !important;
     }
 
     .product_details_title {
-        gap: 20px !important;
+        gap: 40px !important;
     }
 
     .product-icon .icon {
@@ -4183,8 +4903,8 @@ body {
     }
 
     .product-icon {
-        margin-top: 20px !important;
-        margin-bottom: 20px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
         padding-top: 40px !important;
         padding-bottom: 40px !important;
 
@@ -4205,6 +4925,8 @@ body {
     .swiper-button-prevRevitalize {
         left: 88%;
     }
+
+    
 }
 
 @media(min-width:1463px) {
@@ -4214,23 +4936,33 @@ body {
     }
 
     .product_details-sab {
-        width: 884px !important;
+        width: 56.4658% !important;
     }
 
     .industrial {
         height: 500px !important;
     }
-
+    .about-image-container img{
+       margin: 0;
+    }
     .industrial-sab {
         margin-top: 70px !important;
         margin-bottom: 70px !important;
         justify-content: center;
     }
-
+    .main-Global-Excellence{
+        gap: 0;
+    }
+    .befor-img {
+        top: 38%;
+    }
     .industrial-images .industrial-image img {
         width: 346px !important;
         height: 360px !important;
         border-radius: 60px !important;
+    }
+    .features-recommendation{
+        gap: 50px !important;
     }
 
     .industrial-images-circle img {
@@ -4239,7 +4971,7 @@ body {
     }
 
     .industrial-text {
-        width: 286px !important;
+        width: 294px !important;
     }
 
     .industrial-description p {
@@ -4269,7 +5001,33 @@ body {
         margin-top: 100px !important;
         margin-bottom: 100px !important;
     }
-
+    .heading_description{
+        margin-top: 30px ;
+    }
+    .heading_container{
+        margin-bottom: 50px !important;
+    }
+    .swiper-wrapper{
+        margin-top: 59px !important;
+    }
+    .DIRECTION-FOR-STORAGE{
+        gap: 50px !important;
+    }
+    .befor-befor , .after-befor{
+        padding: 0 15px;
+    }
+    .icon-text{
+        padding: 0 10px;
+    }
+    .benefit-text{
+        gap: 24px !important;
+    }
+    .about-image-container{
+        margin: 0 !important;
+    }
+    .count-card{
+        width: 50%;
+    }
 }
 
 @media(min-width:1600px) {
@@ -4318,12 +5076,15 @@ body {
     .after-befor {
         margin-bottom: 30px;
     }
+    .about-seciton-text {
+        padding-left: 200px;
+    }
 
 }
 
 @media(min-width:1800px) {
     .about-seciton-text {
-        padding-left: 130px;
+        padding-left: 230px;
     }
 }
 
@@ -4368,7 +5129,7 @@ body {
 
 /* product_details_Start */
 .product-images {
-    width: 591px;
+    width: 40%;
 }
 
 .product-main-images {
@@ -4578,10 +5339,6 @@ body {
 .Available_Size {
     padding-bottom: 40px;
     border-bottom: 1px solid #1e5f28ab;
-}
-
-.Available-btn {
-    margin-top: 20px;
 }
 
 .btn_back:hover .about-btn i {
@@ -4897,7 +5654,10 @@ tbody tr td span {
 .Vision{
     border-top: 2px solid #F5F5F5 !important;
     border-bottom: 2px solid #F5F5F5 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 .Vision span i{
     font-size: 14px;
     color: #000000;
@@ -4921,5 +5681,6 @@ tbody tr td span {
     color: black;
     font-weight: 500;
     font-size: 22px;
+    border: none;
     line-height: 33px;
 }

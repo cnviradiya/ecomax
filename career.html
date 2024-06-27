@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/images/Favicon-icon-Ecomax.png" />
-    <link rel="stylesheet" href="/assets/css/Ecomax_style.css" />
+    <link rel="stylesheet" href="/assets/css/Style.css" />
 </head>
 
 <body>
@@ -150,33 +150,32 @@
                                     class="form-control first_name field" aria-label="First name" required />
                             </div>
                             <div class="col h-set">
-                                <input type="text" name="last_name" id="customer_last_name" placeholder="Last Name*"
-                                    class="form-control field" aria-label="Last name" required />
-                                <p class="text-danger" id="customer_lname"></p>
+                                <input type="email" name="email" id="customer_email" placeholder="Your Email*" required
+                                    class="field form-control" />
+                               
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col h-set">
-                                <input type="email" name="email" id="customer_email" placeholder="Email*" required
-                                    class="field form-control" />
-                                <p class="text-danger" id="customer_email_w"></p>
-                            </div>
-                            <div class="col h-set">
                                 <input type="number" name="phone" id="customer_number" placeholder="Phone Number*"
                                     required class="field form-control" />
-                                <p class="text-danger" id="customer_number_w"></p>
                             </div>
+                            <div class="col h-set">
+                                <input type="text" name="last_name" id="customer_last_name" placeholder="Applying for which role"
+                                    class="form-control field" aria-label="Last name" required />
+                              
+                            </div>
+                           
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col h-set">
                                 <div
-                                    class='file-input d-flex align-items-center justify-content-between mb-4 position-relative border rounded-1'>
+                                    class='file-input d-flex align-items-center justify-content-between  position-relative border rounded-1'>
                                     <input type='file' id="customer_data" name="resume"
                                         class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0" required />
                                     <span class='label' data-js-label>Resume</span>
                                     <span class='button'>Browse</span>
                                 </div>
-                                <p class="text-danger" id="customer_data_w"></p>
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
@@ -217,18 +216,17 @@
                 </h2>
             </div>
             <div class="row justify-content-center  ">
-                <div class=" Choose-card col-xl-3 col-lg-4 col-sm-6 col-12 wcu_card mt-3 mt-sm-0    ">
-                    <div class="wcu-card-container text-center rounded-3">
-                        <h3 class="h4 wcu-card-heading mb-3 ">Culture of Excellence</h3>
-                        <p class="m-0 ">We foster a culture of continuous improvement and excellence in everything we
-                            do. Joining
-                            Ecomax means being part of a team that is dedicated to pushing boundaries, innovating, and
-                            delivering
-                            top-quality products and services.</p>
+                <div class="p-0 col-xl-3  col-lg-4 col-sm-6 col-12">
+                    <div class=" wcu_card  mt-sm-0  ">
+                        <div class="wcu-card-container    Choose-card text-center rounded-3 ">
+                            <h3 class="h4 wcu-card-heading mb-3 ">Culture of Excellence</h3>
+                            <p class="m-0 ">We foster a culture of continuous improvement and excellence in everything we do. Joining Ecomax means being part of a team that is dedicated to pushing boundaries, innovating, and delivering top-quality products and services.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-3  col-lg-4 col-sm-6 col-12 wcu_card mt-3 mt-sm-0  ">
-                    <div class="wcu-card-container Choose-card text-center rounded-3 ">
+                   </div>
+               <div class="p-0 col-xl-3  col-lg-4 col-sm-6 col-12">
+                <div class=" wcu_card  mt-sm-0  ">
+                    <div class="wcu-card-container    Choose-card text-center rounded-3 ">
                         <h3 class="h4 wcu-card-heading mb-3 ">Opportunities for Growth</h3>
                         <p class="m-0 ">We believe in investing in our people and providing opportunities for
                             professional and
@@ -237,8 +235,10 @@
                             a range of opportunities for development and advancement.</p>
                     </div>
                 </div>
-                <div class="col-xl-3  col-lg-4 col-sm-6 col-12 wcu_card mt-3 mt-sm-4 mt-lg-0  mt-xl-0 ">
-                    <div class="wcu-card-container Choose-card text-center rounded-3 ">
+               </div>
+               <div class="p-0 col-xl-3  col-lg-4 col-sm-6 col-12">
+                <div class=" wcu_card  mt-lg-0  mt-xl-0 ">
+                    <div class="wcu-card-container   Choose-card text-center rounded-3 ">
                         <h3 class="h4 wcu-card-heading mb-3 ">Commitment to Sustainability</h3>
                         <p class="m-0 ">Sustainability is at the core of everything we do. By joining Ecomax, you'll be
                             part of a
@@ -247,8 +247,11 @@
                             making a positive impact on the world.</p>
                     </div>
                 </div>
-                <div class="col-xl-3  col-lg-4 col-sm-6 col-12 wcu_card mt-3 mt-sm-4 mt-lg-4 mt-xl-0 ">
-                    <div class="wcu-card-container Choose-card text-center rounded-3">
+        
+            </div>
+            <div class="p-0 col-xl-3  col-lg-4 col-sm-6 col-12">
+                <div class="wcu_card   mt-xl-0 ">
+                    <div class="wcu-card-container  Choose-card text-center rounded-3">
                         <h3 class="h4 wcu-card-heading mb-3 ">Collaborative Environment</h3>
                         <p class="m-0 ">At Ecomax, we believe in the power of collaboration. We value teamwork, open
                             communication,
@@ -257,6 +260,7 @@
                             diverse backgrounds who are passionate about making a difference.</p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </section>
@@ -289,7 +293,7 @@
                     <div class="col-md-12 p-0 col-lg-8 ">
                         <div class="row text-wrap">
                             <div
-                                class="col-12 d-none d-md-block col-sm-3 col-md-3 col-xl-3 offset-xl-1  p-0 float-left mb-3 ">
+                                class="col-12 d-none d-md-block col-sm-3 col-md-4 col-xl-3 p-0 float-left mb-3 ">
                                 <h5 class="mb-4 footer_heading">Quick Link</h5>
                                 <ul class="list-group footer-hover">
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
@@ -311,7 +315,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="accordion-item footer-link d-md-none col-12 offset-xl-1  p-0 float-left mb-3">
+                            <div class="accordion-item footer-link d-md-none col-12 p-0 float-left mb-3">
                                 <h2 class="accordion-header" id="headingTwo1">
                                     <button
                                         class="accordion-button collapsed m-3 d-flex  justify-content-between col-12"
@@ -350,7 +354,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 d-none d-md-block col-sm-3 col-md-3 col-xl-3 p-0 mb-3 float-left  ">
+                            <div class="col-12 d-none d-md-block col-sm-3 col-md-2 col-xl-3 p-0 mb-3 float-left  ">
                                 <h5 class="mb-4 footer_heading">Company</h5>
                                 <ul class="list-group footer-hover">
                                     <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2"><a
@@ -363,7 +367,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="accordion-item footer-link d-md-none col-12  offset-xl-1  p-0 float-left mb-3">
+                            <div class="accordion-item footer-link d-md-none col-12   p-0 float-left mb-3">
                                 <h2 class="accordion-header" id="headingTwo2">
                                     <button
                                         class="accordion-button collapsed m-3 d-flex  justify-content-between col-12"
@@ -419,7 +423,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="accordion-item footer-link d-md-none col-12  offset-xl-1  p-0 float-left mb-3">
+                            <div class="accordion-item footer-link d-md-none col-12  p-0 float-left mb-3">
                                 <h2 class="accordion-header" id="headingTwo3">
                                     <button
                                         class="accordion-button collapsed m-3 d-flex  justify-content-between col-12"

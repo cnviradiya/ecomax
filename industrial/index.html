@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/images/Favicon-icon-Ecomax.png" />
-    <link rel="stylesheet" href="/assets/css/Ecomax_style.css" />
+    <link rel="stylesheet" href="/assets/css/Style.css" />
 </head>
 
 
@@ -149,7 +149,7 @@
                 <div class="col-12 p-0 flex-wrap align-items-center d-flex flex-wrap industrial-sab">
                     <div class="industrial-text  industrial-height text-white">
                         <div class="industrial-title">
-                            <h1 class="m-0">
+                            <h1 class="mb-0">
                                 Industrial
                             </h1>
                         </div>
@@ -186,7 +186,7 @@
         <div class="container1">
             <div class="row">
                 <div class="d-flex Lubricants flex-column p-0">
-                    <h1 class="text-center Lubricants-title ">
+                    <h1 class="text-center Lubricants-title mb-0">
                         Ecomax's Industrial Lubricants
                     </h1>
                     <p class="text-center Lubricants-text">
@@ -227,7 +227,7 @@
                     <div class="col-md-12 p-0 col-lg-8 ">
                         <div class="row text-wrap">
                             <div
-                                class="col-12 d-none d-md-block col-sm-3 col-md-3 col-xl-3 offset-xl-1  p-0 float-left mb-3 ">
+                                class="col-12 d-none d-md-block col-sm-3 col-md-4 col-xl-3  p-0 float-left mb-3 ">
                                 <h5 class="mb-4 footer_heading">Quick Link</h5>
                                 <ul class="list-group footer-hover">
                                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">
@@ -248,7 +248,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="accordion-item footer-link d-md-none col-12 offset-xl-1  p-0 float-left mb-3">
+                            <div class="accordion-item footer-link d-md-none col-12   p-0 float-left mb-3">
                                 <h2 class="accordion-header" id="headingTwo1">
                                     <button
                                         class="accordion-button m-3 d-flex  justify-content-between col-12 collapsed"
@@ -289,7 +289,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 d-none d-md-block col-sm-3 col-md-3 col-xl-3 p-0 mb-3 float-left  ">
+                            <div class="col-12 d-none d-md-block col-sm-3 col-md-2 col-xl-3 p-0 mb-3 float-left  ">
                                 <h5 class="mb-4 footer_heading">Company</h5>
                                 <ul class="list-group footer-hover">
                                     <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2"><a
@@ -302,7 +302,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="accordion-item footer-link d-md-none col-12  offset-xl-1  p-0 float-left mb-3">
+                            <div class="accordion-item footer-link d-md-none col-12   p-0 float-left mb-3">
                                 <h2 class="accordion-header" id="headingTwo2">
                                     <button
                                         class="accordion-button collapsed m-3 d-flex  justify-content-between col-12"
@@ -360,7 +360,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="accordion-item footer-link d-md-none col-12  offset-xl-1  p-0 float-left mb-3">
+                            <div class="accordion-item footer-link d-md-none col-12    p-0 float-left mb-3">
                                 <h2 class="accordion-header" id="headingTwo3">
                                     <button
                                         class="accordion-button collapsed m-3 d-flex  justify-content-between col-12"
@@ -462,7 +462,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             const collectionData = await loadindustrialcollection(collectionType);
             document.getElementById("industrial_products").innerHTML = collectionData.map((collection) => {
                 return `
-                    <div class="col-12 coll-md-6 products produt coll-lg-4 ">
+                    <div class="col-12 coll-md-6 produt  produt_gap coll-lg-4">
+                       <div class="products">
                         <a href="/industrial/products/index.html?s=${collection.collection_slug}">
                             <div class="products-img">
                                 <img src="/assets/images/collections/industrial/${collection.collection_slug}/${collection.collection_image}" alt="${collection.products[0].thumb_title}" class="img-fluid col-12 product_img">
@@ -476,6 +477,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                                 </div>
                             </div>
                         </a>
+                        </div>
                     </div>
                 `;
             }).join(''); 

@@ -5195,7 +5195,9 @@ body {
 .product_details_prev i {
     color: #1E5F28;
 }
-
+.product-title{
+    text-transform: uppercase;
+}
 .product_details_next i {
     font-size: 12px;
 }

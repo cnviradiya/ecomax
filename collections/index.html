@@ -428,8 +428,6 @@
                 "/assets/JS/script.js",
                 "/assets/JS/db.js"
             ]);
-
-
             const collectionThumbHTML = ({ url, img, title }) =>
             `
                 <div class="col-12 col-md-6 produt col-lg-4">
@@ -455,7 +453,7 @@
                     </div>`;
                     
             const getThumbURL = (type, slug, collectionSlug = null) => {
-                return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
+                return "/" + (type == 'all' ? 'collections' : 'Products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
             }
             setTimeout(async function () {
                 // Query parameter

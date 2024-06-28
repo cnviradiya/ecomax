@@ -27,7 +27,7 @@
                     {
                         "property": "PROPERTY",
                         "property_point": [
-                            "Appearance",
+                           "Appearance",
                             "Base Fluid Type",
                             "Kinematic Viscosity",
                             "cSt @ 40 Degree Cent.",
@@ -37,23 +37,53 @@
                             "Flash Point Degree Cent."
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
-                            "Visual",
-                            " N/A",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
+                          "Visual",
+                            "N/A",
                             "",
                             "ASTM D 445",
                             "ASTM D445",
                             "",
                             "ASTM D 2270",
                             ""
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
-                            "Amber / Yellow Liquid",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
+                              "Amber / Yellow Liquid",
                             "Synthetic Ester Mixture",
                             "",
                             "185",
@@ -111,7 +141,7 @@
                     "Excellent anti wear properties at elevated temperature gives longer chain life.",
                     "It penetrates into link and pins and by reducing wear in highest potential wear area, it increase life of chain and further reduces maintenance cost.",
                     "Low Evaporation of oil offers good economy.",
-                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions.",
+                    "Excellent corrosion resistance to protect in humid , damp and even wet conditions",
                     "Does not form any carbon deposits and provides clean and safe working environment.",
                     "Uniquely designed anti-oxidant package provides long service life with lower deposits and varnish formation."
                 ],
@@ -119,7 +149,7 @@
                     {
                         "property": "PROPERTY",
                         "property_point": [
-                            "Appearance",
+                           "Appearance",
                             "Base Fluid Type",
                             "Kinematic Viscosity",
                             "cSt @ 40 Degree Cent.",
@@ -129,10 +159,25 @@
                             "Four ball wear scar (mm)"
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
-                            "Visual",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
+                          "Visual",
                             " N/A",
                             "",
                             "ASTM D 445",
@@ -140,12 +185,27 @@
                             "",
                             "ASTM D 2596",
                             "ASTM D 2266"
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
-                            "Yellow Liquid",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
+                              "Yellow Liquid",
                             "Synthetic Ester Mixture",
                             "",
                             "385",
@@ -210,7 +270,7 @@
                     {
                         "property": "PROPERTY",
                         "property_point": [
-                            "Appearance",
+                           "Appearance",
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
@@ -220,10 +280,25 @@
                             "Four ball wear scar(mm)"
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
-                            "Visual",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
+                           "Visual",
                             " N/A",
                             "N/A",
                             "",
@@ -231,12 +306,27 @@
                             "ASTM D 217",
                             "ASTM D 2596",
                             "ASTM D 2266"
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
-                            "Homogeneous soft black grease",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
+                              "Homogeneous soft black grease",
                             "Highly refined mineral oil",
                             "Organically modified clay",
                             "00",
@@ -308,7 +398,7 @@
                     {
                         "property": "PROPERTY",
                         "property_point": [
-                            "Appearance",
+                          "Appearance",
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
@@ -318,10 +408,25 @@
                             "Four ball wear scar(mm)"
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
-                            "Visual",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
+                           "Visual",
                             " N/A",
                             "N/A",
                             "",
@@ -329,11 +434,26 @@
                             "ASTM D 1742",
                             "ASTM D 2596",
                             "ASTM D 2266"
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
                             "Homogeneous soft black grease",
                             "Highly refined mineral oil",
                             "Organically modified clay",
@@ -342,6 +462,7 @@
                             "<4%",
                             "285 KG",
                             "0.4-0.45 mm"
+
                         ]
                     }
                 ],
@@ -401,7 +522,7 @@
                     {
                         "property": "PROPERTY",
                         "property_point": [
-                            "Appearance",
+                          "Appearance",
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
@@ -411,10 +532,25 @@
                             "Four ball wear scar(mm)."
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
-                            "Visual",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
+                             "Visual",
                             " N/A",
                             "N/A",
                             "",
@@ -422,11 +558,26 @@
                             "ASTM D 1742",
                             "ASTM D 2596",
                             "ASTM D 2266"
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
                             "Homogeneous soft black grease",
                             "Highly refined mineral oil",
                             "Organically modified clay",
@@ -435,6 +586,7 @@
                             "<4%",
                             "460 KG",
                             ""
+
                         ]
                     }
                 ],
@@ -499,10 +651,25 @@
                             "Four ball wear scar(mm)."
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
-                            "Visual",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
+                             "Visual",
                             " N/A",
                             "N/A",
                             "",
@@ -510,11 +677,26 @@
                             "ASTM D 1742",
                             "IP 239",
                             "ASTM D 2266"
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
                             "Homogeneous soft black grease",
                             "Highly refined mineral oil",
                             "Lithium Complex",
@@ -523,9 +705,11 @@
                             "<3%",
                             "320 KG",
                             "0.44-0.45 mm"
+
                         ]
                     }
                 ],
+
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -591,9 +775,24 @@
                             "Four ball wear scar(mm)."
                         ]
                     },
+
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
                             "Visual",
                             " N/A",
                             "N/A",
@@ -602,11 +801,26 @@
                             "ASTM D 1742",
                             "ASTM D 2596",
                             "ASTM D 2266"
+
                         ]
                     },
                     {
-                        "result": "RESULT",
-                        "result_poinet": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "RESULT",
+                        "property_point": [
                             "Homogeneous soft black grease",
                             "Highly refined mineral oil",
                             "Organically modified clay",
@@ -615,9 +829,11 @@
                             "<4%",
                             "350 KG",
                             "0.40-0.45 mm"
+
                         ]
                     }
                 ],
+                
                 "descriptions": [
                     {
                         "title": "DIRECTION FOR STORAGE AND USE",
@@ -675,27 +891,55 @@
                             "Drop Point Degree Cent",
                             "Appearance and structure",
                             "NLGI Grade",
-                            "Viscosity of base oil @ 40 Degree .",
-                            "Copper strip corrosion @ 100 Degree.",
+                            "Viscosity of base oil @ 40 Degree Cent.",
+                            "Copper strip corrosion @ 100 Degree for 14 Hrs",
                             "Roll stability % Change Max"
                         ]
                     },
                     {
-                        "test_method": "METHOD",
-                        "method_point": [
-                            "SATM D 3340",
-                            " ASTM D 217",
-                            "ASTM D 2265",
-                            "Visual",
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
                             "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "METHOD",
+                        "property_point": [
+                            "SATM D 3340",
+                            "ASTM D 217",
+                            "ASTM D 2265",
+                            "-9 Degree cent",
+                            "Visual",
                             "ASTM D 445",
                             "ASTM D 4048",
                             "ASTM D 1831"
                         ]
                     },
                     {
-                        "result": "Specifications",
-                        "result_poinet": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "Specifications",
+                        "property_point": [
                             "Lithium",
                             "235",
                             "200 Degree Cent",
@@ -703,7 +947,7 @@
                             "2/3",
                             "160 cSt",
                             "1A",
-                            "20 "
+                            "20"
                         ]
                     }
                 ],
@@ -758,33 +1002,117 @@
                     {
                         "property": "TEST PARAMETER",
                         "property_point": [
-                            "Kinematic Viscosity @ 100 Deg Cent cSt",
-                            "Kinematic Viscosity @ 40 Degree Cent ",
+                            "Kinematic Viscosity @ 100 Deg",
+                            "Kinematic Viscosity @ 40 Degree ",
                             "Viscosity Index",
                             "Pour Point",
                             "Flash Point"
                         ]
                     },
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
+                        "property": "",
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST METHOD",
+                        "property_point": [
                             "D445",
-                            " D445",
+                            "D445",
                             "D2270",
                             "D97",
                             "D92"
                         ]
                     },
                     {
-                        "result": "100",
-                        "result_poinet": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "100",
+                        "property_point": [
                             "11.3",
                             "100",
                             "98",
                             "-9 Degree cent",
                             "245"
                         ]
-                    }
+                    },
+                    {
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "150",
+                        "property_point": [
+                            "14.9",
+                            "150",
+                            "98",
+                            "-9 Degree cent",
+                            "245"
+                        ]
+                    },
+                    {
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "220",
+                        "property_point": [
+                            "18.6",
+                            "220",
+                            "98",
+                            "-9 Degree cent",
+                            "247"
+                        ]
+                    },
+                    {
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                {
+                    "property": "320",
+                    "property_point": [
+                        "24",
+                        "320",
+                        "97",
+                        "-9 Degree cent",
+                        "247"
+                    ]
+                }
                 ],
                 "descriptions": [
                     {
@@ -850,8 +1178,22 @@
                         ]
                     },
                     {
-                        "test_method": "TEST METHOD",
-                        "method_point": [
+                        "property": "",
+                        "has_blank": true,
+                        "property_point": [
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    {
+                        "property": "TEST RESULT",
+                        "property_point": [
                             "220",
                             "0.867",
                             "4.1",
@@ -860,12 +1202,6 @@
                             "97",
                             "-20",
                             "1a"
-                        ]
-                    },
-                    {
-                        
-                        "result_poinet": [
-                        
                         ]
                     }
                 ],

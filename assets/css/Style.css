@@ -410,19 +410,34 @@ a {
 }
 
 .industrial-border ul li {
-    border: 1px solid white;
+    padding: 0 50px;
+    border: 1px solid rgba(255, 255, 255, 0.268);
     background-color: #1E5F28;
-    height: 40px;
+
+}
+.has-blank h5 , .has-blank ul li{
+    width: 30px !important;
+   padding: 0 !important;
 }
 
+.industrial-border ul li:last-child{
+    display: none;
+}
+.industrial-border{
+    margin: 0 !important;
+}
 .industrial-border h5 {
-    border: 1px solid white;
+    padding: 0 50px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.268);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     background-color: #0D4315;
 }
-
+.industrial_white{
+    width: auto !important;
+}
 /* ------------- Ecomax Section ------------- */
 .wcu_section,
 .connect-section {
@@ -2084,6 +2099,11 @@ body {
     .heading_container{
         margin-bottom: 24px !important;
     }
+    .industrial-border ul li , .industrial-border h5{
+        width: 280px;
+        font-size: 14px;
+        padding: 0;
+    }
     .contact_All_detail{
         gap: 16px;
     }
@@ -2929,6 +2949,9 @@ body {
     height: 110px;
     width: 100%;
     border-radius: 10px;
+   }
+   .has-blank {
+    display: none !important;
    }
 }
 
@@ -4278,7 +4301,6 @@ body {
         height: auto !important;
         display: flex;
         justify-content: center;
-        width: 100% !important;
     }
 
     .TECHNICAL-SPECIFICATIONS-Result {
@@ -4797,10 +4819,6 @@ body {
         margin-bottom: 0 !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS-title {
-        width: auto !important;
-    }
-
     .produt {
         padding: 15px !important;
     }
@@ -5044,6 +5062,17 @@ body {
     .count-card{
         width: 50%;
     }
+    .industrial-border ul li , .industrial-border h5{
+        width: auto;
+      
+    }
+    .industrial-border ul li ,  .industrial-border h5{
+        padding: 0 17px;
+        font-size: 15px;
+    }
+    .TECHNICAL-SPECIFICATIONS-title h2{
+        text-align: start;
+    }
 }
 
 @media(min-width:1600px) {
@@ -5053,7 +5082,7 @@ body {
         flex-direction: column;
     }
 
-
+    
     .img-set {
         top: 12% !important;
     }

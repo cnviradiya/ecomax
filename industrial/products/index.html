@@ -191,21 +191,22 @@
             <div class="row">
                 <div class="col-12 d-flrx flex-wrap">
                     <div
-                    class="col-12 p-0 align-items-center TECHNICAL-SPECIFICATIONS-Result justify-content-between d-flex flex-wrap">
-                    <div class="TECHNICAL-SPECIFICATIONS-title col-12 col-xl-2">
-                        <h2 class="text-white ">
-                            TECHNICAL <br class="d-none d-xl-block"> SPECIFICATIONS
-                        </h2>
-                    </div>
-                    <div class="swiper industrial_swiper justify-content-center m-0 col-12 industrial-border col-xl-10">
-                        <div class="swiper-wrapper  col-12 justify-content-center m-0" id="industrial_tabal">
-                        
+                        class="col-12 p-0 align-items-center TECHNICAL-SPECIFICATIONS-Result justify-content-between d-flex flex-wrap">
+                        <div class="TECHNICAL-SPECIFICATIONS-title col-12 col-xl-2">
+                            <h2 class="text-white ">
+                                TECHNICAL <br class="d-none d-xl-block"> SPECIFICATIONS
+                            </h2>
                         </div>
-                        <br>
-                        <br>
-                        <div class="swiper-pagination"></div>
+                        <div
+                            class="swiper industrial_swiper justify-content-center m-0 col-12 industrial-border col-xl-10">
+                            <div class="swiper-wrapper  col-12 justify-content-center m-0" id="industrial_tabal">
+
+                            </div>
+                            <br>
+                            <br>
+                            <div class="swiper-pagination"></div>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -516,11 +517,8 @@
     </script>
     <script>
 
-        // if(window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=extreme-pressure-gear-lubricant"){
+        
 
-        // }else{
-        //     document.querySelector(".industrial_wh").style.cssText = "width: 300px !important;";
-        // }
 
         var swiper = new Swiper(".industrial_swiper", {
             pagination: {
@@ -649,22 +647,22 @@
                             return "<p>" + point + "</p>";
                         }));
                     }
-                    
+
 
                 });
                 // Set Technical Specifications
                 let technicalSpecificationsHTML = '';
                 let technicalSpecificationsArr = collectionData.products[0].technical_specifications;
-                if(technicalSpecificationsArr.length > 0) {
-                    for(let curIndex = 0; curIndex <= technicalSpecificationsArr.length; curIndex++) {
-                        if(typeof technicalSpecificationsArr[curIndex] !== "undefined") {
+                if (technicalSpecificationsArr.length > 0) {
+                    for (let curIndex = 0; curIndex <= technicalSpecificationsArr.length; curIndex++) {
+                        if (typeof technicalSpecificationsArr[curIndex] !== "undefined") {
 
-                            technicalSpecificationsHTML += '<div class="swiper-slide industrial_white industrial-border text-white industrial_wh'+(technicalSpecificationsArr[curIndex].has_blank ? "has-blank" : "")+'"><h5 class="dynamic-data text-center industrial-border m-0" property-title>';
+                            technicalSpecificationsHTML += '<div class="swiper-slide industrial_white industrial-border text-white ' + (technicalSpecificationsArr[curIndex].has_blank ? "has-blank" : "") + '"><h5 class="dynamic-data text-center industrial-border m-0"  property-title>';
                             technicalSpecificationsHTML += technicalSpecificationsArr[curIndex].property + '</h5>';
-                            technicalSpecificationsHTML += '<ul class="dynamic-data text-center list-none p-0 m-0">';
+                            technicalSpecificationsHTML += '<ul class="dynamic-data text-center list-none p-0 m-0 ">';
                             // Add indivial property here
                             let techPropertyArr = technicalSpecificationsArr[curIndex].property_point;
-                            for(let curNIndex = 0; curNIndex <= techPropertyArr.length; curNIndex++) {
+                            for (let curNIndex = 0; curNIndex <= techPropertyArr.length; curNIndex++) {
                                 technicalSpecificationsHTML += '<li>' + techPropertyArr[curNIndex] + '</li>';
                             }
                             technicalSpecificationsHTML += '</ul></div>';
@@ -672,7 +670,7 @@
                     }
                     $('#industrial_tabal').html(technicalSpecificationsHTML);
                 }
-                    console.log(technicalSpecificationsHTML);
+                console.log(technicalSpecificationsHTML);
             }, 500);
         });
 

@@ -453,7 +453,7 @@
                     </div>`;
                     
             const getThumbURL = (type, slug, collectionSlug = null) => {
-                return "/" + (type == 'all' ? 'collections' : 'Products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
+                return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
             }
             setTimeout(async function () {
                 // Query parameter

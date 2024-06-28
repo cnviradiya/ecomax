@@ -4364,6 +4364,17 @@ body {
        .col-md-768-6{
         width: 53%;
        }
+       .product_details_next, .product_details_prev{
+        top: 50% !important;
+          right: 100% !important;
+       }
+       .product_details_next{
+        right: 100% !important;
+
+       }
+       .product_details_prev{
+        left: 2% !important;
+       }
 }
 
 @media(min-width:992px) {
@@ -4805,6 +4816,9 @@ body {
     .contact_card {
         padding: 30px 30px;
     }
+    .product_details_prev{
+        left: 2% !important;
+       }
 }
 @media(min-width:1400px) {
     .about-sab {
@@ -4925,7 +4939,9 @@ body {
     .swiper-button-prevRevitalize {
         left: 88%;
     }
-
+    .product_details_prev{
+        left: 2% !important;
+       }
     
 }
 

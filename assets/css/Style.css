@@ -15,9 +15,10 @@
     cursor: pointer;
     margin-top: 15px;
 }
-.form_container_in{
+
+.form_container_in {
     padding-left: 20px;
-    padding-right: 20px ;
+    padding-right: 20px;
 }
 
 .PROPERTY-gap:last-child {
@@ -38,9 +39,11 @@ g[aria-labelledby="id-72-title"] {
 }
 
 
-.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
+.swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
     background-color: #FFFFFF;
 }
+
 .border {
     height: 25px;
 }
@@ -49,7 +52,7 @@ g[aria-labelledby="id-72-title"] {
     overflow: hidden !important;
     transition: all 0.8s;
     transition: transform .5s;
-  
+
 }
 
 .products:hover .product_img {
@@ -62,7 +65,7 @@ g[aria-labelledby="id-72-title"] {
 }
 
 @media (max-width:768px) {
-  
+
 
     #chartdiv {
         width: 100%;
@@ -410,22 +413,25 @@ a {
 }
 
 .industrial-border ul li {
-    padding: 0 50px;
     border: 1px solid rgba(255, 255, 255, 0.268);
     background-color: #1E5F28;
 
 }
-.has-blank h5 , .has-blank ul li{
+
+.has-blank h5,
+.has-blank ul li {
     width: 30px !important;
-   padding: 0 !important;
+    padding: 0 !important;
 }
 
-.industrial-border ul li:last-child{
+.industrial-border ul li:last-child {
     display: none;
 }
-.industrial-border{
+
+.industrial-border {
     margin: 0 !important;
 }
+
 .industrial-border h5 {
     padding: 0 50px;
     height: 30px;
@@ -435,9 +441,12 @@ a {
     line-height: 30px;
     background-color: #0D4315;
 }
-.industrial_white{
-    width: auto !important;
+
+.industrial_wh h5,
+.industrial_wh ul li {
+    width: 300px;
 }
+
 /* ------------- Ecomax Section ------------- */
 .wcu_section,
 .connect-section {
@@ -453,6 +462,7 @@ a {
 .connect-card-heading {
     color: var(--primary-color);
 }
+
 /* ---------------------------------------------------- Contact Us Page ------------------------------------------------------- */
 .contact-mainheading {
     margin-bottom: 70px;
@@ -472,7 +482,7 @@ a {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
-    color:#3A7A43;
+    color: #3A7A43;
 }
 
 .contact_map {
@@ -491,9 +501,11 @@ a {
     margin-bottom: 10px;
     color: var(--primary-color);
 }
-.contact_detail_container_gap{
+
+.contact_detail_container_gap {
     gap: 30px;
 }
+
 .contact_card {
     border: 1px solid #D2DFD4;
     width: calc(32.33% - 12px);
@@ -501,7 +513,8 @@ a {
     transition: transform .8s;
     /* Animation */
 }
-.contact_detail_add{
+
+.contact_detail_add {
     border: 1px solid #D2DFD4;
     width: calc(33.33% - 12px);
     transition: transform .8s;
@@ -831,7 +844,7 @@ a {
     }
 
 
-    
+
     .message_field {
         height: 92px;
     }
@@ -940,7 +953,7 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
-   
+
 
     .navbar-logo img {
         max-width: 170px;
@@ -1034,6 +1047,7 @@ a {
 .benefit-text p {
     margin-left: 12px;
 }
+
 
 .benefit::after {
     align-items: center;
@@ -1182,23 +1196,28 @@ body {
     font-weight: 500;
     font-size: 18px;
 }
+
 .fa-bars-staggered {
     color: var(--green);
     width: 24px !important;
     height: 20px !important;
 }
+
 .collections_products:hover {
     color: white;
 }
+
 .collections_products {
     color: white;
 }
+
 .container1 {
     max-width: 1460px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
 }
+
 .container-fluid {
     padding: 0;
 }
@@ -1350,12 +1369,14 @@ body {
     width: 28px;
     height: 28px;
 }
-.Vision_text{
+
+.Vision_text {
     color: #414141;
     margin: 0;
     line-height: 24px;
     font-weight: 400;
 }
+
 .About-title h1 {
     font-weight: 600;
     font-size: 36px;
@@ -1908,10 +1929,12 @@ body {
 .cout {
     border-radius: 10px;
 }
-.Global_Excellence_box{
+
+.Global_Excellence_box {
     border-radius: 10px;
 
 }
+
 .cout5 {
     width: 45% !important;
 }
@@ -1989,19 +2012,25 @@ body {
     z-index: 1;
     position: relative;
 }
-.carousel-control-next, .carousel-control-prev{
+
+.carousel-control-next,
+.carousel-control-prev {
     width: 85px;
 }
+
 .list-group-laine {
     border-top: 1px solid var(--neon-color);
 }
-.dropdown:hover .dropdown-menu{
+
+.dropdown:hover .dropdown-menu {
     display: block;
 }
+
 .footer-link-icon {
     font-size: 22px;
     color: var(--neon-color);
 }
+
 .dropdown-menu-products li {
     list-style: none;
 }
@@ -2096,50 +2125,66 @@ body {
 }
 
 @media(max-width:575px) {
-    .heading_container{
+    .heading_container {
         margin-bottom: 24px !important;
     }
-    .industrial-border ul li , .industrial-border h5{
-        width: 280px;
+
+    .industrial-border ul li,
+    .industrial-border h5 {
+        min-width: 280px;
         font-size: 14px;
         padding: 0;
     }
-    .contact_All_detail{
+
+    .contact_All_detail {
         gap: 16px;
     }
+
     .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
     .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {}
+
     .contact-title {
         padding-top: 40px;
-     
     }
+
+    .technical h5,
+    .technical ul li {
+        width: 100% !important;
+    }
+
     .wcu_card {
-        padding: 0 ;
+        padding: 0;
         margin-top: 0px;
     }
+
     .Lubricants-products {
         justify-content: center !important;
         margin-top: 30px !important;
         gap: 20px !important;
     }
-    .Connect_padding{
-       padding-top: 40px !important;
+
+    .Connect_padding {
+        padding-top: 40px !important;
     }
-    .title-contact{
+
+    .title-contact {
         margin: 0;
         font-size: 30px;
         line-height: 45px;
         font-weight: 600;
         padding-bottom: 0 !important;
     }
+
     .heading_description {
         font-size: 14px;
         line-height: 21px;
         font-weight: 400;
     }
-    .contact_card{
+
+    .contact_card {
         padding: 32px;
     }
+
     .count-card {
         width: 47%;
     }
@@ -2151,7 +2196,7 @@ body {
     .Revitalize-card {
         width: 100% !important;
     }
-    
+
     .Lubricants-products {
         justify-content: center !important;
     }
@@ -2165,9 +2210,11 @@ body {
     .copy-right-footer div p {
         font-size: 16px;
     }
-    .about-sab{
+
+    .about-sab {
         gap: 24px;
     }
+
     .text {
         font-size: 16px;
         font-weight: 500;
@@ -2187,7 +2234,7 @@ body {
         margin-bottom: 0px;
     }
 
-  
+
 
     .section-padding {
         padding-top: 40px;
@@ -2215,10 +2262,12 @@ body {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .product-icon{
+
+    .product-icon {
         padding-top: 26px !important;
         padding-bottom: 26px !important;
     }
+
     .logo-xs img {
         width: 170px;
         height: 32px;
@@ -2252,7 +2301,7 @@ body {
     }
 
     .products-title {
-      padding: 14px !important;
+        padding: 14px !important;
     }
 
     .Lubricants-text {
@@ -2264,12 +2313,15 @@ body {
     .About-title-xs h1 {
         font-size: 30px;
     }
+
     .form_field_container div.col {
-       padding: 0;
-     }
-     .contactus_btn{
-         padding-left: 0px;
-     }
+        padding: 0;
+    }
+
+    .contactus_btn {
+        padding-left: 0px;
+    }
+
     .About-des-xs p {
         font-size: 14px;
     }
@@ -2289,9 +2341,11 @@ body {
     .benefit {
         height: 700px;
     }
-    .swiper-wrapper{
+
+    .swiper-wrapper {
         margin-top: 30px;
     }
+
     .benefit::after {
         height: 700px;
     }
@@ -2341,11 +2395,12 @@ body {
         justify-content: center;
     }
 
-    .icon_container img{
+    .icon_container img {
         width: 56px;
 
 
     }
+
     .facility-img {
         display: flex;
         justify-content: center;
@@ -2355,10 +2410,12 @@ body {
         width: 96px;
         height: 54px;
     }
-    .contact_card_gap{
+
+    .contact_card_gap {
         gap: 20px;
         align-items: center;
     }
+
     .swiper-button-next,
     .swiper-button-prev {
         top: 33%;
@@ -2475,12 +2532,14 @@ body {
         border-radius: 10px;
         height: 145px;
     }
-    .Global_Excellence_box{
+
+    .Global_Excellence_box {
         font-size: 16px !important;
         width: 100%;
         border-radius: 10px;
         height: 145px;
     }
+
     .numeric {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -2649,12 +2708,15 @@ body {
     .features-recommendation {
         gap: 0px !important;
     }
-    .Key_Features-text{
+
+    .Key_Features-text {
         padding: 10px !important;
     }
-    .Key_Features_sab{
+
+    .Key_Features_sab {
         gap: 0 !important;
     }
+
     .Key_Features h2 {
         font-size: 20px !important;
         line-height: 30px !important;
@@ -2674,13 +2736,15 @@ body {
         width: 45px !important;
         height: 45px !important;
     }
-   
+
     .product_btn_bak {
         margin-top: 10px !important;
     }
-    .All_product{
+
+    .All_product {
         margin-top: 24px !important;
     }
+
     .img-set {
         top: 1% !important;
     }
@@ -2760,7 +2824,7 @@ body {
     .industrial-Product-title p {
         line-height: 21px !important;
         font-size: 14px !important;
-        font-family: 400 !important;
+        font-weight: 400 !important;
         text-align: center;
         margin-top: 10px !important;
         margin-bottom: 10px !important;
@@ -2916,85 +2980,107 @@ body {
     .product-sab-images div {
         width: 30% !important;
     }
-    .produt{
-        margin-bottom: 20px ;
+
+    .produt {
+        margin-bottom: 20px;
     }
-    .contact_detail_container_gap{
+
+    .contact_detail_container_gap {
         gap: 16px;
     }
-    .about-image-container{
+
+    .about-image-container {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
     .Available-btn {
         margin-top: 10px;
     }
-    .produt_gap{
+
+    .produt_gap {
         margin-bottom: 30px !important;
     }
+
     .Global-Excellence-text p {
         padding-bottom: 20px;
     }
-   .cout-box{
-    margin-top: 14px;
-   }
-   .count_number{
-    font-size: 16px;
-    margin-bottom: 0;
-   }
-   .cout_of_years span{
-    margin-top: 10px !important;
-   }
-   .cout_Branche{
-    height: 110px;
-    width: 100%;
-    border-radius: 10px;
-   }
-   .has-blank {
-    display: none !important;
-   }
+
+    .cout-box {
+        margin-top: 14px;
+    }
+
+    .count_number {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .cout_of_years span {
+        margin-top: 10px !important;
+    }
+
+    .cout_Branche {
+        height: 110px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .has-blank {
+        display: none !important;
+    }
+
 }
 
 @media(min-width:576px) {
-    .heading_container{
+    .heading_container {
         margin-bottom: 24px !important;
     }
-    .contact_All_detail{
+
+    .contact_All_detail {
         gap: 16px;
     }
+
     .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
     .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {}
+
     .contact-title {
         padding-top: 40px;
-     
+
     }
+
     .wcu_card {
-        padding: 0 ;
+        padding: 0;
         margin-top: 0px;
     }
+
     .Lubricants-products {
         justify-content: center !important;
         margin-top: 30px !important;
         gap: 20px !important;
     }
-    .Connect_padding{
-       padding-top: 40px !important;
+
+    .Connect_padding {
+        padding-top: 40px !important;
     }
-    .title-contact{
+
+    .title-contact {
         margin: 0;
         font-size: 30px;
         line-height: 45px;
         font-weight: 600;
         padding-bottom: 0 !important;
     }
+
     .heading_description {
         font-size: 14px;
         line-height: 21px;
         font-weight: 400;
     }
-    .contact_card{
+
+    .contact_card {
         padding: 32px;
     }
+
     .count-card {
         width: 47%;
     }
@@ -3006,7 +3092,7 @@ body {
     .Revitalize-card {
         width: 100% !important;
     }
-    
+
     .Lubricants-products {
         justify-content: center !important;
     }
@@ -3020,9 +3106,11 @@ body {
     .copy-right-footer div p {
         font-size: 16px;
     }
-    .about-sab{
+
+    .about-sab {
         gap: 24px;
     }
+
     .text {
         font-size: 16px;
         font-weight: 500;
@@ -3042,7 +3130,7 @@ body {
         margin-bottom: 0px;
     }
 
-  
+
 
     .section-padding {
         padding-top: 40px;
@@ -3070,10 +3158,12 @@ body {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .product-icon{
+
+    .product-icon {
         padding-top: 26px !important;
         padding-bottom: 26px !important;
     }
+
     .logo-xs img {
         width: 170px;
         height: 32px;
@@ -3107,7 +3197,7 @@ body {
     }
 
     .products-title {
-      padding: 14px !important;
+        padding: 14px !important;
     }
 
     .Lubricants-text {
@@ -3119,12 +3209,15 @@ body {
     .About-title-xs h1 {
         font-size: 30px;
     }
+
     .form_field_container div.col {
-       padding: 0;
-     }
-     .contactus_btn{
-         padding-left: 0px;
-     }
+        padding: 0;
+    }
+
+    .contactus_btn {
+        padding-left: 0px;
+    }
+
     .About-des-xs p {
         font-size: 14px;
     }
@@ -3144,9 +3237,11 @@ body {
     .benefit {
         height: 700px;
     }
-    .swiper-wrapper{
+
+    .swiper-wrapper {
         margin-top: 30px;
     }
+
     .benefit::after {
         height: 700px;
     }
@@ -3197,11 +3292,12 @@ body {
     }
 
 
-    .icon_container img{
+    .icon_container img {
         width: 56px;
 
 
     }
+
     .facility-img {
         display: flex;
         justify-content: center;
@@ -3211,10 +3307,12 @@ body {
         width: 96px;
         height: 54px;
     }
-    .contact_card_gap{
+
+    .contact_card_gap {
         gap: 20px;
         align-items: center;
     }
+
     .swiper-button-next,
     .swiper-button-prev {
         top: 33%;
@@ -3331,12 +3429,14 @@ body {
         border-radius: 10px;
         height: 145px;
     }
-    .Global_Excellence_box{
+
+    .Global_Excellence_box {
         font-size: 16px !important;
         width: 100%;
         border-radius: 10px;
         height: 145px;
     }
+
     .numeric {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -3505,12 +3605,15 @@ body {
     .features-recommendation {
         gap: 0px !important;
     }
-    .Key_Features-text{
+
+    .Key_Features-text {
         padding: 10px !important;
     }
-    .Key_Features_sab{
+
+    .Key_Features_sab {
         gap: 0 !important;
     }
+
     .Key_Features h2 {
         font-size: 20px !important;
         line-height: 30px !important;
@@ -3530,13 +3633,15 @@ body {
         width: 45px !important;
         height: 45px !important;
     }
-   
+
     .product_btn_bak {
         margin-top: 10px !important;
     }
-    .All_product{
+
+    .All_product {
         margin-top: 24px !important;
     }
+
     .img-set {
         top: 1% !important;
     }
@@ -3772,40 +3877,50 @@ body {
     .product-sab-images div {
         width: 30% !important;
     }
-    .produt{
-        margin-bottom: 20px ;
+
+    .produt {
+        margin-bottom: 20px;
     }
-    .contact_detail_container_gap{
+
+    .contact_detail_container_gap {
         gap: 16px;
     }
-    .about-image-container{
+
+    .about-image-container {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
     .Available-btn {
         margin-top: 10px;
     }
-    .produt_gap{
+
+    .produt_gap {
         margin-bottom: 30px !important;
     }
+
     .Global-Excellence-text p {
         padding-bottom: 20px;
     }
-   .cout-box{
-    margin-top: 14px;
-   }
-   .count_number{
-    font-size: 16px;
-    margin-bottom: 0;
-   }
-   .cout_of_years span{
-    margin-top: 10px !important;
-   }
-   .cout_Branche{
-    height: 110px;
-    width: 100%;
-    border-radius: 10px;
-   }
+
+    .cout-box {
+        margin-top: 14px;
+    }
+
+    .count_number {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .cout_of_years span {
+        margin-top: 10px !important;
+    }
+
+    .cout_Branche {
+        height: 110px;
+        width: 100%;
+        border-radius: 10px;
+    }
 }
 
 @media(min-width:768px) {
@@ -3813,65 +3928,83 @@ body {
         padding-left: 26px !important;
         padding-right: 26px !important;
     }
-    .contact_detail_container_gap{
+
+    .contact_detail_container_gap {
         gap: 20px;
     }
+
     .wcu_card {
         padding: 15px;
     }
+
     .dynamic-text {
         width: 230px;
     }
-    .product-icon{
+
+    .product-icon {
         margin: 0 !important;
     }
-    .product_details_title{
+
+    .product_details_title {
         gap: 30px !important;
     }
-    .Available_Size{
+
+    .Available_Size {
         padding-bottom: 30px !important;
     }
-    .Kalsaria-img img{
+
+    .Kalsaria-img img {
         width: auto;
     }
-    .Vision_text{
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    font-weight: 400;
-    line-height: 24px;
-    color: #414141;
-}
-    .icon-text1{
+
+    .Vision_text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #414141;
+    }
+
+    .icon-text1 {
         margin-top: 16px !important;
     }
+
     .form_field_container div.col {
         padding-left: 20px;
         padding-right: 7px;
-     }
-     .contactus_btn{
-         padding-left: 20px;
-     }
-     .contact_All_detail{
+    }
+
+    .contactus_btn {
+        padding-left: 20px;
+    }
+
+    .contact_All_detail {
         gap: 20px;
     }
-     .Lubricants-text{
+
+    .Lubricants-text {
         margin-bottom: 30px !important;
-     }
-     .product-icon{
+    }
+
+    .product-icon {
         gap: 20px !important;
         padding-top: 30px !important;
         padding-bottom: 30px !important;
     }
-     .contact_card{
-        padding:51px 35px;
-     }
+
+    .contact_card {
+        padding: 51px 35px;
+    }
+
     .Fueling-Excellence-img2 {
         display: flex;
         justify-content: center;
     }
-    .contact_card_gap{
+
+    .contact_card_gap {
         gap: 30px;
     }
+
     .menej-box {
         width: 84%;
     }
@@ -3926,7 +4059,7 @@ body {
     }
 
     .img-set img {
-        
+
         width: 340px !important;
     }
 
@@ -4144,7 +4277,8 @@ body {
         z-index: 10;
         width: 342px;
     }
-    .Global_Excellence_box{
+
+    .Global_Excellence_box {
         z-index: 10;
         width: 47%;
         height: 181px;
@@ -4175,7 +4309,7 @@ body {
         gap: 60px !important;
     }
 
-   
+
 
     .product-icon .icon {
         width: 164px !important;
@@ -4270,7 +4404,7 @@ body {
     }
 
     .industrial-Product-title {
-        width: auto !important;
+        width: 60% !important;
     }
 
     .industrial-Product-title p {
@@ -4328,81 +4462,122 @@ body {
     .coll-md-6 {
         width: 49.82% !important;
     }
-    .Connect_map{
+
+    .Connect_map {
         padding-top: 40px;
     }
-    .Connect_padding{
+
+    .Connect_padding {
         padding-top: 60px !important;
     }
-    .Connect_thank_padding
-    {
+
+    .Connect_thank_padding {
         padding-bottom: 60px !important;
     }
-    .about-image-container img{
+
+    .about-image-container img {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .about-hero-subtext{
+
+    .about-hero-subtext {
         margin: 0;
     }
+
     .heading_description {
         margin-top: 20px;
     }
-    .heading_container{
+
+    .heading_container {
 
         margin-bottom: 15px !important;
 
     }
-    .about-section{
+
+    .about-section {
         margin: 60px 0 !important;
     }
-    .main-Global-Excellence{
+
+    .main-Global-Excellence {
         gap: 104px;
     }
+
     .Global-Excellence-text p {
         padding-bottom: 0;
     }
-    .cout_Branche{
+
+    .cout_Branche {
         height: 261px;
         width: 100%;
         border-radius: 10px;
-       }
-       
-       .cout_Branche{
+    }
+
+    .cout_Branche {
         margin-top: 30px;
-       }
-       .features-recommendation{
+    }
+
+    .features-recommendation {
         gap: 30px !important;
-       }
-       .contact_card_heading{
+    }
+
+    .contact_card_heading {
         font-size: 24px;
         line-height: 36px;
-       }
-       .Kalsaria-title h2{
+    }
+
+    .Kalsaria-title h2 {
         font-size: 36px;
         line-height: 54px;
         font-weight: 600;
-       }
-       .col-md-768-6{
+    }
+
+    .col-md-768-6 {
         width: 53%;
-       }
-       .product_details_next, .product_details_prev{
+    }
+
+    .product_details_next,
+    .product_details_prev {
         top: 50% !important;
-          right: 100% !important;
-       }
-       .product_details_next{
+        right: 100% !important;
+    }
+
+    .product_details_next {
         right: 100% !important;
 
-       }
-       .product_details_prev{
+    }
+
+    .product_details_prev {
         left: 2% !important;
-       }
+    }
+
+    .industrial_white {
+        width: auto !important;
+    }
+
+    .technical h5,
+    .technical ul li {
+       min-width: 218px;
+    }
+    .industrial-border h5{
+        padding: 0;
+    }
+    .TECHNICAL-SPECIFICATIONS-title h2{
+        text-align: start;
+    }
+    .has-blank {
+        width: 30px !important;
+    }
 }
 
 @media(min-width:992px) {
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .STORAGS p,
+    .STORAGS ul li {
+        font-size: 16px !important;
     }
 
     .dynamic-text {
@@ -4417,9 +4592,12 @@ body {
     .top-bar-lg {
         padding-top: 8px;
     }
-    .benefit::after , .benefit{
+
+    .benefit::after,
+    .benefit {
         height: 600px;
     }
+
     .header-lg {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -4495,7 +4673,8 @@ body {
     .benefit-icon {
         margin-top: 50px;
     }
-    .main-Global-Excellence{
+
+    .main-Global-Excellence {
         padding-top: 100px;
     }
 
@@ -4554,6 +4733,8 @@ body {
     .swiper-button-prevRevitalize {
         left: 85%;
     }
+   
+  
 }
 
 .list-none {
@@ -4586,8 +4767,12 @@ body {
         gap: 20px;
         flex-direction: column;
     }
-
-
+    .technical h5, .technical ul li{
+        min-width: 226px;
+    }
+    .has-blank{
+        width: 30px !important;
+    }
     .About-img img {
         width: 100%;
         height: auto;
@@ -4773,6 +4958,7 @@ body {
     }
 
     .industrial-Product-title h1 {
+
         font-size: 36px !important;
         line-height: 54px !important;
     }
@@ -4822,35 +5008,50 @@ body {
     .produt {
         padding: 15px !important;
     }
-    .main-Global-Excellence{
+
+    .main-Global-Excellence {
         gap: 0 !important;
     }
-    .befor-befor, .after-befor{
+
+    .befor-befor,
+    .after-befor {
         padding: 15px 0;
     }
+
     .cout_Branche {
         width: 97%;
     }
+
     .contact_card {
         padding: 30px 30px;
     }
-    .product_details_prev{
+
+    .product_details_prev {
         left: 2% !important;
-       }
+    }
+
+    .industrial-Product-title {
+        width: 35% !important;
+    }
+    
 }
+
 @media(min-width:1400px) {
     .about-sab {
         width: 684px;
         gap: 20px;
         flex-direction: column;
     }
+
     .contact_card {
         width: calc(32.00% - 10px);
         padding: 33px 35px;
     }
-    .contact_detail_container_gap{
+
+    .contact_detail_container_gap {
         gap: 30px;
     }
+
     .Fueling-Excellence-width {
         width: 1212px;
     }
@@ -4872,13 +5073,15 @@ body {
     .about-main {
         gap: 0;
     }
-    .swiper-button-prev{
+
+    .swiper-button-prev {
         left: 87% !important;
     }
+
     .kalsari1-img {
         right: 15%;
     }
-   
+
     .about-description p {
         font-size: 16px;
         line-height: 24px;
@@ -4893,9 +5096,11 @@ body {
     .cout {
         width: 300px;
     }
-    .contact_All_detail{
+
+    .contact_All_detail {
         gap: 30px;
     }
+
     .Kalsaria-title-text {
         margin-left: 51px;
     }
@@ -4957,10 +5162,22 @@ body {
     .swiper-button-prevRevitalize {
         left: 88%;
     }
-    .product_details_prev{
+
+    .product_details_prev {
         left: 2% !important;
-       }
-    
+    }
+
+    .industrial-images .industrial-image img {
+        width: 264px !important;
+        height: 250px !important;
+        border-radius: 60px !important;
+    }
+    .industrial-border ul li,
+    .industrial-border h5 {
+        padding: 0 10px;
+        font-size: 16px !important;
+    }
+
 }
 
 @media(min-width:1463px) {
@@ -4969,6 +5186,7 @@ body {
         height: 261px;
     }
 
+
     .product_details-sab {
         width: 56.4658% !important;
     }
@@ -4976,26 +5194,32 @@ body {
     .industrial {
         height: 500px !important;
     }
-    .about-image-container img{
-       margin: 0;
+
+    .about-image-container img {
+        margin: 0;
     }
+
     .industrial-sab {
         margin-top: 70px !important;
         margin-bottom: 70px !important;
         justify-content: center;
     }
-    .main-Global-Excellence{
+
+    .main-Global-Excellence {
         gap: 0;
     }
+
     .befor-img {
         top: 38%;
     }
+
     .industrial-images .industrial-image img {
-        width: 346px !important;
-        height: 360px !important;
+        width: 340px !important;
+        height: 350px !important;
         border-radius: 60px !important;
     }
-    .features-recommendation{
+
+    .features-recommendation {
         gap: 50px !important;
     }
 
@@ -5035,42 +5259,48 @@ body {
         margin-top: 100px !important;
         margin-bottom: 100px !important;
     }
-    .heading_description{
-        margin-top: 30px ;
+
+    .heading_description {
+        margin-top: 30px;
     }
-    .heading_container{
+
+    .heading_container {
         margin-bottom: 50px !important;
     }
-    .swiper-wrapper{
+
+    .swiper-wrapper {
         margin-top: 59px !important;
     }
-    .DIRECTION-FOR-STORAGE{
+
+    .DIRECTION-FOR-STORAGE {
         gap: 50px !important;
     }
-    .befor-befor , .after-befor{
+
+    .befor-befor,
+    .after-befor {
         padding: 0 15px;
     }
-    .icon-text{
+
+    .icon-text {
         padding: 0 10px;
     }
-    .benefit-text{
+
+    .benefit-text {
         gap: 24px !important;
     }
-    .about-image-container{
+
+    .about-image-container {
         margin: 0 !important;
     }
-    .count-card{
+
+    .count-card {
         width: 50%;
     }
-    .industrial-border ul li , .industrial-border h5{
-        width: auto;
-      
-    }
-    .industrial-border ul li ,  .industrial-border h5{
-        padding: 0 17px;
-        font-size: 15px;
-    }
-    .TECHNICAL-SPECIFICATIONS-title h2{
+    
+
+
+
+    .TECHNICAL-SPECIFICATIONS-title h2 {
         text-align: start;
     }
 }
@@ -5082,7 +5312,12 @@ body {
         flex-direction: column;
     }
 
-    
+    .industrial-images .industrial-image img {
+        width: 346px !important;
+        height: 360px !important;
+        border-radius: 60px !important;
+    }
+
     .img-set {
         top: 12% !important;
     }
@@ -5121,6 +5356,7 @@ body {
     .after-befor {
         margin-bottom: 30px;
     }
+
     .about-seciton-text {
         padding-left: 200px;
     }
@@ -5164,7 +5400,7 @@ body {
 }
 
 .products-title {
-  padding: 20px;
+    padding: 20px;
 }
 
 .products:hover .products-icon i {
@@ -5224,9 +5460,11 @@ body {
 .product_details_prev i {
     color: #1E5F28;
 }
-.product-title{
+
+.product-title {
     text-transform: uppercase;
 }
+
 .product_details_next i {
     font-size: 12px;
 }
@@ -5480,11 +5718,7 @@ body {
     justify-content: center;
 }
 
-.industrial-Product-title h1 {
-    line-height: 54px;
-    font-size: 36px;
-    font-weight: 600;
-}
+
 
 .industrial-Product-title p {
     margin-top: 20px;
@@ -5697,34 +5931,45 @@ tbody tr td span {
 .thead tr:last-child {
     padding: 0;
 }
+
 /* DIRECTION FOR STORAGE AND USE End */
-.Vision{
+.Vision {
     border-top: 2px solid #F5F5F5 !important;
     border-bottom: 2px solid #F5F5F5 !important;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.Vision span i{
+.Vision span i {
     font-size: 14px;
     color: #000000;
     transition: all 0.9s;
 
 }
-.accordion-button:focus{
+
+.hecton-wrl-page h5,
+.hecton-wrl-page ul li {
+    width: 368px;
+
+}
+
+.accordion-button:focus {
     box-shadow: none;
 }
-.Vision span i:hover{
+
+.Vision span i:hover {
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#d2dfd4;
+    background-color: #d2dfd4;
     border-radius: 50%;
     transition: all 0.9s;
 }
-.accordion-button:not(.collapsed) , .Mission_title{
+
+.accordion-button:not(.collapsed),
+.Mission_title {
     color: black;
     font-weight: 500;
     font-size: 22px;

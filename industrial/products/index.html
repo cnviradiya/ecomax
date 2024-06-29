@@ -15,8 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/images/Favicon-icon-Ecomax.png" />
-    <link rel="stylesheet" href="/assets/css/Style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/Style.css" />
+
 </head>
 
 <body>
@@ -144,12 +145,13 @@
     <div class="industrial-Product">
         <div class="container1">
             <div class="row">
-                <div class="col-12 d-flex justify-content-between industrial-Product-item flex-wrap p-0">
+                <div
+                    class="col-12 d-flex justify-content-between align-items-center industrial-Product-item flex-wrap p-0">
                     <div class="industrial-Product-title text-white">
                         <h1 class="m-0 dynamic-data" data-title>
 
                         </h1>
-                        <p class="dynamic-data dynamic-text" data-description></p>
+                        <p class="dynamic-data dynamic-text uppercase-text" data-description></p>
                     </div>
                     <div class="industrial-Product-images dynamic-data" data-image>
 
@@ -189,7 +191,7 @@
     <div class="TECHNICAL-SPECIFICATIONS">
         <div class="container1">
             <div class="row">
-                <div class="col-12 d-flrx flex-wrap">
+                <div class="col-12 d-flrx flex-wrap p-0">
                     <div
                         class="col-12 p-0 align-items-center TECHNICAL-SPECIFICATIONS-Result justify-content-between d-flex flex-wrap">
                         <div class="TECHNICAL-SPECIFICATIONS-title col-12 col-xl-2">
@@ -199,7 +201,7 @@
                         </div>
                         <div
                             class="swiper industrial_swiper justify-content-center m-0 col-12 industrial-border col-xl-10">
-                            <div class="swiper-wrapper  col-12 justify-content-center m-0" id="industrial_tabal">
+                            <div class="swiper-wrapper justify-content-lg-center  col-12  m-0" id="industrial_tabal">
 
                             </div>
                             <br>
@@ -314,13 +316,7 @@
                                         class="accordion-button m-3 d-flex  justify-content-between col-12 collapsed"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo1"
                                         aria-expanded="false" aria-controls="collapseTwo1">
-
-                                        <span class="col-12 d-flex justify-content-between">
-                                            <span class="m-0 footer-link-title">Quick Link</span>
-                                            <span class="m-0 footer-link-icon "><i
-                                                    class="fa-solid fa-angle-down mt-1 me-5"></i></span>
-                                        </span>
-
+                                        Quick Link
                                     </button>
                                 </h2>
                                 <div id="collapseTwo1" class="accordion-collapse collapse" aria-labelledby="headingTwo1"
@@ -478,6 +474,7 @@
             </div>
         </div>
     </footer>
+
     <!-- Footer end -->
     <!-- Script start -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -501,12 +498,6 @@
 
         } else {
 
-            if (window.location.href == "http://127.0.0.1:5500/industrial/products/index.html?s=hydro-power-68-heavy-duty-hydraulic-oil") {
-                document.getElementById("last_page").style.display = 'none';
-
-            } else {
-
-            }
         }
         if (window.location.href == "https://ecomax.vercel.app/industrial/products/index.html?s=hydro-power-68-heavy-duty-hydraulic-oil") {
             document.getElementById("last_page").style.display = 'none';
@@ -514,56 +505,61 @@
         } else {
         }
 
-    </script>
-    <script>
-
-        
-
-
-        var swiper = new Swiper(".industrial_swiper", {
-            pagination: {
-                el: ".swiper-pagination",
-                dynamicBullets: true,
-            },
-            breakpoints: {
-                // when window width is >= 320px
-                320: {
-                    slidesPerView: 1,
-                    spaceBetween: 0
+        $(function () {
+            var swiper = new Swiper(".industrial_swiper", {
+                pagination: {
+                    el: ".swiper-pagination",
+                    dynamicBullets: false,
                 },
-                // when window width is >= 640px
-                768: {
-                    slidesPerView: 11,
-                    spaceBetween: 0
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 0
+                    },
+                    // when window width is >= 640px
+                    768: {
+                        slidesPerView: 9,
+                        spaceBetween: 0
+                    },
+                    991: {
+                        slidesPerView: 11,
+                        spaceBetween: 0
+                    },
+  
                 }
-            }
+            });
+
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 5,
+                        spaceBetween: 50,
+                    },
+                },
+            });
+
         });
-    </script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 4,
-                    spaceBetween: 40,
-                },
-                1024: {
-                    slidesPerView: 5,
-                    spaceBetween: 50,
-                },
-            },
-        });
-    </script>
-    <script>
+
+
+
+
+
+
         // Load the data when the document is ready
         document.addEventListener("DOMContentLoaded", async () => {
             loadJS([
@@ -647,8 +643,6 @@
                             return "<p>" + point + "</p>";
                         }));
                     }
-
-
                 });
                 // Set Technical Specifications
                 let technicalSpecificationsHTML = '';
@@ -657,7 +651,7 @@
                     for (let curIndex = 0; curIndex <= technicalSpecificationsArr.length; curIndex++) {
                         if (typeof technicalSpecificationsArr[curIndex] !== "undefined") {
 
-                            technicalSpecificationsHTML += '<div class="swiper-slide industrial_white industrial-border text-white ' + (technicalSpecificationsArr[curIndex].has_blank ? "has-blank" : "") + '"><h5 class="dynamic-data text-center industrial-border m-0"  property-title>';
+                            technicalSpecificationsHTML += '<div class="swiper-slide industrial_white industrial-border text-white' + (window.location.href == "http://127.0.0.1:5500/industrial/products/index.html?s=extreme-pressure-gear-lubricant" ? " " : " technical ") + (technicalSpecificationsArr[curIndex].has_blank ? " has-blank " : "") + (window.location.href == "http://127.0.0.1:5500/industrial/products/index.html?s=extreme-pressure-grease" ? " hecton-wrl-page " : "") + (window.location.href == "http://127.0.0.1:5500/industrial/products/index.html?s=hydro-power-68-heavy-duty-hydraulic-oil" ? " hecton-wrl-page " : "") + '"><h5 class="dynamic-data text-center industrial-border m-0"  property-title>';
                             technicalSpecificationsHTML += technicalSpecificationsArr[curIndex].property + '</h5>';
                             technicalSpecificationsHTML += '<ul class="dynamic-data text-center list-none p-0 m-0 ">';
                             // Add indivial property here
@@ -670,7 +664,7 @@
                     }
                     $('#industrial_tabal').html(technicalSpecificationsHTML);
                 }
-                console.log(technicalSpecificationsHTML);
+
             }, 500);
         });
 

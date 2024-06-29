@@ -1011,6 +1011,7 @@
                     },
                     {
                         "property": "",
+                        "has_blank": true,
                         "property_point": [
                             "",
                             "",
@@ -1148,7 +1149,7 @@
         "collection_slug": "hydro-power-68-heavy-duty-hydraulic-oil",
         "products": [
             {
-                "title": "HYDRO POWER - 68 <br> HEAVY DUTY HYDRAULIC OIL",
+                "title": "HYDRO POWER - 68  HEAVY DUTY HYDRAULIC OIL",
                 "thumb_title": "HYDRO POWER - 68 HEAVY DUTY HYDRAULIC OIL",
                 "slug": "hydro-power-68-heavy-duty-hydraulic-oil",
                 "products_image": "product_hydro-power-68-heavy-duty-hydraulic-oil.png",

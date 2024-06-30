@@ -2831,7 +2831,6 @@ body {
 
     .industrial-Product-title h1 {
         font-size: 30px !important;
-        line-height: 45px !important;
         text-align: center;
     }
 
@@ -3727,7 +3726,6 @@ body {
 
     .industrial-Product-title h1 {
         font-size: 30px !important;
-        line-height: 45px !important;
         text-align: center;
     }
 
@@ -4411,6 +4409,7 @@ body {
 
     .industrial-Product-title h1 {
         text-align: start !important;
+
     }
 
     .industrial-Product-images {
@@ -4962,6 +4961,7 @@ body {
     }
 
     .industrial-Product-title h1 {
+        line-height: 45px !important;
 
         font-size: 36px !important;
         line-height: 54px !important;
@@ -5719,7 +5719,7 @@ body {
     height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 

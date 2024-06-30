@@ -2139,7 +2139,6 @@ body {
     .contact_All_detail {
         gap: 16px;
     }
-
     .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
     .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {}
 
@@ -2909,12 +2908,11 @@ body {
     }
 
     .DIRECTION-FOR-STORAGE {
-        gap: 30px !important;
+        gap: 10px !important;
     }
 
     .DIRECTION-FOR-STORAGE-images {
         padding: 0 !important;
-        margin-top: 30px;
     }
 
     .DIRECTION-FOR-STORAGE-images img {
@@ -4567,6 +4565,9 @@ body {
     .has-blank {
         width: 30px !important;
     }
+    .swiper-button-prevRevitalize{
+        left: 83% !important;
+    }
 }
 
 @media(min-width:992px) {
@@ -4732,6 +4733,9 @@ body {
 
     .swiper-button-prevRevitalize {
         left: 85%;
+    }
+    .swiper-button-prevRevitalize{
+        left: 85% !important;
     }
    
   
@@ -5775,6 +5779,23 @@ body {
 .thead tr th {
     width: 1% !important;
 }
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+}
+/* Rotate the icon when the accordion is open */
+.accordion-button:not(.collapsed) .footer-link-icon i {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add a transition for smooth rotation */
+.footer-link-icon i {
+    transition: transform 0.3s ease-in-out;
+}
+
+.Vision_icon i {
+    transition: transform 0.3s ease-in-out;
+}
 
 /* industrial hero End */
 /* TECHNICAL SPECIFICATIONS Start */
@@ -5920,7 +5941,21 @@ tbody tr td span {
     line-height: 36px;
     color: #1E5F28;
 }
-
+@media (max-width:320px) {
+    .swiper-button-next, .swiper-button-prev{
+        top: 31% !important;
+    }
+}
+@media (max-width:375px) {
+    .swiper-button-next, .swiper-button-prev{
+        top: 26%;
+    }
+}
+@media (max-width:425px) {
+    .swiper-button-next, .swiper-button-prev{
+        top: 26%;
+    }
+}
 .STORAGS p,
 .STORAGS ul li {
     line-height: 24px;

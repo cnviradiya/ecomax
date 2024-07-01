@@ -2966,9 +2966,7 @@ body {
         width: 47% !important;
     }
 
-    .product-sab-images {
-        justify-content: space-between;
-    }
+   
 
     .product-sab-images {
         gap: 5px !important;
@@ -3863,11 +3861,7 @@ body {
     }
 
     .product-sab-images {
-        justify-content: space-between;
-    }
-
-    .product-sab-images {
-        gap: 5px !important;
+        gap: 10px !important;
     }
 
     .product-sab-images div {
@@ -3917,6 +3911,10 @@ body {
         width: 100%;
         border-radius: 10px;
     }
+    .Similar_Products_next{
+        top: 0 !important;
+    }
+  
 }
 
 @media(min-width:768px) {
@@ -3928,7 +3926,7 @@ body {
     .contact_detail_container_gap {
         gap: 20px;
     }
-
+   
     .wcu_card {
         padding: 15px;
     }
@@ -3980,6 +3978,9 @@ body {
 
     .Lubricants-text {
         margin-bottom: 30px !important;
+    }
+    .Similar-Products-title{
+        height: 50px !important;
     }
 
     .product-icon {
@@ -5944,6 +5945,12 @@ tbody tr td span {
 @media (max-width:320px) {
     .swiper-button-next, .swiper-button-prev{
         top: 31% !important;
+    }
+    .Similar-Products-title{
+        height: 50px !important;
+    }
+    .Similar_Products_prev ,  .Similar_Products_next{
+        top: 26px !important;
     }
 }
 @media (max-width:375px) {

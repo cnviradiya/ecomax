@@ -552,7 +552,7 @@ a {
 }
 
 .copy-right-footer {
-    background-color: var(--dark-primary-color);
+    background-color: #00642E;
     padding: 10px 0;
 }
 
@@ -935,10 +935,6 @@ a {
         padding: 20px;
     }
 
-    .footer-logo-image {
-        max-width: 277px;
-    }
-
     .footer-text {
         font-size: var(--small-font);
     }
@@ -1146,7 +1142,7 @@ a {
 .bordericon1 {
     width: 28px;
     height: 28px;
-    background-color: var(--green);
+    background-color: #009846;
     border-radius: 8px;
 }
 
@@ -1310,7 +1306,7 @@ body {
 }
 
 .slaid-btn {
-    background-color: var(--green);
+   background-color: #3A7A43;
     width: 42px !important;
     border-radius: 8px;
     height: 42px !important;
@@ -1599,7 +1595,7 @@ body {
     background-size: cover;
     position: absolute;
     content: '';
-    background-color: #1e5f28;
+    background-color:#009846;
     top: 0;
     left: 0;
     width: 100%;
@@ -1660,7 +1656,7 @@ body {
 .bordericon1 {
     width: 28px;
     height: 28px;
-    background-color: var(--green);
+    background-color:#009846;
     border-radius: 8px;
 }
 
@@ -1828,7 +1824,7 @@ body {
 }
 
 .footer-link {
-    background-color: #1E5F28;
+    background-color: #009846;
     border-radius: 5px;
 }
 
@@ -5642,7 +5638,7 @@ body {
     color: white;
     border: none;
     border-radius: 100px;
-    background-color: var(--green);
+    background-color: #3A7A43;
     transition: all 0.9s;
 }
 
@@ -5710,7 +5706,7 @@ body {
 }
 
 .industrial-Product {
-    background-color: #1E5F28;
+    background-color:  #009846;
     height: 450px;
     z-index: -1;
     background-image: url("../images/industrial/industrial-hero.png");
@@ -5816,7 +5812,7 @@ body {
     background-size: cover;
     position: absolute;
     content: '';
-    background-color: #1e5f28;
+    background-color:  #009846;
     top: 0;
     left: 0;
     width: 100%;

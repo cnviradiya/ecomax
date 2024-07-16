@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets/images/Favicon-icon-Ecomax.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="/assets/css/ecomax_style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
 </head>
 
@@ -37,8 +37,6 @@
             </div>
         </div>
     </div>
-
-
     <!-- Start: header -->
     <section class="header header-xs header-sm header-md header-lg">
         <div class="container1">
@@ -437,7 +435,7 @@
                 <div class="row p-0">
                     <div class="col-lg-4 col-md-12 mb-4 mb-sm-5  text-light">
                         <a href="/"><img src="https://ik.imagekit.io/ecomax/assets/images/nav_logo.png" alt="logo image"
-                                width="340" class="footer-logo-image img-fluid "></a>
+                               class="footer-logo-image img-fluid "></a>
                         <p class="footer-text">Powering Performance, Maximizing Efficiency: Ecomax - Your Engine's Best
                             Companion
                         </p>
@@ -704,10 +702,7 @@
 
                     if (productSlug && collectionSlug) {
                         const productData = await loadCollectionData('product', productSlug, collectionSlug);
-                   
-
                         // Image slider
-
                         // Product Right side Title
                         $('.dynamic-data').each(function () {
 
@@ -771,8 +766,6 @@
                        document.getElementById("Back_btn_Product").innerHTML=bak_btn;
                         
                     }
-
-
                     $('#contentDiv').html(
                         collectionType == 'all' ?
 
@@ -789,15 +782,11 @@
                                 product.img = getAssetURL("/assets/images/collections/" + collectionData.collection_slug + "/products/" + product.images[0]);
                                 product.title = product.thumb_title;
                                 return collectionThumbHTML(product)
-
                             })
-                            
-
                     );
                 }, 500);
 
             });
-            
         </script>
 
     <script src="https://ik.imagekit.io/ecomax/assets/JS/init.js?time=1" defer></script>

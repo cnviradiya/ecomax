@@ -544,7 +544,7 @@ a {
 
 /* footer section */
 .footer_inner {
-    background-image: url('../images/footer/Footermask-green.png'), url('../images/footer/footer-mask.png');
+    background-image: url('../images/footer_oer.png'), url('../images/footer/footer-mask.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

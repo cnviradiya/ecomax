@@ -544,7 +544,7 @@ a {
 
 /* footer section */
 .footer_inner {
-    background-image: url('../images/footer/footermask-green.png'), url('../images/footer/footer-mask.png');
+    background-image: url('../images/footer/Footermask-green.png'), url('../images/footer/footer-mask.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5297,9 +5297,6 @@ body {
     .count-card {
         width: 50%;
     }
-    
-
-
 
     .TECHNICAL-SPECIFICATIONS-title h2 {
         text-align: start;

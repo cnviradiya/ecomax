@@ -414,7 +414,7 @@ a {
 
 .industrial-border ul li {
     border: 1px solid rgba(255, 255, 255, 0.268);
-    background-color: #1E5F28;
+    background-color: #009846;
 
 }
 
@@ -439,7 +439,7 @@ a {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    background-color: #0D4315;
+    background-color: #007436;
 }
 
 .industrial_wh h5,
@@ -4422,7 +4422,7 @@ body {
     }
 
     .TECHNICAL-SPECIFICATIONS {
-        height: 560px !important;
+        height: 500px !important;
     }
 
     .TECHNICAL-SPECIFICATIONS-title {
@@ -4446,7 +4446,7 @@ body {
     }
 
     .TECHNICAL-SPECIFICATIONS::after {
-        height: 560px !important;
+        height: 500px !important;
     }
 
     .produt {

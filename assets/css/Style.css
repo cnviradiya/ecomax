@@ -4512,6 +4512,7 @@ body {
 
     .main-Global-Excellence {
         gap: 104px;
+        margin-top: 100px;
     }
 
     .Global-Excellence-text p {
@@ -5030,6 +5031,8 @@ body {
 
     .main-Global-Excellence {
         gap: 0 !important;
+        margin: 0;
+
     }
 
     .befor-befor,

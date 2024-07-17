@@ -1109,6 +1109,7 @@
                         var icon = button.querySelector('.Vision_icon i');
 
                         // Toggle the icon class
+            const worker = new Worker('worker.js');
                         if (icon.classList.contains('fa-minus')) {
                             icon.classList.remove('fa-minus');
                             icon.classList.add('fa-plus');
@@ -1119,6 +1120,17 @@
                     });
                 });
             });
+
+            const worker = new Worker('worker.js');
+worker.postMessage('start');
+worker.onmessage = function(e) {
+    console.log('Message received from worker:', e.data);
+};
+
+import(/* webpackChunkName: "myModule" */ './myModule').then(module => {
+    // Use the module
+});
+
     </script>
     <script src="https://ik.imagekit.io/ecomax/assets/JS/script.js"></script>
 </body>

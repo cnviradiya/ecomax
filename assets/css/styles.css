@@ -5274,28 +5274,22 @@ body {
     tbody tr td span {
         height: 40px !important;
     }
-
     .TECHNICAL-SPECIFICATIONS-Result {
         margin-top: 100px !important;
         margin-bottom: 100px !important;
     }
-
     .heading_description {
         margin-top: 30px;
     }
-
     .heading_container {
         margin-bottom: 50px !important;
     }
-
     .product_img {
         margin-top: 59px !important;
     }
-
     .DIRECTION-FOR-STORAGE {
         gap: 50px !important;
     }
-
     .befor-befor,
     .after-befor {
         padding: 0 15px;
@@ -5409,8 +5403,6 @@ body {
     gap: 30px;
 }
 
-
-
 .products-icon i {
     transform: rotate(-45deg);
     transition: all 0.5s;
@@ -5445,11 +5437,9 @@ body {
     line-height: 36px;
     font-weight: 500;
 }
-
 .product-sab-images {
     gap: 10px;
 }
-
 .product-sab-images .swiper-slide {
     margin-top: 20px;
     cursor: pointer;
@@ -5457,7 +5447,6 @@ body {
     width: 183px;
     height: 155px;
 }
-
 .product_details_next,
 .product_details_prev {
     padding-top: 8px;

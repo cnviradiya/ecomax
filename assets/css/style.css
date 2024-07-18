@@ -1236,6 +1236,7 @@ body {
 .footer-logo-image {
     max-width: 340px;
     height: auto;
+    width: 100%;
 }
 .logo img {
     width: 266px;

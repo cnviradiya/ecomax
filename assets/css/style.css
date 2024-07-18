@@ -1233,7 +1233,10 @@ body {
 .container-fluid {
     padding: 0;
 }
-
+.footer-logo-image {
+    max-width: 340px;
+    height: auto;
+}
 .logo img {
     width: 266px;
     height: 50px;

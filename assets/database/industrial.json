@@ -1,6 +1,6 @@
 [
     {
-        "collection_image": "ecosynth_610.webp",
+        "collection_image": "ecosynth_610.png",
         "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "ecosynth-610",
@@ -9,7 +9,7 @@
                 "title": "ECOSYNTH 610",
                 "thumb_title": "Ecosynth 610",
                 "slug": "ecosynth-610",
-                "products_image": "product_ecosynth_610.webp",
+                "products_image": "product_ecosynth_610.png",
                 "short_description": "High temperature ep chain and conveyor lubricant",
                 "product_overview": [
                     "Ecosynth 610 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
@@ -117,12 +117,12 @@
                         ]
                     }
                 ],
-                "description_image": "direction_ecosynth_610.webp"
+                "description_image": "direction_ecosynth_610.png"
             }
         ]
     },
     {
-        "collection_image": "ecosynth_350.webp",
+        "collection_image": "ecosynth_350.png",
         "collection_title": "Ecomax's Industrial Lubricants",
         "collection_description": "Explore our comprehensive range of industrial lubricants designed to enhance efficiency, reliability and longevity of your machinery.",
         "collection_slug": "ecosynth-350",
@@ -131,7 +131,7 @@
                 "title": "ECOSYNTH 350",
                 "thumb_title": "ECOSYNTH 350",
                 "slug": "ecosynth-350",
-                "products_image": "product_ecosynth_350.webp",
+                "products_image": "product_ecosynth_350.png",
                 "short_description": "High temperature ep chain and conveyor lubricant",
                 "product_overview": [
                     "Ecosynth 350 High temperature EP Chain and conveyor lubricant is fully synthetic ester base high temperature chain oil with optimum wear protection, formulated for lubrication of chains and conveyors working at elevated temperature and also under influence of humidity Unique combination of synthetic ester and specifically designed anti-oxidant package ensures superior performance in terms of evaporation, thermal stability and varnish formation."
@@ -239,7 +239,7 @@
                         ]
                     }
                 ],
-                "description_image": "direction_ecosynth_350.webp"
+                "description_image": "direction_ecosynth_350.png"
             }
         ]
     },

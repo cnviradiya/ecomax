@@ -2303,7 +2303,7 @@ body {
         margin: 0;
     }
 
-    .products-title h5 {
+    .products-title h2 {
         color: #1E5F28;
         font-size: 16px;
         font-weight: 500;
@@ -3195,7 +3195,7 @@ body {
         margin: 0;
     }
 
-    .products-title h5 {
+    .products-title h2 {
         color: #1E5F28;
         font-size: 16px;
         font-weight: 500;
@@ -4030,7 +4030,7 @@ body {
         justify-content: start !important;
     }
 
-    .products-title h5 {
+    .products-title h2 {
         font-size: 18px !important;
         line-height: 27px !important;
         font-weight: 500;
@@ -4040,7 +4040,7 @@ body {
         font-size: 17px !important;
     }
 
-    .products-title h5 {
+    .products-title h2 {
         color: var(--green);
         font-size: 24px;
         font-weight: 500;
@@ -4865,7 +4865,7 @@ body {
         padding-right: 16px !important;
     }
 
-    .products-title h5 {
+    .products-title h2 {
         font-size: 24px !important;
         line-height: 36px !important;
         font-weight: 500 !important;

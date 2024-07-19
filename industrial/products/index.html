@@ -642,8 +642,8 @@
                     for (let curIndex = 0; curIndex <= technicalSpecificationsArr.length; curIndex++) {
                         if (typeof technicalSpecificationsArr[curIndex] !== "undefined") {
 
-                            technicalSpecificationsHTML += '<div class="swiper-slide industrial_white industrial-border text-white' + (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=extreme-pressure-gear-lubricant" ? " " : " technical ") + (technicalSpecificationsArr[curIndex].has_blank ? " has-blank " : "") + (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=extreme-pressure-grease" ? " hecton-wrl-page " : "") + (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=hydro-power-68-heavy-duty-hydraulic-oil" ? " hecton-wrl-page " : "") + '"><h5 class="dynamic-data text-center industrial-border m-0"  property-title>';
-                            technicalSpecificationsHTML += technicalSpecificationsArr[curIndex].property + '</h5>';
+                            technicalSpecificationsHTML += '<div class="swiper-slide industrial_white industrial-border text-white' + (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=extreme-pressure-gear-lubricant" ? " " : " technical ") + (technicalSpecificationsArr[curIndex].has_blank ? " has-blank " : "") + (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=extreme-pressure-grease" ? " hecton-wrl-page " : "") + (window.location.href == "https://ecomaxlubricant.com/industrial/products/index?s=hydro-power-68-heavy-duty-hydraulic-oil" ? " hecton-wrl-page " : "") + '"><h2 class="dynamic-data text-center industrial-border m-0"  property-title>';
+                            technicalSpecificationsHTML += technicalSpecificationsArr[curIndex].property + '</h2>';
                             technicalSpecificationsHTML += '<ul class="dynamic-data text-center list-none p-0 m-0 ">';
                             // Add indivial property here
                             let techPropertyArr = technicalSpecificationsArr[curIndex].property_point;

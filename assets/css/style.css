@@ -1101,8 +1101,6 @@ a {
 .btn3:hover .about-btn i {
     transition: all 0.5s !important;
     transform: rotate(90deg);
-    padding-top: 15px;
-    padding-bottom: 25px;
 }
 
 .btn3:hover {
@@ -1498,12 +1496,8 @@ body {
 }
 
 .about-btn i {
-    padding-bottom: 4px;
     font-size: 20px;
-    inline-size: 1.25em;
-    padding-left: 8px;
     color: var(--green);
-    translate: -25% -5%;
     transform: rotate(45deg);
 }
 
@@ -1633,11 +1627,6 @@ body {
 
 .btn3:hover .about-btn {
     background-color: var(--green);
-}
-
-.btn3:hover .about-btn i {
-    transition: all 0.5s;
-    transform: rotate(90deg);
 }
 
 .btn3:hover {
@@ -5636,12 +5625,7 @@ body {
     border-bottom: 1px solid #1e5f28ab;
 }
 
-.btn_back:hover .about-btn i {
-    transform: rotate(1deg);
-    padding-bottom: 0;
-    transition: all 0.9s;
 
-}
 
 .btn_back {
     color: white;
@@ -6076,3 +6060,21 @@ animation: rotation 1s linear infinite;
     transform: rotate(360deg);
 }
 } 
+.Read_more_btn{
+    background-color: #1E5F28;
+}
+.Read_more_btn:hover{
+    background-color: #1E5F28;
+}
+.Read_more_btn span:first-child{
+    background-color: white;
+}
+.Read_more_btn:hover .Read_more_text{
+  color: white;
+}
+.Read_more_btn:hover .Read_more_icon{
+    background-color: white;
+}
+.Read_more_btn .Read_more_icon_color{
+    color: #1E5F28 !important;
+}

@@ -596,7 +596,7 @@ a {
 }
 
 .footer-icon-container:hover {
-    background-color: var(--text-color);
+    background-color:#009040;
     transition: all 0.5s;
     border: none;
 }
@@ -700,7 +700,7 @@ a {
     display: block;
     width: 45px;
     height: 45px;
-    background-color: var(--green);
+    background-color: #009040;
     text-align: center;
     line-height: 45px;
     color: white;
@@ -1844,7 +1844,7 @@ body {
 }
 
 .footer-link {
-    background-color: #009846;
+    background-color: #005A2A;
     border-radius: 5px;
 }
 

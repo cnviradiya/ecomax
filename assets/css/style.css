@@ -1057,7 +1057,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 438px;
+    height: 100%;
     z-index: -1;
     opacity: 70%;
 }
@@ -2910,13 +2910,8 @@ body {
         height: 186px !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS {
-        height: 474px !important;
-    }
 
-    .TECHNICAL-SPECIFICATIONS::after {
-        height: 474px !important;
-    }
+
 
     .TECHNICAL-SPECIFICATIONS-title {
         height: auto !important;
@@ -3809,13 +3804,8 @@ body {
         height: 186px !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS {
-        height: 474px !important;
-    }
 
-    .TECHNICAL-SPECIFICATIONS::after {
-        height: 474px !important;
-    }
+
 
     .TECHNICAL-SPECIFICATIONS-title {
         height: auto !important;
@@ -4428,9 +4418,7 @@ body {
         height: 460px !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS {
-        height: 500px !important;
-    }
+   
 
     .TECHNICAL-SPECIFICATIONS-title {
         height: auto !important;
@@ -4452,9 +4440,6 @@ body {
         height: 30px !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS::after {
-        height: 500px !important;
-    }
 
     .produt {
         padding: 10px !important;
@@ -5009,13 +4994,7 @@ body {
         height: 35px !important;
     }
 
-    .TECHNICAL-SPECIFICATIONS {
-        height: 560px !important;
-    }
-
-    .TECHNICAL-SPECIFICATIONS::after {
-        height: 560px !important;
-    }
+ 
 
     .PROPERTY-TESTMETHOD-RESULT {
         width: 800px !important;
@@ -5205,6 +5184,9 @@ body {
     .cout {
         width: 342px;
         height: 261px;
+    }
+    .product_btn_bak{
+        margin-top: 70px !important;
     }
     .product_details_title p{
         font-size: 16px !important;
@@ -5817,7 +5799,7 @@ body {
     background-image: url('../images/home/1ec68b5abe8305e0a800b77561d2922d.webp');
     background-size: cover;
     width: 100%;
-    height: 560px;
+    height: auto;
     background-position: bottom;
     align-items: center;
     z-index: 1;
@@ -5833,7 +5815,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 560px;
+    height: 100%;
     z-index: -1;
     opacity: 70%;
 }

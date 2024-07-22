@@ -47,6 +47,6 @@ const loadindustrialcollection = async (type = "all", slug = null, collectionSlu
     return await industrialdata(type, slug, collectionSlug);
 };
 
-loadindustrialcollection("allindustrial").then(data => {
+// loadindustrialcollection("allindustrial").then(data => {
 
-});
+// });

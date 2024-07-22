@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Ecomax is a leading manufacturer and supplier of high-quality lubricants and oils, dedicated to providing superior products." />
     <title>Ecomax | Products</title>
@@ -472,6 +470,11 @@
 
                         collectionData.map(function (collection) {
                             collection.url = getThumbURL(collectionType, collection.collection_slug);
+                            if(collection.total_products == 1) {
+                                // TODO: manually redirect to product page if product is only 1 for the collection
+                                let productSlug = collection.products[0].slug;
+                                collection.url = getThumbURL('products', productSlug, collection.collection_slug);
+                            }
                             collection.img = getAssetURL("/assets/images/collections/" + collection.collection_slug + "/" + collection.collection_images[0]);
                             collection.title = collection.collection_title;
                             return collectionThumbHTML(collection)

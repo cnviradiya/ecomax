@@ -183,10 +183,11 @@ body {
     min-width: 200px;
     height: auto;
     background-color: white;
-    box-shadow: 0px 0px 7px black;
     padding: 10px;
+    border-radius: 0;
     z-index: 5;
-    top: 25px !important;
+    top: 24px !important;
+    border: none;
 }
 
 .dropdown-menu-products li {
@@ -6121,4 +6122,8 @@ animation: rotation 1s linear infinite;
 }
 .bar_menu{
     top: 0 !important;
+}
+.products{
+    border: 1px solid #f4efef;
+    border-radius: 5px;
 }

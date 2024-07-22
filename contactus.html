@@ -44,12 +44,12 @@
               <li>
                 <a href="/">HOME</a>
               </li>
-              <li class="dropdown-products">
-                <a href="#">
+              <li class="dropdown">
+                <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                     PRODUCTS
                 </a>
-                <ul class="dropdown-menu-products">
-                    <li class="border-bottom">
+                <ul class="dropdown-menu  dropdown-menu-products">
+                    <li class="menu_border">
                         <a href="/collections/">AUTOMOTIVE</a>
                     </li>
                     <li>
@@ -89,12 +89,12 @@
                   <li class="m-2">
                     <a href="/">HOME</a>
                   </li>
-                  <li class="dropdown-products ps-2">
-                    <a href="#">
+                  <li class="dropdown ms-2">
+                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                         PRODUCTS
                     </a>
-                    <ul class="dropdown-menu-products">
-                        <li class="border-bottom">
+                    <ul class="dropdown-menu  dropdown-menu-products bar_menu">
+                        <li class="menu_border">
                             <a href="/collections/">AUTOMOTIVE</a>
                         </li>
                         <li>
@@ -195,7 +195,7 @@
   <section class="career_form_section section_padding">
     <div class="container1">
 
-      <div class="row m-0 col-12 align-items-center p-0">
+      <div class="row m-0  col-12 align-items-center p-0">
         <div class="col-12 image_container col-md-5  ps-0 col-lg-5 d-flex justify-content-sm-center justify-content-lg-end  align-items-center ">
           <div class="career-img-container">
             <img src="https://ik.imagekit.io/ecomax/assets/images/contact/contact_form.png" alt="oil-img"
@@ -203,7 +203,7 @@
           </div>
         </div>
 
-        <div class="col-12 p-0  form_container contact-form-section col-md-7 col-lg-6 ">
+        <div class="col-12 p-0 contact_form   form_container contact-form-section col-md-7 col-lg-6 ">
           <div class="loader-section" id="loader-none">
             <span class="loader"></span>
           </div>
@@ -255,9 +255,12 @@
             <p id="Submit-form" class="heading_description ms-5 me-5"></p>
           </div>
         </div>
+        <p class="text-center Thank_mes d-none d-md-block">Thank you for your interest in Ecomax, your trusted manufacturer and supplier of lubricant engine oil. We're here to assist you with any inquiries, feedback, or requests you may have. Please feel free to reach out to us using the information above.</p>
+        
       </div>
     </div>
   </section>
+
 <!-- Contact Form Section End  -->
   <!-- Footer start -->
   <footer>
@@ -391,7 +394,7 @@
                                                 class="link-light text-decoration-none ">Career</a>
                                         </li>
                                         <li class="list-group-item bg-transparent border-0 p-0 mt-2 mb-2 ms-4"><a
-                                                href="contactus.html"
+                                              href="contactus.html"
                                                 class="link-light text-decoration-none text-success1">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -498,7 +501,6 @@
   <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
   <script src="https://cdn.amcharts.com/lib/4/geodata/data/countries2.js"></script>
   <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
-
   <!-- Chart code -->
   <script>
   try {

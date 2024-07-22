@@ -276,6 +276,7 @@
                             "NLGI Grade",
                             "Additives",
                             "Worked penetration",
+                            "Oil separation",
                             "Four ball weld load",
                             "Four ball wear scar(mm)"
                         ]
@@ -285,6 +286,7 @@
                         "property": "",
                         "has_blank": true,
                         "property_point": [
+                            "",
                             "",
                             "",
                             "",
@@ -304,6 +306,7 @@
                             "",
                             "N/A",
                             "ASTM D 217",
+                            "ASTM D 1742",
                             "ASTM D 2596",
                             "ASTM D 2266"
 
@@ -313,6 +316,7 @@
                         "property": "",
                         "has_blank": true,
                         "property_point": [
+                            "",
                             "",
                             "",
                             "",
@@ -330,6 +334,7 @@
                             "Highly refined mineral oil",
                             "Organically modified clay",
                             "00",
+                            " <p> Proprietary Additive package <br> with MoS2 with graphite </p>",
                             "440-450",
                             "<4%",
                             "350 KG",
@@ -402,6 +407,7 @@
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
+                            "Additives",
                             "Worked penetration",
                             "Oil separation",
                             "Four ball weld load",
@@ -420,6 +426,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -430,6 +437,7 @@
                             " N/A",
                             "N/A",
                             "",
+                            "N/A",
                             "ASTM D 217",
                             "ASTM D 1742",
                             "ASTM D 2596",
@@ -448,6 +456,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -458,6 +467,7 @@
                             "Highly refined mineral oil",
                             "Organically modified clay",
                             "2",
+                            " <p>Proprietary Additive package <br> with MoS2 with graphite </p>",
                             "265-285",
                             "<4%",
                             "285 KG",
@@ -526,6 +536,7 @@
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
+                            "Additives",
                             "Worked penetration",
                             "Oil separation",
                             "Four ball weld load",
@@ -544,6 +555,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -554,6 +566,7 @@
                             " N/A",
                             "N/A",
                             "",
+                            "N/A",
                             "ASTM D 217",
                             "ASTM D 1742",
                             "ASTM D 2596",
@@ -572,6 +585,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -582,10 +596,11 @@
                             "Highly refined mineral oil",
                             "Organically modified clay",
                             "1",
+                            " <p> Proprietary Additive package <br> with MoS2 with graphite </p>",
                             "310-340",
                             "<4%",
                             "460 KG",
-                            ""
+                            "0.45-0.60 mm"
 
                         ]
                     }
@@ -598,7 +613,7 @@
                     {
                         "title": "TYPICAL APPLICATIONS",
                         "points": [
-                            "Ecomax  Hecton OGL open gear grease has umlimited application in open gear equipments:  Cranes, Hoists, wind-pumps, water pumps, winches, heavy equipments, rail pulley and more."
+                            "Ecomax  Hecton OGL open gear grease has unlimited application in open gear equipments:  Cranes, Hoists, wind-pumps, water pumps, winches, heavy equipments, rail pulley and more."
                         ]
                     },
                     {
@@ -645,6 +660,7 @@
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
+                            "Droping Point",
                             "Worked penetration",
                             "Oil separation",
                             "Four ball weld load",
@@ -663,6 +679,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -673,6 +690,7 @@
                             " N/A",
                             "N/A",
                             "",
+                            "ASTM D 566",
                             "ASTM D 217",
                             "ASTM D 1742",
                             "IP 239",
@@ -691,16 +709,18 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
                     {
                         "property": "RESULT",
                         "property_point": [
-                            "Homogeneous soft black grease",
+                            "Smooth and Tacky Blue Grease",
                             "Highly refined mineral oil",
                             "Lithium Complex",
                             "2",
+                            "265 Degree Cent.",
                             "270 - 285",
                             "<3%",
                             "320 KG",
@@ -769,6 +789,7 @@
                             "Base Fluid Type",
                             "Thickener ",
                             "NLGI Grade",
+                            "Additives",
                             "Worked penetration",
                             "Oil separation",
                             "Four ball weld load",
@@ -787,6 +808,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -797,6 +819,7 @@
                             " N/A",
                             "N/A",
                             "",
+                            "N/A",
                             "ASTM D 217",
                             "ASTM D 1742",
                             "ASTM D 2596",
@@ -815,6 +838,7 @@
                             "",
                             "",
                             "",
+                            "",
                             ""
                         ]
                     },
@@ -825,6 +849,7 @@
                             "Highly refined mineral oil",
                             "Organically modified clay",
                             "00",
+                            "<p> Proprietary Additive package <br> with MoS2 with graphite </p>",
                             "440-450",
                             "<4%",
                             "350 KG",
@@ -1002,8 +1027,8 @@
                     {
                         "property": "TEST PARAMETER",
                         "property_point": [
-                            "Kinematic Viscosity @ 100 Deg",
-                            "Kinematic Viscosity @ 40 Degree ",
+                            "<p> Kinematic Viscosity @ 100 Deg Cent cSt </p>",
+                            "<p> Kinematic Viscosity @ 40 Degree Cent cSt </p> ",
                             "Viscosity Index",
                             "Pour Point",
                             "Flash Point"

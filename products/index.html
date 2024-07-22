@@ -52,12 +52,12 @@
                             <li>
                                 <a href="/">HOME</a>
                             </li>
-                            <li class="dropdown-products">
-                                <a href="#">
+                            <li class="dropdown">
+                                <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     PRODUCTS
                                 </a>
-                                <ul class="dropdown-menu-products">
-                                    <li class="border-bottom">
+                                <ul class="dropdown-menu  dropdown-menu-products">
+                                    <li class="menu_border">
                                         <a href="/collections/">AUTOMOTIVE</a>
                                     </li>
                                     <li>
@@ -101,29 +101,19 @@
                                     <li class="m-2">
                                         <a href="/">HOME</a>
                                     </li>
-                                    <li class="dropdown-products-res ms-2">
-                                
-                                        <div class="accordion" id="accordionExample">
-                                            <button
-                                                class="accordion d-flex Fueling-text justify-content-between col-12">
-                                                <span> PRODUCTS</span>
-                                            </button>
-                                            <div class="panel1">
-                                                <div class="accordion-body p-0">
-                                                    <ul class="dropdown-menu-products-res">
-                                                        <li>
-                                                            <a href="/collections/">AUTOMOTIVE</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/industrial/">INDUDTRIAL</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                 
-                                </li>
-
+                                    <li class="dropdown ms-2">
+                                        <a href="#" class="text-success" data-bs-toggle="dropdown" aria-expanded="false">
+                                            PRODUCTS
+                                        </a>
+                                        <ul class="dropdown-menu  dropdown-menu-products bar_menu">
+                                            <li class="menu_border">
+                                                <a href="/collections/">AUTOMOTIVE</a>
+                                            </li>
+                                            <li>
+                                                <a href="/industrial/">INDUDTRIAL</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li class="m-2">
                                         <a href="/about.html">ABOUT US </a>
                                     </li>
@@ -174,11 +164,13 @@
 
                     <div class="product_details-sab">
                         <div class="product_details_title">
+                           <div class="d-flex flex-column title_of_product_details">
                             <h2 class="m-0 dynamic-data" data-title>ABCD</h2>
                             <p class="m-0 dynamic-data" data-description>Discover unmatched performance and unparalleled
                                 reliability with Ecomax Max
                                 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance,
                                 trusted by riders globally.</p>
+                           </div>
 
                             <div class="product-icon d-flex flex-wrap">
                                 <div class="icon">

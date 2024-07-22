@@ -45,12 +45,12 @@
                             <li>
                                 <a href="/">HOME</a>
                             </li>
-                            <li class="dropdown-products">
-                                <a href="#">
+                            <li class="dropdown">
+                                <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     PRODUCTS
                                 </a>
-                                <ul class="dropdown-menu-products">
-                                    <li class="border-bottom">
+                                <ul class="dropdown-menu  dropdown-menu-products">
+                                    <li class="menu_border">
                                         <a href="/collections/">AUTOMOTIVE</a>
                                     </li>
                                     <li>
@@ -92,20 +92,20 @@
                                     <li class="m-2">
                                         <a href="/">HOME</a>
                                     </li>
-                                    <li class="dropdown-products-res">
-                                        <li class="dropdown-products">
-                                            <a href="#" class="ms-2">
-                                                PRODUCTS
-                                            </a>
-                                            <ul class="dropdown-menu-products">
-                                                <li class="border-bottom">
-                                                    <a href="/collections/">AUTOMOTIVE</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/industrial/">INDUDTRIAL</a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                              
+                                    <li class="dropdown ms-2">
+                                        <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                            PRODUCTS
+                                        </a>
+                                        <ul class="dropdown-menu  dropdown-menu-products bar_menu">
+                                            <li class="menu_border">
+                                                <a href="/collections/">AUTOMOTIVE</a>
+                                            </li>
+                                            <li>
+                                                <a href="/industrial/">INDUDTRIAL</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li class="m-2">
                                         <a href="about.html">ABOUT US </a>
                                     </li>
@@ -145,22 +145,22 @@
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col h-set">
                                 <input type="text" name="first_name" id="validationCustom01"   placeholder="First Name*"
-                                    class="form-control first_name field" aria-label="First name" />
+                                    class="form-control first_name field" aria-label="First name"  required />
                             </div>
                             <div class="col h-set">
                                 <input type="email" name="email" id="customer_email" placeholder="Your Email*" 
-                                    class="field form-control" />
+                                    class="field form-control" required />
                                
                             </div>
                         </div>
                         <div class="row form_field_container flex-column flex-sm-row">
                             <div class="col h-set">
                                 <input type="number" name="phone" id="customer_number" placeholder="Phone Number*"
-                                     class="field form-control" />
+                                     class="field form-control" required />
                             </div>
                             <div class="col h-set">
                                 <input type="text" name="last_name" id="customer_last_name" placeholder="Applying for which role"
-                                    class="form-control field" aria-label="Last name"  />
+                                    class="form-control field" aria-label="Last name" required  />
                               
                             </div>
                            
@@ -169,7 +169,7 @@
                             <div class="col h-set">
                                 <div
                                     class='file-input d-flex align-items-center justify-content-between  position-relative border rounded-1'>
-                                    <input type='file' id="customer_data" name="resume"
+                                    <input type='file' id="customer_data" name="resume" required
                                         class="position-absolute top-0 bottom-0 start-0 end-0 opacity-0"  />
                                     <span class='label' data-js-label>Resume</span>
                                     <span class='button'>Browse</span>
@@ -184,7 +184,7 @@
                         </div>
                     
                         <div class="sparkle-button">
-                            <div class="sparkle-button career-form-btn">
+                            <div class="sparkle-button career-form-btn career_submit">
                                 <a href="javascript:">
                                     <button class="btn3 Read_more_btn d-flex align-items-center" type="submit">
                                         <span

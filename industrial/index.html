@@ -46,12 +46,12 @@
                             <li>
                                 <a href="/">HOME</a>
                             </li>
-                            <li class="dropdown-products">
-                                <a href="#">
+                            <li class="dropdown">
+                                <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
                                     PRODUCTS
                                 </a>
-                                <ul class="dropdown-menu-products">
-                                    <li class="border-bottom">
+                                <ul class="dropdown-menu  dropdown-menu-products">
+                                    <li class="menu_border">
                                         <a href="/collections/">AUTOMOTIVE</a>
                                     </li>
                                     <li>
@@ -97,26 +97,18 @@
                                     <li class="m-2">
                                         <a href="/">HOME</a>
                                     </li>
-                                    <li class="dropdown-products-res ms-2">
-
-                                        <div class="accordion" id="accordionExample">
-                                            <button
-                                                class="accordion d-flex Fueling-text justify-content-between col-12">
-                                                <span> PRODUCTS</span>
-                                            </button>
-                                            <div class="panel1">
-                                                <div class="accordion-body p-0">
-                                                    <ul class="dropdown-menu-products-res">
-                                                        <li>
-                                                            <a href="/collections/">AUTOMOTIVE</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="/industrial/">INDUDTRIAL</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <li class="dropdown ms-2">
+                                        <a href="#" class="text-success" data-bs-toggle="dropdown" aria-expanded="false">
+                                            PRODUCTS
+                                        </a>
+                                        <ul class="dropdown-menu  dropdown-menu-products bar_menu">
+                                            <li class="menu_border">
+                                                <a href="/collections/">AUTOMOTIVE</a>
+                                            </li>
+                                            <li>
+                                                <a href="/industrial/">INDUDTRIAL</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="m-2">
                                         <a href="/about.html">ABOUT US </a>
@@ -463,11 +455,11 @@ document.addEventListener("DOMContentLoaded", async () => {
             const collectionData = await loadindustrialcollection(collectionType);
             document.getElementById("industrial_products").innerHTML = collectionData.map((collection) => {
                 return `
-                    <div class="col-12 coll-md-6 produt  produt_gap coll-lg-4">
-                       <div class="products">
+                    <div class="col-12 coll-md-6 produt produt_gap coll-lg-4">
+                       <div class="products box-swodo">
                         <a href="/industrial/products/index.html?s=${collection.collection_slug}">
                             <div class="products-img">
-                                <img src="https://ik.imagekit.io/ecomax/assets/images/collections/industrial/${collection.collection_slug}/${collection.collection_image}" alt="images" class="img-fluid col-12 product_img">
+                                <img src="https://ik.imagekit.io/ecomax/assets/images/collections/industrial/${collection.collection_slug}/${collection.collection_image}" alt="images" class="img-fluid col-12 set-mt product_img">
                             </div>
                             <div class="products-title">
                                 <div class="d-flex justify-content-between">

@@ -155,7 +155,7 @@
                                 </div>
                             </div>
                           </div>
-                          <div class="swiper product_swiper " >
+                          <div class="swiper product_swiper" >
                             <div class=" swiper-wrapper product_img mb-0 product-sab-images text-white imag-mini" id="data-images_mini" >
                              
                             </div>
@@ -217,17 +217,17 @@
                                 <p class="mb-0 dynamic-data" data-sizes>500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr,
                                     210 Ltr</p>
                             </div>
-
-                            <div class="sparkle-button product_btn Available-btn">
+                            <div class="sparkle-button">
                                 <div class="sparkle-button">
-                                    <button class="btn2 d-flex align-items-center" >
-                                      
-                                            <span class="about-btn  d-flex align-items-center justify-content-center">
-                                                <i class="fa-solid fa-arrow-up-long"></i>
+                                    <a href="javascript:">
+                                        <button class="btn3 Read_more_btn d-flex align-items-center">
+                                            <span
+                                                class="about-btn Read_more_icon about-btn-2 d-flex align-items-center justify-content-center">
+                                                <i class=" Read_more_icon_color fa-solid fa-arrow-up-long"></i>
                                             </span>
-                                           <span class="text">Call Us</span>
-                                      
-                                    </button>
+                                            <span class="text Read_more_text">Call Us</span>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -765,6 +765,7 @@
                         
                     }
                     $('#contentDiv').html(
+                        
                         collectionType == 'all' ?
 
                             collectionData.map(function (collection) {
@@ -788,24 +789,27 @@
         </script>
 
     <script src="https://ik.imagekit.io/ecomax/assets/JS/init.js?time=1" defer></script>
-        <script>
-            var swiper = new Swiper(".product_swiper", {
-  spaceBetween: 10,
-  slidesPerView: 4,
-  freeMode: true,
-  watchSlidesProgress: true,
-});
-var swiper2 = new Swiper(".product_swiper2", {
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  thumbs: {
-    swiper: swiper,
-  },
-});
-        </script>
+
+ <script>
+    var swiper = new Swiper(".product_swiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".product_swiper2", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
+
 
         <!-- Script end -->
 

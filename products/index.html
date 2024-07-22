@@ -337,7 +337,7 @@
                         
                     </div>
                     <div class="col-md-12 p-0 col-lg-8 ">
-                        <div class="row text-wrap">
+                        <div class="row text-wrap justify-content-end">
                             <div
                                 class="col-12 d-none d-md-block col-sm-3 col-md-4 col-xl-3  p-0 float-left mb-3 ">
                                 <h2 class="mb-4 footer_heading">Quick Link</h2>
@@ -528,7 +528,7 @@
                 <p class="m-0 text-light">© 2024 ECOMAX. All rights reserved</p>
             </div>
         </div>
-        </footer>
+     </footer>
         <!-- Footer end -->
         <!-- Script start -->
     
@@ -577,11 +577,11 @@
                             </a>
                         </div>
                     </div>
-                `;
-                const getThumbURL = (type, slug) => {
-                    return "/" + (type == 'all' ? 'collections' : 'products') + "/index.html?s=" + slug;
-                
-                }
+                `
+                ;
+                const getThumbURL = (type, slug, collectionSlug = null) => {
+        return "/" + (type === 'all' ? 'collections' : 'products') + "/index.html?s=" + slug + (collectionSlug ? "&c=" + collectionSlug : "");
+    };
                 setTimeout(async function () {
                     // Query parameter
                     let urlParams = new URLSearchParams(window.location.search);
@@ -589,6 +589,7 @@
                     let collectionSlug = urlParams.get('c');
 
                     if (productSlug && collectionSlug) {
+                       
                         const productData = await loadCollectionData('product', productSlug, collectionSlug);
                         // Image slider
                         // Product Right side Title
@@ -657,76 +658,26 @@
                        const collectionData = await loadCollectionData('collection', collectionSlug);
                        if(collectionData && collectionData.total_products > 1) {
                            const similarProducts = collectionData.products;
-                           console.log(similarProducts);
+                
                            let collectionType = "product";
 
                            $('#similarProductContent').html(
 
-                                collectionType == 'all' ?
-
-                                    collectionData.map(function (collection) {
-                                        collection.url = getThumbURL(collectionType, collection.collection_slug);
-                                        if(collection.total_products == 1) {
-                                            // TODO: manually redirect to product page if product is only 1 for the collection
-                                            let productSlug = collection.products[0].slug;
-                                            collection.url = getThumbURL('products', productSlug, collection.collection_slug);
-                                        }
-                                        collection.img = getAssetURL("/assets/images/collections/" + collection.collection_slug + "/" + collection.collection_images[0]);
-                                        collection.title = collection.collection_title;
-                                        return collectionThumbHTML(collection)
-                                    }
-                                    ) : similarProducts.map(function (product) {
+                           similarProducts.map(function (product) {
                                         product.url = getThumbURL(collectionType, product.slug, collectionSlug);
                                         product.img = getAssetURL("/assets/images/collections/" + collectionSlug + "/products/" + product.images[0]);
                                         product.title = product.thumb_title;
                                         return collectionThumbHTML(product)
 
                                     })
-                            );
 
-                        //    $('#similarProductContent').html(
-                        //         //    similarProducts.map(function (product) {
-                        //         //     product.url = getThumbURL('product', product.slug);
-                        //         //     product.img = getAssetURL("/assets/images/collections/" + collectionData.collection_slug + "/products/" + product.images[0]);
-                        //         //     product.title = product.thumb_title;
-                        //         //     return collectionThumbHTML(product);
-                        //         // });
-                        //    );
-                        //    $('#similarProductContent').html(
-                        //        similarProducts.map(function (product) {
-                        //             product.url = getThumbURL('product', product.slug);
-                        //             product.img = getAssetURL("/assets/images/collections/" + collectionData.collection_slug + "/products/" + product.images[0]);
-                        //             product.title = product.thumb_title;
-                        //             return collectionThumbHTML(product);
-                        //         });
-                        //     };
+                            );
                        } else {
                         $('#similarProductSection').fadeOut();
                        }
                     }
-                    // $('#contentDiv').html(
-                        
-                    //     collectionType == 'all' ?
-
-                    //         collectionData.map(function (collection) {
-                                
-                    //             collection.url = getThumbURL(collectionType, collection.collection_slug);
-                    //             collection.img = getAssetURL("/assets/images/collections/" + collection.collection_slug + "/" + collection.collection_images[0]);
-                    //             collection.title = collection.collection_title;
-
-                    //             return collectionThumbHTML(collection)
-                    //         }
-                    //         ) : collectionData.products.map(function (product) {
-                                
-                    //             product.url = getThumbURL(collectionType, product.slug);
-                    //             product.img = getAssetURL("/assets/images/collections/" + collectionData.collection_slug + "/products/" + product.images[0]);
-                    //             product.title = product.thumb_title;
-                    //             return collectionThumbHTML(product)
-                    //         })
-                    // );
-                    // alert("Product loaded");
+                  
                 }, 500);
-                
 
             });
         </script>

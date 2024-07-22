@@ -2114,6 +2114,10 @@ body {
 }
 
 @media(max-width:575px) {
+    .contactus_form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .heading_container {
         margin-bottom: 24px !important;
     }
@@ -3016,6 +3020,10 @@ body {
 }
 
 @media(min-width:576px) {
+    .contactus_form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .heading_container {
         margin-bottom: 24px !important;
     }
@@ -3904,6 +3912,10 @@ body {
 }
 
 @media(min-width:768px) {
+    .contactus_form{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .contact_form{
         margin-top: 0 !important;
     }
@@ -4560,6 +4572,10 @@ body {
 }
 
 @media(min-width:992px) {
+    .contactus_form{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
     .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -4739,6 +4755,10 @@ body {
 }
 
 @media(min-width:1200px) {
+    .contactus_form{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .section-padding {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -5038,6 +5058,10 @@ body {
 }
 
 @media(min-width:1400px) {
+    .contactus_form{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
     .about-sab {
         width: 684px;
         gap: 20px;
@@ -5181,6 +5205,10 @@ body {
 }
 
 @media(min-width:1463px) {
+    .contactus_form{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .cout {
         width: 342px;
         height: 261px;

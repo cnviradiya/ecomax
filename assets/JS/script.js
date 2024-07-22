@@ -48,7 +48,7 @@ $(document).ready(function () {
         },
         768: {
           slidesPerView: 3,
-          spaceBetween: 15,
+          spaceBetween: 20,
         },
       },
     });
@@ -98,7 +98,7 @@ $(document).ready(function () {
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 30,
         },
       }
     });

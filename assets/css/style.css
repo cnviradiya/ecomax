@@ -6135,3 +6135,6 @@ animation: rotation 1s linear infinite;
     border: 1px solid #f4efef;
     border-radius: 5px;
 }
+.product_border{
+    border: none;
+}

@@ -349,7 +349,7 @@ a {
 }
 
 .field {
-    padding: 10px 22px;
+    padding: 11px 22px;
     background-color: var(--grey-color);
 }
 
@@ -6234,7 +6234,8 @@ animation: rotation 1s linear infinite;
 .contact_form{
     padding-top: 39px;
     padding-bottom: 40px;
-    box-shadow: 2px 2px 6px #0000001d;
+    box-shadow: 2px 2px 12px 0  #0000001a;
+
 }
 .box-swodo{
     box-shadow: none !important;

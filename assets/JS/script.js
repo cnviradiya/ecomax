@@ -71,11 +71,11 @@ $(document).ready(function () {
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 30,
         },
         1200: {
           slidesPerView: 4,
-          spaceBetween: 40,
+          spaceBetween: 30,
         },
       }
     });

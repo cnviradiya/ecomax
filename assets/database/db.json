@@ -14,9 +14,13 @@
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax Max 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
           "images": ["max-4t-20w-40.png"],
           "new_products": [
-            "max-4t-20w-40-api-sl-sm-and-sn.png",
-            "max-4t-20w-60-api-sl-sm-and-sn.png",
-            "max-4t-20w-80-api-sl-sm-and-sn.png"
+            "two_wheeler_engine_oil1.png",
+            "two_wheeler_engine_oil2.png",
+            "two_wheeler_engine_oil3.png",
+            "two_wheeler_engine_oil4.png",
+            "two_wheeler_engine_oil5.png",
+            "two_wheeler_engine_oil6.png"
+
           ],
           "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
           "features": [
@@ -38,9 +42,9 @@
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax Action 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
           "images": ["1.png"],
           "new_products": [
-            "4t-20w-40-api-sl-sm-and-sn.png",
-            "4t-20w-40-api-sl-sm-and-sn.png",
-            "4t-20w-40-api-sl-sm-and-sn.png"
+            "action-4t1.png",
+            "action-4t2.png",
+            "action-4t3.png"
           ],
           "sizes": "500 ml, 900 ml, 1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
           "features": [
@@ -62,7 +66,7 @@
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax 4T Power Plus 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
           "images": ["4t-power-plus-20w-40.png"],
           "new_products": [
-           "4t-power-plus-20w-40-api-sn.png"
+           "4t-power-plus.png"
           ],
           "sizes": "500 ml, 900 ml, 1 Ltr",
           "features": [
@@ -84,7 +88,7 @@
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax Gold 4T 20W-40. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
           "images": ["gold-4t-20w-40.png"],
           "new_products": [
-            "gold-4t-20w-40-api-sn.png"
+            "gold-4t.png"
            ],
           "sizes": "500 ml, 900 ml, 1 Ltr",
           "features": [
@@ -106,9 +110,10 @@
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax Max 4T 20W-50. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
           "images": ["max-4t-20w-50.png"],
           "new_products": [
-            "4t-20w-50-api-sl-sm-and-sn.png",
-            "4t-20w-50-api-sl-sm-and-sn.png",
-            "4t-20w-50-api-sl-sm-and-sn.png"
+            "max-4t-20w-501.png",
+            "max-4t-20w-502.png",
+
+            "max-4t-20w-503.png"
            ],
           "sizes": "500 ml, 900 ml, 1 Ltr",
           "features": [
@@ -130,9 +135,13 @@
           "description": "Discover unmatched performance and unparalleled reliability with Ecomax Max 4T 10W-30. Elevate your biking experience with advanced lubrication and endurance, trusted by riders globally.",
           "images": ["max-4t10w-30.png"],
           "new_products": [
-            "4t-10w-30-api-sl-sm-and-sn.png",
-            "4t-10w-1ler-api-sl-sm-and-sn.png",
-            "4t-10w-30-api-sl-sm-and-sn.png"
+            "max-4t-10w-301.png",
+            "max-4t-10w-302.png",
+            "max-4t-10w-303.png",
+            "max-4t-10w-304.png",
+            "max-4t-10w-305.png",
+            "max-4t-10w-306.png"
+
           ],
           "sizes": "800 ml, 900 ml, 1 ltr, 4.5 ltr, 5 ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -164,9 +173,11 @@
           "description": "Discover the ultimate in synthetic lubrication with Ecomax 10W30. Enhance your riding experience with our formula, designed for maximum engine protection and peak performance. Ecomax delivers outstanding reliability and efficiency, trusted by riders globally.",
           "images": ["10W30-synthetic-technology.png"],
           "new_products": [
-            "10w30-fully-semi-and-synthetic.png",
-            "10w100-fully-semi-and-synthetic.png",
-            "10w50-fully-semi-and-synthetic.png"
+            "10W301.png",
+            "10W302.png",
+            "10W303.png",
+            "10W304.png"
+
           ],
           "sizes": "1 Ltr, 10 Ltr, 20 Ltr, 55 Ltr, 210 Ltr",
           "features": [
@@ -188,7 +199,7 @@
           "description": "Discover the ultimate in synthetic lubrication with Ecomax 10W40. Enhance your riding experience with our formula, designed for maximum engine protection and peak performance. Ecomax delivers outstanding reliability and efficiency, trusted by riders globally.",
           "images": ["10W40-synthetic-technology.png"],
           "new_products": [
-            "10w40-synthetic-technology.png"
+            "10w40.png"
            ],
           "sizes": "1 Ltr",
           "features": [
@@ -210,7 +221,7 @@
           "description": "Discover the ultimate in synthetic lubrication with Ecomax 10W50. Enhance your riding experience with our formula, designed for maximum engine protection and peak performance. Ecomax delivers outstanding reliability and efficiency, trusted by riders globally.",
           "images": ["10W40-synthetic-technology.png"],
           "new_products": [
-            "10w50-synthetic-technology.png"
+            "10W50.png"
            ],
           "sizes": "1 Ltr",
           "features": [
@@ -232,8 +243,8 @@
           "description": "Discover the ultimate in synthetic lubrication with Ecomax 15W50. Enhance your riding experience with our formula, designed for maximum engine protection and peak performance. Ecomax delivers outstanding reliability and efficiency, trusted by riders globally.",
           "images": ["15W50-fully-andsemi-synthetic.png"],
           "new_products": [
-            "15w50-semi-and-fully-synthetic-technology.png",
-            "15w50-fully-and-fully-synthetic-technology.png"
+            "15W501.png",
+            "15W502.png"
           ],
           "sizes": "2.5 Ltr",
           "features": [
@@ -265,9 +276,11 @@
           "description": "Experience superior engine protection and peak performance with Ecomax 5W30 synthetic car oil. Our advanced formula ensures exceptional reliability and efficiency, trusted by drivers worldwide for a smoother, more efficient drive.",
           "images": ["5w30-synthetic.png"],
           "new_products": [
-            "5w30-fully-and-semi-synthetic.png",
-            "5w100-fully-and-semi-synthetic.png",
-            "5w50-fully-and-semi-synthetic.png"
+            "synthetic-car-engine-oil5w301.png",
+            "synthetic-car-engine-oil5w302.png",
+            "synthetic-car-engine-oil5w303.png",
+            "synthetic-car-engine-oil5w304.png"
+            
           ],
           "sizes": "1 ltr, 3 ltr, 3.5 ltr, 4.5 ltr, 5 ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -289,9 +302,10 @@
           "description": "Experience superior engine protection and peak performance with Ecomax 5W40 synthetic car oil. Our advanced formula ensures exceptional reliability and efficiency, trusted by drivers worldwide for a smoother, more efficient drive.",
           "images": ["5w40-synthetic.png"],
           "new_products": [
-            "5w40-fully-1.png",
-            "5w40-fully-2.png",
-            "5w40-fully-3.png"
+            "synthetic-car-engine-oil5w4031.png",
+            "synthetic-car-engine-oil5w4032.png",
+            "synthetic-car-engine-oil5w4033.png",
+            "synthetic-car-engine-oil5w4034.png"
           ],
           "sizes": "1 ltr, 3 ltr, 3.5 ltr, 4.5 ltr, 5 ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -324,9 +338,11 @@
           "description": "Discover the premium engine lubrication with Ecomax TUF LUBE 20W40 CH-4 & CL/CF-4. Elevate your driving experience with our advanced formula, crafted for superior engine protection and top-tier performance. Ecomax Platinum ensures exceptional reliability and efficiency, trusted by drivers worldwide.",
           "images": ["tuf-lube-20w40-ch-4-and-clcf-4.png"],
           "new_products": [
-            "tuf-lube-20w40-api-ch-4-and-clcf-4.png",
-            "tuf-lube-20w100-api-ch-4-and-clcf-4.png",
-            "tuf-lube-20w40-api-ch-4-and-clcf-4.png"
+            "tuf-lube-20w401.png",
+            "tuf-lube-20w402.png",
+            "tuf-lube-20w403.png",
+            "tuf-lube-20w404.png"
+          
           ],
           "sizes": "500 ml, 1 ltr, 3 ltr, 3.5 ltr, 5 ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -348,9 +364,9 @@
           "description": "Discover the premium engine lubrication with Ecomax TUF LUBE SAE 15W40 CF-4. Elevate your driving experience with our advanced formula, crafted for superior engine protection and top-tier performance. Ecomax Platinum ensures exceptional reliability and efficiency, trusted by drivers worldwide.",
           "images": ["tuf-lube-sae-15w40-cf-4.png"],
           "new_products": [
-            "tuf-lube-sal-15w40-api-cf-4.png",
-            "tuf-lube-sal-15w50-api-cf-4.png",
-            "tuf-lube-sal-15w100-api-cf-4.png"
+            "tuf-lube-15w401.png",
+            "tuf-lube-15w402.png",
+            "tuf-lube-15w403.png"
           ],
           "sizes": "1 ltr, 3 ltr, 3.5 ltr, 5 ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -365,7 +381,6 @@
             "Dependable in All Driving Conditions: No matter where your journey takes you, Ecomax 15W40 CF-4 offers consistent performance and protection, keeping your engine safe and efficient in urban traffic, on highways, and in challenging conditions."
           ]
         },
-        
         {
           "title": "Ecomax JET LUBE SAE 15W40 API CI-4",
           "thumb_title": "JET LUBE SAE 15W40 CI-4",
@@ -373,9 +388,13 @@
           "description": "Discover the premium engine lubrication with Ecomax JET LUBE SAE 15W40 CI-4. Elevate your driving experience with our advanced formula, crafted for superior engine protection and top-tier performance. Ecomax Platinum ensures exceptional reliability and efficiency, trusted by drivers worldwide.",
           "images": ["jert-lube-sae-15w40-cl-4.png"],
           "new_products": [
-            "jet-lube-sae-15w40-api-cl-4.png",
-            "jet-lube-sae-15w50-api-cl-4.png",
-            "jet-lube-sae-15w40-api-cl-4.png"
+           "jet-lube-15w401.png",
+           "jet-lube-15w402.png",
+           "jet-lube-15w403.png",
+           "jet-lube-15w404.png",
+           "jet-lube-15w405.png",
+           "jet-lube-15w406.png"
+
           ],
           "sizes": "500 ml, 1 ltr, 3 ltr, 3.5 ltr, 5 ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -408,9 +427,9 @@
           "description": "Discover unparalleled engine lubrication with Ecomax Universal Tractor Transmission Oil (UTTO Oil). Enhance your tractor's performance with our advanced formula, designed for superior engine protection and optimal efficiency. Ecomax UTTO ensures outstanding reliability and durability, trusted by farmers and operators globally.",
           "images": ["utto.png"],
           "new_products": [
-            "universal-tractor-transmission-oil1.png",
-            "universal-tractor-transmission-oil2.png",
-            "universal-tractor-transmission-oil3.png"
+            "utto1.png",
+            "utto2.png",
+            "utto3.png"
           ],
           "sizes": "1 ltr, 3.5 ltr, 5 Ltr, 7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -432,7 +451,7 @@
           "description": "Discover unparalleled engine lubrication with Ecomax Super Shakti 20W40 CF4. Enhance your tractor's performance with our advanced formula, designed for superior engine protection and optimal efficiency. Ecomax Super Shakti ensures outstanding reliability and durability, trusted by farmers and operators globally.",
           "images": ["super-shakti-20w40.png"],
           "new_products": [
-            "super-shakti-20w40-cf4.png"
+            "super-shakti.png"
            
           ],
           "sizes": "7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
@@ -455,7 +474,7 @@
           "description": "Discover unparalleled engine lubrication with Ecomax Prime Shakti 15W40 CF4. Enhance your tractor's performance with our advanced formula, designed for superior engine protection and optimal efficiency. Ecomax Prime Shakti ensures outstanding reliability and durability, trusted by farmers and operators globally.",
           "images": ["prime-shakti-15w40.png"],
           "new_products": [
-            "prime-shakti-15w40-cf4.png"
+            "prime-shakti.png"
           ],
           "sizes": "7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -477,7 +496,7 @@
           "description": "Discover unparalleled engine lubrication with Ecomax Tribe Shakti 15W40 CI4. Enhance your tractor's performance with our advanced formula, designed for superior engine protection and optimal efficiency. Ecomax Tribe Shakti ensures outstanding reliability and durability, trusted by farmers and operators globally.",
           "images": ["tribo-shakti-15w40.png"],
           "new_products": [
-            "tribe-shakti-15w40-cl4.png"
+            "tribe-shakti.png"
           ],
           "sizes": "7.5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -542,9 +561,12 @@
           "description": "Experience unparalleled hydraulic performance with Ecomax Hydro Power ISO VG 32,46 & 68, specially formulated for heavy-duty engines. Elevate your equipment's efficiency with our advanced formula, meticulously crafted for optimal lubrication and enhanced system operation. Ecomax Hydraulic Oil ensures outstanding reliability and durability, trusted by engineers and technicians worldwide.",
           "images": ["ecomax-hydro-power-iso-vg-32,-46-and-68.png"],
           "new_products": [
-            "hydro-power-ios-vg-32-46-and-68.png",
-            "hydro-power-ios-vg-32-46-and-69.png",
-            "hydro-power-ios-vg-32-46-and-70.png"
+            "hydro-power1.png",
+            "hydro-power2.png",
+            "hydro-power3.png",
+            "hydro-power4.png",
+            "hydro-power5.png",
+            "hydro-power6.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -576,8 +598,8 @@
           "description": "Discover exceptional gear protection with Ecomax Extreme Pressure SAE 90 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae-90.png"],
           "new_products": [
-            "extreme-pressure-sae-90.png",
-            "extreme-pressure-sae-100.png"
+            "sae90-1.png",
+            "sae90-2.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -599,8 +621,8 @@
           "description": "Discover exceptional gear protection with Ecomax Extreme Pressure SAE 140 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae-140.png"],
           "new_products": [
-            "extreme-pressure-sae-140.png",
-            "extreme-pressure-sae-1l.png"
+            "sae140-1.png",
+            "sae140-2.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -622,8 +644,8 @@
           "description": "Discover exceptional gear protection with Ecomax Multi Grade SAE 80W90 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae0-80w90.png"],
           "new_products": [
-            "multi-grade-sae-80w90.png",
-            "multi-grade-sae-80w100.png"
+            "80W901.png",
+            "80W902.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features":[
@@ -645,8 +667,8 @@
           "description": "Discover exceptional gear protection with Ecomax Multi Grade SAE 85W140 Gear Care Oil. Enhance your vehicle's performance with our advanced formula, crafted for superior gear protection and optimal efficiency. Ecomax Gear Care ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["sae-85w140.png"],
           "new_products": [
-            "ecomax-multi-grade-sae-85w40.png",
-            "ecomax-multi-grade-sae-85w100.png"
+            "85w140-1.png",
+            "85w140-2.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -678,8 +700,8 @@
           "description": "Discover superior engine cooling with Ecomax ECOcool Heavyduty. Enhance your vehicle's performance with our advanced formula, designed for exceptional heat dissipation and optimal efficiency. Ecomax Heavy Duty Coolant ensures outstanding reliability and durability, trusted by drivers and operators worldwide.",
           "images": ["ecocool-heavyduty.png"],
           "new_products": [
-            "ecomax-ecocool-heavyduty.png",
-            "ecomax-ecocool-heavyduty1l.png"
+            "ecocool1.png",
+            "ecocool2.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 26 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -702,7 +724,7 @@
           "images": ["ecopso-heavyduty.png"],
           "new_products": [
             "heavyduty-pump-set-oil-sae-40.png",
-            "heavyduty-pump-set-oil-sae-100.png"
+            "heavyduty-pump-set-oil-sae-90.png"
           ],
           "sizes": "1 ltr, 5 ltr, 10 ltr, 20 ltr, 26 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -734,7 +756,7 @@
           "description": "Discover unmatched braking performance with Ecomax Brake Fluid Dot 3. Elevate your vehicle's safety and responsiveness with our advanced formula, designed for exceptional heat resistance and optimal efficiency. Ecomax Brake Fluid ensures outstanding reliability and durability, trusted by drivers and mechanics worldwide.",
           "images": ["brake-fluid-dot-3.png"],
           "new_products": [
-            "brake-fluid-dot-3.png"
+            "brake-dot3.png"
           ],
           "sizes": "100 ml, 250 ml, 500ml",
           "features": [
@@ -807,8 +829,8 @@
           "description": "Experience superior engine protection with Ecomax 2T Power JASO FC . Elevate your vehicle's performance with our advanced formula, meticulously crafted for optimal lubrication and enhanced engine efficiency. Ecomax 2T Power ensures outstanding reliability and durability, trusted by riders and mechanics worldwide.",
           "images": ["2t-power.png"],
           "new_products": [
-            "ecomax-1t-power-jaso-fc.png",
-            "ecomax-2t-power-jaso-fc.png"
+            "2t-power1.png",
+            "2t-power2.png"
           ],
           "sizes": "500 ml, 1 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [
@@ -825,8 +847,8 @@
           "description": "Unlock exceptional transmission performance with ATO GM DEXRON. Crafted for smooth operation and optimal lubrication, our advanced formula ensures reliable efficiency and durability for your vehicle. Trusted by drivers and mechanics worldwide, ATO GM DEXRON guarantees consistent performance in various driving conditions, keeping your transmission running smoothly.",
           "images": ["ato.png"],
           "new_products": [
-            "ecomax-ato-gm-dexron.png",
-            "ecomax-ato-gm-dexron1.png"
+            "ato-gm-dexron1.png",
+            "ato-gm-dexron2.png"
           ],
           "sizes": "500 ml, 1 ltr, 10 ltr, 20 ltr, 55 ltr, 210 ltr",
           "features": [

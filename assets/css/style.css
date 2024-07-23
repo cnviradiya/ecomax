@@ -334,9 +334,7 @@ a {
     height: 615px;
     width: 467px;
 }
-.career-img-container img{
-    height: 105%;
-}
+
 .file-input {
     background-color: var(--grey-color);
     padding-left: 22px;
@@ -6234,8 +6232,7 @@ animation: rotation 1s linear infinite;
 .contact_form{
     padding-top: 39px;
     padding-bottom: 40px;
-    box-shadow: 2px 2px 12px 0  #0000001a;
-
+    box-shadow: 2px 2px 12px 0  #00000036;
 }
 .box-swodo{
     box-shadow: none !important;

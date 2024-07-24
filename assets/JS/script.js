@@ -28,7 +28,11 @@ $(document).ready(function () {
       label.innerText = value
     }
   }
-
+  var swiper = new Swiper(".mySwiper5", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
   if (typeof Swiper != "undefined") {
     var swiper = new Swiper(".mySwiper2", {
       pagination: {

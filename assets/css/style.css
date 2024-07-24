@@ -4696,7 +4696,8 @@ body {
     }
 
     .hero-lg-image img {
-        height: 720px;
+        height: auto;
+        width: 100%;
         object-fit: cover;
     }
     

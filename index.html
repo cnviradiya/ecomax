@@ -1123,6 +1123,7 @@
                 $(".scrollbar").removeClass("show_scroll_btn");
             }
         });
+        
         document.addEventListener('DOMContentLoaded', function () {
             var accordionButtons = document.querySelectorAll('.accordion-button');
 
@@ -1141,7 +1142,11 @@
                 });
             });
         });
-        
+        var swiper = new Swiper(".mySwiper5", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
     </script>
 
      

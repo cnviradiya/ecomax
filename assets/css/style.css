@@ -330,11 +330,12 @@ a {
     max-height: 226px;
 }
 
-.career-img-container {
-    height: 615px;
-    width: 467px;
+.padding-end{
+    padding-right: 11px !important;
 }
-
+.padding-st{
+    padding-left: 11px !important;
+}
 .file-input {
     background-color: var(--grey-color);
     padding-left: 22px;
@@ -845,9 +846,7 @@ a {
         height: 92px;
     }
 
-    .career-img-container {
-        height: 388px;
-    }
+
 
     .form_field_container {
         margin-bottom: 16px;
@@ -964,10 +963,6 @@ a {
 
     .image_with_form_container {
         padding: 0px;
-    }
-
-    .career-img-container {
-        height: 365px;
     }
 
     .file-input>.button {
@@ -2109,9 +2104,19 @@ body {
     .PRODUCT-OVERVIEW ul{
         padding: 16px;
     }
-    
-   
-
+    .padding-st{
+        padding: 0 !important;
+    }
+    .padding-end{
+        padding: 0 !important;
+    }
+    .contact_form_images{
+        width: 100%;
+        height: 365px;
+    }
+    .contact_form_images img {
+        height: 100%;
+    }
     .industrial-border ul li,
     .industrial-border h5 {
         min-width: 280px;
@@ -3940,12 +3945,22 @@ body {
     .contactus_form{
         padding-left: 30px;
         padding-right: 30px;
-    }   
+    } 
+    .contact_form_images{
+        width: 100%;
+        height: 435px;
+    }
+    .contact_form_images img {
+        height: 100%;
+    }  
     .contact-title {
         padding-top: 60px !important;
     }
     .PRODUCT-OVERVIEW ul{
         padding: 10px;
+    }
+    .contact_form {
+        width: 58%;
     }
     
     .STORAGS{
@@ -4652,6 +4667,10 @@ body {
         padding-left: 35px;
         padding-right: 35px;
     }
+    .contact_form_images{
+        width: 100%;
+        height: 607px;
+    }
     .Kalsaria-text1 p{
         text-align: start ;
     }
@@ -5307,8 +5326,30 @@ body {
     padding-right: 11px;
 }
 @media(min-width:1463px) {
+    .row>*{
+        padding-left: calc(var(--bs-gutter-x)* 2);
+    }
+    .message_field{
+        height: 150px !important;
+    }
+    .contact_form {
+        width: 48%;
+    }
+    .contact_field_message{
+        height: 226px !important;
+    }
     .contact-title {
         padding-top: 100px !important;
+    }
+    .contactus_btn{
+        padding: 0;
+    }
+    .career-form-btn{
+        margin: 0;
+    }
+    .contact_form_images{
+        width: 467px;
+        height: 577px;
     }
     .contactus_form{
         padding-left: 50px;
@@ -5324,6 +5365,9 @@ body {
     .cout {
         width: 342px;
         height: 261px;
+    }
+    .contact_messagr_fild{
+        height: 226px !important;
     }
     .About-des p{
         font-size: 16px;
@@ -6232,7 +6276,10 @@ animation: rotation 1s linear infinite;
 .contact_form{
     padding-top: 39px;
     padding-bottom: 40px;
-    box-shadow: 2px 2px 12px 0  #00000036;
+    box-shadow: 2px 2px 6px #0000001d;
+}
+.contact_form_images img {
+    box-shadow: 2px 2px 6px #0000001d;
 }
 .box-swodo{
     box-shadow: none !important;

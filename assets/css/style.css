@@ -2234,8 +2234,8 @@ body {
     }
 
     .hero-xs-image img {
-        height: 400px;
-        object-fit: cover;
+        width: 100%;
+        height: auto;
     }
 
     .xs-hero {
@@ -3160,8 +3160,8 @@ body {
     }
 
     .hero-xs-image img {
-        height: 400px;
-        object-fit: cover;
+        width: 100%;
+        height: auto;
     }
 
     .xs-hero {
@@ -4186,8 +4186,8 @@ body {
 
 
     .hero-md-image img {
-        height: 720px;
-        object-fit: cover;
+     height: auto;
+     width: 100%;
     }
 
     .top-bar-md {
@@ -4893,8 +4893,8 @@ body {
         margin-top: 50px;
     }
     .hero-xl-image img {
-        height: 830px;
-        object-fit: cover;
+       height: auto;
+       width: 100%;
     }
 
     .logo-xl img {

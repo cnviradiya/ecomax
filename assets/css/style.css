@@ -6310,5 +6310,5 @@ animation: rotation 1s linear infinite;
     border-radius: 5px;
 }
 .fa-add:before, .fa-plus:before{
-    display: none;
+    content: "\f107";
 }

@@ -6309,9 +6309,10 @@ animation: rotation 1s linear infinite;
     border: 1px solid #f4efef;
     border-radius: 5px;
 }
-.fa-add:before, .fa-plus:before{
-    content: "\f107";
-}
-.Vision_icon .fa-plus{
+
+.Vision_icon .fa-add:before, .fa-plus:before{
     content: "\2b" !important;
+}
+.footer-link-icon .fa-plus::before{
+    content: "\f107" !important;
 }

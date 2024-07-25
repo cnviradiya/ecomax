@@ -6309,3 +6309,6 @@ animation: rotation 1s linear infinite;
     border: 1px solid #f4efef;
     border-radius: 5px;
 }
+.fa-add:before, .fa-plus:before{
+    display: none;
+}
